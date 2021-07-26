@@ -1,3 +1,6 @@
 
 # 
 bld.bash
+go/.DS_Store
+go/go-OpenAPI-client/.DS_Store
+go/go-OpenAPI/.DS_Store
