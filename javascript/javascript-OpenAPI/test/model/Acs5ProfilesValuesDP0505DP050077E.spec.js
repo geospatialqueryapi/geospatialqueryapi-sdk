@@ -1,6 +1,6 @@
 /**
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Geospatial Query API: US Census Boundaries and Census Data /doc.html
+ * Easily integrate geospatial point-in-polygon search, census boundaries, location-based data, geofencing, and other location-based features into web and mobile apps. SDK Our Software Development Kit (SDK) is available on GitHub at https://github.com/geospatialqueryapi/geospatialqueryapi-sdk. If possible then we are strongly recommending using our tested libraries available on GitHub, rather than creating new ones.
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com

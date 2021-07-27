@@ -4,7 +4,13 @@ info:
     email: mobiledatabooks@mobiledatabooks.com
     name: Mobile Data Books, LLC
     url: https://geospatialquery.com
-  description: 'Geospatial Query API: US Census Boundaries and Census Data /doc.html'
+  description: |-
+    Easily integrate geospatial point-in-polygon search, census boundaries, location-based data, geofencing, and other location-based features into web and mobile apps.
+    SDK Our Software Development Kit (SDK) is available on GitHub at https://github.com/geospatialqueryapi/geospatialqueryapi-sdk. If possible then we are strongly recommending using our tested libraries available on GitHub, rather than creating new ones.
+  license:
+    name: Privacy Policy.
+    url: https://geospatialquery.com/privacy/
+  termsOfService: https://s3.amazonaws.com/EULA/Standard+Contract+for+AWS+Marketplace+2019-04-24.pdf
   title: Geo Spatial Query Api - US Census Boundaries and Census Data
   version: 1.0.0
 servers:
