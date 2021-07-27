@@ -6,7 +6,6 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Appname** | **string** |  | 
 **Copyright** | **string** |  | 
-**ExampleRequests** | Pointer to **interface{}** |  | [optional] 
 **Request** | **string** |  | 
 **TimeToRun** | **string** |  | 
 **Timestamp** | **string** |  | 
@@ -74,41 +73,6 @@ and a boolean to check if the value has been set.
 SetCopyright sets Copyright field to given value.
 
 
-### GetExampleRequests
-
-`func (o *InlineResponse2001) GetExampleRequests() interface{}`
-
-GetExampleRequests returns the ExampleRequests field if non-nil, zero value otherwise.
-
-### GetExampleRequestsOk
-
-`func (o *InlineResponse2001) GetExampleRequestsOk() (*interface{}, bool)`
-
-GetExampleRequestsOk returns a tuple with the ExampleRequests field if it's non-nil, zero value otherwise
-and a boolean to check if the value has been set.
-
-### SetExampleRequests
-
-`func (o *InlineResponse2001) SetExampleRequests(v interface{})`
-
-SetExampleRequests sets ExampleRequests field to given value.
-
-### HasExampleRequests
-
-`func (o *InlineResponse2001) HasExampleRequests() bool`
-
-HasExampleRequests returns a boolean if a field has been set.
-
-### SetExampleRequestsNil
-
-`func (o *InlineResponse2001) SetExampleRequestsNil(b bool)`
-
- SetExampleRequestsNil sets the value for ExampleRequests to be an explicit nil
-
-### UnsetExampleRequests
-`func (o *InlineResponse2001) UnsetExampleRequests()`
-
-UnsetExampleRequests ensures that no value is present for ExampleRequests, not even an explicit nil
 ### GetRequest
 
 `func (o *InlineResponse2001) GetRequest() string`

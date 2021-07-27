@@ -19,7 +19,6 @@ import (
 type InlineResponse200 struct {
 	Appname string `json:"appname"`
 	Copyright string `json:"copyright"`
-	ExampleRequests interface{} `json:"example_requests,omitempty"`
 	Request string `json:"request"`
 	TimeToRun string `json:"time_to_run"`
 	Timestamp string `json:"timestamp"`
@@ -104,39 +103,6 @@ func (o *InlineResponse200) GetCopyrightOk() (*string, bool) {
 // SetCopyright sets field value
 func (o *InlineResponse200) SetCopyright(v string) {
 	o.Copyright = v
-}
-
-// GetExampleRequests returns the ExampleRequests field value if set, zero value otherwise (both if not set or set to explicit null).
-func (o *InlineResponse200) GetExampleRequests() interface{} {
-	if o == nil  {
-		var ret interface{}
-		return ret
-	}
-	return o.ExampleRequests
-}
-
-// GetExampleRequestsOk returns a tuple with the ExampleRequests field value if set, nil otherwise
-// and a boolean to check if the value has been set.
-// NOTE: If the value is an explicit nil, `nil, true` will be returned
-func (o *InlineResponse200) GetExampleRequestsOk() (*interface{}, bool) {
-	if o == nil || o.ExampleRequests == nil {
-		return nil, false
-	}
-	return &o.ExampleRequests, true
-}
-
-// HasExampleRequests returns a boolean if a field has been set.
-func (o *InlineResponse200) HasExampleRequests() bool {
-	if o != nil && o.ExampleRequests != nil {
-		return true
-	}
-
-	return false
-}
-
-// SetExampleRequests gets a reference to the given interface{} and assigns it to the ExampleRequests field.
-func (o *InlineResponse200) SetExampleRequests(v interface{}) {
-	o.ExampleRequests = v
 }
 
 // GetRequest returns the Request field value
@@ -315,9 +281,6 @@ func (o InlineResponse200) MarshalJSON() ([]byte, error) {
 	if true {
 		toSerialize["copyright"] = o.Copyright
 	}
-	if o.ExampleRequests != nil {
-		toSerialize["example_requests"] = o.ExampleRequests
-	}
 	if true {
 		toSerialize["request"] = o.Request
 	}
@@ -359,7 +322,6 @@ func (o *InlineResponse200) UnmarshalJSON(bytes []byte) (err error) {
 	if err = json.Unmarshal(bytes, &additionalProperties); err == nil {
 		delete(additionalProperties, "appname")
 		delete(additionalProperties, "copyright")
-		delete(additionalProperties, "example_requests")
 		delete(additionalProperties, "request")
 		delete(additionalProperties, "time_to_run")
 		delete(additionalProperties, "timestamp")

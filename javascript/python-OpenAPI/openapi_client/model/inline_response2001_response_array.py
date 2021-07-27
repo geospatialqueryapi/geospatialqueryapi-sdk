@@ -59,11 +59,7 @@ class InlineResponse2001ResponseArray(ModelNormal):
     }
 
     validations = {
-        ('db',): {
-            'min_length': 1,
-        },
         ('items',): {
-            'min_items': 1,
         },
     }
 

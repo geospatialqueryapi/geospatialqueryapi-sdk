@@ -59,9 +59,6 @@ class InlineResponse200Result(ModelNormal):
     }
 
     validations = {
-        ('status',): {
-            'min_length': 1,
-        },
     }
 
     @cached_property

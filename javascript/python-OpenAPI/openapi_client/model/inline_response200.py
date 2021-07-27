@@ -63,27 +63,6 @@ class InlineResponse200(ModelNormal):
     }
 
     validations = {
-        ('appname',): {
-            'min_length': 1,
-        },
-        ('copyright',): {
-            'min_length': 1,
-        },
-        ('request',): {
-            'min_length': 1,
-        },
-        ('time_to_run',): {
-            'min_length': 1,
-        },
-        ('timestamp',): {
-            'min_length': 1,
-        },
-        ('version',): {
-            'min_length': 1,
-        },
-        ('www',): {
-            'min_length': 1,
-        },
     }
 
     @cached_property
@@ -118,7 +97,6 @@ class InlineResponse200(ModelNormal):
             'www': (str,),  # noqa: E501
             'response': (str,),  # noqa: E501
             'result': (InlineResponse200Result,),  # noqa: E501
-            'example_requests': (bool, date, datetime, dict, float, int, list, str, none_type,),  # noqa: E501
         }
 
     @cached_property
@@ -136,7 +114,6 @@ class InlineResponse200(ModelNormal):
         'www': 'www',  # noqa: E501
         'response': 'response',  # noqa: E501
         'result': 'result',  # noqa: E501
-        'example_requests': 'example_requests',  # noqa: E501
     }
 
     read_only_vars = {
@@ -191,7 +168,6 @@ class InlineResponse200(ModelNormal):
                                 Animal class but this time we won't travel
                                 through its discriminator because we passed in
                                 _visited_composed_classes = (Animal,)
-            example_requests (bool, date, datetime, dict, float, int, list, str, none_type): [optional]  # noqa: E501
         """
 
         _check_type = kwargs.pop('_check_type', True)
@@ -293,7 +269,6 @@ class InlineResponse200(ModelNormal):
                                 Animal class but this time we won't travel
                                 through its discriminator because we passed in
                                 _visited_composed_classes = (Animal,)
-            example_requests (bool, date, datetime, dict, float, int, list, str, none_type): [optional]  # noqa: E501
         """
 
         _check_type = kwargs.pop('_check_type', True)

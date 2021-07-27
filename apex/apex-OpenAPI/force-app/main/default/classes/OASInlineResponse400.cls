@@ -72,7 +72,7 @@ public class OASInlineResponse400 implements OAS.MappedProperties {
      * Get result
      * @return result
      */
-    public OASInlineResponse400Result result { get; set; }
+    public OASInlineResponse200Result result { get; set; }
 
     private static final Map<String, String> propertyMappings = new Map<String, String>{
         'example_requests' => 'exampleRequests',
@@ -107,7 +107,7 @@ public class OASInlineResponse400 implements OAS.MappedProperties {
           inlineResponse400.version = '';
           inlineResponse400.www = '';
           inlineResponse400.response = '';
-          inlineResponse400.result = OASInlineResponse400Result.getExample();
+          inlineResponse400.result = OASInlineResponse200Result.getExample();
         return inlineResponse400;
     }
 

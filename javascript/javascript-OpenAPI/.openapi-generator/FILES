@@ -353,7 +353,6 @@ docs/InlineResponse2003.md
 docs/InlineResponse2003Info.md
 docs/InlineResponse200Result.md
 docs/InlineResponse400.md
-docs/InlineResponse400Result.md
 docs/MultipolygonGeoJSON.md
 git_push.sh
 mocha.opts
@@ -710,7 +709,6 @@ src/model/InlineResponse2003.js
 src/model/InlineResponse2003Info.js
 src/model/InlineResponse200Result.js
 src/model/InlineResponse400.js
-src/model/InlineResponse400Result.js
 src/model/MultipolygonGeoJSON.js
 test/api/CountApi.spec.js
 test/api/DataApi.spec.js
@@ -1062,5 +1060,4 @@ test/model/InlineResponse2003.spec.js
 test/model/InlineResponse2003Info.spec.js
 test/model/InlineResponse200Result.spec.js
 test/model/InlineResponse400.spec.js
-test/model/InlineResponse400Result.spec.js
 test/model/MultipolygonGeoJSON.spec.js

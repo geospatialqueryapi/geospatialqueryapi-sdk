@@ -435,7 +435,6 @@ Class | Method | HTTP request | Description
  - [OASInlineResponse2003Info](OASInlineResponse2003Info.md)
  - [OASInlineResponse200Result](OASInlineResponse200Result.md)
  - [OASInlineResponse400](OASInlineResponse400.md)
- - [OASInlineResponse400Result](OASInlineResponse400Result.md)
  - [OASMultipolygonGeoJSON](OASMultipolygonGeoJSON.md)
 
 

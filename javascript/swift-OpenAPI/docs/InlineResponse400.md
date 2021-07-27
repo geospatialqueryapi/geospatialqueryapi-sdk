@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 **version** | **String** |  | 
 **www** | **String** |  | 
 **response** | **String** |  | 
-**result** | [**InlineResponse400Result**](InlineResponse400Result.md) |  | 
+**result** | [**InlineResponse200Result**](InlineResponse200Result.md) |  | 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

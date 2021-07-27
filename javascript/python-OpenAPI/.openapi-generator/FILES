@@ -353,7 +353,6 @@ docs/InlineResponse2003.md
 docs/InlineResponse2003Info.md
 docs/InlineResponse200Result.md
 docs/InlineResponse400.md
-docs/InlineResponse400Result.md
 docs/MultipolygonGeoJSON.md
 git_push.sh
 openapi_client/__init__.py
@@ -713,7 +712,6 @@ openapi_client/model/inline_response2003.py
 openapi_client/model/inline_response2003_info.py
 openapi_client/model/inline_response200_result.py
 openapi_client/model/inline_response400.py
-openapi_client/model/inline_response400_result.py
 openapi_client/model/multipolygon_geo_json.py
 openapi_client/model_utils.py
 openapi_client/models/__init__.py
@@ -1073,6 +1071,5 @@ test/test_inline_response2003.py
 test/test_inline_response2003_info.py
 test/test_inline_response200_result.py
 test/test_inline_response400.py
-test/test_inline_response400_result.py
 test/test_multipolygon_geo_json.py
 tox.ini

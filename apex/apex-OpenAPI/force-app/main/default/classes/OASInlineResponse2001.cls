@@ -27,12 +27,6 @@ public class OASInlineResponse2001 implements OAS.MappedProperties {
     public String copyright { get; set; }
 
     /**
-     * Get exampleRequests
-     * @return exampleRequests
-     */
-    public oas_any_type_not_mapped exampleRequests { get; set; }
-
-    /**
      * Get request
      * @return request
      */
@@ -75,16 +69,6 @@ public class OASInlineResponse2001 implements OAS.MappedProperties {
     public OASInlineResponse2001ResponseArray responseArray { get; set; }
 
     private static final Map<String, String> propertyMappings = new Map<String, String>{
-        'example_requests' => 'exampleRequests',
-        'time_to_run' => 'timeToRun'
-    };
-
-    public Map<String, String> getPropertyMappings() {
-        return propertyMappings;
-    }
-
-    private static final Map<String, String> propertyMappings = new Map<String, String>{
-        'example_requests' => 'exampleRequests',
         'time_to_run' => 'timeToRun'
     };
 
@@ -96,7 +80,6 @@ public class OASInlineResponse2001 implements OAS.MappedProperties {
         OASInlineResponse2001 inlineResponse2001 = new OASInlineResponse2001();
           inlineResponse2001.appname = '';
           inlineResponse2001.copyright = '';
-          inlineResponse2001.exampleRequests = oas_any_type_not_mapped.getExample();
           inlineResponse2001.request = '';
           inlineResponse2001.timeToRun = '';
           inlineResponse2001.timestamp = '';
@@ -112,7 +95,6 @@ public class OASInlineResponse2001 implements OAS.MappedProperties {
             OASInlineResponse2001 inlineResponse2001 = (OASInlineResponse2001) obj;
             return this.appname == inlineResponse2001.appname
                 && this.copyright == inlineResponse2001.copyright
-                && this.exampleRequests == inlineResponse2001.exampleRequests
                 && this.request == inlineResponse2001.request
                 && this.timeToRun == inlineResponse2001.timeToRun
                 && this.timestamp == inlineResponse2001.timestamp
@@ -128,7 +110,6 @@ public class OASInlineResponse2001 implements OAS.MappedProperties {
         Integer hashCode = 43;
         hashCode = (17 * hashCode) + (appname == null ? 0 : System.hashCode(appname));
         hashCode = (17 * hashCode) + (copyright == null ? 0 : System.hashCode(copyright));
-        hashCode = (17 * hashCode) + (exampleRequests == null ? 0 : System.hashCode(exampleRequests));
         hashCode = (17 * hashCode) + (request == null ? 0 : System.hashCode(request));
         hashCode = (17 * hashCode) + (timeToRun == null ? 0 : System.hashCode(timeToRun));
         hashCode = (17 * hashCode) + (timestamp == null ? 0 : System.hashCode(timestamp));

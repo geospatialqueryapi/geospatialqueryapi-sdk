@@ -5,7 +5,6 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **appname** | **String** |  | 
 **copyright** | **String** |  | 
-**exampleRequests** | [**AnyCodable**](.md) |  | [optional] 
 **request** | **String** |  | 
 **timeToRun** | **String** |  | 
 **timestamp** | **String** |  | 

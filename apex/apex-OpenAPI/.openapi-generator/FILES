@@ -1403,10 +1403,6 @@ force-app/main/default/classes/OASInlineResponse200Test.cls
 force-app/main/default/classes/OASInlineResponse200Test.cls-meta.xml
 force-app/main/default/classes/OASInlineResponse400.cls
 force-app/main/default/classes/OASInlineResponse400.cls-meta.xml
-force-app/main/default/classes/OASInlineResponse400Result.cls
-force-app/main/default/classes/OASInlineResponse400Result.cls-meta.xml
-force-app/main/default/classes/OASInlineResponse400ResultTest.cls
-force-app/main/default/classes/OASInlineResponse400ResultTest.cls-meta.xml
 force-app/main/default/classes/OASInlineResponse400Test.cls
 force-app/main/default/classes/OASInlineResponse400Test.cls-meta.xml
 force-app/main/default/classes/OASMultipolygonGeoJSON.cls

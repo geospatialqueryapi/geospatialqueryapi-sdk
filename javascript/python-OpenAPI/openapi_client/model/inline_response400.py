@@ -31,8 +31,8 @@ from openapi_client.exceptions import ApiAttributeError
 
 
 def lazy_import():
-    from openapi_client.model.inline_response400_result import InlineResponse400Result
-    globals()['InlineResponse400Result'] = InlineResponse400Result
+    from openapi_client.model.inline_response200_result import InlineResponse200Result
+    globals()['InlineResponse200Result'] = InlineResponse200Result
 
 
 class InlineResponse400(ModelNormal):
@@ -63,27 +63,6 @@ class InlineResponse400(ModelNormal):
     }
 
     validations = {
-        ('appname',): {
-            'min_length': 1,
-        },
-        ('copyright',): {
-            'min_length': 1,
-        },
-        ('request',): {
-            'min_length': 1,
-        },
-        ('time_to_run',): {
-            'min_length': 1,
-        },
-        ('timestamp',): {
-            'min_length': 1,
-        },
-        ('version',): {
-            'min_length': 1,
-        },
-        ('www',): {
-            'min_length': 1,
-        },
     }
 
     @cached_property
@@ -118,7 +97,7 @@ class InlineResponse400(ModelNormal):
             'version': (str,),  # noqa: E501
             'www': (str,),  # noqa: E501
             'response': (str,),  # noqa: E501
-            'result': (InlineResponse400Result,),  # noqa: E501
+            'result': (InlineResponse200Result,),  # noqa: E501
         }
 
     @cached_property
@@ -159,7 +138,7 @@ class InlineResponse400(ModelNormal):
             version (str):
             www (str):
             response (str):
-            result (InlineResponse400Result):
+            result (InlineResponse200Result):
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types
@@ -262,7 +241,7 @@ class InlineResponse400(ModelNormal):
             version (str):
             www (str):
             response (str):
-            result (InlineResponse400Result):
+            result (InlineResponse200Result):
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types

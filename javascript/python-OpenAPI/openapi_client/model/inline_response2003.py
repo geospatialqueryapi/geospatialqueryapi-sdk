@@ -65,27 +65,6 @@ class InlineResponse2003(ModelNormal):
     }
 
     validations = {
-        ('appname',): {
-            'min_length': 1,
-        },
-        ('copyright',): {
-            'min_length': 1,
-        },
-        ('request',): {
-            'min_length': 1,
-        },
-        ('time_to_run',): {
-            'min_length': 1,
-        },
-        ('timestamp',): {
-            'min_length': 1,
-        },
-        ('version',): {
-            'min_length': 1,
-        },
-        ('www',): {
-            'min_length': 1,
-        },
     }
 
     @cached_property

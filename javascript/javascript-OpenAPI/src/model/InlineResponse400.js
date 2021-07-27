@@ -12,7 +12,7 @@
  */
 
 import ApiClient from '../ApiClient';
-import InlineResponse400Result from './InlineResponse400Result';
+import InlineResponse200Result from './InlineResponse200Result';
 
 /**
  * The InlineResponse400 model module.
@@ -32,7 +32,7 @@ class InlineResponse400 {
      * @param version {String} 
      * @param www {String} 
      * @param response {String} 
-     * @param result {module:model/InlineResponse400Result} 
+     * @param result {module:model/InlineResponse200Result} 
      */
     constructor(appname, copyright, exampleRequests, request, timeToRun, timestamp, version, www, response, result) { 
         
@@ -96,7 +96,7 @@ class InlineResponse400 {
                 obj['response'] = ApiClient.convertToType(data['response'], 'String');
             }
             if (data.hasOwnProperty('result')) {
-                obj['result'] = InlineResponse400Result.constructFromObject(data['result']);
+                obj['result'] = InlineResponse200Result.constructFromObject(data['result']);
             }
         }
         return obj;
@@ -151,7 +151,7 @@ InlineResponse400.prototype['www'] = undefined;
 InlineResponse400.prototype['response'] = undefined;
 
 /**
- * @member {module:model/InlineResponse400Result} result
+ * @member {module:model/InlineResponse200Result} result
  */
 InlineResponse400.prototype['result'] = undefined;
 

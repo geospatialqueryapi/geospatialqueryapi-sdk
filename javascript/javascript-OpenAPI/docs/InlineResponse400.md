@@ -13,6 +13,6 @@ Name | Type | Description | Notes
 **version** | **String** |  | 
 **www** | **String** |  | 
 **response** | **String** |  | 
-**result** | [**InlineResponse400Result**](InlineResponse400Result.md) |  | 
+**result** | [**InlineResponse200Result**](InlineResponse200Result.md) |  | 
 
 

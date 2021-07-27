@@ -59,12 +59,6 @@ class InlineResponse2002Info(ModelNormal):
     }
 
     validations = {
-        ('geographic_level',): {
-            'min_length': 1,
-        },
-        ('description',): {
-            'min_length': 1,
-        },
     }
 
     @cached_property

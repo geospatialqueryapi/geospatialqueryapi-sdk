@@ -500,7 +500,6 @@ Class | Method | HTTP request | Description
  - [GeoSpatialQueryApiUsCensusBoundariesAndCensusData.InlineResponse2003Info](docs/InlineResponse2003Info.md)
  - [GeoSpatialQueryApiUsCensusBoundariesAndCensusData.InlineResponse200Result](docs/InlineResponse200Result.md)
  - [GeoSpatialQueryApiUsCensusBoundariesAndCensusData.InlineResponse400](docs/InlineResponse400.md)
- - [GeoSpatialQueryApiUsCensusBoundariesAndCensusData.InlineResponse400Result](docs/InlineResponse400Result.md)
  - [GeoSpatialQueryApiUsCensusBoundariesAndCensusData.MultipolygonGeoJSON](docs/MultipolygonGeoJSON.md)
 
 

@@ -359,7 +359,6 @@ docs/InlineResponse2003.md
 docs/InlineResponse2003Info.md
 docs/InlineResponse200Result.md
 docs/InlineResponse400.md
-docs/InlineResponse400Result.md
 docs/MultipolygonGeoJSON.md
 git_push.sh
 go.mod
@@ -710,7 +709,6 @@ model_inline_response_200_3.go
 model_inline_response_200_3_info.go
 model_inline_response_200_result.go
 model_inline_response_400.go
-model_inline_response_400_result.go
 model_multipolygon_geo_json.go
 response.go
 utils.go

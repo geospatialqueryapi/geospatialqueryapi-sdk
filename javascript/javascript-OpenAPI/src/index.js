@@ -359,7 +359,6 @@ import InlineResponse2003 from './model/InlineResponse2003';
 import InlineResponse2003Info from './model/InlineResponse2003Info';
 import InlineResponse200Result from './model/InlineResponse200Result';
 import InlineResponse400 from './model/InlineResponse400';
-import InlineResponse400Result from './model/InlineResponse400Result';
 import MultipolygonGeoJSON from './model/MultipolygonGeoJSON';
 import CountApi from './api/CountApi';
 import DataApi from './api/DataApi';
@@ -2480,12 +2479,6 @@ export {
      * @property {module:model/InlineResponse400}
      */
     InlineResponse400,
-
-    /**
-     * The InlineResponse400Result model constructor.
-     * @property {module:model/InlineResponse400Result}
-     */
-    InlineResponse400Result,
 
     /**
      * The MultipolygonGeoJSON model constructor.

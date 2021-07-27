@@ -13,8 +13,8 @@ import sys
 import unittest
 
 import openapi_client
-from openapi_client.model.inline_response400_result import InlineResponse400Result
-globals()['InlineResponse400Result'] = InlineResponse400Result
+from openapi_client.model.inline_response200_result import InlineResponse200Result
+globals()['InlineResponse200Result'] = InlineResponse200Result
 from openapi_client.model.inline_response400 import InlineResponse400
 
 

@@ -3746,7 +3746,6 @@ components:
         status: status
       properties:
         status:
-          minLength: 1
           type: string
         error:
           type: string
@@ -3765,7 +3764,6 @@ components:
           status: status
         request: request
         copyright: copyright
-        example_requests: ""
         appname: appname
         www: www
         response: response
@@ -3774,26 +3772,18 @@ components:
         timestamp: timestamp
       properties:
         appname:
-          minLength: 1
           type: string
         copyright:
-          minLength: 1
           type: string
-        example_requests: {}
         request:
-          minLength: 1
           type: string
         time_to_run:
-          minLength: 1
           type: string
         timestamp:
-          minLength: 1
           type: string
         version:
-          minLength: 1
           type: string
         www:
-          minLength: 1
           type: string
         response:
           type: string
@@ -3818,21 +3808,17 @@ components:
         db: db
       properties:
         db:
-          minLength: 1
           type: string
         items:
           items:
             properties:
               i:
-                minLength: 1
                 type: string
               description:
-                minLength: 1
                 type: string
             required:
             - description
             - i
-          minItems: 1
           type: array
           uniqueItems: true
       required:
@@ -3852,7 +3838,6 @@ components:
           - '{}'
           db: db
         copyright: copyright
-        example_requests: ""
         appname: appname
         www: www
         time_to_run: time_to_run
@@ -3860,26 +3845,18 @@ components:
         timestamp: timestamp
       properties:
         appname:
-          minLength: 1
           type: string
         copyright:
-          minLength: 1
           type: string
-        example_requests: {}
         request:
-          minLength: 1
           type: string
         time_to_run:
-          minLength: 1
           type: string
         timestamp:
-          minLength: 1
           type: string
         version:
-          minLength: 1
           type: string
         www:
-          minLength: 1
           type: string
         result:
           $ref: '#/components/schemas/inline_response_200_result'
@@ -3903,10 +3880,8 @@ components:
         geographic_level: geographic_level
       properties:
         geographic_level:
-          minLength: 1
           type: string
         description:
-          minLength: 1
           type: string
         count:
           type: number
@@ -3934,25 +3909,18 @@ components:
           geographic_level: geographic_level
       properties:
         appname:
-          minLength: 1
           type: string
         copyright:
-          minLength: 1
           type: string
         request:
-          minLength: 1
           type: string
         time_to_run:
-          minLength: 1
           type: string
         timestamp:
-          minLength: 1
           type: string
         version:
-          minLength: 1
           type: string
         www:
-          minLength: 1
           type: string
         result:
           $ref: '#/components/schemas/inline_response_200_result'
@@ -3969,53 +3937,30 @@ components:
       - version
       - www
       type: object
-    inline_response_400_result:
-      properties:
-        status:
-          minLength: 1
-          type: string
-        error:
-          minLength: 1
-          type: string
-        error_description:
-          minLength: 1
-          type: string
-      required:
-      - error
-      - error_description
-      - status
-      type: object
     inline_response_400:
       properties:
         appname:
-          minLength: 1
           type: string
         copyright:
-          minLength: 1
           type: string
         example_requests:
           items:
             properties: {}
           type: array
         request:
-          minLength: 1
           type: string
         time_to_run:
-          minLength: 1
           type: string
         timestamp:
-          minLength: 1
           type: string
         version:
-          minLength: 1
           type: string
         www:
-          minLength: 1
           type: string
         response:
           type: string
         result:
-          $ref: '#/components/schemas/inline_response_400_result'
+          $ref: '#/components/schemas/inline_response_200_result'
       required:
       - appname
       - copyright
@@ -4041,10 +3986,8 @@ components:
         - '{}'
       properties:
         geographic_level:
-          minLength: 1
           type: string
         description:
-          minLength: 1
           type: string
         count:
           type: number
@@ -4052,30 +3995,24 @@ components:
           items:
             properties:
               request:
-                minLength: 1
                 type: string
               description:
-                minLength: 1
                 type: string
             required:
             - description
             - request
-          minItems: 1
           type: array
           uniqueItems: true
         requests_by_latlon:
           items:
             properties:
               request:
-                minLength: 1
                 type: string
               description:
-                minLength: 1
                 type: string
             required:
             - description
             - request
-          minItems: 1
           type: array
           uniqueItems: true
       required:
@@ -4110,25 +4047,18 @@ components:
           - '{}'
       properties:
         appname:
-          minLength: 1
           type: string
         copyright:
-          minLength: 1
           type: string
         request:
-          minLength: 1
           type: string
         time_to_run:
-          minLength: 1
           type: string
         timestamp:
-          minLength: 1
           type: string
         version:
-          minLength: 1
           type: string
         www:
-          minLength: 1
           type: string
         result:
           $ref: '#/components/schemas/inline_response_200_result'

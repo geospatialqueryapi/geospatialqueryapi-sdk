@@ -21,9 +21,9 @@ public struct InlineResponse400: Codable, Hashable {
     public var version: String
     public var www: String
     public var response: String
-    public var result: InlineResponse400Result
+    public var result: InlineResponse200Result
 
-    public init(appname: String, copyright: String, exampleRequests: [AnyCodable], request: String, timeToRun: String, timestamp: String, version: String, www: String, response: String, result: InlineResponse400Result) {
+    public init(appname: String, copyright: String, exampleRequests: [AnyCodable], request: String, timeToRun: String, timestamp: String, version: String, www: String, response: String, result: InlineResponse200Result) {
         self.appname = appname
         self.copyright = copyright
         self.exampleRequests = exampleRequests

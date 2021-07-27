@@ -72,9 +72,6 @@ class InlineResponse200 {
             if (data.hasOwnProperty('copyright')) {
                 obj['copyright'] = ApiClient.convertToType(data['copyright'], 'String');
             }
-            if (data.hasOwnProperty('example_requests')) {
-                obj['example_requests'] = ApiClient.convertToType(data['example_requests'], Object);
-            }
             if (data.hasOwnProperty('request')) {
                 obj['request'] = ApiClient.convertToType(data['request'], 'String');
             }
@@ -112,11 +109,6 @@ InlineResponse200.prototype['appname'] = undefined;
  * @member {String} copyright
  */
 InlineResponse200.prototype['copyright'] = undefined;
-
-/**
- * @member {Object} example_requests
- */
-InlineResponse200.prototype['example_requests'] = undefined;
 
 /**
  * @member {String} request

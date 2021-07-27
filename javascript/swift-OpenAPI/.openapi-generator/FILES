@@ -360,7 +360,6 @@ OpenAPIClient/Classes/OpenAPIs/Models/InlineResponse2003.swift
 OpenAPIClient/Classes/OpenAPIs/Models/InlineResponse2003Info.swift
 OpenAPIClient/Classes/OpenAPIs/Models/InlineResponse200Result.swift
 OpenAPIClient/Classes/OpenAPIs/Models/InlineResponse400.swift
-OpenAPIClient/Classes/OpenAPIs/Models/InlineResponse400Result.swift
 OpenAPIClient/Classes/OpenAPIs/Models/MultipolygonGeoJSON.swift
 OpenAPIClient/Classes/OpenAPIs/OpenISO8601DateFormatter.swift
 OpenAPIClient/Classes/OpenAPIs/SynchronizedDictionary.swift
@@ -717,7 +716,6 @@ docs/InlineResponse2003.md
 docs/InlineResponse2003Info.md
 docs/InlineResponse200Result.md
 docs/InlineResponse400.md
-docs/InlineResponse400Result.md
 docs/MultipolygonGeoJSON.md
 git_push.sh
 project.yml

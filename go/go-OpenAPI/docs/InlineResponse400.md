@@ -13,13 +13,13 @@ Name | Type | Description | Notes
 **Version** | **string** |  | 
 **Www** | **string** |  | 
 **Response** | **string** |  | 
-**Result** | [**InlineResponse400Result**](InlineResponse400Result.md) |  | 
+**Result** | [**InlineResponse200Result**](InlineResponse200Result.md) |  | 
 
 ## Methods
 
 ### NewInlineResponse400
 
-`func NewInlineResponse400(appname string, copyright string, exampleRequests []interface{}, request string, timeToRun string, timestamp string, version string, www string, response string, result InlineResponse400Result, ) *InlineResponse400`
+`func NewInlineResponse400(appname string, copyright string, exampleRequests []interface{}, request string, timeToRun string, timestamp string, version string, www string, response string, result InlineResponse200Result, ) *InlineResponse400`
 
 NewInlineResponse400 instantiates a new InlineResponse400 object
 This constructor will assign default values to properties that have it defined,
@@ -216,20 +216,20 @@ SetResponse sets Response field to given value.
 
 ### GetResult
 
-`func (o *InlineResponse400) GetResult() InlineResponse400Result`
+`func (o *InlineResponse400) GetResult() InlineResponse200Result`
 
 GetResult returns the Result field if non-nil, zero value otherwise.
 
 ### GetResultOk
 
-`func (o *InlineResponse400) GetResultOk() (*InlineResponse400Result, bool)`
+`func (o *InlineResponse400) GetResultOk() (*InlineResponse200Result, bool)`
 
 GetResultOk returns a tuple with the Result field if it's non-nil, zero value otherwise
 and a boolean to check if the value has been set.
 
 ### SetResult
 
-`func (o *InlineResponse400) SetResult(v InlineResponse400Result)`
+`func (o *InlineResponse400) SetResult(v InlineResponse200Result)`
 
 SetResult sets Result field to given value.
 

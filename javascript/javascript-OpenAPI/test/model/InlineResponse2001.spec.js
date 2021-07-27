@@ -66,12 +66,6 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property exampleRequests (base name: "example_requests")', function() {
-      // uncomment below and update the code to test the property exampleRequests
-      //var instance = new GeoSpatialQueryApiUsCensusBoundariesAndCensusData.InlineResponse2001();
-      //expect(instance).to.be();
-    });
-
     it('should have the property request (base name: "request")', function() {
       // uncomment below and update the code to test the property request
       //var instance = new GeoSpatialQueryApiUsCensusBoundariesAndCensusData.InlineResponse2001();

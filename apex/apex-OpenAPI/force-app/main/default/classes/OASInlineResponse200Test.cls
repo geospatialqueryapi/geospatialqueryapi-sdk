@@ -73,7 +73,6 @@ private class OASInlineResponse200Test {
     private static void maintainRenamedProperties() {
         OASInlineResponse200 inlineResponse200 = new OASInlineResponse200();
         Map<String, String> x-property-mappings = inlineResponse200.getx-property-mappings();
-        System.assertEquals('exampleRequests', x-property-mappings.get('example_requests'));
         System.assertEquals('timeToRun', x-property-mappings.get('time_to_run'));
     }
 }

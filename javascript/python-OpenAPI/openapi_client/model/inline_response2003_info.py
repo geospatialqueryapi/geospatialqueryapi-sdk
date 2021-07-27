@@ -59,17 +59,9 @@ class InlineResponse2003Info(ModelNormal):
     }
 
     validations = {
-        ('geographic_level',): {
-            'min_length': 1,
-        },
-        ('description',): {
-            'min_length': 1,
-        },
         ('requests_by_geoid',): {
-            'min_items': 1,
         },
         ('requests_by_latlon',): {
-            'min_items': 1,
         },
     }
 

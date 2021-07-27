@@ -26,7 +26,7 @@ type InlineResponse400 struct {
 	Version string `json:"version"`
 	Www string `json:"www"`
 	Response string `json:"response"`
-	Result InlineResponse400Result `json:"result"`
+	Result InlineResponse200Result `json:"result"`
 	AdditionalProperties map[string]interface{}
 }
 
@@ -36,7 +36,7 @@ type _InlineResponse400 InlineResponse400
 // This constructor will assign default values to properties that have it defined,
 // and makes sure properties required by API are set, but the set of arguments
 // will change when the set of required properties is changed
-func NewInlineResponse400(appname string, copyright string, exampleRequests []interface{}, request string, timeToRun string, timestamp string, version string, www string, response string, result InlineResponse400Result) *InlineResponse400 {
+func NewInlineResponse400(appname string, copyright string, exampleRequests []interface{}, request string, timeToRun string, timestamp string, version string, www string, response string, result InlineResponse200Result) *InlineResponse400 {
 	this := InlineResponse400{}
 	this.Appname = appname
 	this.Copyright = copyright
@@ -276,9 +276,9 @@ func (o *InlineResponse400) SetResponse(v string) {
 }
 
 // GetResult returns the Result field value
-func (o *InlineResponse400) GetResult() InlineResponse400Result {
+func (o *InlineResponse400) GetResult() InlineResponse200Result {
 	if o == nil {
-		var ret InlineResponse400Result
+		var ret InlineResponse200Result
 		return ret
 	}
 
@@ -287,7 +287,7 @@ func (o *InlineResponse400) GetResult() InlineResponse400Result {
 
 // GetResultOk returns a tuple with the Result field value
 // and a boolean to check if the value has been set.
-func (o *InlineResponse400) GetResultOk() (*InlineResponse400Result, bool) {
+func (o *InlineResponse400) GetResultOk() (*InlineResponse200Result, bool) {
 	if o == nil  {
 		return nil, false
 	}
@@ -295,7 +295,7 @@ func (o *InlineResponse400) GetResultOk() (*InlineResponse400Result, bool) {
 }
 
 // SetResult sets field value
-func (o *InlineResponse400) SetResult(v InlineResponse400Result) {
+func (o *InlineResponse400) SetResult(v InlineResponse200Result) {
 	o.Result = v
 }
 

@@ -6,7 +6,6 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **appname** | **String** |  | 
 **copyright** | **String** |  | 
-**exampleRequests** | **Object** |  | [optional] 
 **request** | **String** |  | 
 **timeToRun** | **String** |  | 
 **timestamp** | **String** |  | 

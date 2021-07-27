@@ -460,7 +460,6 @@ Class | Method | HTTP request | Description
  - [InlineResponse2003Info](docs/InlineResponse2003Info.md)
  - [InlineResponse200Result](docs/InlineResponse200Result.md)
  - [InlineResponse400](docs/InlineResponse400.md)
- - [InlineResponse400Result](docs/InlineResponse400Result.md)
  - [MultipolygonGeoJSON](docs/MultipolygonGeoJSON.md)
 
 
