@@ -1,6 +1,6 @@
 /**
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Easily integrate geospatial point-in-polygon search, census boundaries, location-based data, geofencing, and other location-based features into web and mobile apps. Our Software Development Kit (SDK) is available on GitHub at https://github.com/geospatialqueryapi/geospatialqueryapi-sdk. If possible then we are strongly recommending using our tested libraries available on GitHub, rather than creating new ones. PDF documentation - ./pdf.html
+ * Easily integrate geospatial point-in-polygon search, census boundaries, location-based data, geofencing, and other location-based features into web and mobile apps. Our Software Development Kit (SDK) is available on GitHub at https://github.com/geospatialqueryapi/geospatialqueryapi-sdk. If possible then we are strongly recommending using our tested libraries available on GitHub, rather than creating new ones.      Copyright © 2021 Mobile Data Books, LLC. All Rights Reserved.  
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -368,7 +368,7 @@ import HelpApi from './api/HelpApi';
 
 
 /**
-* Easily_integrate_geospatial_point_in_polygon_search_census_boundaries_location_based_data_geofencing_and_other_location_based_features_into_web_and_mobile_apps_Our_Software_Development_Kit__SDK_is_available_on_GitHub_at_https__github_com_geospatialqueryapi_geospatialqueryapi_sdk__If_possible_then_we_are_strongly_recommending_using_our_tested_libraries_available_on_GitHub_rather_than_creating_new_ones__PDF_documentation_____pdf_html.<br>
+* Easily_integrate_geospatial_point_in_polygon_search_census_boundaries_location_based_data_geofencing_and_other_location_based_features_into_web_and_mobile_apps_Our_Software_Development_Kit__SDK_is_available_on_GitHub_at_https__github_com_geospatialqueryapi_geospatialqueryapi_sdk__If_possible_then_we_are_strongly_recommending_using_our_tested_libraries_available_on_GitHub_rather_than_creating_new_ones_____Copyright__2021_Mobile_Data_Books_LLC__All_Rights_Reserved__.<br>
 * The <code>index</code> module provides access to constructors for all the classes which comprise the public API.
 * <p>
 * An AMD (recommended!) or CommonJS application will generally do something equivalent to the following:
