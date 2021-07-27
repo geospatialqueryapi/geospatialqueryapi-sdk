@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP02_0080E | 
+**mDBName** | **String** | Population 1 year and over: Same house | 
+**mDBValue** | **String** | Field value | 
 
 

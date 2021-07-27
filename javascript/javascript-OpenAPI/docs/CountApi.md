@@ -4,12 +4,12 @@ All URIs are relative to *http://localhost/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**getV1BoundariesCountUscounties**](CountApi.md#getV1BoundariesCountUscounties) | **GET** /v1/boundaries/count/uscounties | Your GET endpoint
-[**getV1BoundariesCountUscousubs**](CountApi.md#getV1BoundariesCountUscousubs) | **GET** /v1/boundaries/count/uscousubs | Your GET endpoint
-[**getV1BoundariesCountUsplaces**](CountApi.md#getV1BoundariesCountUsplaces) | **GET** /v1/boundaries/count/usplaces | Your GET endpoint
-[**getV1BoundariesCountUsstates**](CountApi.md#getV1BoundariesCountUsstates) | **GET** /v1/boundaries/count/usstates | Your GET endpoint
-[**getV1BoundariesCountUstracts**](CountApi.md#getV1BoundariesCountUstracts) | **GET** /v1/boundaries/count/ustracts | Your GET endpoint
-[**getV1BoundariesCountUszctas**](CountApi.md#getV1BoundariesCountUszctas) | **GET** /v1/boundaries/count/uszctas | Your GET endpoint
+[**getV1BoundariesCountUscounties**](CountApi.md#getV1BoundariesCountUscounties) | **GET** /v1/boundaries/count/uscounties | v1-boundaries-count-uscounties
+[**getV1BoundariesCountUscousubs**](CountApi.md#getV1BoundariesCountUscousubs) | **GET** /v1/boundaries/count/uscousubs | v1-boundaries-count-uscousubs
+[**getV1BoundariesCountUsplaces**](CountApi.md#getV1BoundariesCountUsplaces) | **GET** /v1/boundaries/count/usplaces | v1-boundaries-count-usplaces
+[**getV1BoundariesCountUsstates**](CountApi.md#getV1BoundariesCountUsstates) | **GET** /v1/boundaries/count/usstates | v1-boundaries-count-usstates
+[**getV1BoundariesCountUstracts**](CountApi.md#getV1BoundariesCountUstracts) | **GET** /v1/boundaries/count/ustracts | v1-boundaries-count-ustracts
+[**getV1BoundariesCountUszctas**](CountApi.md#getV1BoundariesCountUszctas) | **GET** /v1/boundaries/count/uszctas | get-v1-boundaries-count-uszctas
 
 
 
@@ -17,7 +17,7 @@ Method | HTTP request | Description
 
 > InlineResponse2002 getV1BoundariesCountUscounties()
 
-Your GET endpoint
+v1-boundaries-count-uscounties
 
 Count the number of U.S. Counties.
 
@@ -58,7 +58,7 @@ No authorization required
 
 > InlineResponse2002 getV1BoundariesCountUscousubs()
 
-Your GET endpoint
+v1-boundaries-count-uscousubs
 
 Count the number of U.S. County Subdivisions.
 
@@ -99,7 +99,7 @@ No authorization required
 
 > InlineResponse2002 getV1BoundariesCountUsplaces()
 
-Your GET endpoint
+v1-boundaries-count-usplaces
 
 Count the number of U.S. Places.
 
@@ -140,7 +140,7 @@ No authorization required
 
 > InlineResponse2002 getV1BoundariesCountUsstates()
 
-Your GET endpoint
+v1-boundaries-count-usstates
 
 Count the number of U.S. States and Territories.
 
@@ -181,7 +181,7 @@ No authorization required
 
 > InlineResponse2002 getV1BoundariesCountUstracts()
 
-Your GET endpoint
+v1-boundaries-count-ustracts
 
 Count the number of U.S. Census Tracts.
 
@@ -222,7 +222,7 @@ No authorization required
 
 > InlineResponse2002 getV1BoundariesCountUszctas()
 
-Your GET endpoint
+get-v1-boundaries-count-uszctas
 
 Count the number of U.S. ZCTA5.
 

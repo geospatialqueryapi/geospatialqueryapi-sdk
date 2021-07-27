@@ -1,7 +1,7 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
  *
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * API version: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -40,7 +40,7 @@ func (r ApiGetV1BoundariesUscountyIdGEOIDRequest) Execute() (FeatureGeoJSON, *_n
 }
 
 /*
- * GetV1BoundariesUscountyIdGEOID Your GET endpoint
+ * GetV1BoundariesUscountyIdGEOID v1-boundaries-uscounty-id-GEOID
  * U.S. County by GEOID.
 
 Example:
@@ -166,7 +166,7 @@ func (r ApiGetV1BoundariesUscountyLatLonRequest) Execute() (FeatureGeoJSON, *_ne
 }
 
 /*
- * GetV1BoundariesUscountyLatLon Your GET endpoint
+ * GetV1BoundariesUscountyLatLon v1-boundaries-uscounty-LatLon
  * U.S. County by lat/lon.
 
 Example:
@@ -301,7 +301,7 @@ func (r ApiGetV1BoundariesUscousubIdGEOIDRequest) Execute() (FeatureGeoJSON, *_n
 }
 
 /*
- * GetV1BoundariesUscousubIdGEOID Your GET endpoint
+ * GetV1BoundariesUscousubIdGEOID v1-boundaries-uscousub-id-GEOID
  * U.S. County Subdivision by GEOID.
 
 Example:
@@ -427,7 +427,7 @@ func (r ApiGetV1BoundariesUscousubLatLonRequest) Execute() (FeatureGeoJSON, *_ne
 }
 
 /*
- * GetV1BoundariesUscousubLatLon Your GET endpoint
+ * GetV1BoundariesUscousubLatLon v1-boundaries-uscousub-LatLon
  * U.S. County Subdivision by lat/lon
 
 Example:
@@ -557,7 +557,7 @@ func (r ApiGetV1BoundariesUsplaceIdGEOIDRequest) Execute() (FeatureGeoJSON, *_ne
 }
 
 /*
- * GetV1BoundariesUsplaceIdGEOID Your GET endpoint
+ * GetV1BoundariesUsplaceIdGEOID v1-boundaries-usplace-id-GEOID
  * U.S. Place by GEOID
 
 Example:
@@ -683,7 +683,7 @@ func (r ApiGetV1BoundariesUsplaceLatLonRequest) Execute() (FeatureGeoJSON, *_net
 }
 
 /*
- * GetV1BoundariesUsplaceLatLon Your GET endpoint
+ * GetV1BoundariesUsplaceLatLon v1-boundaries-usplace-LatLon
  * U.S. Place by lat/lon
 
 Example:
@@ -813,7 +813,7 @@ func (r ApiGetV1BoundariesUsstateIdGEOIDRequest) Execute() (FeatureGeoJSON, *_ne
 }
 
 /*
- * GetV1BoundariesUsstateIdGEOID Your GET endpoint
+ * GetV1BoundariesUsstateIdGEOID v1-boundaries-usstate-id-GEOID
  * U.S. State by GEOID
 
 Example:
@@ -939,7 +939,7 @@ func (r ApiGetV1BoundariesUsstateLatLonRequest) Execute() (FeatureGeoJSON, *_net
 }
 
 /*
- * GetV1BoundariesUsstateLatLon Your GET endpoint
+ * GetV1BoundariesUsstateLatLon v1-boundaries-usstate-LatLon
  * U.S. State by lat/lon.
 
 Example:
@@ -1069,7 +1069,7 @@ func (r ApiGetV1BoundariesUstractIdGEOIDRequest) Execute() (FeatureGeoJSON, *_ne
 }
 
 /*
- * GetV1BoundariesUstractIdGEOID Your GET endpoint
+ * GetV1BoundariesUstractIdGEOID v1-boundaries-ustract-id-GEOID
  * U.S. Census Tract by GEOID
 
 Example:
@@ -1183,19 +1183,19 @@ func (a *DataApiService) GetV1BoundariesUstractIdGEOIDExecute(r ApiGetV1Boundari
 	return localVarReturnValue, localVarHTTPResponse, nil
 }
 
-type ApiGetV1BoundariesUstractLatLatLonRequest struct {
+type ApiGetV1BoundariesUstractLatLonRequest struct {
 	ctx _context.Context
 	ApiService *DataApiService
 	latLon string
 }
 
 
-func (r ApiGetV1BoundariesUstractLatLatLonRequest) Execute() (FeatureGeoJSON, *_nethttp.Response, error) {
-	return r.ApiService.GetV1BoundariesUstractLatLatLonExecute(r)
+func (r ApiGetV1BoundariesUstractLatLonRequest) Execute() (FeatureGeoJSON, *_nethttp.Response, error) {
+	return r.ApiService.GetV1BoundariesUstractLatLonExecute(r)
 }
 
 /*
- * GetV1BoundariesUstractLatLatLon Your GET endpoint
+ * GetV1BoundariesUstractLatLon v1-boundaries-ustract-LatLon
  * U.S. Census Tract by lat/lon
 
 Example:
@@ -1214,10 +1214,10 @@ to get the actial time to run.
 
  * @param ctx _context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
  * @param latLon local identifier of a feature
- * @return ApiGetV1BoundariesUstractLatLatLonRequest
+ * @return ApiGetV1BoundariesUstractLatLonRequest
  */
-func (a *DataApiService) GetV1BoundariesUstractLatLatLon(ctx _context.Context, latLon string) ApiGetV1BoundariesUstractLatLatLonRequest {
-	return ApiGetV1BoundariesUstractLatLatLonRequest{
+func (a *DataApiService) GetV1BoundariesUstractLatLon(ctx _context.Context, latLon string) ApiGetV1BoundariesUstractLatLonRequest {
+	return ApiGetV1BoundariesUstractLatLonRequest{
 		ApiService: a,
 		ctx: ctx,
 		latLon: latLon,
@@ -1228,7 +1228,7 @@ func (a *DataApiService) GetV1BoundariesUstractLatLatLon(ctx _context.Context, l
  * Execute executes the request
  * @return FeatureGeoJSON
  */
-func (a *DataApiService) GetV1BoundariesUstractLatLatLonExecute(r ApiGetV1BoundariesUstractLatLatLonRequest) (FeatureGeoJSON, *_nethttp.Response, error) {
+func (a *DataApiService) GetV1BoundariesUstractLatLonExecute(r ApiGetV1BoundariesUstractLatLonRequest) (FeatureGeoJSON, *_nethttp.Response, error) {
 	var (
 		localVarHTTPMethod   = _nethttp.MethodGet
 		localVarPostBody     interface{}
@@ -1238,7 +1238,7 @@ func (a *DataApiService) GetV1BoundariesUstractLatLatLonExecute(r ApiGetV1Bounda
 		localVarReturnValue  FeatureGeoJSON
 	)
 
-	localBasePath, err := a.client.cfg.ServerURLWithContext(r.ctx, "DataApiService.GetV1BoundariesUstractLatLatLon")
+	localBasePath, err := a.client.cfg.ServerURLWithContext(r.ctx, "DataApiService.GetV1BoundariesUstractLatLon")
 	if err != nil {
 		return localVarReturnValue, nil, GenericOpenAPIError{error: err.Error()}
 	}
@@ -1325,7 +1325,7 @@ func (r ApiGetV1BoundariesUszctaIdGEOIDRequest) Execute() (FeatureGeoJSON, *_net
 }
 
 /*
- * GetV1BoundariesUszctaIdGEOID Your GET endpoint
+ * GetV1BoundariesUszctaIdGEOID v1-boundaries-uszcta-id-GEOID
  * U.S. ZCTA5 by GEOID
 
 Example:
@@ -1451,7 +1451,7 @@ func (r ApiGetV1BoundariesUszctaLatLonRequest) Execute() (FeatureGeoJSON, *_neth
 }
 
 /*
- * GetV1BoundariesUszctaLatLon Your GET endpoint
+ * GetV1BoundariesUszctaLatLon v1-boundaries-uszcta-LatLon
  * U.S. ZCTA5 by lat/lon
 
 Example:

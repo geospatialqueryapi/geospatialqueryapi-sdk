@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBGroupName** | **String** |  | 
-**mDBGroupCode** | **String** |  | 
+**mDBGroupName** | **String** | EMPLOYMENT STATUS | 
+**mDBGroupCode** | **String** | DP0301 | 
 **dP030001E** | [**Acs5ProfilesValuesDP0301DP030001E**](Acs5ProfilesValuesDP0301DP030001E.md) |  | 
 **dP030002E** | [**Acs5ProfilesValuesDP0301DP030002E**](Acs5ProfilesValuesDP0301DP030002E.md) |  | 
 **dP030002PE** | [**Acs5ProfilesValuesDP0301DP030002PE**](Acs5ProfilesValuesDP0301DP030002PE.md) |  | 

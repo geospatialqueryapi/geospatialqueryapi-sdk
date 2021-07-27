@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0010PE | 
+**MDBName** | **string** | Female householder, no spouse/partner present (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0059E | 
+**MDBName** | **string** | Population 25 years and over | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

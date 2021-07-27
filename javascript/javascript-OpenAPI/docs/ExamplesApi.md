@@ -4,12 +4,12 @@ All URIs are relative to *http://localhost/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**getV1BoundariesRequestsUscountyIdGEOID**](ExamplesApi.md#getV1BoundariesRequestsUscountyIdGEOID) | **GET** /v1/boundaries/requests/uscounty/id/{GEOID} | Your GET endpoint
-[**getV1BoundariesRequestsUscousubIdGEOID**](ExamplesApi.md#getV1BoundariesRequestsUscousubIdGEOID) | **GET** /v1/boundaries/requests/uscousub/id/{GEOID} | Your GET endpoint
-[**getV1BoundariesRequestsUsplaceIdGEOID**](ExamplesApi.md#getV1BoundariesRequestsUsplaceIdGEOID) | **GET** /v1/boundaries/requests/usplace/id/{GEOID} | Your GET endpoint
-[**getV1BoundariesRequestsUsstate**](ExamplesApi.md#getV1BoundariesRequestsUsstate) | **GET** /v1/boundaries/requests/usstate | Your GET endpoint
-[**getV1BoundariesRequestsUstractIdGEOID**](ExamplesApi.md#getV1BoundariesRequestsUstractIdGEOID) | **GET** /v1/boundaries/requests/ustract/id/{GEOID} | Your GET endpoint
-[**getV1BoundariesRequestsZctaIdGEOID**](ExamplesApi.md#getV1BoundariesRequestsZctaIdGEOID) | **GET** /v1/boundaries/requests/uszcta/id/{GEOID} | Your GET endpoint
+[**getV1BoundariesRequestsUscountyIdGEOID**](ExamplesApi.md#getV1BoundariesRequestsUscountyIdGEOID) | **GET** /v1/boundaries/requests/uscounty/id/{GEOID} | v1-boundaries-requests-uscounty-id-GEOID
+[**getV1BoundariesRequestsUscousubIdGEOID**](ExamplesApi.md#getV1BoundariesRequestsUscousubIdGEOID) | **GET** /v1/boundaries/requests/uscousub/id/{GEOID} | v1-boundaries-requests-uscousub-id-GEOID
+[**getV1BoundariesRequestsUsplaceIdGEOID**](ExamplesApi.md#getV1BoundariesRequestsUsplaceIdGEOID) | **GET** /v1/boundaries/requests/usplace/id/{GEOID} | v1-boundaries-requests-usplace-id-GEOID
+[**getV1BoundariesRequestsUsstate**](ExamplesApi.md#getV1BoundariesRequestsUsstate) | **GET** /v1/boundaries/requests/usstate | v1-boundaries-requests-usstate
+[**getV1BoundariesRequestsUstractIdGEOID**](ExamplesApi.md#getV1BoundariesRequestsUstractIdGEOID) | **GET** /v1/boundaries/requests/ustract/id/{GEOID} | v1-boundaries-requests-ustract-id-GEOID
+[**getV1BoundariesRequestsZctaIdGEOID**](ExamplesApi.md#getV1BoundariesRequestsZctaIdGEOID) | **GET** /v1/boundaries/requests/uszcta/id/{GEOID} | v1-boundaries-requests-zcta-id-GEOID
 
 
 
@@ -17,7 +17,7 @@ Method | HTTP request | Description
 
 > InlineResponse2003 getV1BoundariesRequestsUscountyIdGEOID(GEOID)
 
-Your GET endpoint
+v1-boundaries-requests-uscounty-id-GEOID
 
 U.S. County by State GEOID.  Example: GEOID&#x3D;06 - Examples of requests for each county in CA, California.
 
@@ -62,7 +62,7 @@ No authorization required
 
 > InlineResponse2003 getV1BoundariesRequestsUscousubIdGEOID(GEOID)
 
-Your GET endpoint
+v1-boundaries-requests-uscousub-id-GEOID
 
 U.S. County by State GEOID.  Example: GEOID&#x3D;06 - Examples of requests for each county subdivision in CA, California.
 
@@ -107,7 +107,7 @@ No authorization required
 
 > InlineResponse2003 getV1BoundariesRequestsUsplaceIdGEOID(GEOID)
 
-Your GET endpoint
+v1-boundaries-requests-usplace-id-GEOID
 
 U.S. Places by State GEOID.  Example: GEOID&#x3D;06 - Examples of requests for each U.S. Place in CA, California.
 
@@ -152,7 +152,7 @@ No authorization required
 
 > InlineResponse2003 getV1BoundariesRequestsUsstate()
 
-Your GET endpoint
+v1-boundaries-requests-usstate
 
 Examples of requests for each state in U.S.A. 
 
@@ -193,7 +193,7 @@ No authorization required
 
 > InlineResponse2003 getV1BoundariesRequestsUstractIdGEOID(GEOID)
 
-Your GET endpoint
+v1-boundaries-requests-ustract-id-GEOID
 
 U.S. Census Tracts by U.S. County GEOID.  Example: GEOID&#x3D;06059 - Example of requests for each ustract in CA, California,  Orange County.
 
@@ -238,7 +238,7 @@ No authorization required
 
 > InlineResponse2003 getV1BoundariesRequestsZctaIdGEOID(GEOID)
 
-Your GET endpoint
+v1-boundaries-requests-zcta-id-GEOID
 
 U.S. ZCTA 5 by ZIP3.  Example: Example of requests for each ZIP code in ZIP3&#x3D;926.
 

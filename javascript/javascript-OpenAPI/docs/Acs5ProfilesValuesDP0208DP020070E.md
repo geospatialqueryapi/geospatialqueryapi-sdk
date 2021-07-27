@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP02_0070E | 
+**mDBName** | **String** | Civilian veterans | 
+**mDBValue** | **String** | Field value | 
 
 

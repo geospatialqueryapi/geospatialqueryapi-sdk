@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | MARITAL STATUS | 
+**MDBGroupCode** | **string** | DP0203 | 
 **DP020025E** | [**Acs5ProfilesValuesDP0203DP020025E**](Acs5ProfilesValuesDP0203DP020025E.md) |  | 
 **DP020025PE** | [**Acs5ProfilesValuesDP0203DP020025PE**](Acs5ProfilesValuesDP0203DP020025PE.md) |  | 
 **DP020031E** | [**Acs5ProfilesValuesDP0203DP020031E**](Acs5ProfilesValuesDP0203DP020031E.md) |  | 

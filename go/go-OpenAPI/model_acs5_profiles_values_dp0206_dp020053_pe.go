@@ -1,7 +1,7 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
  *
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * API version: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -15,10 +15,13 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0206DP020053PE struct for Acs5ProfilesValuesDP0206DP020053PE
+// Acs5ProfilesValuesDP0206DP020053PE SCHOOL ENROLLMENT: Population 3 years and over enrolled in school (percent)
 type Acs5ProfilesValuesDP0206DP020053PE struct {
+	// DP02_0053PE
 	MDBCode string `json:"MDBCode"`
+	// SCHOOL ENROLLMENT: Population 3 years and over enrolled in school (percent)
 	MDBName string `json:"MDBName"`
+	// Field value
 	MDBValue string `json:"MDBValue"`
 	AdditionalProperties map[string]interface{}
 }

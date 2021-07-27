@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP03_0025E | 
+**mDBName** | **String** | Mean travel time to work (minutes) | 
+**mDBValue** | **String** | Field value | 
 
 

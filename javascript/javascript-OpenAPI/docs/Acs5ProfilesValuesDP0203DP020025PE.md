@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP02_0025PE | 
+**mDBName** | **String** | Marital status: Males 15 years and over (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

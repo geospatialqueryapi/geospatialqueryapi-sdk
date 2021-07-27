@@ -4,18 +4,18 @@ All URIs are relative to *http://localhost/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**GetV1BoundariesUscountyIdGEOID**](DataApi.md#GetV1BoundariesUscountyIdGEOID) | **Get** /v1/boundaries/uscounty/id/{GEOID} | Your GET endpoint
-[**GetV1BoundariesUscountyLatLon**](DataApi.md#GetV1BoundariesUscountyLatLon) | **Get** /v1/boundaries/uscounty/latlon/{LatLon} | Your GET endpoint
-[**GetV1BoundariesUscousubIdGEOID**](DataApi.md#GetV1BoundariesUscousubIdGEOID) | **Get** /v1/boundaries/uscousub/id/{GEOID} | Your GET endpoint
-[**GetV1BoundariesUscousubLatLon**](DataApi.md#GetV1BoundariesUscousubLatLon) | **Get** /v1/boundaries/uscousub/latlon/{LatLon} | Your GET endpoint
-[**GetV1BoundariesUsplaceIdGEOID**](DataApi.md#GetV1BoundariesUsplaceIdGEOID) | **Get** /v1/boundaries/usplace/id/{GEOID} | Your GET endpoint
-[**GetV1BoundariesUsplaceLatLon**](DataApi.md#GetV1BoundariesUsplaceLatLon) | **Get** /v1/boundaries/usplace/latlon/{LatLon} | Your GET endpoint
-[**GetV1BoundariesUsstateIdGEOID**](DataApi.md#GetV1BoundariesUsstateIdGEOID) | **Get** /v1/boundaries/usstate/id/{GEOID} | Your GET endpoint
-[**GetV1BoundariesUsstateLatLon**](DataApi.md#GetV1BoundariesUsstateLatLon) | **Get** /v1/boundaries/usstate/latlon/{LatLon} | Your GET endpoint
-[**GetV1BoundariesUstractIdGEOID**](DataApi.md#GetV1BoundariesUstractIdGEOID) | **Get** /v1/boundaries/ustract/id/{GEOID} | Your GET endpoint
-[**GetV1BoundariesUstractLatLatLon**](DataApi.md#GetV1BoundariesUstractLatLatLon) | **Get** /v1/boundaries/ustract/latlon/{LatLon} | Your GET endpoint
-[**GetV1BoundariesUszctaIdGEOID**](DataApi.md#GetV1BoundariesUszctaIdGEOID) | **Get** /v1/boundaries/uszcta/id/{GEOID} | Your GET endpoint
-[**GetV1BoundariesUszctaLatLon**](DataApi.md#GetV1BoundariesUszctaLatLon) | **Get** /v1/boundaries/uszcta/latlon/{LatLon} | Your GET endpoint
+[**GetV1BoundariesUscountyIdGEOID**](DataApi.md#GetV1BoundariesUscountyIdGEOID) | **Get** /v1/boundaries/uscounty/id/{GEOID} | v1-boundaries-uscounty-id-GEOID
+[**GetV1BoundariesUscountyLatLon**](DataApi.md#GetV1BoundariesUscountyLatLon) | **Get** /v1/boundaries/uscounty/latlon/{LatLon} | v1-boundaries-uscounty-LatLon
+[**GetV1BoundariesUscousubIdGEOID**](DataApi.md#GetV1BoundariesUscousubIdGEOID) | **Get** /v1/boundaries/uscousub/id/{GEOID} | v1-boundaries-uscousub-id-GEOID
+[**GetV1BoundariesUscousubLatLon**](DataApi.md#GetV1BoundariesUscousubLatLon) | **Get** /v1/boundaries/uscousub/latlon/{LatLon} | v1-boundaries-uscousub-LatLon
+[**GetV1BoundariesUsplaceIdGEOID**](DataApi.md#GetV1BoundariesUsplaceIdGEOID) | **Get** /v1/boundaries/usplace/id/{GEOID} | v1-boundaries-usplace-id-GEOID
+[**GetV1BoundariesUsplaceLatLon**](DataApi.md#GetV1BoundariesUsplaceLatLon) | **Get** /v1/boundaries/usplace/latlon/{LatLon} | v1-boundaries-usplace-LatLon
+[**GetV1BoundariesUsstateIdGEOID**](DataApi.md#GetV1BoundariesUsstateIdGEOID) | **Get** /v1/boundaries/usstate/id/{GEOID} | v1-boundaries-usstate-id-GEOID
+[**GetV1BoundariesUsstateLatLon**](DataApi.md#GetV1BoundariesUsstateLatLon) | **Get** /v1/boundaries/usstate/latlon/{LatLon} | v1-boundaries-usstate-LatLon
+[**GetV1BoundariesUstractIdGEOID**](DataApi.md#GetV1BoundariesUstractIdGEOID) | **Get** /v1/boundaries/ustract/id/{GEOID} | v1-boundaries-ustract-id-GEOID
+[**GetV1BoundariesUstractLatLon**](DataApi.md#GetV1BoundariesUstractLatLon) | **Get** /v1/boundaries/ustract/latlon/{LatLon} | v1-boundaries-ustract-LatLon
+[**GetV1BoundariesUszctaIdGEOID**](DataApi.md#GetV1BoundariesUszctaIdGEOID) | **Get** /v1/boundaries/uszcta/id/{GEOID} | v1-boundaries-uszcta-id-GEOID
+[**GetV1BoundariesUszctaLatLon**](DataApi.md#GetV1BoundariesUszctaLatLon) | **Get** /v1/boundaries/uszcta/latlon/{LatLon} | v1-boundaries-uszcta-LatLon
 
 
 
@@ -23,7 +23,7 @@ Method | HTTP request | Description
 
 > FeatureGeoJSON GetV1BoundariesUscountyIdGEOID(ctx, gEOID).Execute()
 
-Your GET endpoint
+v1-boundaries-uscounty-id-GEOID
 
 
 
@@ -93,7 +93,7 @@ No authorization required
 
 > FeatureGeoJSON GetV1BoundariesUscountyLatLon(ctx, latLon).Execute()
 
-Your GET endpoint
+v1-boundaries-uscounty-LatLon
 
 
 
@@ -163,7 +163,7 @@ No authorization required
 
 > FeatureGeoJSON GetV1BoundariesUscousubIdGEOID(ctx, gEOID).Execute()
 
-Your GET endpoint
+v1-boundaries-uscousub-id-GEOID
 
 
 
@@ -233,7 +233,7 @@ No authorization required
 
 > FeatureGeoJSON GetV1BoundariesUscousubLatLon(ctx, latLon).Execute()
 
-Your GET endpoint
+v1-boundaries-uscousub-LatLon
 
 
 
@@ -303,7 +303,7 @@ No authorization required
 
 > FeatureGeoJSON GetV1BoundariesUsplaceIdGEOID(ctx, gEOID).Execute()
 
-Your GET endpoint
+v1-boundaries-usplace-id-GEOID
 
 
 
@@ -373,7 +373,7 @@ No authorization required
 
 > FeatureGeoJSON GetV1BoundariesUsplaceLatLon(ctx, latLon).Execute()
 
-Your GET endpoint
+v1-boundaries-usplace-LatLon
 
 
 
@@ -443,7 +443,7 @@ No authorization required
 
 > FeatureGeoJSON GetV1BoundariesUsstateIdGEOID(ctx, gEOID).Execute()
 
-Your GET endpoint
+v1-boundaries-usstate-id-GEOID
 
 
 
@@ -513,7 +513,7 @@ No authorization required
 
 > FeatureGeoJSON GetV1BoundariesUsstateLatLon(ctx, latLon).Execute()
 
-Your GET endpoint
+v1-boundaries-usstate-LatLon
 
 
 
@@ -583,7 +583,7 @@ No authorization required
 
 > FeatureGeoJSON GetV1BoundariesUstractIdGEOID(ctx, gEOID).Execute()
 
-Your GET endpoint
+v1-boundaries-ustract-id-GEOID
 
 
 
@@ -649,11 +649,11 @@ No authorization required
 [[Back to README]](../README.md)
 
 
-## GetV1BoundariesUstractLatLatLon
+## GetV1BoundariesUstractLatLon
 
-> FeatureGeoJSON GetV1BoundariesUstractLatLatLon(ctx, latLon).Execute()
+> FeatureGeoJSON GetV1BoundariesUstractLatLon(ctx, latLon).Execute()
 
-Your GET endpoint
+v1-boundaries-ustract-LatLon
 
 
 
@@ -674,13 +674,13 @@ func main() {
 
     configuration := openapiclient.NewConfiguration()
     api_client := openapiclient.NewAPIClient(configuration)
-    resp, r, err := api_client.DataApi.GetV1BoundariesUstractLatLatLon(context.Background(), latLon).Execute()
+    resp, r, err := api_client.DataApi.GetV1BoundariesUstractLatLon(context.Background(), latLon).Execute()
     if err != nil {
-        fmt.Fprintf(os.Stderr, "Error when calling `DataApi.GetV1BoundariesUstractLatLatLon``: %v\n", err)
+        fmt.Fprintf(os.Stderr, "Error when calling `DataApi.GetV1BoundariesUstractLatLon``: %v\n", err)
         fmt.Fprintf(os.Stderr, "Full HTTP response: %v\n", r)
     }
-    // response from `GetV1BoundariesUstractLatLatLon`: FeatureGeoJSON
-    fmt.Fprintf(os.Stdout, "Response from `DataApi.GetV1BoundariesUstractLatLatLon`: %v\n", resp)
+    // response from `GetV1BoundariesUstractLatLon`: FeatureGeoJSON
+    fmt.Fprintf(os.Stdout, "Response from `DataApi.GetV1BoundariesUstractLatLon`: %v\n", resp)
 }
 ```
 
@@ -694,7 +694,7 @@ Name | Type | Description  | Notes
 
 ### Other Parameters
 
-Other parameters are passed through a pointer to a apiGetV1BoundariesUstractLatLatLonRequest struct via the builder pattern
+Other parameters are passed through a pointer to a apiGetV1BoundariesUstractLatLonRequest struct via the builder pattern
 
 
 Name | Type | Description  | Notes
@@ -723,7 +723,7 @@ No authorization required
 
 > FeatureGeoJSON GetV1BoundariesUszctaIdGEOID(ctx, gEOID).Execute()
 
-Your GET endpoint
+v1-boundaries-uszcta-id-GEOID
 
 
 
@@ -793,7 +793,7 @@ No authorization required
 
 > FeatureGeoJSON GetV1BoundariesUszctaLatLon(ctx, latLon).Execute()
 
-Your GET endpoint
+v1-boundaries-uszcta-LatLon
 
 
 

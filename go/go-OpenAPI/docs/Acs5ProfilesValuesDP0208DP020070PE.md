@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0070PE | 
+**MDBName** | **string** | Civilian veterans (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

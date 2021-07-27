@@ -1,6 +1,6 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -26,7 +26,7 @@ public class OASExamplesApi {
     }
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-requests-uscounty-id-GEOID
      * U.S. County by State GEOID.\n\nExample:\nGEOID&#x3D;06 - Examples of requests for each county in CA, California.
      * @param GEOID local identifier of a feature (required)
      * @return OASInlineResponse2003
@@ -51,7 +51,7 @@ public class OASExamplesApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-requests-uscousub-id-GEOID
      * U.S. County by State GEOID.\n\nExample:\nGEOID&#x3D;06 - Examples of requests for each county subdivision in CA, California.
      * @param GEOID local identifier of a feature (required)
      * @return OASInlineResponse2003
@@ -76,7 +76,7 @@ public class OASExamplesApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-requests-usplace-id-GEOID
      * U.S. Places by State GEOID.\n\nExample:\nGEOID&#x3D;06 - Examples of requests for each U.S. Place in CA, California.
      * @param GEOID local identifier of a feature (required)
      * @return OASInlineResponse2003
@@ -101,7 +101,7 @@ public class OASExamplesApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-requests-usstate
      * Examples of requests for each state in U.S.A.\n
      * @return OASInlineResponse2003
      * @throws OAS.ApiException if fails to make API call
@@ -122,7 +122,7 @@ public class OASExamplesApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-requests-ustract-id-GEOID
      * U.S. Census Tracts by U.S. County GEOID.\n\nExample:\nGEOID&#x3D;06059 - Example of requests for each ustract in CA, California,  Orange County.
      * @param GEOID local identifier of a feature (required)
      * @return OASInlineResponse2003
@@ -147,7 +147,7 @@ public class OASExamplesApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-requests-zcta-id-GEOID
      * U.S. ZCTA 5 by ZIP3.\n\nExample:\nExample of requests for each ZIP code in ZIP3&#x3D;926.
      * @param GEOID local identifier of a feature (required)
      * @return OASInlineResponse2003

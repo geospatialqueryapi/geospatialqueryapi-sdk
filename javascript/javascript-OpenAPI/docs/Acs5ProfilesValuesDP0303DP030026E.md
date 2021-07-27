@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP03_0026E | 
+**mDBName** | **String** | Civilian employed population 16 years and over | 
+**mDBValue** | **String** | Field value | 
 
 

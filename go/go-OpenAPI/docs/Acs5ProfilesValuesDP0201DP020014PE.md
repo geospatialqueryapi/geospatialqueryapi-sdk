@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0014PE | 
+**MDBName** | **string** | Households with one or more people under 18 years (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

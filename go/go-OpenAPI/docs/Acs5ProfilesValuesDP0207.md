@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | EDUCATIONAL ATTAINMENT | 
+**MDBGroupCode** | **string** | DP0207 | 
 **DP020059E** | [**Acs5ProfilesValuesDP0207DP020059E**](Acs5ProfilesValuesDP0207DP020059E.md) |  | 
 **DP020059PE** | [**Acs5ProfilesValuesDP0207DP020059PE**](Acs5ProfilesValuesDP0207DP020059PE.md) |  | 
 **DP020062E** | [**Acs5ProfilesValuesDP0207DP020062E**](Acs5ProfilesValuesDP0207DP020062E.md) |  | 

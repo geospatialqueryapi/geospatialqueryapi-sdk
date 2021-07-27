@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0011PE | 
+**MDBName** | **string** | Female householder, no spouse/partner present: With own children of the householder under 18 years (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

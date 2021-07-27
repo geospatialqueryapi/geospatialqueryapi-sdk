@@ -1,6 +1,6 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -26,12 +26,12 @@ public class OASHelpApi {
     }
 
     /**
-     * Get ID search strings
+     * Help
      * Help for Geospatial Query API: US Census Boundaries and Census Data
      * @return OASInlineResponse2001
      * @throws OAS.ApiException if fails to make API call
      */
-    public OASInlineResponse2001 getHelp() {
+    public OASInlineResponse2001 help() {
         List<OAS.Param> query = new List<OAS.Param>();
         List<OAS.Param> form = new List<OAS.Param>();
 
@@ -52,7 +52,7 @@ public class OASHelpApi {
      * @return OASInlineResponse200
      * @throws OAS.ApiException if fails to make API call
      */
-    public OASInlineResponse200 getPing() {
+    public OASInlineResponse200 ping() {
         List<OAS.Param> query = new List<OAS.Param>();
         List<OAS.Param> form = new List<OAS.Param>();
 

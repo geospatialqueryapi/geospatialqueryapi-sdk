@@ -1,6 +1,6 @@
 /**
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -25,9 +25,10 @@ import Acs5ProfilesValuesDP0203DP020031PE from './Acs5ProfilesValuesDP0203DP0200
 class Acs5ProfilesValuesDP0203 {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0203</code>.
+     * MARITAL STATUS
      * @alias module:model/Acs5ProfilesValuesDP0203
-     * @param mDBGroupName {String} 
-     * @param mDBGroupCode {String} 
+     * @param mDBGroupName {String} MARITAL STATUS
+     * @param mDBGroupCode {String} DP0203
      * @param dP020025E {module:model/Acs5ProfilesValuesDP0203DP020025E} 
      * @param dP020025PE {module:model/Acs5ProfilesValuesDP0203DP020025PE} 
      * @param dP020031E {module:model/Acs5ProfilesValuesDP0203DP020031E} 
@@ -89,11 +90,13 @@ class Acs5ProfilesValuesDP0203 {
 }
 
 /**
+ * MARITAL STATUS
  * @member {String} MDBGroupName
  */
 Acs5ProfilesValuesDP0203.prototype['MDBGroupName'] = undefined;
 
 /**
+ * DP0203
  * @member {String} MDBGroupCode
  */
 Acs5ProfilesValuesDP0203.prototype['MDBGroupCode'] = undefined;

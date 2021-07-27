@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP02_0082E | 
+**mDBName** | **String** | Population 1 year and over: Different house in the U.S.: Same county | 
+**mDBValue** | **String** | Field value | 
 
 

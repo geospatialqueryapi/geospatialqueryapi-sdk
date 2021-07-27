@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0064PE | 
+**MDBName** | **string** | Population 25 years and over: Associate&#39;s degree (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

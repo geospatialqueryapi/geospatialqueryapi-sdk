@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0025E | 
+**MDBName** | **string** | Marital status: Males 15 years and over | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

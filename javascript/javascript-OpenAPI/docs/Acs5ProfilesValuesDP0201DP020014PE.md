@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP02_0014PE | 
+**mDBName** | **String** | Households with one or more people under 18 years (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP02_0008E | 
+**mDBName** | **String** | Male householder, no spouse/partner present: Householder living alone | 
+**mDBValue** | **String** | Field value | 
 
 

@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0009E | 
+**MDBName** | **string** | Male householder, no spouse/partner present: Householder living alone: 65 years and over | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

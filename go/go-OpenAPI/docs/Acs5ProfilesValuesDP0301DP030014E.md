@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0014E | 
+**MDBName** | **string** | EMPLOYMENT STATUS: Own children of the householder under 6 years | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

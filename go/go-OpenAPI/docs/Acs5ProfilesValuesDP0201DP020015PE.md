@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0015PE | 
+**MDBName** | **string** | Households with one or more people 65 years and over (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

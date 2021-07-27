@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP02_0006E | 
+**mDBName** | **String** | Male householder, no spouse/partner present | 
+**mDBValue** | **String** | Field value | 
 
 

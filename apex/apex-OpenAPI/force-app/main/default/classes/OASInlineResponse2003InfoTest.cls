@@ -81,10 +81,10 @@ private class OASInlineResponse2003InfoTest {
     @isTest
     private static void defaultValuesPopulated() {
         OASInlineResponse2003Info inlineResponse2003Info = new OASInlineResponse2003Info();
-        System.assertEquals(new List<OASInlineResponse2003InfoRequestsByG>(), inlineResponse2003Info.requestsByGeoid);
-        System.assertEquals(new List<OASInlineResponse2003InfoRequestsByG>(), inlineResponse2003Info.requestsByLatlon);
-        System.assertEquals(null, inlineResponse2003Info.count);
-        System.assertEquals(null, inlineResponse2003Info.description);
+        System.assertEquals(new List<Object>(), inlineResponse2003Info.requestsByGeoid);
+        System.assertEquals(new List<Object>(), inlineResponse2003Info.requestsByLatlon);
         System.assertEquals(null, inlineResponse2003Info.geographicLevel);
+        System.assertEquals(null, inlineResponse2003Info.description);
+        System.assertEquals(null, inlineResponse2003Info.count);
     }
 }

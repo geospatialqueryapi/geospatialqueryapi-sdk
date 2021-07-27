@@ -1,6 +1,6 @@
 /**
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -44,7 +44,7 @@ export default class ExamplesApi {
      */
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-requests-uscounty-id-GEOID
      * U.S. County by State GEOID.  Example: GEOID=06 - Examples of requests for each county in CA, California.
      * @param {String} GEOID local identifier of a feature
      * @param {module:api/ExamplesApi~getV1BoundariesRequestsUscountyIdGEOIDCallback} callback The callback function, accepting three arguments: error, data, response
@@ -87,7 +87,7 @@ export default class ExamplesApi {
      */
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-requests-uscousub-id-GEOID
      * U.S. County by State GEOID.  Example: GEOID=06 - Examples of requests for each county subdivision in CA, California.
      * @param {String} GEOID local identifier of a feature
      * @param {module:api/ExamplesApi~getV1BoundariesRequestsUscousubIdGEOIDCallback} callback The callback function, accepting three arguments: error, data, response
@@ -130,7 +130,7 @@ export default class ExamplesApi {
      */
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-requests-usplace-id-GEOID
      * U.S. Places by State GEOID.  Example: GEOID=06 - Examples of requests for each U.S. Place in CA, California.
      * @param {String} GEOID local identifier of a feature
      * @param {module:api/ExamplesApi~getV1BoundariesRequestsUsplaceIdGEOIDCallback} callback The callback function, accepting three arguments: error, data, response
@@ -173,7 +173,7 @@ export default class ExamplesApi {
      */
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-requests-usstate
      * Examples of requests for each state in U.S.A. 
      * @param {module:api/ExamplesApi~getV1BoundariesRequestsUsstateCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/InlineResponse2003}
@@ -210,7 +210,7 @@ export default class ExamplesApi {
      */
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-requests-ustract-id-GEOID
      * U.S. Census Tracts by U.S. County GEOID.  Example: GEOID=06059 - Example of requests for each ustract in CA, California,  Orange County.
      * @param {String} GEOID local identifier of a feature
      * @param {module:api/ExamplesApi~getV1BoundariesRequestsUstractIdGEOIDCallback} callback The callback function, accepting three arguments: error, data, response
@@ -253,7 +253,7 @@ export default class ExamplesApi {
      */
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-requests-zcta-id-GEOID
      * U.S. ZCTA 5 by ZIP3.  Example: Example of requests for each ZIP code in ZIP3=926.
      * @param {String} GEOID local identifier of a feature
      * @param {module:api/ExamplesApi~getV1BoundariesRequestsZctaIdGEOIDCallback} callback The callback function, accepting three arguments: error, data, response

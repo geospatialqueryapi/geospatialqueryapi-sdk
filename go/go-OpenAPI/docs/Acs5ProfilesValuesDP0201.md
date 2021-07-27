@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | HOUSEHOLDS BY TYPE | 
+**MDBGroupCode** | **string** | DP0201 | 
 **DP020001E** | [**Acs5ProfilesValuesDP0201DP020001E**](Acs5ProfilesValuesDP0201DP020001E.md) |  | 
 **DP020002E** | [**Acs5ProfilesValuesDP0201DP020002E**](Acs5ProfilesValuesDP0201DP020002E.md) |  | 
 **DP020002PE** | [**Acs5ProfilesValuesDP0201DP020002PE**](Acs5ProfilesValuesDP0201DP020002PE.md) |  | 

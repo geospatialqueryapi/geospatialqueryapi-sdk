@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0003E | 
+**MDBName** | **string** | Married-couple family: With own children | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

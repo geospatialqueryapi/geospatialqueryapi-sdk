@@ -72,7 +72,7 @@ private class OASInlineResponse2001ResponseArrayTest {
     @isTest
     private static void defaultValuesPopulated() {
         OASInlineResponse2001ResponseArray inlineResponse2001ResponseArray = new OASInlineResponse2001ResponseArray();
-        System.assertEquals(new List<OASInlineResponse2001ResponseArrayIt>(), inlineResponse2001ResponseArray.items);
+        System.assertEquals(new List<Object>(), inlineResponse2001ResponseArray.items);
         System.assertEquals(null, inlineResponse2001ResponseArray.db);
     }
 }

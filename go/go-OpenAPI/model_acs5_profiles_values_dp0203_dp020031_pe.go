@@ -1,7 +1,7 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
  *
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * API version: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -15,10 +15,13 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0203DP020031PE struct for Acs5ProfilesValuesDP0203DP020031PE
+// Acs5ProfilesValuesDP0203DP020031PE Marital status: Females 15 years and over (percent)
 type Acs5ProfilesValuesDP0203DP020031PE struct {
+	// DP02_0031PE
 	MDBCode string `json:"MDBCode"`
+	// Marital status: Females 15 years and over (percent)
 	MDBName string `json:"MDBName"`
+	// Field value
 	MDBValue string `json:"MDBValue"`
 	AdditionalProperties map[string]interface{}
 }

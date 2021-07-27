@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0053PE | 
+**MDBName** | **string** | SCHOOL ENROLLMENT: Population 3 years and over enrolled in school (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

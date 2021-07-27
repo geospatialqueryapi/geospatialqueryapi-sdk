@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP03_0009PE | 
+**mDBName** | **String** | Unemployment Rate (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

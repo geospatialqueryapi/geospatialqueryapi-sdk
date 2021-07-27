@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | SCHOOL ENROLLMENT | 
+**MDBGroupCode** | **string** | DP0206 | 
 **DP020053E** | [**Acs5ProfilesValuesDP0206DP020053E**](Acs5ProfilesValuesDP0206DP020053E.md) |  | 
 **DP020053PE** | [**Acs5ProfilesValuesDP0206DP020053PE**](Acs5ProfilesValuesDP0206DP020053PE.md) |  | 
 

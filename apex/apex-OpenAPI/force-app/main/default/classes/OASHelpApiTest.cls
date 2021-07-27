@@ -1,12 +1,12 @@
 @isTest
 private class OASHelpApiTest {
     /**
-     * Get ID search strings
+     * Help
      *
      * Help for Geospatial Query API: US Census Boundaries and Census Data
      */
     @isTest
-    private static void getNamesTest() {
+    private static void helpTest() {
         HttpResponse res = new HttpResponse();
         res.setStatusCode(200);
         res.setStatus('OK');
@@ -24,7 +24,7 @@ private class OASHelpApiTest {
         res.setHeader('Content-Type', 'application/json');
         res.setBody(js);
         expectedResponse = OASInlineResponse2001.getExample();
-        response = (OASInlineResponse2001) api.getNames();
+        response = (OASInlineResponse2001) api.help();
         System.assertEquals(expectedResponse, response);
     }
 
@@ -34,7 +34,7 @@ private class OASHelpApiTest {
      * Ping test.
      */
     @isTest
-    private static void getPingTest() {
+    private static void pingTest() {
         HttpResponse res = new HttpResponse();
         res.setStatusCode(200);
         res.setStatus('OK');
@@ -52,7 +52,7 @@ private class OASHelpApiTest {
         res.setHeader('Content-Type', 'application/json');
         res.setBody(js);
         expectedResponse = OASInlineResponse200.getExample();
-        response = (OASInlineResponse200) api.getPing();
+        response = (OASInlineResponse200) api.ping();
         System.assertEquals(expectedResponse, response);
     }
 }

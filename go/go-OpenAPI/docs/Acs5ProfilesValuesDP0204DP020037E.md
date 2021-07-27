@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0037E | 
+**MDBName** | **string** | Number of women 15 to 50 years old who had a birth in the past 12 months | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

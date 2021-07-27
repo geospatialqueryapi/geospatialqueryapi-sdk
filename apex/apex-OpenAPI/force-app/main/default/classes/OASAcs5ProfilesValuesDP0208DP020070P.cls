@@ -1,6 +1,6 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0208DP020070P
+ * Civilian veterans (percent)
  */
 public class OASAcs5ProfilesValuesDP0208DP020070P implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP02_0070PE
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Civilian veterans (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }
@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0208DP020070P implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0208DP020070P getExample() {
         OASAcs5ProfilesValuesDP0208DP020070P acs5ProfilesValuesDP0208DP020070PE = new OASAcs5ProfilesValuesDP0208DP020070P();
           acs5ProfilesValuesDP0208DP020070PE.mdBCode = 'DP02_0070PE';
-          acs5ProfilesValuesDP0208DP020070PE.mdBName = 'Civilian veterans (percent) ';
+          acs5ProfilesValuesDP0208DP020070PE.mdBName = 'Civilian veterans (percent)';
           acs5ProfilesValuesDP0208DP020070PE.mdBValue = '8.8';
         return acs5ProfilesValuesDP0208DP020070PE;
     }

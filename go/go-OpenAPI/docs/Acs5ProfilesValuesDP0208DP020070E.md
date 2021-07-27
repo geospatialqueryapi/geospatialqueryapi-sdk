@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0070E | 
+**MDBName** | **string** | Civilian veterans | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

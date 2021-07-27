@@ -1,6 +1,6 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0204DP020040E
+ * Number of women 15 to 50 years old who had a birth in the past 12 months: Per 1,000 women 15 to 50 years old
  */
 public class OASAcs5ProfilesValuesDP0204DP020040E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP02_0040E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Number of women 15 to 50 years old who had a birth in the past 12 months: Per 1,000 women 15 to 50 years old
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

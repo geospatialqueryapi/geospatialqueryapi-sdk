@@ -1,7 +1,7 @@
 {
   "name": "geo_spatial_query_api_us_census_boundaries_and_census_data",
   "version": "1.0.0",
-  "description": "Geospatial_Query_API_US_Census_Boundaries_and_Census_Data",
+  "description": "Geospatial_Query_API_US_Census_Boundaries_and_Census_Data__doc_html",
   "license": "Unlicense",
   "main": "dist/index.js",
   "scripts": {

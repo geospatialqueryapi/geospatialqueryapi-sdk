@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP02_0070PE | 
+**mDBName** | **String** | Civilian veterans (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

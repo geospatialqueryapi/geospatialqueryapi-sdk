@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP02_0031E | 
+**mDBName** | **String** | Marital status: Females 15 years and over | 
+**mDBValue** | **String** | Field value | 
 
 

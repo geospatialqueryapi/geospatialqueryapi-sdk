@@ -1,6 +1,6 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -26,7 +26,7 @@ public class OASCountApi {
     }
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-count-uscounties
      * Count the number of U.S. Counties.
      * @return OASInlineResponse2002
      * @throws OAS.ApiException if fails to make API call
@@ -47,7 +47,7 @@ public class OASCountApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-count-uscousubs
      * Count the number of U.S. County Subdivisions.
      * @return OASInlineResponse2002
      * @throws OAS.ApiException if fails to make API call
@@ -68,7 +68,7 @@ public class OASCountApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-count-usplaces
      * Count the number of U.S. Places.
      * @return OASInlineResponse2002
      * @throws OAS.ApiException if fails to make API call
@@ -89,7 +89,7 @@ public class OASCountApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-count-usstates
      * Count the number of U.S. States and Territories.
      * @return OASInlineResponse2002
      * @throws OAS.ApiException if fails to make API call
@@ -110,7 +110,7 @@ public class OASCountApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-count-ustracts
      * Count the number of U.S. Census Tracts.
      * @return OASInlineResponse2002
      * @throws OAS.ApiException if fails to make API call
@@ -131,7 +131,7 @@ public class OASCountApi {
         );
     }
     /**
-     * Your GET endpoint
+     * get-v1-boundaries-count-uszctas
      * Count the number of U.S. ZCTA5.
      * @return OASInlineResponse2002
      * @throws OAS.ApiException if fails to make API call

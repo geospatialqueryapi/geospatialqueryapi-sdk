@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP03_0018E | 
+**mDBName** | **String** | COMMUTING TO WORK: Workers 16 years and over | 
+**mDBValue** | **String** | Field value | 
 
 

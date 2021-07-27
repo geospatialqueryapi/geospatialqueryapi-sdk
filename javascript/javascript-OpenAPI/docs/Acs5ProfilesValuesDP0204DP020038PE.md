@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP02_0038PE | 
+**mDBName** | **String** | Unmarried women (widowed, divorced, and never married) (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

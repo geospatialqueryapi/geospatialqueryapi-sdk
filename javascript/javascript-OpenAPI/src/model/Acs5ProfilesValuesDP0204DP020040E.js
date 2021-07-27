@@ -1,6 +1,6 @@
 /**
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -21,10 +21,11 @@ import ApiClient from '../ApiClient';
 class Acs5ProfilesValuesDP0204DP020040E {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0204DP020040E</code>.
+     * Number of women 15 to 50 years old who had a birth in the past 12 months: Per 1,000 women 15 to 50 years old
      * @alias module:model/Acs5ProfilesValuesDP0204DP020040E
-     * @param mDBCode {String} 
-     * @param mDBName {String} 
-     * @param mDBValue {String} 
+     * @param mDBCode {String} DP02_0040E
+     * @param mDBName {String} Number of women 15 to 50 years old who had a birth in the past 12 months: Per 1,000 women 15 to 50 years old
+     * @param mDBValue {String} Field value
      */
     constructor(mDBCode, mDBName, mDBValue) { 
         
@@ -70,16 +71,19 @@ class Acs5ProfilesValuesDP0204DP020040E {
 }
 
 /**
+ * DP02_0040E
  * @member {String} MDBCode
  */
 Acs5ProfilesValuesDP0204DP020040E.prototype['MDBCode'] = undefined;
 
 /**
+ * Number of women 15 to 50 years old who had a birth in the past 12 months: Per 1,000 women 15 to 50 years old
  * @member {String} MDBName
  */
 Acs5ProfilesValuesDP0204DP020040E.prototype['MDBName'] = undefined;
 
 /**
+ * Field value
  * @member {String} MDBValue
  */
 Acs5ProfilesValuesDP0204DP020040E.prototype['MDBValue'] = undefined;

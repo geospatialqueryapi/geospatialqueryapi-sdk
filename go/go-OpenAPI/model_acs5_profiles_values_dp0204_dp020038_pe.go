@@ -1,7 +1,7 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
  *
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * API version: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -15,10 +15,13 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0204DP020038PE struct for Acs5ProfilesValuesDP0204DP020038PE
+// Acs5ProfilesValuesDP0204DP020038PE Unmarried women (widowed, divorced, and never married) (percent)
 type Acs5ProfilesValuesDP0204DP020038PE struct {
+	// DP02_0038PE
 	MDBCode string `json:"MDBCode"`
+	// Unmarried women (widowed, divorced, and never married) (percent)
 	MDBName string `json:"MDBName"`
+	// Field value
 	MDBValue string `json:"MDBValue"`
 	AdditionalProperties map[string]interface{}
 }

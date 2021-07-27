@@ -1,7 +1,7 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
  *
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * API version: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -40,7 +40,7 @@ func (r ApiGetV1BoundariesRequestsUscountyIdGEOIDRequest) Execute() (InlineRespo
 }
 
 /*
- * GetV1BoundariesRequestsUscountyIdGEOID Your GET endpoint
+ * GetV1BoundariesRequestsUscountyIdGEOID v1-boundaries-requests-uscounty-id-GEOID
  * U.S. County by State GEOID.
 
 Example:
@@ -158,7 +158,7 @@ func (r ApiGetV1BoundariesRequestsUscousubIdGEOIDRequest) Execute() (InlineRespo
 }
 
 /*
- * GetV1BoundariesRequestsUscousubIdGEOID Your GET endpoint
+ * GetV1BoundariesRequestsUscousubIdGEOID v1-boundaries-requests-uscousub-id-GEOID
  * U.S. County by State GEOID.
 
 Example:
@@ -276,7 +276,7 @@ func (r ApiGetV1BoundariesRequestsUsplaceIdGEOIDRequest) Execute() (InlineRespon
 }
 
 /*
- * GetV1BoundariesRequestsUsplaceIdGEOID Your GET endpoint
+ * GetV1BoundariesRequestsUsplaceIdGEOID v1-boundaries-requests-usplace-id-GEOID
  * U.S. Places by State GEOID.
 
 Example:
@@ -393,7 +393,7 @@ func (r ApiGetV1BoundariesRequestsUsstateRequest) Execute() (InlineResponse2003,
 }
 
 /*
- * GetV1BoundariesRequestsUsstate Your GET endpoint
+ * GetV1BoundariesRequestsUsstate v1-boundaries-requests-usstate
  * Examples of requests for each state in U.S.A.
 
  * @param ctx _context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
@@ -506,7 +506,7 @@ func (r ApiGetV1BoundariesRequestsUstractIdGEOIDRequest) Execute() (InlineRespon
 }
 
 /*
- * GetV1BoundariesRequestsUstractIdGEOID Your GET endpoint
+ * GetV1BoundariesRequestsUstractIdGEOID v1-boundaries-requests-ustract-id-GEOID
  * U.S. Census Tracts by U.S. County GEOID.
 
 Example:
@@ -624,7 +624,7 @@ func (r ApiGetV1BoundariesRequestsZctaIdGEOIDRequest) Execute() (InlineResponse2
 }
 
 /*
- * GetV1BoundariesRequestsZctaIdGEOID Your GET endpoint
+ * GetV1BoundariesRequestsZctaIdGEOID v1-boundaries-requests-zcta-id-GEOID
  * U.S. ZCTA 5 by ZIP3.
 
 Example:

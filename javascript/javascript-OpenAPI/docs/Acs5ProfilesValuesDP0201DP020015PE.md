@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP02_0015PE | 
+**mDBName** | **String** | Households with one or more people 65 years and over (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

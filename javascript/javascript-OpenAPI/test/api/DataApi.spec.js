@@ -1,6 +1,6 @@
 /**
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -138,10 +138,10 @@
         done();
       });
     });
-    describe('getV1BoundariesUstractLatLatLon', function() {
-      it('should call getV1BoundariesUstractLatLatLon successfully', function(done) {
-        //uncomment below and update the code to test getV1BoundariesUstractLatLatLon
-        //instance.getV1BoundariesUstractLatLatLon(function(error) {
+    describe('getV1BoundariesUstractLatLon', function() {
+      it('should call getV1BoundariesUstractLatLon successfully', function(done) {
+        //uncomment below and update the code to test getV1BoundariesUstractLatLon
+        //instance.getV1BoundariesUstractLatLon(function(error) {
         //  if (error) throw error;
         //expect().to.be();
         //});

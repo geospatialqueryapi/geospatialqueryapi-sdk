@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0008E | 
+**MDBName** | **string** | Civilian labor force | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

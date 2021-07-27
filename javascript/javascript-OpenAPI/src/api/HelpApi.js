@@ -1,6 +1,6 @@
 /**
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -36,20 +36,20 @@ export default class HelpApi {
 
 
     /**
-     * Callback function to receive the result of the getHelp operation.
-     * @callback module:api/HelpApi~getHelpCallback
+     * Callback function to receive the result of the help operation.
+     * @callback module:api/HelpApi~helpCallback
      * @param {String} error Error message, if any.
      * @param {module:model/InlineResponse2001} data The data returned by the service call.
      * @param {String} response The complete HTTP response.
      */
 
     /**
-     * Get ID search strings
+     * Help
      * Help for Geospatial Query API: US Census Boundaries and Census Data
-     * @param {module:api/HelpApi~getHelpCallback} callback The callback function, accepting three arguments: error, data, response
+     * @param {module:api/HelpApi~helpCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/InlineResponse2001}
      */
-    getHelp(callback) {
+    help(callback) {
       let postBody = null;
 
       let pathParams = {
@@ -73,8 +73,8 @@ export default class HelpApi {
     }
 
     /**
-     * Callback function to receive the result of the getPing operation.
-     * @callback module:api/HelpApi~getPingCallback
+     * Callback function to receive the result of the ping operation.
+     * @callback module:api/HelpApi~pingCallback
      * @param {String} error Error message, if any.
      * @param {module:model/InlineResponse200} data The data returned by the service call.
      * @param {String} response The complete HTTP response.
@@ -83,10 +83,10 @@ export default class HelpApi {
     /**
      * Ping test.
      * Ping test.
-     * @param {module:api/HelpApi~getPingCallback} callback The callback function, accepting three arguments: error, data, response
+     * @param {module:api/HelpApi~pingCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/InlineResponse200}
      */
-    getPing(callback) {
+    ping(callback) {
       let postBody = null;
 
       let pathParams = {

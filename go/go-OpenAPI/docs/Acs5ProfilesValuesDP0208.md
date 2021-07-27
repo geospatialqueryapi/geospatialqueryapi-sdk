@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | VETERAN STATUS | 
+**MDBGroupCode** | **string** | DP0208 | 
 **DP020069E** | [**Acs5ProfilesValuesDP0208DP020069E**](Acs5ProfilesValuesDP0208DP020069E.md) |  | 
 **DP020069PE** | [**Acs5ProfilesValuesDP0208DP020069PE**](Acs5ProfilesValuesDP0208DP020069PE.md) |  | 
 **DP020070E** | [**Acs5ProfilesValuesDP0208DP020070E**](Acs5ProfilesValuesDP0208DP020070E.md) |  | 

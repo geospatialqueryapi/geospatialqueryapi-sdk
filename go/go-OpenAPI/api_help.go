@@ -1,7 +1,7 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
  *
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * API version: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -27,24 +27,24 @@ var (
 // HelpApiService HelpApi service
 type HelpApiService service
 
-type ApiGetHelpRequest struct {
+type ApiHelpRequest struct {
 	ctx _context.Context
 	ApiService *HelpApiService
 }
 
 
-func (r ApiGetHelpRequest) Execute() (InlineResponse2001, *_nethttp.Response, error) {
-	return r.ApiService.GetHelpExecute(r)
+func (r ApiHelpRequest) Execute() (InlineResponse2001, *_nethttp.Response, error) {
+	return r.ApiService.HelpExecute(r)
 }
 
 /*
- * GetHelp Get ID search strings
+ * Help Help
  * Help for Geospatial Query API: US Census Boundaries and Census Data
  * @param ctx _context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
- * @return ApiGetHelpRequest
+ * @return ApiHelpRequest
  */
-func (a *HelpApiService) GetHelp(ctx _context.Context) ApiGetHelpRequest {
-	return ApiGetHelpRequest{
+func (a *HelpApiService) Help(ctx _context.Context) ApiHelpRequest {
+	return ApiHelpRequest{
 		ApiService: a,
 		ctx: ctx,
 	}
@@ -54,7 +54,7 @@ func (a *HelpApiService) GetHelp(ctx _context.Context) ApiGetHelpRequest {
  * Execute executes the request
  * @return InlineResponse2001
  */
-func (a *HelpApiService) GetHelpExecute(r ApiGetHelpRequest) (InlineResponse2001, *_nethttp.Response, error) {
+func (a *HelpApiService) HelpExecute(r ApiHelpRequest) (InlineResponse2001, *_nethttp.Response, error) {
 	var (
 		localVarHTTPMethod   = _nethttp.MethodGet
 		localVarPostBody     interface{}
@@ -64,7 +64,7 @@ func (a *HelpApiService) GetHelpExecute(r ApiGetHelpRequest) (InlineResponse2001
 		localVarReturnValue  InlineResponse2001
 	)
 
-	localBasePath, err := a.client.cfg.ServerURLWithContext(r.ctx, "HelpApiService.GetHelp")
+	localBasePath, err := a.client.cfg.ServerURLWithContext(r.ctx, "HelpApiService.Help")
 	if err != nil {
 		return localVarReturnValue, nil, GenericOpenAPIError{error: err.Error()}
 	}
@@ -129,24 +129,24 @@ func (a *HelpApiService) GetHelpExecute(r ApiGetHelpRequest) (InlineResponse2001
 	return localVarReturnValue, localVarHTTPResponse, nil
 }
 
-type ApiGetPingRequest struct {
+type ApiPingRequest struct {
 	ctx _context.Context
 	ApiService *HelpApiService
 }
 
 
-func (r ApiGetPingRequest) Execute() (InlineResponse200, *_nethttp.Response, error) {
-	return r.ApiService.GetPingExecute(r)
+func (r ApiPingRequest) Execute() (InlineResponse200, *_nethttp.Response, error) {
+	return r.ApiService.PingExecute(r)
 }
 
 /*
- * GetPing Ping test.
+ * Ping Ping test.
  * Ping test.
  * @param ctx _context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
- * @return ApiGetPingRequest
+ * @return ApiPingRequest
  */
-func (a *HelpApiService) GetPing(ctx _context.Context) ApiGetPingRequest {
-	return ApiGetPingRequest{
+func (a *HelpApiService) Ping(ctx _context.Context) ApiPingRequest {
+	return ApiPingRequest{
 		ApiService: a,
 		ctx: ctx,
 	}
@@ -156,7 +156,7 @@ func (a *HelpApiService) GetPing(ctx _context.Context) ApiGetPingRequest {
  * Execute executes the request
  * @return InlineResponse200
  */
-func (a *HelpApiService) GetPingExecute(r ApiGetPingRequest) (InlineResponse200, *_nethttp.Response, error) {
+func (a *HelpApiService) PingExecute(r ApiPingRequest) (InlineResponse200, *_nethttp.Response, error) {
 	var (
 		localVarHTTPMethod   = _nethttp.MethodGet
 		localVarPostBody     interface{}
@@ -166,7 +166,7 @@ func (a *HelpApiService) GetPingExecute(r ApiGetPingRequest) (InlineResponse200,
 		localVarReturnValue  InlineResponse200
 	)
 
-	localBasePath, err := a.client.cfg.ServerURLWithContext(r.ctx, "HelpApiService.GetPing")
+	localBasePath, err := a.client.cfg.ServerURLWithContext(r.ctx, "HelpApiService.Ping")
 	if err != nil {
 		return localVarReturnValue, nil, GenericOpenAPIError{error: err.Error()}
 	}

@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBGroupName** | **String** |  | 
-**mDBGroupCode** | **String** |  | 
+**mDBGroupName** | **String** | FERTILITY | 
+**mDBGroupCode** | **String** | DP0204 | 
 **dP020037E** | [**Acs5ProfilesValuesDP0204DP020037E**](Acs5ProfilesValuesDP0204DP020037E.md) |  | 
 **dP020037PE** | [**Acs5ProfilesValuesDP0204DP020037PE**](Acs5ProfilesValuesDP0204DP020037PE.md) |  | 
 **dP020038E** | [**Acs5ProfilesValuesDP0204DP020038E**](Acs5ProfilesValuesDP0204DP020038E.md) |  | 

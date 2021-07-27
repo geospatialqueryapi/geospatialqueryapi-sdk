@@ -4,7 +4,7 @@ info:
     email: mobiledatabooks@mobiledatabooks.com
     name: Mobile Data Books, LLC
     url: https://geospatialquery.com
-  description: 'Geospatial Query API: US Census Boundaries and Census Data'
+  description: 'Geospatial Query API: US Census Boundaries and Census Data /doc.html'
   title: Geo Spatial Query Api - US Census Boundaries and Census Data
   version: 1.0.0
 servers:
@@ -22,7 +22,7 @@ paths:
   /hi:
     get:
       description: Ping test.
-      operationId: get-ping
+      operationId: ping
       responses:
         "200":
           content:
@@ -37,7 +37,7 @@ paths:
     get:
       description: 'Help for Geospatial Query API: US Census Boundaries and Census
         Data'
-      operationId: get-help
+      operationId: help
       responses:
         "200":
           content:
@@ -45,7 +45,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_200_1'
           description: OK
-      summary: Get ID search strings
+      summary: Help
       tags:
       - Help
   /v1/boundaries/count/usstates:
@@ -65,7 +65,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-count-usstates
       tags:
       - Count
   /v1/boundaries/count/uscounties:
@@ -85,7 +85,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-count-uscounties
       tags:
       - Count
   /v1/boundaries/count/ustracts:
@@ -105,7 +105,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-count-ustracts
       tags:
       - Count
   /v1/boundaries/count/uscousubs:
@@ -125,7 +125,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-count-uscousubs
       tags:
       - Count
   /v1/boundaries/count/usplaces:
@@ -145,7 +145,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-count-usplaces
       tags:
       - Count
   /v1/boundaries/count/uszctas:
@@ -165,7 +165,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: get-v1-boundaries-count-uszctas
       tags:
       - Count
   /v1/boundaries/requests/usstate:
@@ -186,7 +186,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-requests-usstate
       tags:
       - Examples
   /v1/boundaries/requests/uscounty/id/{GEOID}:
@@ -219,7 +219,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-requests-uscounty-id-GEOID
       tags:
       - Examples
   /v1/boundaries/requests/uscousub/id/{GEOID}:
@@ -252,7 +252,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-requests-uscousub-id-GEOID
       tags:
       - Examples
   /v1/boundaries/requests/ustract/id/{GEOID}:
@@ -285,7 +285,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-requests-ustract-id-GEOID
       tags:
       - Examples
   /v1/boundaries/requests/usplace/id/{GEOID}:
@@ -318,7 +318,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-requests-usplace-id-GEOID
       tags:
       - Examples
   /v1/boundaries/requests/uszcta/id/{GEOID}:
@@ -351,7 +351,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-requests-zcta-id-GEOID
       tags:
       - Examples
   /v1/boundaries/usstate/id/{GEOID}:
@@ -385,7 +385,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-usstate-id-GEOID
       tags:
       - Data
   /v1/boundaries/usstate/latlon/{LatLon}:
@@ -420,7 +420,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-usstate-LatLon
       tags:
       - Data
   /v1/boundaries/uscounty/id/{GEOID}:
@@ -454,7 +454,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-uscounty-id-GEOID
       tags:
       - Data
   /v1/boundaries/uscounty/latlon/{LatLon}:
@@ -490,7 +490,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-uscounty-LatLon
       tags:
       - Data
   /v1/boundaries/uscousub/id/{GEOID}:
@@ -524,7 +524,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-uscousub-id-GEOID
       tags:
       - Data
   /v1/boundaries/uscousub/latlon/{LatLon}:
@@ -559,7 +559,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-uscousub-LatLon
       tags:
       - Data
   /v1/boundaries/usplace/id/{GEOID}:
@@ -593,7 +593,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-usplace-id-GEOID
       tags:
       - Data
   /v1/boundaries/usplace/latlon/{LatLon}:
@@ -628,7 +628,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-usplace-LatLon
       tags:
       - Data
   /v1/boundaries/ustract/id/{GEOID}:
@@ -662,7 +662,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-ustract-id-GEOID
       tags:
       - Data
   /v1/boundaries/ustract/latlon/{LatLon}:
@@ -671,7 +671,7 @@ paths:
         LatLon=33.5354639,-117.7720695\n\nNote: valid delimiters: | or ,\n\nCA, California,\
         \ Orange County, Census Tract 9901\n\nPlease look at: \n\n/properties/info/TimeToRun\n\
         \nto get the actial time to run.\n"
-      operationId: get-v1-boundaries-ustract-lat-LatLon
+      operationId: get-v1-boundaries-ustract-LatLon
       parameters:
       - description: local identifier of a feature
         explode: false
@@ -697,7 +697,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-ustract-LatLon
       tags:
       - Data
   /v1/boundaries/uszcta/id/{GEOID}:
@@ -731,7 +731,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-uszcta-id-GEOID
       tags:
       - Data
   /v1/boundaries/uszcta/latlon/{LatLon}:
@@ -766,7 +766,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/inline_response_400'
           description: Example response
-      summary: Your GET endpoint
+      summary: v1-boundaries-uszcta-LatLon
       tags:
       - Data
 components:
@@ -1097,7 +1097,7 @@ components:
                   MDBValue: "3766571"
                 DP020070PE:
                   MDBCode: DP02_0070PE
-                  MDBName: 'Civilian veterans (percent) '
+                  MDBName: Civilian veterans (percent)
                   MDBValue: "8.8"
                 DP020069PE:
                   MDBCode: DP02_0069PE
@@ -1894,7 +1894,7 @@ components:
                   MDBValue: "24.9"
                 DP030024E:
                   MDBCode: DP03_0024E
-                  MDBName: 'Worked from home '
+                  MDBName: Worked from home
                   MDBValue: "69165"
               DP0401:
                 MDBGroupCode: DP0401
@@ -1965,7 +1965,7 @@ components:
                   MDBValue: "2041967"
                 DP030008PE:
                   MDBCode: DP03_0008PE
-                  MDBName: Civilian labor force (percent)
+                  MDBName: Civilian labor force (percent
                   MDBValue: "2229479"
                 DP030009PE:
                   MDBCode: DP03_0009PE
@@ -2483,7 +2483,7 @@ components:
               MDBValue: "3766571"
             DP020070PE:
               MDBCode: DP02_0070PE
-              MDBName: 'Civilian veterans (percent) '
+              MDBName: Civilian veterans (percent)
               MDBValue: "8.8"
             DP020069PE:
               MDBCode: DP02_0069PE
@@ -3275,7 +3275,7 @@ components:
               MDBValue: "24.9"
             DP030024E:
               MDBCode: DP03_0024E
-              MDBName: 'Worked from home '
+              MDBName: Worked from home
               MDBValue: "69165"
           DP0401:
             MDBGroupCode: DP0401
@@ -3346,7 +3346,7 @@ components:
               MDBValue: "2041967"
             DP030008PE:
               MDBCode: DP03_0008PE
-              MDBName: Civilian labor force (percent)
+              MDBName: Civilian labor force (percent
               MDBValue: "2229479"
             DP030009PE:
               MDBCode: DP03_0009PE
@@ -4390,7 +4390,7 @@ components:
                 MDBValue: "3766571"
               DP020070PE:
                 MDBCode: DP02_0070PE
-                MDBName: 'Civilian veterans (percent) '
+                MDBName: Civilian veterans (percent)
                 MDBValue: "8.8"
               DP020069PE:
                 MDBCode: DP02_0069PE
@@ -5182,7 +5182,7 @@ components:
                 MDBValue: "24.9"
               DP030024E:
                 MDBCode: DP03_0024E
-                MDBName: 'Worked from home '
+                MDBName: Worked from home
                 MDBValue: "69165"
             DP0401:
               MDBGroupCode: DP0401
@@ -5253,7 +5253,7 @@ components:
                 MDBValue: "2041967"
               DP030008PE:
                 MDBCode: DP03_0008PE
-                MDBName: Civilian labor force (percent)
+                MDBName: Civilian labor force (percent
                 MDBValue: "2229479"
               DP030009PE:
                 MDBCode: DP03_0009PE
@@ -5536,6 +5536,7 @@ components:
       - info
       type: object
     acs5Profiles_Values_DP0201_DP020001E:
+      description: Total households
       example:
         MDBCode: DP02_0001E
         MDBName: Total households
@@ -5543,12 +5544,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0001E
           example: DP02_0001E
           type: string
         MDBName:
+          description: Total households
           example: Total households
           type: string
         MDBValue:
+          description: Field value
           example: "1867893"
           type: string
       required:
@@ -5557,6 +5561,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020002E:
+      description: Married-couple family
       example:
         MDBCode: DP02_0002E
         MDBName: Married-couple family
@@ -5564,12 +5569,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0002E
           example: DP02_0002E
           type: string
         MDBName:
+          description: Married-couple family
           example: Married-couple family
           type: string
         MDBValue:
+          description: Field value
           example: "883521"
           type: string
       required:
@@ -5578,6 +5586,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020002PE:
+      description: Married-couple family (percent)
       example:
         MDBCode: DP02_0002PE
         MDBName: Married-couple family (percent)
@@ -5585,12 +5594,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0002PE
           example: DP02_0002PE
           type: string
         MDBName:
+          description: Married-couple family (percent)
           example: Married-couple family (percent)
           type: string
         MDBValue:
+          description: Field value
           example: "47.3"
           type: string
       required:
@@ -5599,6 +5611,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020003E:
+      description: 'Married-couple family: With own children'
       example:
         MDBCode: DP02_0003E
         MDBName: 'Married-couple family: With own children of the householder under
@@ -5607,13 +5620,16 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0003E
           example: DP02_0003E
           type: string
         MDBName:
+          description: 'Married-couple family: With own children'
           example: 'Married-couple family: With own children of the householder under
             18 years'
           type: string
         MDBValue:
+          description: Field value
           example: "313139"
           type: string
       required:
@@ -5622,6 +5638,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020003PE:
+      description: 'Married-couple family: With own children of the householder under
+        18 years (percent)'
       example:
         MDBCode: DP02_0003PE
         MDBName: 'Married-couple family: With own children of the householder under
@@ -5630,13 +5648,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0003PE
           example: DP02_0003PE
           type: string
         MDBName:
+          description: 'Married-couple family: With own children of the householder
+            under 18 years (percent)'
           example: 'Married-couple family: With own children of the householder under
             18 years (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "16.8"
           type: string
       required:
@@ -5645,6 +5667,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020006E:
+      description: Male householder, no spouse/partner present
       example:
         MDBCode: DP02_0006E
         MDBName: Male householder, no spouse/partner present
@@ -5652,12 +5675,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0006E
           example: DP02_0006E
           type: string
         MDBName:
+          description: Male householder, no spouse/partner present
           example: Male householder, no spouse/partner present
           type: string
         MDBValue:
+          description: Field value
           example: "331361"
           type: string
       required:
@@ -5666,6 +5692,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020006PE:
+      description: Male householder, no spouse/partner present (percent)
       example:
         MDBCode: DP02_0006PE
         MDBName: Male householder, no spouse/partner present (percent)
@@ -5673,12 +5700,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0006PE
           example: DP02_0006PE
           type: string
         MDBName:
+          description: Male householder, no spouse/partner present (percent)
           example: Male householder, no spouse/partner present (percent)
           type: string
         MDBValue:
+          description: Field value
           example: "17.7"
           type: string
       required:
@@ -5687,6 +5717,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020007E:
+      description: 'Male householder, no spouse/partner present: With own children
+        of the householder under 18 years'
       example:
         MDBCode: DP02_0007E
         MDBName: 'Male householder, no spouse/partner present: With own children of
@@ -5695,13 +5727,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0007E
           example: DP02_0007E
           type: string
         MDBName:
+          description: 'Male householder, no spouse/partner present: With own children
+            of the householder under 18 years'
           example: 'Male householder, no spouse/partner present: With own children
             of the householder under 18 years'
           type: string
         MDBValue:
+          description: Field value
           example: "21350"
           type: string
       required:
@@ -5710,6 +5746,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020007PE:
+      description: 'Male householder, no spouse/partner present: With own children
+        of the householder under 18 years (percent)'
       example:
         MDBCode: DP02_0007PE
         MDBName: 'Male householder, no spouse/partner present: With own children of
@@ -5718,13 +5756,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0007PE
           example: DP02_0007PE
           type: string
         MDBName:
+          description: 'Male householder, no spouse/partner present: With own children
+            of the householder under 18 years (percent)'
           example: 'Male householder, no spouse/partner present: With own children
             of the householder under 18 years (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "1.1"
           type: string
       required:
@@ -5733,6 +5775,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020008E:
+      description: 'Male householder, no spouse/partner present: Householder living
+        alone'
       example:
         MDBCode: DP02_0008E
         MDBName: 'Male householder, no spouse/partner present: Householder living
@@ -5741,13 +5785,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0008E
           example: DP02_0008E
           type: string
         MDBName:
+          description: 'Male householder, no spouse/partner present: Householder living
+            alone'
           example: 'Male householder, no spouse/partner present: Householder living
             alone'
           type: string
         MDBValue:
+          description: Field value
           example: "244446"
           type: string
       required:
@@ -5756,6 +5804,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020008PE:
+      description: 'Male householder, no spouse/partner present: Householder living
+        alone (percent)'
       example:
         MDBCode: DP02_0008PE
         MDBName: 'Male householder, no spouse/partner present: Householder living
@@ -5764,13 +5814,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0008PE
           example: DP02_0008PE
           type: string
         MDBName:
+          description: 'Male householder, no spouse/partner present: Householder living
+            alone (percent)'
           example: 'Male householder, no spouse/partner present: Householder living
             alone (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "13.1"
           type: string
       required:
@@ -5779,6 +5833,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020009E:
+      description: 'Male householder, no spouse/partner present: Householder living
+        alone: 65 years and over'
       example:
         MDBCode: DP02_0009E
         MDBName: 'Male householder, no spouse/partner present: Householder living
@@ -5787,13 +5843,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0009E
           example: DP02_0009E
           type: string
         MDBName:
+          description: 'Male householder, no spouse/partner present: Householder living
+            alone: 65 years and over'
           example: 'Male householder, no spouse/partner present: Householder living
             alone: 65 years and over'
           type: string
         MDBValue:
+          description: Field value
           example: "66999"
           type: string
       required:
@@ -5802,6 +5862,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020009PE:
+      description: 'Male householder, no spouse/partner present: Householder living
+        alone: 65 years and over (percent)'
       example:
         MDBCode: DP02_0009PE
         MDBName: 'Male householder, no spouse/partner present: Householder living
@@ -5810,13 +5872,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0009PE
           example: DP02_0009PE
           type: string
         MDBName:
+          description: 'Male householder, no spouse/partner present: Householder living
+            alone: 65 years and over (percent)'
           example: 'Male householder, no spouse/partner present: Householder living
             alone: 65 years and over (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "3.6"
           type: string
       required:
@@ -5825,6 +5891,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020010E:
+      description: Female householder, no spouse/partner present
       example:
         MDBCode: DP02_0010E
         MDBName: Female householder, no spouse/partner present
@@ -5832,12 +5899,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0010E
           example: DP02_0010E
           type: string
         MDBName:
+          description: Female householder, no spouse/partner present
           example: Female householder, no spouse/partner present
           type: string
         MDBValue:
+          description: Field value
           example: "574165"
           type: string
       required:
@@ -5846,6 +5916,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020010PE:
+      description: Female householder, no spouse/partner present (percent)
       example:
         MDBCode: DP02_0010PE
         MDBName: Female householder, no spouse/partner present (percent)
@@ -5853,12 +5924,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0010PE
           example: DP02_0010PE
           type: string
         MDBName:
+          description: Female householder, no spouse/partner present (percent)
           example: Female householder, no spouse/partner present (percent)
           type: string
         MDBValue:
+          description: Field value
           example: "30.7"
           type: string
       required:
@@ -5867,6 +5941,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020011E:
+      description: 'Female householder, no spouse/partner present: With own children
+        of the householder under 18 years'
       example:
         MDBCode: DP02_0011E
         MDBName: 'Female householder, no spouse/partner present: With own children
@@ -5875,13 +5951,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0011E
           example: DP02_0011E
           type: string
         MDBName:
+          description: 'Female householder, no spouse/partner present: With own children
+            of the householder under 18 years'
           example: 'Female householder, no spouse/partner present: With own children
             of the householder under 18 years'
           type: string
         MDBValue:
+          description: Field value
           example: "119948"
           type: string
       required:
@@ -5890,6 +5970,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020011PE:
+      description: 'Female householder, no spouse/partner present: With own children
+        of the householder under 18 years (percent)'
       example:
         MDBCode: DP02_0011PE
         MDBName: 'Female householder, no spouse/partner present: With own children
@@ -5898,13 +5980,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0011PE
           example: DP02_0011PE
           type: string
         MDBName:
+          description: 'Female householder, no spouse/partner present: With own children
+            of the householder under 18 years (percent)'
           example: 'Female householder, no spouse/partner present: With own children
             of the householder under 18 years (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "6.4"
           type: string
       required:
@@ -5913,6 +5999,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020014E:
+      description: Households with one or more people under 18 years
       example:
         MDBCode: DP02_0014E
         MDBName: Households with one or more people under 18 years
@@ -5920,12 +6007,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0014E
           example: DP02_0014E
           type: string
         MDBName:
+          description: Households with one or more people under 18 years
           example: Households with one or more people under 18 years
           type: string
         MDBValue:
+          description: Field value
           example: "560887"
           type: string
       required:
@@ -5934,6 +6024,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020014PE:
+      description: Households with one or more people under 18 years (percent)
       example:
         MDBCode: DP02_0014PE
         MDBName: Households with one or more people under 18 years (percent)
@@ -5941,12 +6032,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0014PE
           example: DP02_0014PE
           type: string
         MDBName:
+          description: Households with one or more people under 18 years (percent)
           example: Households with one or more people under 18 years (percent)
           type: string
         MDBValue:
+          description: Field value
           example: "30.0"
           type: string
       required:
@@ -5955,6 +6049,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020015E:
+      description: Households with one or more people 65 years and over
       example:
         MDBCode: DP02_0015E
         MDBName: Households with one or more people 65 years and over
@@ -5962,12 +6057,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0015E
           example: DP02_0015E
           type: string
         MDBName:
+          description: Households with one or more people 65 years and over
           example: Households with one or more people 65 years and over
           type: string
         MDBValue:
+          description: Field value
           example: "565454"
           type: string
       required:
@@ -5976,6 +6074,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020015PE:
+      description: Households with one or more people 65 years and over (percent)
       example:
         MDBCode: DP02_0015PE
         MDBName: Households with one or more people 65 years and over (percent)
@@ -5983,12 +6082,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0015PE
           example: DP02_0015PE
           type: string
         MDBName:
+          description: Households with one or more people 65 years and over (percent)
           example: Households with one or more people 65 years and over (percent)
           type: string
         MDBValue:
+          description: Field value
           example: "30.3"
           type: string
       required:
@@ -5997,6 +6099,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020016E:
+      description: Average household size
       example:
         MDBCode: DP02_0016E
         MDBName: Average household size
@@ -6004,12 +6107,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0016E
           example: DP02_0016E
           type: string
         MDBName:
+          description: Average household size
           example: Average household size
           type: string
         MDBValue:
+          description: Field value
           example: "2.55"
           type: string
       required:
@@ -6018,6 +6124,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020017E:
+      description: Average family size
       example:
         MDBCode: DP02_0017E
         MDBName: Average family size
@@ -6025,12 +6132,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0017E
           example: DP02_0017E
           type: string
         MDBName:
+          description: Average family size
           example: Average family size
           type: string
         MDBValue:
+          description: Field value
           example: "3.18"
           type: string
       required:
@@ -6039,6 +6149,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201:
+      description: HOUSEHOLDS BY TYPE
       example:
         DP020009E:
           MDBCode: DP02_0009E
@@ -6147,9 +6258,11 @@ components:
       nullable: false
       properties:
         MDBGroupName:
+          description: HOUSEHOLDS BY TYPE
           example: HOUSEHOLDS BY TYPE
           type: string
         MDBGroupCode:
+          description: DP0201
           example: DP0201
           type: string
         DP020001E:
@@ -6226,6 +6339,7 @@ components:
       - MDBGroupName
       type: object
     acs5Profiles_Values_DP0203_DP020025E:
+      description: 'Marital status: Males 15 years and over'
       example:
         MDBCode: DP02_0025E
         MDBName: 'Marital status: Males 15 years and over'
@@ -6233,12 +6347,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0025E
           example: DP02_0025E
           type: string
         MDBName:
+          description: 'Marital status: Males 15 years and over'
           example: 'Marital status: Males 15 years and over'
           type: string
         MDBValue:
+          description: Field value
           example: "1898154"
           type: string
       required:
@@ -6247,6 +6364,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0203_DP020025PE:
+      description: 'Marital status: Males 15 years and over (percent)'
       example:
         MDBCode: DP02_0025PE
         MDBName: 'Marital status: Males 15 years and over (percent)'
@@ -6254,12 +6372,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0025PE
           example: DP02_0025PE
           type: string
         MDBName:
+          description: 'Marital status: Males 15 years and over (percent)'
           example: 'Marital status: Males 15 years and over (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "1898154"
           type: string
       required:
@@ -6268,6 +6389,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0203_DP020031E:
+      description: 'Marital status: Females 15 years and over'
       example:
         MDBCode: DP02_0031E
         MDBName: 'Marital status: Females 15 years and over'
@@ -6275,12 +6397,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0031E
           example: DP02_0031E
           type: string
         MDBName:
+          description: 'Marital status: Females 15 years and over'
           example: 'Marital status: Females 15 years and over'
           type: string
         MDBValue:
+          description: Field value
           example: "2073389"
           type: string
       required:
@@ -6289,6 +6414,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0203_DP020031PE:
+      description: 'Marital status: Females 15 years and over (percent)'
       example:
         MDBCode: DP02_0031PE
         MDBName: 'Marital status: Females 15 years and over (percent)'
@@ -6296,12 +6422,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0031PE
           example: DP02_0031PE
           type: string
         MDBName:
+          description: 'Marital status: Females 15 years and over (percent)'
           example: 'Marital status: Females 15 years and over (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "2073389"
           type: string
       required:
@@ -6310,6 +6439,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0203:
+      description: MARITAL STATUS
       example:
         MDBGroupCode: DP0203
         MDBGroupName: MARITAL STATUS
@@ -6332,9 +6462,11 @@ components:
       nullable: false
       properties:
         MDBGroupName:
+          description: MARITAL STATUS
           example: MARITAL STATUS
           type: string
         MDBGroupCode:
+          description: DP0203
           example: DP0203
           type: string
         DP020025E:
@@ -6354,6 +6486,8 @@ components:
       - MDBGroupName
       type: object
     acs5Profiles_Values_DP0204_DP020037E:
+      description: Number of women 15 to 50 years old who had a birth in the past
+        12 months
       example:
         MDBCode: DP02_0037E
         MDBName: Number of women 15 to 50 years old who had a birth in the past 12
@@ -6362,13 +6496,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0037E
           example: DP02_0037E
           type: string
         MDBName:
+          description: Number of women 15 to 50 years old who had a birth in the past
+            12 months
           example: Number of women 15 to 50 years old who had a birth in the past
             12 months
           type: string
         MDBValue:
+          description: Field value
           example: "60339"
           type: string
       required:
@@ -6377,6 +6515,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0204_DP020037PE:
+      description: Number of women 15 to 50 years old who had a birth in the past
+        12 months (percent)
       example:
         MDBCode: DP02_0037PE
         MDBName: Number of women 15 to 50 years old who had a birth in the past 12
@@ -6385,13 +6525,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0037PE
           example: DP02_0037PE
           type: string
         MDBName:
+          description: Number of women 15 to 50 years old who had a birth in the past
+            12 months (percent)
           example: Number of women 15 to 50 years old who had a birth in the past
             12 months (percent)
           type: string
         MDBValue:
+          description: Field value
           example: "60339"
           type: string
       required:
@@ -6400,6 +6544,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0204_DP020038E:
+      description: Unmarried women (widowed, divorced, and never married)
       example:
         MDBCode: DP02_0038E
         MDBName: Unmarried women (widowed, divorced, and never married)
@@ -6407,12 +6552,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0038E
           example: DP02_0038E
           type: string
         MDBName:
+          description: Unmarried women (widowed, divorced, and never married)
           example: Unmarried women (widowed, divorced, and never married)
           type: string
         MDBValue:
+          description: Field value
           example: "24998"
           type: string
       required:
@@ -6421,6 +6569,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0204_DP020038PE:
+      description: Unmarried women (widowed, divorced, and never married) (percent)
       example:
         MDBCode: DP02_0038PE
         MDBName: Unmarried women (widowed, divorced, and never married) (percent)
@@ -6428,12 +6577,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0038PE
           example: DP02_0038PE
           type: string
         MDBName:
+          description: Unmarried women (widowed, divorced, and never married) (percent)
           example: Unmarried women (widowed, divorced, and never married) (percent)
           type: string
         MDBValue:
+          description: Field value
           example: "41.4"
           type: string
       required:
@@ -6442,6 +6594,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0204_DP020040E:
+      description: 'Number of women 15 to 50 years old who had a birth in the past
+        12 months: Per 1,000 women 15 to 50 years old'
       example:
         MDBCode: DP02_0040E
         MDBName: 'Number of women 15 to 50 years old who had a birth in the past 12
@@ -6450,13 +6604,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0040E
           example: DP02_0040E
           type: string
         MDBName:
+          description: 'Number of women 15 to 50 years old who had a birth in the
+            past 12 months: Per 1,000 women 15 to 50 years old'
           example: 'Number of women 15 to 50 years old who had a birth in the past
             12 months: Per 1,000 women 15 to 50 years old'
           type: string
         MDBValue:
+          description: Field value
           example: "53"
           type: string
       required:
@@ -6465,6 +6623,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0204:
+      description: FERTILITY
       example:
         DP020037E:
           MDBCode: DP02_0037E
@@ -6494,9 +6653,11 @@ components:
       nullable: false
       properties:
         MDBGroupName:
+          description: FERTILITY
           example: FERTILITY
           type: string
         MDBGroupCode:
+          description: DP0204
           example: DP0204
           type: string
         DP020037E:
@@ -6519,6 +6680,7 @@ components:
       - MDBGroupName
       type: object
     acs5Profiles_Values_DP0206_DP020053E:
+      description: 'SCHOOL ENROLLMENT: Population 3 years and over enrolled in school'
       example:
         MDBCode: DP02_0053E
         MDBName: 'SCHOOL ENROLLMENT: Population 3 years and over enrolled in school'
@@ -6526,12 +6688,16 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0053E
           example: DP02_0053E
           type: string
         MDBName:
+          description: 'SCHOOL ENROLLMENT: Population 3 years and over enrolled in
+            school'
           example: 'SCHOOL ENROLLMENT: Population 3 years and over enrolled in school'
           type: string
         MDBValue:
+          description: Field value
           example: "1175774"
           type: string
       required:
@@ -6540,6 +6706,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0206_DP020053PE:
+      description: 'SCHOOL ENROLLMENT: Population 3 years and over enrolled in school
+        (percent)'
       example:
         MDBCode: DP02_0053PE
         MDBName: 'SCHOOL ENROLLMENT: Population 3 years and over enrolled in school
@@ -6548,13 +6716,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0053PE
           example: DP02_0053PE
           type: string
         MDBName:
+          description: 'SCHOOL ENROLLMENT: Population 3 years and over enrolled in
+            school (percent)'
           example: 'SCHOOL ENROLLMENT: Population 3 years and over enrolled in school
             (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "1175774"
           type: string
       required:
@@ -6563,6 +6735,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0206:
+      description: SCHOOL ENROLLMENT
       example:
         MDBGroupCode: DP0206
         MDBGroupName: SCHOOL ENROLLMENT
@@ -6578,9 +6751,11 @@ components:
       nullable: false
       properties:
         MDBGroupName:
+          description: SCHOOL ENROLLMENT
           example: SCHOOL ENROLLMENT
           type: string
         MDBGroupCode:
+          description: DP0206
           example: DP0206
           type: string
         DP020053E:
@@ -6594,6 +6769,7 @@ components:
       - MDBGroupName
       type: object
     acs5Profiles_Values_DP0207_DP020059E:
+      description: Population 25 years and over
       example:
         MDBCode: DP02_0059E
         MDBName: Population 25 years and over
@@ -6601,12 +6777,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0059E
           example: DP02_0059E
           type: string
         MDBName:
+          description: Population 25 years and over
           example: Population 25 years and over
           type: string
         MDBValue:
+          description: Field value
           example: "3320877"
           type: string
       required:
@@ -6615,6 +6794,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020059PE:
+      description: Population 25 years and over (percent)
       example:
         MDBCode: DP02_0059PE
         MDBName: Population 25 years and over (percent)
@@ -6622,12 +6802,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0059PE
           example: DP02_0059PE
           type: string
         MDBName:
+          description: Population 25 years and over (percent)
           example: Population 25 years and over (percent)
           type: string
         MDBValue:
+          description: Field value
           example: "3320877"
           type: string
       required:
@@ -6636,6 +6819,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020062E:
+      description: 'Population 25 years and over: High school graduate'
       example:
         MDBCode: DP02_0062E
         MDBName: 'Population 25 years and over: High school graduate'
@@ -6643,12 +6827,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0062E
           example: DP02_0062E
           type: string
         MDBName:
+          description: 'Population 25 years and over: High school graduate'
           example: 'Population 25 years and over: High school graduate'
           type: string
         MDBValue:
+          description: Field value
           example: "1022839"
           type: string
       required:
@@ -6657,6 +6844,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020062PE:
+      description: 'Population 25 years and over: High school graduate (percent)'
       example:
         MDBCode: DP02_0062PE
         MDBName: 'Population 25 years and over: High school graduate (percent)'
@@ -6664,12 +6852,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0062PE
           example: DP02_0062PE
           type: string
         MDBName:
+          description: 'Population 25 years and over: High school graduate (percent)'
           example: 'Population 25 years and over: High school graduate (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "30.8"
           type: string
       required:
@@ -6678,6 +6869,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020064E:
+      description: 'Population 25 years and over: Associate''s degree'
       example:
         MDBCode: DP02_0064E
         MDBName: 'Population 25 years and over: Associate''s degree'
@@ -6685,12 +6877,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0064E
           example: DP02_0064E
           type: string
         MDBName:
+          description: 'Population 25 years and over: Associate''s degree'
           example: 'Population 25 years and over: Associate''s degree'
           type: string
         MDBValue:
+          description: Field value
           example: "282316"
           type: string
       required:
@@ -6699,6 +6894,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020064PE:
+      description: 'Population 25 years and over: Associate''s degree (percent)'
       example:
         MDBCode: DP02_0064PE
         MDBName: 'Population 25 years and over: Associate''s degree (percent)'
@@ -6706,12 +6902,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0064PE
           example: DP02_0064PE
           type: string
         MDBName:
+          description: 'Population 25 years and over: Associate''s degree (percent)'
           example: 'Population 25 years and over: Associate''s degree (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "8.5"
           type: string
       required:
@@ -6720,6 +6919,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020065E:
+      description: 'Population 25 years and over: Bachelor''s degree'
       example:
         MDBCode: DP02_0065E
         MDBName: 'Population 25 years and over: Bachelor''s degree'
@@ -6727,12 +6927,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0065E
           example: DP02_0065E
           type: string
         MDBName:
+          description: 'Population 25 years and over: Bachelor''s degree'
           example: 'Population 25 years and over: Bachelor''s degree'
           type: string
         MDBValue:
+          description: Field value
           example: "529178"
           type: string
       required:
@@ -6741,6 +6944,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020065PE:
+      description: 'Population 25 years and over: Bachelor''s degree (percent)'
       example:
         MDBCode: DP02_0065PE
         MDBName: 'Population 25 years and over: Bachelor''s degree (percent)'
@@ -6748,12 +6952,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0065PE
           example: DP02_0065PE
           type: string
         MDBName:
+          description: 'Population 25 years and over: Bachelor''s degree (percent)'
           example: 'Population 25 years and over: Bachelor''s degree (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "15.9"
           type: string
       required:
@@ -6762,6 +6969,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020066E:
+      description: 'Population 25 years and over: Graduate or professional degree'
       example:
         MDBCode: DP02_0066E
         MDBName: 'Population 25 years and over: Graduate or professional degree'
@@ -6769,12 +6977,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0066E
           example: DP02_0066E
           type: string
         MDBName:
+          description: 'Population 25 years and over: Graduate or professional degree'
           example: 'Population 25 years and over: Graduate or professional degree'
           type: string
         MDBValue:
+          description: Field value
           example: "316594"
           type: string
       required:
@@ -6783,6 +6994,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020066PE:
+      description: 'Population 25 years and over: Graduate or professional degree
+        (percent)'
       example:
         MDBCode: DP02_0066PE
         MDBName: 'Population 25 years and over: Graduate or professional degree (percent)'
@@ -6790,13 +7003,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0066PE
           example: DP02_0066PE
           type: string
         MDBName:
+          description: 'Population 25 years and over: Graduate or professional degree
+            (percent)'
           example: 'Population 25 years and over: Graduate or professional degree
             (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "9.5"
           type: string
       required:
@@ -6805,6 +7022,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020067E:
+      description: 'Population 25 years and over: High school graduate or higher'
       example:
         MDBCode: DP02_0067E
         MDBName: 'Population 25 years and over: High school graduate or higher'
@@ -6812,12 +7030,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0067E
           example: DP02_0067E
           type: string
         MDBName:
+          description: 'Population 25 years and over: High school graduate or higher'
           example: 'Population 25 years and over: High school graduate or higher'
           type: string
         MDBValue:
+          description: Field value
           example: "2861955"
           type: string
       required:
@@ -6826,6 +7047,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020067PE:
+      description: 'Population 25 years and over: High school graduate or higher (percent)'
       example:
         MDBCode: DP02_0067PE
         MDBName: 'Population 25 years and over: High school graduate or higher (percent)'
@@ -6833,12 +7055,16 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0067PE
           example: DP02_0067PE
           type: string
         MDBName:
+          description: 'Population 25 years and over: High school graduate or higher
+            (percent)'
           example: 'Population 25 years and over: High school graduate or higher (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "86.2"
           type: string
       required:
@@ -6847,6 +7073,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020068E:
+      description: 'Population 25 years and over: Bachelor''s degree or higher'
       example:
         MDBCode: DP02_0068E
         MDBName: 'Population 25 years and over: Bachelor''s degree or higher'
@@ -6854,12 +7081,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0068E
           example: DP02_0068E
           type: string
         MDBName:
+          description: 'Population 25 years and over: Bachelor''s degree or higher'
           example: 'Population 25 years and over: Bachelor''s degree or higher'
           type: string
         MDBValue:
+          description: Field value
           example: "845772"
           type: string
       required:
@@ -6868,6 +7098,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020068PE:
+      description: 'Population 25 years and over: Bachelor''s degree or higher (percent)'
       example:
         MDBCode: DP02_0068PE
         MDBName: 'Population 25 years and over: Bachelor''s degree or higher (percent)'
@@ -6875,12 +7106,16 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0068PE
           example: DP02_0068PE
           type: string
         MDBName:
+          description: 'Population 25 years and over: Bachelor''s degree or higher
+            (percent)'
           example: 'Population 25 years and over: Bachelor''s degree or higher (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "25.5"
           type: string
       required:
@@ -6889,6 +7124,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207:
+      description: EDUCATIONAL ATTAINMENT
       example:
         MDBGroupCode: DP0207
         DP020062PE:
@@ -6952,9 +7188,11 @@ components:
       nullable: false
       properties:
         MDBGroupName:
+          description: EDUCATIONAL ATTAINMENT
           example: EDUCATIONAL ATTAINMENT
           type: string
         MDBGroupCode:
+          description: DP0207
           example: DP0207
           type: string
         DP020059E:
@@ -7004,6 +7242,7 @@ components:
       - MDBGroupName
       type: object
     acs5Profiles_Values_DP0208_DP020069E:
+      description: 'VETERAN STATUS: Civilian population 18 years and over'
       example:
         MDBCode: DP02_0069E
         MDBName: 'VETERAN STATUS: Civilian population 18 years and over'
@@ -7011,12 +7250,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0069E
           example: DP02_0069E
           type: string
         MDBName:
+          description: 'VETERAN STATUS: Civilian population 18 years and over'
           example: 'VETERAN STATUS: Civilian population 18 years and over'
           type: string
         MDBValue:
+          description: Field value
           example: "3766571"
           type: string
       required:
@@ -7025,6 +7267,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0208_DP020069PE:
+      description: 'VETERAN STATUS: Civilian population 18 years and over (percent)'
       example:
         MDBCode: DP02_0069PE
         MDBName: 'VETERAN STATUS: Civilian population 18 years and over (percent) '
@@ -7032,12 +7275,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0069PE
           example: DP02_0069PE
           type: string
         MDBName:
+          description: 'VETERAN STATUS: Civilian population 18 years and over (percent)'
           example: 'VETERAN STATUS: Civilian population 18 years and over (percent) '
           type: string
         MDBValue:
+          description: Field value
           example: "3766571"
           type: string
       required:
@@ -7046,6 +7292,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0208_DP020070E:
+      description: Civilian veterans
       example:
         MDBCode: DP02_0070E
         MDBName: Civilian veterans
@@ -7053,12 +7300,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0070E
           example: DP02_0070E
           type: string
         MDBName:
+          description: Civilian veterans
           example: Civilian veterans
           type: string
         MDBValue:
+          description: Field value
           example: "330207"
           type: string
       required:
@@ -7067,19 +7317,23 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0208_DP020070PE:
+      description: Civilian veterans (percent)
       example:
         MDBCode: DP02_0070PE
-        MDBName: 'Civilian veterans (percent) '
+        MDBName: Civilian veterans (percent)
         MDBValue: "8.8"
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0070PE
           example: DP02_0070PE
           type: string
         MDBName:
-          example: 'Civilian veterans (percent) '
+          description: Civilian veterans (percent)
+          example: Civilian veterans (percent)
           type: string
         MDBValue:
+          description: Field value
           example: "8.8"
           type: string
       required:
@@ -7088,6 +7342,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0208:
+      description: VETERAN STATUS
       example:
         MDBGroupCode: DP0208
         MDBGroupName: VETERAN STATUS
@@ -7097,7 +7352,7 @@ components:
           MDBValue: "3766571"
         DP020070PE:
           MDBCode: DP02_0070PE
-          MDBName: 'Civilian veterans (percent) '
+          MDBName: Civilian veterans (percent)
           MDBValue: "8.8"
         DP020069PE:
           MDBCode: DP02_0069PE
@@ -7110,9 +7365,11 @@ components:
       nullable: false
       properties:
         MDBGroupName:
+          description: VETERAN STATUS
           example: VETERAN STATUS
           type: string
         MDBGroupCode:
+          description: DP0208
           example: DP0208
           type: string
         DP020069E:
@@ -7132,6 +7389,7 @@ components:
       - MDBGroupName
       type: object
     acs5Profiles_Values_DP0209_DP020079E:
+      description: Population 1 year and over
       example:
         MDBCode: DP02_0079E
         MDBName: Population 1 year and over
@@ -7139,12 +7397,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0079E
           example: DP02_0079E
           type: string
         MDBName:
+          description: Population 1 year and over
           example: Population 1 year and over
           type: string
         MDBValue:
+          description: Field value
           example: "4821196"
           type: string
       required:
@@ -7153,6 +7414,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020080E:
+      description: 'Population 1 year and over: Same house'
       example:
         MDBCode: DP02_0080E
         MDBName: 'Population 1 year and over: Same house'
@@ -7160,12 +7422,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0080E
           example: DP02_0080E
           type: string
         MDBName:
+          description: 'Population 1 year and over: Same house'
           example: 'Population 1 year and over: Same house'
           type: string
         MDBValue:
+          description: Field value
           example: "4159479"
           type: string
       required:
@@ -7174,6 +7439,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020080PE:
+      description: 'Population 1 year and over: Same house (percent)'
       example:
         MDBCode: DP02_0080PE
         MDBName: 'Population 1 year and over: Same house (percent)'
@@ -7181,12 +7447,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0080PE
           example: DP02_0080PE
           type: string
         MDBName:
+          description: 'Population 1 year and over: Same house (percent)'
           example: 'Population 1 year and over: Same house (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "86.3"
           type: string
       required:
@@ -7195,6 +7464,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020081E:
+      description: 'Population 1 year and over: Different house in the U.S.'
       example:
         MDBCode: DP02_0081E
         MDBName: 'Population 1 year and over: Different house in the U.S.'
@@ -7202,12 +7472,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0081E
           example: DP02_0081E
           type: string
         MDBName:
+          description: 'Population 1 year and over: Different house in the U.S.'
           example: 'Population 1 year and over: Different house in the U.S.'
           type: string
         MDBValue:
+          description: Field value
           example: "647205"
           type: string
       required:
@@ -7216,6 +7489,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020081PE:
+      description: 'Population 1 year and over: Different house in the U.S. (percent)'
       example:
         MDBCode: DP02_0081PE
         MDBName: 'Population 1 year and over: Different house in the U.S. (percent)'
@@ -7223,12 +7497,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0081PE
           example: DP02_0081PE
           type: string
         MDBName:
+          description: 'Population 1 year and over: Different house in the U.S. (percent)'
           example: 'Population 1 year and over: Different house in the U.S. (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "13.4"
           type: string
       required:
@@ -7237,6 +7514,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020082E:
+      description: 'Population 1 year and over: Different house in the U.S.: Same
+        county'
       example:
         MDBCode: DP02_0082E
         MDBName: 'Population 1 year and over: Different house in the U.S.: Same county'
@@ -7244,13 +7523,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0082E
           example: DP02_0082E
           type: string
         MDBName:
+          description: 'Population 1 year and over: Different house in the U.S.: Same
+            county'
           example: 'Population 1 year and over: Different house in the U.S.: Same
             county'
           type: string
         MDBValue:
+          description: Field value
           example: "387182"
           type: string
       required:
@@ -7259,6 +7542,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020082PE:
+      description: 'Population 1 year and over: Different house in the U.S.: Same
+        county (percent)'
       example:
         MDBCode: DP02_0082PE
         MDBName: 'Population 1 year and over: Different house in the U.S.: Same county
@@ -7267,13 +7552,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0082PE
           example: DP02_0082PE
           type: string
         MDBName:
+          description: 'Population 1 year and over: Different house in the U.S.: Same
+            county (percent)'
           example: 'Population 1 year and over: Different house in the U.S.: Same
             county (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "8.0"
           type: string
       required:
@@ -7282,6 +7571,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020083E:
+      description: 'Population 1 year and over: Different house in the U.S.: Different
+        county'
       example:
         MDBCode: DP02_0083E
         MDBName: 'Population 1 year and over: Different house in the U.S.: Different
@@ -7290,13 +7581,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0083E
           example: DP02_0083E
           type: string
         MDBName:
+          description: 'Population 1 year and over: Different house in the U.S.: Different
+            county'
           example: 'Population 1 year and over: Different house in the U.S.: Different
             county'
           type: string
         MDBValue:
+          description: Field value
           example: "260023"
           type: string
       required:
@@ -7305,6 +7600,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020083PE:
+      description: 'Population 1 year and over: Different house in the U.S.: Different
+        county (percent)'
       example:
         MDBCode: DP02_0083PE
         MDBName: 'Population 1 year and over: Different house in the U.S.: Different
@@ -7313,13 +7610,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0083PE
           example: DP02_0083PE
           type: string
         MDBName:
+          description: 'Population 1 year and over: Different house in the U.S.: Different
+            county (percent)'
           example: 'Population 1 year and over: Different house in the U.S.: Different
             county (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "5.4"
           type: string
       required:
@@ -7328,6 +7629,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020084E:
+      description: 'Population 1 year and over: Different house in the U.S.: Different
+        county: Same state'
       example:
         MDBCode: DP02_0084E
         MDBName: 'Population 1 year and over: Different house in the U.S.: Different
@@ -7336,13 +7639,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0084E
           example: DP02_0084E
           type: string
         MDBName:
+          description: 'Population 1 year and over: Different house in the U.S.: Different
+            county: Same state'
           example: 'Population 1 year and over: Different house in the U.S.: Different
             county: Same state'
           type: string
         MDBValue:
+          description: Field value
           example: "147807"
           type: string
       required:
@@ -7351,6 +7658,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020084PE:
+      description: 'Population 1 year and over: Different house in the U.S.: Different
+        county: Same state (percent)'
       example:
         MDBCode: DP02_0084PE
         MDBName: 'Population 1 year and over: Different house in the U.S.: Different
@@ -7359,13 +7668,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0084PE
           example: DP02_0084PE
           type: string
         MDBName:
+          description: 'Population 1 year and over: Different house in the U.S.: Different
+            county: Same state (percent)'
           example: 'Population 1 year and over: Different house in the U.S.: Different
             county: Same state (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "3.1"
           type: string
       required:
@@ -7374,6 +7687,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020085E:
+      description: 'Population 1 year and over: Different house in the U.S.: Different
+        county: Different state'
       example:
         MDBCode: DP02_0085E
         MDBName: 'Population 1 year and over: Different house in the U.S.: Different
@@ -7382,13 +7697,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0085E
           example: DP02_0085E
           type: string
         MDBName:
+          description: 'Population 1 year and over: Different house in the U.S.: Different
+            county: Different state'
           example: 'Population 1 year and over: Different house in the U.S.: Different
             county: Different state'
           type: string
         MDBValue:
+          description: Field value
           example: "112216"
           type: string
       required:
@@ -7397,6 +7716,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020085PE:
+      description: '(percent) Population 1 year and over: Different house in the U.S.:
+        Different county: Different state'
       example:
         MDBCode: DP02_0085PE
         MDBName: '(percent) Population 1 year and over: Different house in the U.S.:
@@ -7405,13 +7726,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0085PE
           example: DP02_0085PE
           type: string
         MDBName:
+          description: '(percent) Population 1 year and over: Different house in the
+            U.S.: Different county: Different state'
           example: '(percent) Population 1 year and over: Different house in the U.S.:
             Different county: Different state'
           type: string
         MDBValue:
+          description: Field value
           example: "2.3"
           type: string
       required:
@@ -7420,6 +7745,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020086E:
+      description: 'Population 1 year and over: Abroad'
       example:
         MDBCode: DP02_0086E
         MDBName: 'Population 1 year and over: Abroad'
@@ -7427,12 +7753,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0086E
           example: DP02_0086E
           type: string
         MDBName:
+          description: 'Population 1 year and over: Abroad'
           example: 'Population 1 year and over: Abroad'
           type: string
         MDBValue:
+          description: Field value
           example: "14512"
           type: string
       required:
@@ -7441,6 +7770,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020086PE:
+      description: 'Population 1 year and over: Abroad (percent)'
       example:
         MDBCode: DP02_0086PE
         MDBName: 'Population 1 year and over: Abroad (percent)'
@@ -7448,12 +7778,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP02_0086PE
           example: DP02_0086PE
           type: string
         MDBName:
+          description: 'Population 1 year and over: Abroad (percent) '
           example: 'Population 1 year and over: Abroad (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "0.3"
           type: string
       required:
@@ -7462,6 +7795,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209:
+      description: RESIDENCE 1 YEAR AGO
       example:
         DP020080PE:
           MDBCode: DP02_0080PE
@@ -7536,9 +7870,11 @@ components:
       nullable: false
       properties:
         MDBGroupName:
+          description: RESIDENCE 1 YEAR AGO
           example: RESIDENCE 1 YEAR AGO
           type: string
         MDBGroupCode:
+          description: DP0209
           example: DP0209
           type: string
         DP020079E:
@@ -7591,6 +7927,7 @@ components:
       - MDBGroupName
       type: object
     acs5Profiles_Values_DP0301_DP030001E:
+      description: 'EMPLOYMENT STATUS: Population 16 years and over'
       example:
         MDBCode: DP03_0001E
         MDBName: 'EMPLOYMENT STATUS: Population 16 years and over'
@@ -7598,12 +7935,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0001E
           example: DP03_0001E
           type: string
         MDBName:
+          description: 'EMPLOYMENT STATUS: Population 16 years and over'
           example: 'EMPLOYMENT STATUS: Population 16 years and over'
           type: string
         MDBValue:
+          description: Field value
           example: "3907144"
           type: string
       required:
@@ -7612,6 +7952,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030002E:
+      description: In labor force
       example:
         MDBCode: DP03_0002E
         MDBName: In labor force
@@ -7619,12 +7960,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0002E
           example: DP03_0002E
           type: string
         MDBName:
+          description: In labor force
           example: In labor force
           type: string
         MDBValue:
+          description: Field value
           example: "2242785"
           type: string
       required:
@@ -7633,6 +7977,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030002PE:
+      description: In labor force (percent)
       example:
         MDBCode: DP03_0002PE
         MDBName: In labor force (percent)
@@ -7640,12 +7985,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0002PE
           example: DP03_0002PE
           type: string
         MDBName:
+          description: In labor force (percent)
           example: In labor force (percent)
           type: string
         MDBValue:
+          description: Field value
           example: "57.4"
           type: string
       required:
@@ -7654,6 +8002,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030004E:
+      description: Employed
       example:
         MDBCode: DP03_0004E
         MDBName: Employed
@@ -7661,12 +8010,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0004E
           example: DP03_0004E
           type: string
         MDBName:
+          description: Employed
           example: Employed
           type: string
         MDBValue:
+          description: Field value
           example: "2097384"
           type: string
       required:
@@ -7675,6 +8027,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030004PE:
+      description: Employed (percent)
       example:
         MDBCode: DP03_0004PE
         MDBName: Employed (percent)
@@ -7682,12 +8035,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0004PE
           example: DP03_0004PE
           type: string
         MDBName:
+          description: Employed (percent)
           example: Employed (percent)
           type: string
         MDBValue:
+          description: Field value
           example: "53.7"
           type: string
       required:
@@ -7696,6 +8052,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030005E:
+      description: Unemployed
       example:
         MDBCode: DP03_0005E
         MDBName: Unemployed
@@ -7703,12 +8060,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0005E
           example: DP03_0005E
           type: string
         MDBName:
+          description: Unemployed
           example: Unemployed
           type: string
         MDBValue:
+          description: Field value
           example: "132095"
           type: string
       required:
@@ -7717,6 +8077,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030005PE:
+      description: 'Unemployed (percent) '
       example:
         MDBCode: DP03_0005PE
         MDBName: Unemployed (percent)
@@ -7724,12 +8085,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0005PE
           example: DP03_0005PE
           type: string
         MDBName:
+          description: Unemployed (percent)
           example: Unemployed (percent)
           type: string
         MDBValue:
+          description: Field value
           example: "3.4"
           type: string
       required:
@@ -7738,6 +8102,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030006E:
+      description: Armed Forces
       example:
         MDBCode: DP03_0006E
         MDBName: Armed Forces
@@ -7745,12 +8110,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0006E
           example: DP03_0006E
           type: string
         MDBName:
+          description: Armed Forces
           example: Armed Forces
           type: string
         MDBValue:
+          description: Field value
           example: "13306"
           type: string
       required:
@@ -7759,6 +8127,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030006PE:
+      description: Armed Forces (percent)
       example:
         MDBCode: DP03_0006PE
         MDBName: Armed Forces (percent)
@@ -7766,12 +8135,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0006PE
           example: DP03_0006PE
           type: string
         MDBName:
+          description: Armed Forces (percent)
           example: Armed Forces (percent)
           type: string
         MDBValue:
+          description: Field value
           example: "0.3"
           type: string
       required:
@@ -7780,6 +8152,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030007E:
+      description: Not in labor force
       example:
         MDBCode: DP03_0007E
         MDBName: Not in labor force
@@ -7787,12 +8160,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0007E
           example: DP03_0007E
           type: string
         MDBName:
+          description: Not in labor force
           example: Not in labor force
           type: string
         MDBValue:
+          description: Field value
           example: "1664359"
           type: string
       required:
@@ -7801,6 +8177,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030007PE:
+      description: Not in labor force (percent)
       example:
         MDBCode: DP03_0007PE
         MDBName: Not in labor force (percent)
@@ -7808,12 +8185,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0007PE
           example: DP03_0007PE
           type: string
         MDBName:
+          description: Not in labor force (percent)
           example: Not in labor force (percent)
           type: string
         MDBValue:
+          description: Field value
           example: "42.6"
           type: string
       required:
@@ -7822,6 +8202,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030008E:
+      description: Civilian labor force
       example:
         MDBCode: DP03_0008E
         MDBName: Civilian labor force
@@ -7829,12 +8210,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0008E
           example: DP03_0008E
           type: string
         MDBName:
+          description: Civilian labor force
           example: Civilian labor force
           type: string
         MDBValue:
+          description: Field value
           example: "2229479"
           type: string
       required:
@@ -7843,19 +8227,23 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030008PE:
+      description: Civilian labor force (percent)
       example:
         MDBCode: DP03_0008PE
-        MDBName: Civilian labor force (percent)
+        MDBName: Civilian labor force (percent
         MDBValue: "2229479"
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0008PE
           example: DP03_0008PE
           type: string
         MDBName:
-          example: Civilian labor force (percent)
+          description: Civilian labor force (percent
+          example: Civilian labor force (percent
           type: string
         MDBValue:
+          description: Field value
           example: "2229479"
           type: string
       required:
@@ -7864,6 +8252,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030009PE:
+      description: 'Unemployment Rate (percent) '
       example:
         MDBCode: DP03_0009PE
         MDBName: Unemployment Rate (percent)
@@ -7871,12 +8260,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0009PE
           example: DP03_0009PE
           type: string
         MDBName:
+          description: Unemployment Rate (percent)
           example: Unemployment Rate (percent)
           type: string
         MDBValue:
+          description: Field value
           example: "5.9"
           type: string
       required:
@@ -7885,6 +8277,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030010E:
+      description: 'EMPLOYMENT STATUS: Females 16 years and over'
       example:
         MDBCode: DP03_0010E
         MDBName: 'EMPLOYMENT STATUS: Females 16 years and over'
@@ -7892,12 +8285,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0010E
           example: DP03_0010E
           type: string
         MDBName:
+          description: 'EMPLOYMENT STATUS: Females 16 years and over'
           example: 'EMPLOYMENT STATUS: Females 16 years and over'
           type: string
         MDBValue:
+          description: Field value
           example: "2041967"
           type: string
       required:
@@ -7906,6 +8302,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030010PE:
+      description: 'EMPLOYMENT STATUS: Females 16 years and over (percent)'
       example:
         MDBCode: DP03_0010PE
         MDBName: 'EMPLOYMENT STATUS: Females 16 years and over (percent)'
@@ -7913,12 +8310,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0010PE
           example: DP03_0010PE
           type: string
         MDBName:
+          description: 'EMPLOYMENT STATUS: Females 16 years and over (percent)'
           example: 'EMPLOYMENT STATUS: Females 16 years and over (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "2041967"
           type: string
       required:
@@ -7927,6 +8327,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030014E:
+      description: 'EMPLOYMENT STATUS: Own children of the householder under 6 years'
       example:
         MDBCode: DP03_0014E
         MDBName: 'EMPLOYMENT STATUS: Own children of the householder under 6 years'
@@ -7934,12 +8335,16 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0014E
           example: DP03_0014E
           type: string
         MDBName:
+          description: 'EMPLOYMENT STATUS: Own children of the householder under 6
+            years'
           example: 'EMPLOYMENT STATUS: Own children of the householder under 6 years'
           type: string
         MDBValue:
+          description: Field value
           example: "330741"
           type: string
       required:
@@ -7948,6 +8353,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030014PE:
+      description: 'EMPLOYMENT STATUS: Own children of the householder under 6 years
+        (percent)'
       example:
         MDBCode: DP03_0014PE
         MDBName: 'EMPLOYMENT STATUS: Own children of the householder under 6 years
@@ -7956,13 +8363,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0014PE
           example: DP03_0014PE
           type: string
         MDBName:
+          description: 'EMPLOYMENT STATUS: Own children of the householder under 6
+            years (percent)'
           example: 'EMPLOYMENT STATUS: Own children of the householder under 6 years
             (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "330741"
           type: string
       required:
@@ -7971,6 +8382,9 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030016E:
+      description: |-
+        EMPLOYMENT STATUS: Own children of the householder 6 to
+            17 years
       example:
         MDBCode: DP03_0016E
         MDBName: 'EMPLOYMENT STATUS: Own children of the householder 6 to 17 years'
@@ -7978,12 +8392,16 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0016E
           example: DP03_0016E
           type: string
         MDBName:
+          description: 'EMPLOYMENT STATUS: Own children of the householder 6 to 17
+            years'
           example: 'EMPLOYMENT STATUS: Own children of the householder 6 to 17 years'
           type: string
         MDBValue:
+          description: Field value
           example: "687706"
           type: string
       required:
@@ -7992,6 +8410,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030016PE:
+      description: 'EMPLOYMENT STATUS: Own children of the householder 6 to 17 years
+        (percent)'
       example:
         MDBCode: DP03_0016PE
         MDBName: 'EMPLOYMENT STATUS: Own children of the householder 6 to 17 years
@@ -8000,13 +8420,17 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0016PE
           example: DP03_0016PE
           type: string
         MDBName:
+          description: 'EMPLOYMENT STATUS: Own children of the householder 6 to 17
+            years (percent)'
           example: 'EMPLOYMENT STATUS: Own children of the householder 6 to 17 years
             (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "687706"
           type: string
       required:
@@ -8015,6 +8439,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301:
+      description: EMPLOYMENT STATUS
       example:
         MDBGroupCode: DP0301
         DP030006E:
@@ -8051,7 +8476,7 @@ components:
           MDBValue: "2041967"
         DP030008PE:
           MDBCode: DP03_0008PE
-          MDBName: Civilian labor force (percent)
+          MDBName: Civilian labor force (percent
           MDBValue: "2229479"
         DP030009PE:
           MDBCode: DP03_0009PE
@@ -8103,9 +8528,11 @@ components:
       nullable: false
       properties:
         MDBGroupName:
+          description: EMPLOYMENT STATUS
           example: EMPLOYMENT STATUS
           type: string
         MDBGroupCode:
+          description: DP0301
           example: DP0301
           type: string
         DP030001E:
@@ -8173,6 +8600,7 @@ components:
       - MDBGroupName
       type: object
     acs5Profiles_Values_DP0302_DP030018E:
+      description: 'COMMUTING TO WORK: Workers 16 years and over'
       example:
         MDBCode: DP03_0018E
         MDBName: 'COMMUTING TO WORK: Workers 16 years and over'
@@ -8180,12 +8608,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0018E
           example: DP03_0018E
           type: string
         MDBName:
+          description: 'COMMUTING TO WORK: Workers 16 years and over'
           example: 'COMMUTING TO WORK: Workers 16 years and over'
           type: string
         MDBValue:
+          description: Field value
           example: "2073072"
           type: string
       required:
@@ -8194,6 +8625,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0302_DP030018PE:
+      description: 'COMMUTING TO WORK: Workers 16 years and over (percent)'
       example:
         MDBCode: DP03_0018PE
         MDBName: 'COMMUTING TO WORK: Workers 16 years and over (percent)'
@@ -8201,12 +8633,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0018PE
           example: DP03_0018PE
           type: string
         MDBName:
+          description: 'COMMUTING TO WORK: Workers 16 years and over (percent)'
           example: 'COMMUTING TO WORK: Workers 16 years and over (percent)'
           type: string
         MDBValue:
+          description: Field value
           example: "2073072"
           type: string
       required:
@@ -8215,19 +8650,23 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0302_DP030024E:
+      description: Worked from home
       example:
         MDBCode: DP03_0024E
-        MDBName: 'Worked from home '
+        MDBName: Worked from home
         MDBValue: "69165"
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0024E
           example: DP03_0024E
           type: string
         MDBName:
-          example: 'Worked from home '
+          description: Worked from home
+          example: Worked from home
           type: string
         MDBValue:
+          description: Field value
           example: "69165"
           type: string
       required:
@@ -8236,6 +8675,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0302_DP030024PE:
+      description: Worked from home (percent)
       example:
         MDBCode: DP03_0024PE
         MDBName: Worked from home (percent)
@@ -8243,12 +8683,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0024PE
           example: DP03_0024PE
           type: string
         MDBName:
+          description: Worked from home (percent)
           example: Worked from home (percent)
           type: string
         MDBValue:
+          description: Field value
           example: "3.3"
           type: string
       required:
@@ -8257,6 +8700,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0302_DP030025E:
+      description: Mean travel time to work (minutes)
       example:
         MDBCode: DP03_0025E
         MDBName: Mean travel time to work (minutes)
@@ -8264,12 +8708,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0025E
           example: DP03_0025E
           type: string
         MDBName:
+          description: Mean travel time to work (minutes)
           example: Mean travel time to work (minutes)
           type: string
         MDBValue:
+          description: Field value
           example: "24.9"
           type: string
       required:
@@ -8278,6 +8725,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0302:
+      description: COMMUTING TO WORK
       example:
         MDBGroupCode: DP0302
         DP030018PE:
@@ -8299,14 +8747,16 @@ components:
           MDBValue: "24.9"
         DP030024E:
           MDBCode: DP03_0024E
-          MDBName: 'Worked from home '
+          MDBName: Worked from home
           MDBValue: "69165"
       nullable: false
       properties:
         MDBGroupName:
+          description: COMMUTING TO WORK
           example: COMMUTING TO WORK
           type: string
         MDBGroupCode:
+          description: DP0302
           example: DP0302
           type: string
         DP030018E:
@@ -8329,6 +8779,7 @@ components:
       - MDBGroupName
       type: object
     acs5Profiles_Values_DP0303_DP030026E:
+      description: Civilian employed population 16 years and over
       example:
         MDBCode: DP03_0026E
         MDBName: Civilian employed population 16 years and over
@@ -8336,12 +8787,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0026E
           example: DP03_0026E
           type: string
         MDBName:
+          description: Civilian employed population 16 years and over
           example: Civilian employed population 16 years and over
           type: string
         MDBValue:
+          description: Field value
           example: "2097384"
           type: string
       required:
@@ -8350,6 +8804,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0303_DP030026PE:
+      description: 'Civilian employed population 16 years and over (percent) '
       example:
         MDBCode: DP03_0026PE
         MDBName: Civilian employed population 16 years and over (percent)
@@ -8357,12 +8812,15 @@ components:
       nullable: false
       properties:
         MDBCode:
+          description: DP03_0026PE
           example: DP03_0026PE
           type: string
         MDBName:
+          description: Civilian employed population 16 years and over (percent)
           example: Civilian employed population 16 years and over (percent)
           type: string
         MDBValue:
+          description: Field value
           example: "2097384"
           type: string
       required:
@@ -8581,6 +9039,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0303:
+      description: OCCUPATION
       example:
         DP030031E:
           MDBCode: DP03_0031E
@@ -8635,9 +9094,11 @@ components:
       nullable: false
       properties:
         MDBGroupName:
+          description: OCCUPATION
           example: OCCUPATION
           type: string
         MDBGroupCode:
+          description: DP0303
           example: DP0303
           type: string
         DP030026E:
@@ -14814,7 +15275,7 @@ components:
             MDBValue: "3766571"
           DP020070PE:
             MDBCode: DP02_0070PE
-            MDBName: 'Civilian veterans (percent) '
+            MDBName: Civilian veterans (percent)
             MDBValue: "8.8"
           DP020069PE:
             MDBCode: DP02_0069PE
@@ -15602,7 +16063,7 @@ components:
             MDBValue: "24.9"
           DP030024E:
             MDBCode: DP03_0024E
-            MDBName: 'Worked from home '
+            MDBName: Worked from home
             MDBValue: "69165"
         DP0401:
           MDBGroupCode: DP0401
@@ -15671,7 +16132,7 @@ components:
             MDBValue: "2041967"
           DP030008PE:
             MDBCode: DP03_0008PE
-            MDBName: Civilian labor force (percent)
+            MDBName: Civilian labor force (percent
             MDBValue: "2229479"
           DP030009PE:
             MDBCode: DP03_0009PE

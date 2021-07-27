@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | OCCUPATION | 
+**MDBGroupCode** | **string** | DP0303 | 
 **DP030026E** | [**Acs5ProfilesValuesDP0303DP030026E**](Acs5ProfilesValuesDP0303DP030026E.md) |  | 
 **DP030026PE** | [**Acs5ProfilesValuesDP0303DP030026PE**](Acs5ProfilesValuesDP0303DP030026PE.md) |  | 
 **DP030027E** | [**Acs5ProfilesValuesDP0303DP030027E**](Acs5ProfilesValuesDP0303DP030027E.md) |  | 

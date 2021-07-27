@@ -1,6 +1,6 @@
 /**
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -48,20 +48,20 @@
   }
 
   describe('HelpApi', function() {
-    describe('getHelp', function() {
-      it('should call getHelp successfully', function(done) {
-        //uncomment below and update the code to test getHelp
-        //instance.getHelp(function(error) {
+    describe('help', function() {
+      it('should call help successfully', function(done) {
+        //uncomment below and update the code to test help
+        //instance.help(function(error) {
         //  if (error) throw error;
         //expect().to.be();
         //});
         done();
       });
     });
-    describe('getPing', function() {
-      it('should call getPing successfully', function(done) {
-        //uncomment below and update the code to test getPing
-        //instance.getPing(function(error) {
+    describe('ping', function() {
+      it('should call ping successfully', function(done) {
+        //uncomment below and update the code to test ping
+        //instance.ping(function(error) {
         //  if (error) throw error;
         //expect().to.be();
         //});

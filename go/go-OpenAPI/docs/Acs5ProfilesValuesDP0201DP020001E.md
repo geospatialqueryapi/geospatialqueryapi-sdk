@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0001E | 
+**MDBName** | **string** | Total households | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0069E | 
+**MDBName** | **string** | VETERAN STATUS: Civilian population 18 years and over | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

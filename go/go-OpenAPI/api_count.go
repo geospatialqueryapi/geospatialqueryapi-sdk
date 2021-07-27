@@ -1,7 +1,7 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
  *
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * API version: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -38,7 +38,7 @@ func (r ApiGetV1BoundariesCountUscountiesRequest) Execute() (InlineResponse2002,
 }
 
 /*
- * GetV1BoundariesCountUscounties Your GET endpoint
+ * GetV1BoundariesCountUscounties v1-boundaries-count-uscounties
  * Count the number of U.S. Counties.
  * @param ctx _context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
  * @return ApiGetV1BoundariesCountUscountiesRequest
@@ -149,7 +149,7 @@ func (r ApiGetV1BoundariesCountUscousubsRequest) Execute() (InlineResponse2002, 
 }
 
 /*
- * GetV1BoundariesCountUscousubs Your GET endpoint
+ * GetV1BoundariesCountUscousubs v1-boundaries-count-uscousubs
  * Count the number of U.S. County Subdivisions.
  * @param ctx _context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
  * @return ApiGetV1BoundariesCountUscousubsRequest
@@ -260,7 +260,7 @@ func (r ApiGetV1BoundariesCountUsplacesRequest) Execute() (InlineResponse2002, *
 }
 
 /*
- * GetV1BoundariesCountUsplaces Your GET endpoint
+ * GetV1BoundariesCountUsplaces v1-boundaries-count-usplaces
  * Count the number of U.S. Places.
  * @param ctx _context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
  * @return ApiGetV1BoundariesCountUsplacesRequest
@@ -371,7 +371,7 @@ func (r ApiGetV1BoundariesCountUsstatesRequest) Execute() (InlineResponse2002, *
 }
 
 /*
- * GetV1BoundariesCountUsstates Your GET endpoint
+ * GetV1BoundariesCountUsstates v1-boundaries-count-usstates
  * Count the number of U.S. States and Territories.
  * @param ctx _context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
  * @return ApiGetV1BoundariesCountUsstatesRequest
@@ -482,7 +482,7 @@ func (r ApiGetV1BoundariesCountUstractsRequest) Execute() (InlineResponse2002, *
 }
 
 /*
- * GetV1BoundariesCountUstracts Your GET endpoint
+ * GetV1BoundariesCountUstracts v1-boundaries-count-ustracts
  * Count the number of U.S. Census Tracts.
  * @param ctx _context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
  * @return ApiGetV1BoundariesCountUstractsRequest
@@ -593,7 +593,7 @@ func (r ApiGetV1BoundariesCountUszctasRequest) Execute() (InlineResponse2002, *_
 }
 
 /*
- * GetV1BoundariesCountUszctas Your GET endpoint
+ * GetV1BoundariesCountUszctas get-v1-boundaries-count-uszctas
  * Count the number of U.S. ZCTA5.
  * @param ctx _context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
  * @return ApiGetV1BoundariesCountUszctasRequest

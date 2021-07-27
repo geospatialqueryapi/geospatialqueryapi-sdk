@@ -1,7 +1,7 @@
 @isTest
 private class OASCountApiTest {
     /**
-     * Your GET endpoint
+     * v1-boundaries-count-uscounties
      *
      * Count the number of U.S. Counties.
      */
@@ -29,7 +29,7 @@ private class OASCountApiTest {
     }
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-count-uscousubs
      *
      * Count the number of U.S. County Subdivisions.
      */
@@ -57,7 +57,7 @@ private class OASCountApiTest {
     }
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-count-usplaces
      *
      * Count the number of U.S. Places.
      */
@@ -85,7 +85,7 @@ private class OASCountApiTest {
     }
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-count-usstates
      *
      * Count the number of U.S. States and Territories.
      */
@@ -113,7 +113,7 @@ private class OASCountApiTest {
     }
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-count-ustracts
      *
      * Count the number of U.S. Census Tracts.
      */
@@ -141,7 +141,7 @@ private class OASCountApiTest {
     }
 
     /**
-     * Your GET endpoint
+     * get-v1-boundaries-count-uszctas
      *
      * Count the number of U.S. ZCTA5.
      */

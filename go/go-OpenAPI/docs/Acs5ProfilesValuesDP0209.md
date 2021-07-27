@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | RESIDENCE 1 YEAR AGO | 
+**MDBGroupCode** | **string** | DP0209 | 
 **DP020079E** | [**Acs5ProfilesValuesDP0209DP020079E**](Acs5ProfilesValuesDP0209DP020079E.md) |  | 
 **DP020080E** | [**Acs5ProfilesValuesDP0209DP020080E**](Acs5ProfilesValuesDP0209DP020080E.md) |  | 
 **DP020080PE** | [**Acs5ProfilesValuesDP0209DP020080PE**](Acs5ProfilesValuesDP0209DP020080PE.md) |  | 

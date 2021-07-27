@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0016PE | 
+**MDBName** | **string** | EMPLOYMENT STATUS: Own children of the householder 6 to 17 years (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

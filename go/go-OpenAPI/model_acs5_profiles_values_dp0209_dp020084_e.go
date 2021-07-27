@@ -1,7 +1,7 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
  *
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * API version: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -15,10 +15,13 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0209DP020084E struct for Acs5ProfilesValuesDP0209DP020084E
+// Acs5ProfilesValuesDP0209DP020084E Population 1 year and over: Different house in the U.S.: Different county: Same state
 type Acs5ProfilesValuesDP0209DP020084E struct {
+	// DP02_0084E
 	MDBCode string `json:"MDBCode"`
+	// Population 1 year and over: Different house in the U.S.: Different county: Same state
 	MDBName string `json:"MDBName"`
+	// Field value
 	MDBValue string `json:"MDBValue"`
 	AdditionalProperties map[string]interface{}
 }

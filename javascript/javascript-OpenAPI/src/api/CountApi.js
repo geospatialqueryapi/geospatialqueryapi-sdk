@@ -1,6 +1,6 @@
 /**
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -44,7 +44,7 @@ export default class CountApi {
      */
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-count-uscounties
      * Count the number of U.S. Counties.
      * @param {module:api/CountApi~getV1BoundariesCountUscountiesCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/InlineResponse2002}
@@ -81,7 +81,7 @@ export default class CountApi {
      */
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-count-uscousubs
      * Count the number of U.S. County Subdivisions.
      * @param {module:api/CountApi~getV1BoundariesCountUscousubsCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/InlineResponse2002}
@@ -118,7 +118,7 @@ export default class CountApi {
      */
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-count-usplaces
      * Count the number of U.S. Places.
      * @param {module:api/CountApi~getV1BoundariesCountUsplacesCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/InlineResponse2002}
@@ -155,7 +155,7 @@ export default class CountApi {
      */
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-count-usstates
      * Count the number of U.S. States and Territories.
      * @param {module:api/CountApi~getV1BoundariesCountUsstatesCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/InlineResponse2002}
@@ -192,7 +192,7 @@ export default class CountApi {
      */
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-count-ustracts
      * Count the number of U.S. Census Tracts.
      * @param {module:api/CountApi~getV1BoundariesCountUstractsCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/InlineResponse2002}
@@ -229,7 +229,7 @@ export default class CountApi {
      */
 
     /**
-     * Your GET endpoint
+     * get-v1-boundaries-count-uszctas
      * Count the number of U.S. ZCTA5.
      * @param {module:api/CountApi~getV1BoundariesCountUszctasCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/InlineResponse2002}

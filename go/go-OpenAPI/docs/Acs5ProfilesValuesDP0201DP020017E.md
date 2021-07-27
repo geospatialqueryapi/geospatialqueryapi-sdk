@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0017E | 
+**MDBName** | **string** | Average family size | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

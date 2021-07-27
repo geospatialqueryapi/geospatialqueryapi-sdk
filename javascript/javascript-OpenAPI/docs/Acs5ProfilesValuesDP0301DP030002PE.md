@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP03_0002PE | 
+**mDBName** | **String** | In labor force (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

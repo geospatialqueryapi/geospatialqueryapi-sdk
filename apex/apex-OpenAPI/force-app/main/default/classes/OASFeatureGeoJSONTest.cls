@@ -68,14 +68,4 @@ private class OASFeatureGeoJSONTest {
         System.assertEquals(featureGeoJSON1.hashCode(), featureGeoJSON2.hashCode());
         System.assertEquals(featureGeoJSON3.hashCode(), featureGeoJSON4.hashCode());
     }
-
-    @isTest
-    private static void defaultValuesPopulated() {
-        OASFeatureGeoJSON featureGeoJSON = new OASFeatureGeoJSON();
-        System.assertEquals(new List<OASLink>(), featureGeoJSON.links);
-        System.assertEquals(null, featureGeoJSON.type);
-        System.assertEquals(null, featureGeoJSON.geometry);
-        System.assertEquals(null, featureGeoJSON.properties);
-        System.assertEquals(null, featureGeoJSON.id);
-    }
 }

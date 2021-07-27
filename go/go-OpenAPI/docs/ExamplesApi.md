@@ -4,12 +4,12 @@ All URIs are relative to *http://localhost/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**GetV1BoundariesRequestsUscountyIdGEOID**](ExamplesApi.md#GetV1BoundariesRequestsUscountyIdGEOID) | **Get** /v1/boundaries/requests/uscounty/id/{GEOID} | Your GET endpoint
-[**GetV1BoundariesRequestsUscousubIdGEOID**](ExamplesApi.md#GetV1BoundariesRequestsUscousubIdGEOID) | **Get** /v1/boundaries/requests/uscousub/id/{GEOID} | Your GET endpoint
-[**GetV1BoundariesRequestsUsplaceIdGEOID**](ExamplesApi.md#GetV1BoundariesRequestsUsplaceIdGEOID) | **Get** /v1/boundaries/requests/usplace/id/{GEOID} | Your GET endpoint
-[**GetV1BoundariesRequestsUsstate**](ExamplesApi.md#GetV1BoundariesRequestsUsstate) | **Get** /v1/boundaries/requests/usstate | Your GET endpoint
-[**GetV1BoundariesRequestsUstractIdGEOID**](ExamplesApi.md#GetV1BoundariesRequestsUstractIdGEOID) | **Get** /v1/boundaries/requests/ustract/id/{GEOID} | Your GET endpoint
-[**GetV1BoundariesRequestsZctaIdGEOID**](ExamplesApi.md#GetV1BoundariesRequestsZctaIdGEOID) | **Get** /v1/boundaries/requests/uszcta/id/{GEOID} | Your GET endpoint
+[**GetV1BoundariesRequestsUscountyIdGEOID**](ExamplesApi.md#GetV1BoundariesRequestsUscountyIdGEOID) | **Get** /v1/boundaries/requests/uscounty/id/{GEOID} | v1-boundaries-requests-uscounty-id-GEOID
+[**GetV1BoundariesRequestsUscousubIdGEOID**](ExamplesApi.md#GetV1BoundariesRequestsUscousubIdGEOID) | **Get** /v1/boundaries/requests/uscousub/id/{GEOID} | v1-boundaries-requests-uscousub-id-GEOID
+[**GetV1BoundariesRequestsUsplaceIdGEOID**](ExamplesApi.md#GetV1BoundariesRequestsUsplaceIdGEOID) | **Get** /v1/boundaries/requests/usplace/id/{GEOID} | v1-boundaries-requests-usplace-id-GEOID
+[**GetV1BoundariesRequestsUsstate**](ExamplesApi.md#GetV1BoundariesRequestsUsstate) | **Get** /v1/boundaries/requests/usstate | v1-boundaries-requests-usstate
+[**GetV1BoundariesRequestsUstractIdGEOID**](ExamplesApi.md#GetV1BoundariesRequestsUstractIdGEOID) | **Get** /v1/boundaries/requests/ustract/id/{GEOID} | v1-boundaries-requests-ustract-id-GEOID
+[**GetV1BoundariesRequestsZctaIdGEOID**](ExamplesApi.md#GetV1BoundariesRequestsZctaIdGEOID) | **Get** /v1/boundaries/requests/uszcta/id/{GEOID} | v1-boundaries-requests-zcta-id-GEOID
 
 
 
@@ -17,7 +17,7 @@ Method | HTTP request | Description
 
 > InlineResponse2003 GetV1BoundariesRequestsUscountyIdGEOID(ctx, gEOID).Execute()
 
-Your GET endpoint
+v1-boundaries-requests-uscounty-id-GEOID
 
 
 
@@ -87,7 +87,7 @@ No authorization required
 
 > InlineResponse2003 GetV1BoundariesRequestsUscousubIdGEOID(ctx, gEOID).Execute()
 
-Your GET endpoint
+v1-boundaries-requests-uscousub-id-GEOID
 
 
 
@@ -157,7 +157,7 @@ No authorization required
 
 > InlineResponse2003 GetV1BoundariesRequestsUsplaceIdGEOID(ctx, gEOID).Execute()
 
-Your GET endpoint
+v1-boundaries-requests-usplace-id-GEOID
 
 
 
@@ -227,7 +227,7 @@ No authorization required
 
 > InlineResponse2003 GetV1BoundariesRequestsUsstate(ctx).Execute()
 
-Your GET endpoint
+v1-boundaries-requests-usstate
 
 
 
@@ -288,7 +288,7 @@ No authorization required
 
 > InlineResponse2003 GetV1BoundariesRequestsUstractIdGEOID(ctx, gEOID).Execute()
 
-Your GET endpoint
+v1-boundaries-requests-ustract-id-GEOID
 
 
 
@@ -358,7 +358,7 @@ No authorization required
 
 > InlineResponse2003 GetV1BoundariesRequestsZctaIdGEOID(ctx, gEOID).Execute()
 
-Your GET endpoint
+v1-boundaries-requests-zcta-id-GEOID
 
 
 

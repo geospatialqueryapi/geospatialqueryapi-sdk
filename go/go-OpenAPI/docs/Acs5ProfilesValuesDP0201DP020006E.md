@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0006E | 
+**MDBName** | **string** | Male householder, no spouse/partner present | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

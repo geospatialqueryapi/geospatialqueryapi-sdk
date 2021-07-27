@@ -1,7 +1,7 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
  *
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * API version: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -15,10 +15,13 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0204DP020037E struct for Acs5ProfilesValuesDP0204DP020037E
+// Acs5ProfilesValuesDP0204DP020037E Number of women 15 to 50 years old who had a birth in the past 12 months
 type Acs5ProfilesValuesDP0204DP020037E struct {
+	// DP02_0037E
 	MDBCode string `json:"MDBCode"`
+	// Number of women 15 to 50 years old who had a birth in the past 12 months
 	MDBName string `json:"MDBName"`
+	// Field value
 	MDBValue string `json:"MDBValue"`
 	AdditionalProperties map[string]interface{}
 }

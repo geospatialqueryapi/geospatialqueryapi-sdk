@@ -1,6 +1,6 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -26,7 +26,7 @@ public class OASDataApi {
     }
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-uscounty-id-GEOID
      * U.S. County by GEOID.\n\nExample:\nGEOID&#x3D;06001\nAlameda, Alameda County, CA, California\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      * @param GEOID local identifier of a feature (required)
      * @return OASFeatureGeoJSON
@@ -51,7 +51,7 @@ public class OASDataApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-uscounty-LatLon
      * U.S. County by lat/lon.\n\nExample:\nLatLon&#x3D;33.6756872|-117.7772068\nLatLon&#x3D;33.6756872,-117.7772068\n\nNote: valid delimiters: | or ,\n\nCounty by lat/lon: Alameda, Orange County, CA, California\n\n\n\n\nNote: valid delimiters: | or ,\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      * @param latLon local identifier of a feature (required)
      * @return OASFeatureGeoJSON
@@ -76,7 +76,7 @@ public class OASDataApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-uscousub-id-GEOID
      * U.S. County Subdivision by GEOID.\n\nExample:\nGEOID&#x3D;0605991977\nCA, Orange, Orange County, Mission Viejo CCD\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      * @param GEOID local identifier of a feature (required)
      * @return OASFeatureGeoJSON
@@ -101,7 +101,7 @@ public class OASDataApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-uscousub-LatLon
      * U.S. County Subdivision by lat/lon\n\nExample:\nLatLon&#x3D;33.5627268|-117.5922593\nLatLon&#x3D;33.5627268,-117.5922593\n\nNote: valid delimiters: | or ,\n\nCounty by lat/lon: Alameda, Orange County, CA, California\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      * @param latLon local identifier of a feature (required)
      * @return OASFeatureGeoJSON
@@ -126,7 +126,7 @@ public class OASDataApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-usplace-id-GEOID
      * U.S. Place by GEOID\n\nExample:\nGEOID&#x3D;0686804\nCA, California, Yolo County, Knights Landing CCD\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      * @param GEOID local identifier of a feature (required)
      * @return OASFeatureGeoJSON
@@ -151,7 +151,7 @@ public class OASDataApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-usplace-LatLon
      * U.S. Place by lat/lon\n\nExample:\nLatLon&#x3D;33.8890375|-117.7720695\nLatLon&#x3D;33.8890375,-117.7720695\n\nNote: valid delimiters: | or ,\n\nCA, California, Orange County, Anaheim-Santa Ana-Garden Grove, Yorba Linda city\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      * @param latLon local identifier of a feature (required)
      * @return OASFeatureGeoJSON
@@ -176,7 +176,7 @@ public class OASDataApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-usstate-id-GEOID
      * U.S. State by GEOID\n\nExample:\nGEOID&#x3D;06\nCA, California\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      * @param GEOID local identifier of a feature (required)
      * @return OASFeatureGeoJSON
@@ -201,7 +201,7 @@ public class OASDataApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-usstate-LatLon
      * U.S. State by lat/lon.\n\nExample:\nLatLon&#x3D;37.1551773|-119.5434183\nLatLon&#x3D;37.1551773,-119.5434183\n\nNote: valid delimiters: | or ,\n\nCA, California.\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      * @param latLon local identifier of a feature (required)
      * @return OASFeatureGeoJSON
@@ -226,7 +226,7 @@ public class OASDataApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-ustract-id-GEOID
      * U.S. Census Tract by GEOID\n\nExample:\nGEOID&#x3D;06059990100\nCA, California, Orange County, Census Tract 1105\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      * @param GEOID local identifier of a feature (required)
      * @return OASFeatureGeoJSON
@@ -251,13 +251,13 @@ public class OASDataApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-ustract-LatLon
      * U.S. Census Tract by lat/lon\n\nExample:\nLatLon&#x3D;33.5354639|-117.7720695\nLatLon&#x3D;33.5354639,-117.7720695\n\nNote: valid delimiters: | or ,\n\nCA, California, Orange County, Census Tract 9901\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      * @param latLon local identifier of a feature (required)
      * @return OASFeatureGeoJSON
      * @throws OAS.ApiException if fails to make API call
      */
-    public OASFeatureGeoJSON getV1BoundariesUstractLatLatLon(Map<String, Object> params) {
+    public OASFeatureGeoJSON getV1BoundariesUstractLatLon(Map<String, Object> params) {
         client.assertNotNull(params.get('latLon'), 'latLon');
         List<OAS.Param> query = new List<OAS.Param>();
         List<OAS.Param> form = new List<OAS.Param>();
@@ -276,7 +276,7 @@ public class OASDataApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-uszcta-id-GEOID
      * U.S. ZCTA5 by GEOID\n\nExample:\nGEOID&#x3D;92688\nCA, California, Orange County, 92688\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      * @param GEOID local identifier of a feature (required)
      * @return OASFeatureGeoJSON
@@ -301,7 +301,7 @@ public class OASDataApi {
         );
     }
     /**
-     * Your GET endpoint
+     * v1-boundaries-uszcta-LatLon
      * U.S. ZCTA5 by lat/lon\n\nExample:\nLatLon&#x3D;33.6196715|-117.6120873\nLatLon&#x3D;33.6196715,-117.6120873\n\nNote: valid delimiters: | or ,\n\nCA, California, Orange County, 92688\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      * @param latLon local identifier of a feature (required)
      * @return OASFeatureGeoJSON

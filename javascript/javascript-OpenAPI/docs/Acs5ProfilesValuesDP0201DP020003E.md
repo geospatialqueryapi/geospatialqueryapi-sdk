@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP02_0003E | 
+**mDBName** | **String** | Married-couple family: With own children | 
+**mDBValue** | **String** | Field value | 
 
 

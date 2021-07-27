@@ -1,7 +1,7 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
  *
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * API version: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -15,10 +15,13 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0201DP020014E struct for Acs5ProfilesValuesDP0201DP020014E
+// Acs5ProfilesValuesDP0201DP020014E Households with one or more people under 18 years
 type Acs5ProfilesValuesDP0201DP020014E struct {
+	// DP02_0014E
 	MDBCode string `json:"MDBCode"`
+	// Households with one or more people under 18 years
 	MDBName string `json:"MDBName"`
+	// Field value
 	MDBValue string `json:"MDBValue"`
 	AdditionalProperties map[string]interface{}
 }

@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0024PE | 
+**MDBName** | **string** | Worked from home (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP02_0069E | 
+**mDBName** | **String** | VETERAN STATUS: Civilian population 18 years and over | 
+**mDBValue** | **String** | Field value | 
 
 

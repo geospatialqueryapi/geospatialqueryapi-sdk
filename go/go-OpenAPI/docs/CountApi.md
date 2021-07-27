@@ -4,12 +4,12 @@ All URIs are relative to *http://localhost/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**GetV1BoundariesCountUscounties**](CountApi.md#GetV1BoundariesCountUscounties) | **Get** /v1/boundaries/count/uscounties | Your GET endpoint
-[**GetV1BoundariesCountUscousubs**](CountApi.md#GetV1BoundariesCountUscousubs) | **Get** /v1/boundaries/count/uscousubs | Your GET endpoint
-[**GetV1BoundariesCountUsplaces**](CountApi.md#GetV1BoundariesCountUsplaces) | **Get** /v1/boundaries/count/usplaces | Your GET endpoint
-[**GetV1BoundariesCountUsstates**](CountApi.md#GetV1BoundariesCountUsstates) | **Get** /v1/boundaries/count/usstates | Your GET endpoint
-[**GetV1BoundariesCountUstracts**](CountApi.md#GetV1BoundariesCountUstracts) | **Get** /v1/boundaries/count/ustracts | Your GET endpoint
-[**GetV1BoundariesCountUszctas**](CountApi.md#GetV1BoundariesCountUszctas) | **Get** /v1/boundaries/count/uszctas | Your GET endpoint
+[**GetV1BoundariesCountUscounties**](CountApi.md#GetV1BoundariesCountUscounties) | **Get** /v1/boundaries/count/uscounties | v1-boundaries-count-uscounties
+[**GetV1BoundariesCountUscousubs**](CountApi.md#GetV1BoundariesCountUscousubs) | **Get** /v1/boundaries/count/uscousubs | v1-boundaries-count-uscousubs
+[**GetV1BoundariesCountUsplaces**](CountApi.md#GetV1BoundariesCountUsplaces) | **Get** /v1/boundaries/count/usplaces | v1-boundaries-count-usplaces
+[**GetV1BoundariesCountUsstates**](CountApi.md#GetV1BoundariesCountUsstates) | **Get** /v1/boundaries/count/usstates | v1-boundaries-count-usstates
+[**GetV1BoundariesCountUstracts**](CountApi.md#GetV1BoundariesCountUstracts) | **Get** /v1/boundaries/count/ustracts | v1-boundaries-count-ustracts
+[**GetV1BoundariesCountUszctas**](CountApi.md#GetV1BoundariesCountUszctas) | **Get** /v1/boundaries/count/uszctas | get-v1-boundaries-count-uszctas
 
 
 
@@ -17,7 +17,7 @@ Method | HTTP request | Description
 
 > InlineResponse2002 GetV1BoundariesCountUscounties(ctx).Execute()
 
-Your GET endpoint
+v1-boundaries-count-uscounties
 
 
 
@@ -78,7 +78,7 @@ No authorization required
 
 > InlineResponse2002 GetV1BoundariesCountUscousubs(ctx).Execute()
 
-Your GET endpoint
+v1-boundaries-count-uscousubs
 
 
 
@@ -139,7 +139,7 @@ No authorization required
 
 > InlineResponse2002 GetV1BoundariesCountUsplaces(ctx).Execute()
 
-Your GET endpoint
+v1-boundaries-count-usplaces
 
 
 
@@ -200,7 +200,7 @@ No authorization required
 
 > InlineResponse2002 GetV1BoundariesCountUsstates(ctx).Execute()
 
-Your GET endpoint
+v1-boundaries-count-usstates
 
 
 
@@ -261,7 +261,7 @@ No authorization required
 
 > InlineResponse2002 GetV1BoundariesCountUstracts(ctx).Execute()
 
-Your GET endpoint
+v1-boundaries-count-ustracts
 
 
 
@@ -322,7 +322,7 @@ No authorization required
 
 > InlineResponse2002 GetV1BoundariesCountUszctas(ctx).Execute()
 
-Your GET endpoint
+get-v1-boundaries-count-uszctas
 
 
 

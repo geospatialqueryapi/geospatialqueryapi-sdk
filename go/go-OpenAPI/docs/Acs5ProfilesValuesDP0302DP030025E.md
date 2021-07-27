@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0025E | 
+**MDBName** | **string** | Mean travel time to work (minutes) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

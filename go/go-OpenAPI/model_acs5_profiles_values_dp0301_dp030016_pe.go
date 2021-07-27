@@ -1,7 +1,7 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
  *
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * API version: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -15,10 +15,13 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0301DP030016PE struct for Acs5ProfilesValuesDP0301DP030016PE
+// Acs5ProfilesValuesDP0301DP030016PE EMPLOYMENT STATUS: Own children of the householder 6 to 17 years (percent)
 type Acs5ProfilesValuesDP0301DP030016PE struct {
+	// DP03_0016PE
 	MDBCode string `json:"MDBCode"`
+	// EMPLOYMENT STATUS: Own children of the householder 6 to 17 years (percent)
 	MDBName string `json:"MDBName"`
+	// Field value
 	MDBValue string `json:"MDBValue"`
 	AdditionalProperties map[string]interface{}
 }

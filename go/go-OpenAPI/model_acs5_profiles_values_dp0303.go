@@ -1,7 +1,7 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
  *
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * API version: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -15,9 +15,11 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0303 struct for Acs5ProfilesValuesDP0303
+// Acs5ProfilesValuesDP0303 OCCUPATION
 type Acs5ProfilesValuesDP0303 struct {
+	// OCCUPATION
 	MDBGroupName string `json:"MDBGroupName"`
+	// DP0303
 	MDBGroupCode string `json:"MDBGroupCode"`
 	DP030026E Acs5ProfilesValuesDP0303DP030026E `json:"DP030026E"`
 	DP030026PE Acs5ProfilesValuesDP0303DP030026PE `json:"DP030026PE"`

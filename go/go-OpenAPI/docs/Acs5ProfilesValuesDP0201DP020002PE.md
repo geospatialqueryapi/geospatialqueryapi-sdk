@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0002PE | 
+**MDBName** | **string** | Married-couple family (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

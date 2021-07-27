@@ -1,6 +1,6 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -11,17 +11,17 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0209
+ * RESIDENCE 1 YEAR AGO
  */
 public class OASAcs5ProfilesValuesDP0209 implements OAS.MappedProperties {
     /**
-     * Get mdBGroupName
+     * RESIDENCE 1 YEAR AGO
      * @return mdBGroupName
      */
     public String mdBGroupName { get; set; }
 
     /**
-     * Get mdBGroupCode
+     * DP0209
      * @return mdBGroupCode
      */
     public String mdBGroupCode { get; set; }

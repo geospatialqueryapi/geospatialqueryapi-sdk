@@ -1,6 +1,6 @@
 /*
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0301DP030008P
+ * Civilian labor force (percent)
  */
 public class OASAcs5ProfilesValuesDP0301DP030008P implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP03_0008PE
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Civilian labor force (percent
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }
@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0301DP030008P implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0301DP030008P getExample() {
         OASAcs5ProfilesValuesDP0301DP030008P acs5ProfilesValuesDP0301DP030008PE = new OASAcs5ProfilesValuesDP0301DP030008P();
           acs5ProfilesValuesDP0301DP030008PE.mdBCode = 'DP03_0008PE';
-          acs5ProfilesValuesDP0301DP030008PE.mdBName = 'Civilian labor force (percent)';
+          acs5ProfilesValuesDP0301DP030008PE.mdBName = 'Civilian labor force (percent';
           acs5ProfilesValuesDP0301DP030008PE.mdBValue = '2229479';
         return acs5ProfilesValuesDP0301DP030008PE;
     }

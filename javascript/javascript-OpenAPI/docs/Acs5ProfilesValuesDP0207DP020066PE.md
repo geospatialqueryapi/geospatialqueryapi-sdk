@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP02_0066PE | 
+**mDBName** | **String** | Population 25 years and over: Graduate or professional degree (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

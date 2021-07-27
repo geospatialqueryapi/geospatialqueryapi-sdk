@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBGroupName** | **String** |  | 
-**mDBGroupCode** | **String** |  | 
+**mDBGroupName** | **String** | OCCUPATION | 
+**mDBGroupCode** | **String** | DP0303 | 
 **dP030026E** | [**Acs5ProfilesValuesDP0303DP030026E**](Acs5ProfilesValuesDP0303DP030026E.md) |  | 
 **dP030026PE** | [**Acs5ProfilesValuesDP0303DP030026PE**](Acs5ProfilesValuesDP0303DP030026PE.md) |  | 
 **dP030027E** | [**Acs5ProfilesValuesDP0303DP030027E**](Acs5ProfilesValuesDP0303DP030027E.md) |  | 

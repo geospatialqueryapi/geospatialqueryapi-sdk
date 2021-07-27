@@ -1,6 +1,6 @@
 /**
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -368,7 +368,7 @@ import HelpApi from './api/HelpApi';
 
 
 /**
-* Geospatial_Query_API_US_Census_Boundaries_and_Census_Data.<br>
+* Geospatial_Query_API_US_Census_Boundaries_and_Census_Data__doc_html.<br>
 * The <code>index</code> module provides access to constructors for all the classes which comprise the public API.
 * <p>
 * An AMD (recommended!) or CommonJS application will generally do something equivalent to the following:

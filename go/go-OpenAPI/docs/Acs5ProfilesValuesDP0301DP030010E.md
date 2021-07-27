@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0010E | 
+**MDBName** | **string** | EMPLOYMENT STATUS: Females 16 years and over | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

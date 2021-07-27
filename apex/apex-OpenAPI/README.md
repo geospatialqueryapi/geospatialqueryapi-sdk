@@ -1,7 +1,7 @@
 # Geo Spatial Query Api - US Census Boundaries and Census Data API Client
 
 
-Geospatial Query API: US Census Boundaries and Census Data
+Geospatial Query API: US Census Boundaries and Census Data /doc.html
 
 ## Requirements
 
@@ -59,32 +59,32 @@ All URIs are relative to *http://localhost/api*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*OASCountApi* | [**getV1BoundariesCountUscounties**](OASCountApi.md#getV1BoundariesCountUscounties) | **GET** /v1/boundaries/count/uscounties | Your GET endpoint
-*OASCountApi* | [**getV1BoundariesCountUscousubs**](OASCountApi.md#getV1BoundariesCountUscousubs) | **GET** /v1/boundaries/count/uscousubs | Your GET endpoint
-*OASCountApi* | [**getV1BoundariesCountUsplaces**](OASCountApi.md#getV1BoundariesCountUsplaces) | **GET** /v1/boundaries/count/usplaces | Your GET endpoint
-*OASCountApi* | [**getV1BoundariesCountUsstates**](OASCountApi.md#getV1BoundariesCountUsstates) | **GET** /v1/boundaries/count/usstates | Your GET endpoint
-*OASCountApi* | [**getV1BoundariesCountUstracts**](OASCountApi.md#getV1BoundariesCountUstracts) | **GET** /v1/boundaries/count/ustracts | Your GET endpoint
-*OASCountApi* | [**getV1BoundariesCountUszctas**](OASCountApi.md#getV1BoundariesCountUszctas) | **GET** /v1/boundaries/count/uszctas | Your GET endpoint
-*OASDataApi* | [**getV1BoundariesUscountyIdGEOID**](OASDataApi.md#getV1BoundariesUscountyIdGEOID) | **GET** /v1/boundaries/uscounty/id/{GEOID} | Your GET endpoint
-*OASDataApi* | [**getV1BoundariesUscountyLatLon**](OASDataApi.md#getV1BoundariesUscountyLatLon) | **GET** /v1/boundaries/uscounty/latlon/{LatLon} | Your GET endpoint
-*OASDataApi* | [**getV1BoundariesUscousubIdGEOID**](OASDataApi.md#getV1BoundariesUscousubIdGEOID) | **GET** /v1/boundaries/uscousub/id/{GEOID} | Your GET endpoint
-*OASDataApi* | [**getV1BoundariesUscousubLatLon**](OASDataApi.md#getV1BoundariesUscousubLatLon) | **GET** /v1/boundaries/uscousub/latlon/{LatLon} | Your GET endpoint
-*OASDataApi* | [**getV1BoundariesUsplaceIdGEOID**](OASDataApi.md#getV1BoundariesUsplaceIdGEOID) | **GET** /v1/boundaries/usplace/id/{GEOID} | Your GET endpoint
-*OASDataApi* | [**getV1BoundariesUsplaceLatLon**](OASDataApi.md#getV1BoundariesUsplaceLatLon) | **GET** /v1/boundaries/usplace/latlon/{LatLon} | Your GET endpoint
-*OASDataApi* | [**getV1BoundariesUsstateIdGEOID**](OASDataApi.md#getV1BoundariesUsstateIdGEOID) | **GET** /v1/boundaries/usstate/id/{GEOID} | Your GET endpoint
-*OASDataApi* | [**getV1BoundariesUsstateLatLon**](OASDataApi.md#getV1BoundariesUsstateLatLon) | **GET** /v1/boundaries/usstate/latlon/{LatLon} | Your GET endpoint
-*OASDataApi* | [**getV1BoundariesUstractIdGEOID**](OASDataApi.md#getV1BoundariesUstractIdGEOID) | **GET** /v1/boundaries/ustract/id/{GEOID} | Your GET endpoint
-*OASDataApi* | [**getV1BoundariesUstractLatLatLon**](OASDataApi.md#getV1BoundariesUstractLatLatLon) | **GET** /v1/boundaries/ustract/latlon/{LatLon} | Your GET endpoint
-*OASDataApi* | [**getV1BoundariesUszctaIdGEOID**](OASDataApi.md#getV1BoundariesUszctaIdGEOID) | **GET** /v1/boundaries/uszcta/id/{GEOID} | Your GET endpoint
-*OASDataApi* | [**getV1BoundariesUszctaLatLon**](OASDataApi.md#getV1BoundariesUszctaLatLon) | **GET** /v1/boundaries/uszcta/latlon/{LatLon} | Your GET endpoint
-*OASExamplesApi* | [**getV1BoundariesRequestsUscountyIdGEOID**](OASExamplesApi.md#getV1BoundariesRequestsUscountyIdGEOID) | **GET** /v1/boundaries/requests/uscounty/id/{GEOID} | Your GET endpoint
-*OASExamplesApi* | [**getV1BoundariesRequestsUscousubIdGEOID**](OASExamplesApi.md#getV1BoundariesRequestsUscousubIdGEOID) | **GET** /v1/boundaries/requests/uscousub/id/{GEOID} | Your GET endpoint
-*OASExamplesApi* | [**getV1BoundariesRequestsUsplaceIdGEOID**](OASExamplesApi.md#getV1BoundariesRequestsUsplaceIdGEOID) | **GET** /v1/boundaries/requests/usplace/id/{GEOID} | Your GET endpoint
-*OASExamplesApi* | [**getV1BoundariesRequestsUsstate**](OASExamplesApi.md#getV1BoundariesRequestsUsstate) | **GET** /v1/boundaries/requests/usstate | Your GET endpoint
-*OASExamplesApi* | [**getV1BoundariesRequestsUstractIdGEOID**](OASExamplesApi.md#getV1BoundariesRequestsUstractIdGEOID) | **GET** /v1/boundaries/requests/ustract/id/{GEOID} | Your GET endpoint
-*OASExamplesApi* | [**getV1BoundariesRequestsZctaIdGEOID**](OASExamplesApi.md#getV1BoundariesRequestsZctaIdGEOID) | **GET** /v1/boundaries/requests/uszcta/id/{GEOID} | Your GET endpoint
-*OASHelpApi* | [**getHelp**](OASHelpApi.md#getHelp) | **GET** /v1/help | Get ID search strings
-*OASHelpApi* | [**getPing**](OASHelpApi.md#getPing) | **GET** /hi | Ping test.
+*OASCountApi* | [**getV1BoundariesCountUscounties**](OASCountApi.md#getV1BoundariesCountUscounties) | **GET** /v1/boundaries/count/uscounties | v1-boundaries-count-uscounties
+*OASCountApi* | [**getV1BoundariesCountUscousubs**](OASCountApi.md#getV1BoundariesCountUscousubs) | **GET** /v1/boundaries/count/uscousubs | v1-boundaries-count-uscousubs
+*OASCountApi* | [**getV1BoundariesCountUsplaces**](OASCountApi.md#getV1BoundariesCountUsplaces) | **GET** /v1/boundaries/count/usplaces | v1-boundaries-count-usplaces
+*OASCountApi* | [**getV1BoundariesCountUsstates**](OASCountApi.md#getV1BoundariesCountUsstates) | **GET** /v1/boundaries/count/usstates | v1-boundaries-count-usstates
+*OASCountApi* | [**getV1BoundariesCountUstracts**](OASCountApi.md#getV1BoundariesCountUstracts) | **GET** /v1/boundaries/count/ustracts | v1-boundaries-count-ustracts
+*OASCountApi* | [**getV1BoundariesCountUszctas**](OASCountApi.md#getV1BoundariesCountUszctas) | **GET** /v1/boundaries/count/uszctas | get-v1-boundaries-count-uszctas
+*OASDataApi* | [**getV1BoundariesUscountyIdGEOID**](OASDataApi.md#getV1BoundariesUscountyIdGEOID) | **GET** /v1/boundaries/uscounty/id/{GEOID} | v1-boundaries-uscounty-id-GEOID
+*OASDataApi* | [**getV1BoundariesUscountyLatLon**](OASDataApi.md#getV1BoundariesUscountyLatLon) | **GET** /v1/boundaries/uscounty/latlon/{LatLon} | v1-boundaries-uscounty-LatLon
+*OASDataApi* | [**getV1BoundariesUscousubIdGEOID**](OASDataApi.md#getV1BoundariesUscousubIdGEOID) | **GET** /v1/boundaries/uscousub/id/{GEOID} | v1-boundaries-uscousub-id-GEOID
+*OASDataApi* | [**getV1BoundariesUscousubLatLon**](OASDataApi.md#getV1BoundariesUscousubLatLon) | **GET** /v1/boundaries/uscousub/latlon/{LatLon} | v1-boundaries-uscousub-LatLon
+*OASDataApi* | [**getV1BoundariesUsplaceIdGEOID**](OASDataApi.md#getV1BoundariesUsplaceIdGEOID) | **GET** /v1/boundaries/usplace/id/{GEOID} | v1-boundaries-usplace-id-GEOID
+*OASDataApi* | [**getV1BoundariesUsplaceLatLon**](OASDataApi.md#getV1BoundariesUsplaceLatLon) | **GET** /v1/boundaries/usplace/latlon/{LatLon} | v1-boundaries-usplace-LatLon
+*OASDataApi* | [**getV1BoundariesUsstateIdGEOID**](OASDataApi.md#getV1BoundariesUsstateIdGEOID) | **GET** /v1/boundaries/usstate/id/{GEOID} | v1-boundaries-usstate-id-GEOID
+*OASDataApi* | [**getV1BoundariesUsstateLatLon**](OASDataApi.md#getV1BoundariesUsstateLatLon) | **GET** /v1/boundaries/usstate/latlon/{LatLon} | v1-boundaries-usstate-LatLon
+*OASDataApi* | [**getV1BoundariesUstractIdGEOID**](OASDataApi.md#getV1BoundariesUstractIdGEOID) | **GET** /v1/boundaries/ustract/id/{GEOID} | v1-boundaries-ustract-id-GEOID
+*OASDataApi* | [**getV1BoundariesUstractLatLon**](OASDataApi.md#getV1BoundariesUstractLatLon) | **GET** /v1/boundaries/ustract/latlon/{LatLon} | v1-boundaries-ustract-LatLon
+*OASDataApi* | [**getV1BoundariesUszctaIdGEOID**](OASDataApi.md#getV1BoundariesUszctaIdGEOID) | **GET** /v1/boundaries/uszcta/id/{GEOID} | v1-boundaries-uszcta-id-GEOID
+*OASDataApi* | [**getV1BoundariesUszctaLatLon**](OASDataApi.md#getV1BoundariesUszctaLatLon) | **GET** /v1/boundaries/uszcta/latlon/{LatLon} | v1-boundaries-uszcta-LatLon
+*OASExamplesApi* | [**getV1BoundariesRequestsUscountyIdGEOID**](OASExamplesApi.md#getV1BoundariesRequestsUscountyIdGEOID) | **GET** /v1/boundaries/requests/uscounty/id/{GEOID} | v1-boundaries-requests-uscounty-id-GEOID
+*OASExamplesApi* | [**getV1BoundariesRequestsUscousubIdGEOID**](OASExamplesApi.md#getV1BoundariesRequestsUscousubIdGEOID) | **GET** /v1/boundaries/requests/uscousub/id/{GEOID} | v1-boundaries-requests-uscousub-id-GEOID
+*OASExamplesApi* | [**getV1BoundariesRequestsUsplaceIdGEOID**](OASExamplesApi.md#getV1BoundariesRequestsUsplaceIdGEOID) | **GET** /v1/boundaries/requests/usplace/id/{GEOID} | v1-boundaries-requests-usplace-id-GEOID
+*OASExamplesApi* | [**getV1BoundariesRequestsUsstate**](OASExamplesApi.md#getV1BoundariesRequestsUsstate) | **GET** /v1/boundaries/requests/usstate | v1-boundaries-requests-usstate
+*OASExamplesApi* | [**getV1BoundariesRequestsUstractIdGEOID**](OASExamplesApi.md#getV1BoundariesRequestsUstractIdGEOID) | **GET** /v1/boundaries/requests/ustract/id/{GEOID} | v1-boundaries-requests-ustract-id-GEOID
+*OASExamplesApi* | [**getV1BoundariesRequestsZctaIdGEOID**](OASExamplesApi.md#getV1BoundariesRequestsZctaIdGEOID) | **GET** /v1/boundaries/requests/uszcta/id/{GEOID} | v1-boundaries-requests-zcta-id-GEOID
+*OASHelpApi* | [**help**](OASHelpApi.md#help) | **GET** /v1/help | Help
+*OASHelpApi* | [**ping**](OASHelpApi.md#ping) | **GET** /hi | Ping test.
 
 
 ## Documentation for Models

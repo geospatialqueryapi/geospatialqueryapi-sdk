@@ -4,16 +4,16 @@ All URIs are relative to *http://localhost/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**getHelp**](HelpApi.md#getHelp) | **GET** /v1/help | Get ID search strings
-[**getPing**](HelpApi.md#getPing) | **GET** /hi | Ping test.
+[**help**](HelpApi.md#help) | **GET** /v1/help | Help
+[**ping**](HelpApi.md#ping) | **GET** /hi | Ping test.
 
 
 
-## getHelp
+## help
 
-> InlineResponse2001 getHelp()
+> InlineResponse2001 help()
 
-Get ID search strings
+Help
 
 Help for Geospatial Query API: US Census Boundaries and Census Data
 
@@ -23,7 +23,7 @@ Help for Geospatial Query API: US Census Boundaries and Census Data
 import GeoSpatialQueryApiUsCensusBoundariesAndCensusData from 'geo_spatial_query_api_us_census_boundaries_and_census_data';
 
 let apiInstance = new GeoSpatialQueryApiUsCensusBoundariesAndCensusData.HelpApi();
-apiInstance.getHelp((error, data, response) => {
+apiInstance.help((error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -50,9 +50,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## getPing
+## ping
 
-> InlineResponse200 getPing()
+> InlineResponse200 ping()
 
 Ping test.
 
@@ -64,7 +64,7 @@ Ping test.
 import GeoSpatialQueryApiUsCensusBoundariesAndCensusData from 'geo_spatial_query_api_us_census_boundaries_and_census_data';
 
 let apiInstance = new GeoSpatialQueryApiUsCensusBoundariesAndCensusData.HelpApi();
-apiInstance.getPing((error, data, response) => {
+apiInstance.ping((error, data, response) => {
   if (error) {
     console.error(error);
   } else {

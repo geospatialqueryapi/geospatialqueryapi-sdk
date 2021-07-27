@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0007PE | 
+**MDBName** | **string** | Not in labor force (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

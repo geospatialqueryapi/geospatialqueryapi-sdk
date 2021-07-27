@@ -4,16 +4,16 @@ All URIs are relative to *http://localhost/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**GetHelp**](HelpApi.md#GetHelp) | **Get** /v1/help | Get ID search strings
-[**GetPing**](HelpApi.md#GetPing) | **Get** /hi | Ping test.
+[**Help**](HelpApi.md#Help) | **Get** /v1/help | Help
+[**Ping**](HelpApi.md#Ping) | **Get** /hi | Ping test.
 
 
 
-## GetHelp
+## Help
 
-> InlineResponse2001 GetHelp(ctx).Execute()
+> InlineResponse2001 Help(ctx).Execute()
 
-Get ID search strings
+Help
 
 
 
@@ -33,13 +33,13 @@ func main() {
 
     configuration := openapiclient.NewConfiguration()
     api_client := openapiclient.NewAPIClient(configuration)
-    resp, r, err := api_client.HelpApi.GetHelp(context.Background()).Execute()
+    resp, r, err := api_client.HelpApi.Help(context.Background()).Execute()
     if err != nil {
-        fmt.Fprintf(os.Stderr, "Error when calling `HelpApi.GetHelp``: %v\n", err)
+        fmt.Fprintf(os.Stderr, "Error when calling `HelpApi.Help``: %v\n", err)
         fmt.Fprintf(os.Stderr, "Full HTTP response: %v\n", r)
     }
-    // response from `GetHelp`: InlineResponse2001
-    fmt.Fprintf(os.Stdout, "Response from `HelpApi.GetHelp`: %v\n", resp)
+    // response from `Help`: InlineResponse2001
+    fmt.Fprintf(os.Stdout, "Response from `HelpApi.Help`: %v\n", resp)
 }
 ```
 
@@ -49,7 +49,7 @@ This endpoint does not need any parameter.
 
 ### Other Parameters
 
-Other parameters are passed through a pointer to a apiGetHelpRequest struct via the builder pattern
+Other parameters are passed through a pointer to a apiHelpRequest struct via the builder pattern
 
 
 ### Return type
@@ -70,9 +70,9 @@ No authorization required
 [[Back to README]](../README.md)
 
 
-## GetPing
+## Ping
 
-> InlineResponse200 GetPing(ctx).Execute()
+> InlineResponse200 Ping(ctx).Execute()
 
 Ping test.
 
@@ -94,13 +94,13 @@ func main() {
 
     configuration := openapiclient.NewConfiguration()
     api_client := openapiclient.NewAPIClient(configuration)
-    resp, r, err := api_client.HelpApi.GetPing(context.Background()).Execute()
+    resp, r, err := api_client.HelpApi.Ping(context.Background()).Execute()
     if err != nil {
-        fmt.Fprintf(os.Stderr, "Error when calling `HelpApi.GetPing``: %v\n", err)
+        fmt.Fprintf(os.Stderr, "Error when calling `HelpApi.Ping``: %v\n", err)
         fmt.Fprintf(os.Stderr, "Full HTTP response: %v\n", r)
     }
-    // response from `GetPing`: InlineResponse200
-    fmt.Fprintf(os.Stdout, "Response from `HelpApi.GetPing`: %v\n", resp)
+    // response from `Ping`: InlineResponse200
+    fmt.Fprintf(os.Stdout, "Response from `HelpApi.Ping`: %v\n", resp)
 }
 ```
 
@@ -110,7 +110,7 @@ This endpoint does not need any parameter.
 
 ### Other Parameters
 
-Other parameters are passed through a pointer to a apiGetPingRequest struct via the builder pattern
+Other parameters are passed through a pointer to a apiPingRequest struct via the builder pattern
 
 
 ### Return type

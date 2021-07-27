@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBGroupName** | **String** |  | 
-**mDBGroupCode** | **String** |  | 
+**mDBGroupName** | **String** | COMMUTING TO WORK | 
+**mDBGroupCode** | **String** | DP0302 | 
 **dP030018E** | [**Acs5ProfilesValuesDP0302DP030018E**](Acs5ProfilesValuesDP0302DP030018E.md) |  | 
 **dP030018PE** | [**Acs5ProfilesValuesDP0302DP030018PE**](Acs5ProfilesValuesDP0302DP030018PE.md) |  | 
 **dP030024E** | [**Acs5ProfilesValuesDP0302DP030024E**](Acs5ProfilesValuesDP0302DP030024E.md) |  | 

@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0080E | 
+**MDBName** | **string** | Population 1 year and over: Same house | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

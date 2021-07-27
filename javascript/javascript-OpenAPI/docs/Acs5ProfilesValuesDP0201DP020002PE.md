@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP02_0002PE | 
+**mDBName** | **String** | Married-couple family (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

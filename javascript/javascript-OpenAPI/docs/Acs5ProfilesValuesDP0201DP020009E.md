@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP02_0009E | 
+**mDBName** | **String** | Male householder, no spouse/partner present: Householder living alone: 65 years and over | 
+**mDBValue** | **String** | Field value | 
 
 

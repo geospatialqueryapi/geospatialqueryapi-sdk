@@ -1,7 +1,7 @@
 @isTest
 private class OASExamplesApiTest {
     /**
-     * Your GET endpoint
+     * v1-boundaries-requests-uscounty-id-GEOID
      *
      * U.S. County by State GEOID.\n\nExample:\nGEOID&#x3D;06 - Examples of requests for each county in CA, California.
      */
@@ -33,12 +33,12 @@ private class OASExamplesApiTest {
     }
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-requests-uscousub-id-GEOID
      *
      * U.S. County by State GEOID.\n\nExample:\nGEOID&#x3D;06 - Examples of requests for each county subdivision in CA, California.
      */
     @isTest
-    private static void getV1BoundariesRequestsUscousubId06Test() {
+    private static void getV1BoundariesRequestsUscousubIdGEOIDTest() {
         HttpResponse res = new HttpResponse();
         res.setStatusCode(200);
         res.setStatus('OK');
@@ -60,17 +60,17 @@ private class OASExamplesApiTest {
         res.setHeader('Content-Type', 'application/json');
         res.setBody(js);
         expectedResponse = OASInlineResponse2003.getExample();
-        response = (OASInlineResponse2003) api.getV1BoundariesRequestsUscousubId06(params);
+        response = (OASInlineResponse2003) api.getV1BoundariesRequestsUscousubIdGEOID(params);
         System.assertEquals(expectedResponse, response);
     }
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-requests-usplace-id-GEOID
      *
      * U.S. Places by State GEOID.\n\nExample:\nGEOID&#x3D;06 - Examples of requests for each U.S. Place in CA, California.
      */
     @isTest
-    private static void getV1BoundariesRequestsUsplaceId06Test() {
+    private static void getV1BoundariesRequestsUsplaceIdGEOIDTest() {
         HttpResponse res = new HttpResponse();
         res.setStatusCode(200);
         res.setStatus('OK');
@@ -92,12 +92,12 @@ private class OASExamplesApiTest {
         res.setHeader('Content-Type', 'application/json');
         res.setBody(js);
         expectedResponse = OASInlineResponse2003.getExample();
-        response = (OASInlineResponse2003) api.getV1BoundariesRequestsUsplaceId06(params);
+        response = (OASInlineResponse2003) api.getV1BoundariesRequestsUsplaceIdGEOID(params);
         System.assertEquals(expectedResponse, response);
     }
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-requests-usstate
      *
      * Examples of requests for each state in U.S.A.\n
      */
@@ -125,12 +125,12 @@ private class OASExamplesApiTest {
     }
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-requests-ustract-id-GEOID
      *
      * U.S. Census Tracts by U.S. County GEOID.\n\nExample:\nGEOID&#x3D;06059 - Example of requests for each ustract in CA, California,  Orange County.
      */
     @isTest
-    private static void getV1BoundariesRequestsUstractId06Test() {
+    private static void getV1BoundariesRequestsUstractIdGEOIDTest() {
         HttpResponse res = new HttpResponse();
         res.setStatusCode(200);
         res.setStatus('OK');
@@ -152,17 +152,17 @@ private class OASExamplesApiTest {
         res.setHeader('Content-Type', 'application/json');
         res.setBody(js);
         expectedResponse = OASInlineResponse2003.getExample();
-        response = (OASInlineResponse2003) api.getV1BoundariesRequestsUstractId06(params);
+        response = (OASInlineResponse2003) api.getV1BoundariesRequestsUstractIdGEOID(params);
         System.assertEquals(expectedResponse, response);
     }
 
     /**
-     * Your GET endpoint
+     * v1-boundaries-requests-zcta-id-GEOID
      *
      * U.S. ZCTA 5 by ZIP3.\n\nExample:\nExample of requests for each ZIP code in ZIP3&#x3D;926.
      */
     @isTest
-    private static void getV1BoundariesRequestsZctaId926Test() {
+    private static void getV1BoundariesRequestsZctaIdGEOIDTest() {
         HttpResponse res = new HttpResponse();
         res.setStatusCode(200);
         res.setStatus('OK');
@@ -184,7 +184,7 @@ private class OASExamplesApiTest {
         res.setHeader('Content-Type', 'application/json');
         res.setBody(js);
         expectedResponse = OASInlineResponse2003.getExample();
-        response = (OASInlineResponse2003) api.getV1BoundariesRequestsZctaId926(params);
+        response = (OASInlineResponse2003) api.getV1BoundariesRequestsZctaIdGEOID(params);
         System.assertEquals(expectedResponse, response);
     }
 }

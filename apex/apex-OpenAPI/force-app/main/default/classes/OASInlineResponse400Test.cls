@@ -80,15 +80,15 @@ private class OASInlineResponse400Test {
     @isTest
     private static void defaultValuesPopulated() {
         OASInlineResponse400 inlineResponse400 = new OASInlineResponse400();
-        System.assertEquals(new List<Object>(), inlineResponse400.exampleRequests);
+        System.assertEquals(new List<oas_any_type_not_mapped>(), inlineResponse400.exampleRequests);
         System.assertEquals(null, inlineResponse400.appname);
         System.assertEquals(null, inlineResponse400.copyright);
         System.assertEquals(null, inlineResponse400.request);
-        System.assertEquals(null, inlineResponse400.response);
-        System.assertEquals(null, inlineResponse400.result);
         System.assertEquals(null, inlineResponse400.timeToRun);
         System.assertEquals(null, inlineResponse400.timestamp);
         System.assertEquals(null, inlineResponse400.version);
         System.assertEquals(null, inlineResponse400.www);
+        System.assertEquals(null, inlineResponse400.response);
+        System.assertEquals(null, inlineResponse400.result);
     }
 }

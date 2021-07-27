@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP02_0068E | 
+**MDBName** | **string** | Population 25 years and over: Bachelor&#39;s degree or higher | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

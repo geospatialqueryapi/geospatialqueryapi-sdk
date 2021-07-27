@@ -1,6 +1,6 @@
 /**
  * Geo Spatial Query Api - US Census Boundaries and Census Data
- * Geospatial Query API: US Census Boundaries and Census Data
+ * Geospatial Query API: US Census Boundaries and Census Data /doc.html
  *
  * The version of the OpenAPI document: 1.0.0
  * Contact: mobiledatabooks@mobiledatabooks.com
@@ -21,10 +21,11 @@ import ApiClient from '../ApiClient';
 class Acs5ProfilesValuesDP0301DP030004PE {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0301DP030004PE</code>.
+     * Employed (percent)
      * @alias module:model/Acs5ProfilesValuesDP0301DP030004PE
-     * @param mDBCode {String} 
-     * @param mDBName {String} 
-     * @param mDBValue {String} 
+     * @param mDBCode {String} DP03_0004PE
+     * @param mDBName {String} Employed (percent)
+     * @param mDBValue {String} Field value
      */
     constructor(mDBCode, mDBName, mDBValue) { 
         
@@ -70,16 +71,19 @@ class Acs5ProfilesValuesDP0301DP030004PE {
 }
 
 /**
+ * DP03_0004PE
  * @member {String} MDBCode
  */
 Acs5ProfilesValuesDP0301DP030004PE.prototype['MDBCode'] = undefined;
 
 /**
+ * Employed (percent)
  * @member {String} MDBName
  */
 Acs5ProfilesValuesDP0301DP030004PE.prototype['MDBName'] = undefined;
 
 /**
+ * Field value
  * @member {String} MDBValue
  */
 Acs5ProfilesValuesDP0301DP030004PE.prototype['MDBValue'] = undefined;
