@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBGroupName** | **String** |  | 
-**mDBGroupCode** | **String** |  | 
+**mDBGroupName** | **String** | YEAR HOUSEHOLDER MOVED INTO UNIT | 
+**mDBGroupCode** | **String** | DP0407 | 
 **dP040050E** | [**Acs5ProfilesValuesDP0407DP040050E**](Acs5ProfilesValuesDP0407DP040050E.md) |  | 
 **dP040051E** | [**Acs5ProfilesValuesDP0407DP040051E**](Acs5ProfilesValuesDP0407DP040051E.md) |  | 
 **dP040051PE** | [**Acs5ProfilesValuesDP0407DP040051PE**](Acs5ProfilesValuesDP0407DP040051PE.md) |  | 

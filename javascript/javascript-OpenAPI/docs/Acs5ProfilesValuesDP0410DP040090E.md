@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0090E | 
+**mDBName** | **String** | Owner-occupied units | 
+**mDBValue** | **String** | Field value | 
 
 

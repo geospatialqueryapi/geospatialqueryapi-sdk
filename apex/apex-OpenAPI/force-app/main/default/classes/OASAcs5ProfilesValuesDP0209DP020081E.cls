@@ -11,7 +11,7 @@
  */
 
 /**
- * Population 1 year and over: Different house in the U.S.
+ * Population 1 year and over- Different house in the U.S.
  */
 public class OASAcs5ProfilesValuesDP0209DP020081E implements OAS.MappedProperties {
     /**
@@ -21,7 +21,7 @@ public class OASAcs5ProfilesValuesDP0209DP020081E implements OAS.MappedPropertie
     public String mdBCode { get; set; }
 
     /**
-     * Population 1 year and over: Different house in the U.S.
+     * Population 1 year and over- Different house in the U.S.
      * @return mdBName
      */
     public String mdBName { get; set; }
@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0209DP020081E implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0209DP020081E getExample() {
         OASAcs5ProfilesValuesDP0209DP020081E acs5ProfilesValuesDP0209DP020081E = new OASAcs5ProfilesValuesDP0209DP020081E();
           acs5ProfilesValuesDP0209DP020081E.mdBCode = 'DP02_0081E';
-          acs5ProfilesValuesDP0209DP020081E.mdBName = 'Population 1 year and over: Different house in the U.S.';
+          acs5ProfilesValuesDP0209DP020081E.mdBName = 'Population 1 year and over- Different house in the U.S.';
           acs5ProfilesValuesDP0209DP020081E.mdBValue = '647205';
         return acs5ProfilesValuesDP0209DP020081E;
     }

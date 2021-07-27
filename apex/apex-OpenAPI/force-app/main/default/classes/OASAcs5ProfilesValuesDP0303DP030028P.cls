@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0303DP030028P
+ * Service occupations (percent)
  */
 public class OASAcs5ProfilesValuesDP0303DP030028P implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP03_0028PE
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Service occupations (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

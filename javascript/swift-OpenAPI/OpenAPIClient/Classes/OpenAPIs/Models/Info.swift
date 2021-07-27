@@ -12,28 +12,51 @@ import AnyCodable
 
 public struct Info: Codable, Hashable {
 
+    /** The US State GEOID */
     public var uSStateGEOID: String
+    /** The US State abbreviation */
     public var uSStateUSPS: String
+    /** The US State full name */
     public var uSStateNameFull: String
+    /** The US County GEOID */
     public var uSCountyGEOID: String
+    /** The US County name */
     public var uSCountyName: String
+    /** The US County full name */
     public var uSCountyNameFull: String
+    /** The US County subdivision */
     public var USCOUSUBGEOID: String
+    /** The US County subdivision GEOID */
     public var uSCOUSUBName: String
+    /** The US County subdivision */
     public var uSCOUSUBNameFull: String
+    /** The US Place GEOID */
     public var uSPlaceGEOID: String
+    /** The US Place name */
     public var uSPlaceNAME: String
+    /** The US Place full name */
     public var uSPlaceNameFull: String
+    /** The US ZCTA full name */
     public var USZCTA: String
+    /** The US Census tract GEOID */
     public var uSTractGEOID: String
+    /** The US Census tract name */
     public var uSTractName: String
+    /** The US Census tract full name */
     public var uSTractNameFull: String
+    /** TimeStamp */
     public var timeStamp: String
+    /** TimeToRun */
     public var timeToRun: String
+    /** AccountID */
     public var accountID: String
+    /** AccountName */
     public var accountName: String
+    /** Request */
     public var request: String
+    /** Result */
     public var result: String
+    /** Version */
     public var version: String
     public var copyright: String
 

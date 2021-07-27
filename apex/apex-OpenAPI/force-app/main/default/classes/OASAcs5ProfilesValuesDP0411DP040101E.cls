@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0411DP040101E
+ * Housing units with a mortgage: Median (dollars)
  */
 public class OASAcs5ProfilesValuesDP0411DP040101E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP04_0101E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Housing units with a mortgage: Median (dollars)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

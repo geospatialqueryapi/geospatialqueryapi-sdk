@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBGroupName** | **String** |  | 
-**mDBGroupCode** | **String** |  | 
+**mDBGroupName** | **String** | SEX AND AGE | 
+**mDBGroupCode** | **String** | DP0503 | 
 **dP050025E** | [**Acs5ProfilesValuesDP0503DP050025E**](Acs5ProfilesValuesDP0503DP050025E.md) |  | 
 **dP050025PE** | [**Acs5ProfilesValuesDP0503DP050025PE**](Acs5ProfilesValuesDP0503DP050025PE.md) |  | 
 **dP050026E** | [**Acs5ProfilesValuesDP0503DP050026E**](Acs5ProfilesValuesDP0503DP050026E.md) |  | 

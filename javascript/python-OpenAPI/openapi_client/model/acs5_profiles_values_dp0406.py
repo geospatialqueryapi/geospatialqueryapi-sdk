@@ -143,8 +143,8 @@ class Acs5ProfilesValuesDP0406(ModelNormal):
         """Acs5ProfilesValuesDP0406 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): HOUSING TENURE
+            mdb_group_code (str): DP0406
             dp040045_e (Acs5ProfilesValuesDP0406DP040045E):
             dp040045_pe (Acs5ProfilesValuesDP0406DP040045PE):
             dp040046_e (Acs5ProfilesValuesDP0406DP040046E):
@@ -246,8 +246,8 @@ class Acs5ProfilesValuesDP0406(ModelNormal):
         """Acs5ProfilesValuesDP0406 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): HOUSING TENURE
+            mdb_group_code (str): DP0406
             dp040045_e (Acs5ProfilesValuesDP0406DP040045E):
             dp040045_pe (Acs5ProfilesValuesDP0406DP040045PE):
             dp040046_e (Acs5ProfilesValuesDP0406DP040046E):

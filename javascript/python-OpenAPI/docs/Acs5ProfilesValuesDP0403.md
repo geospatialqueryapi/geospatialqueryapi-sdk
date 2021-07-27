@@ -1,11 +1,12 @@
 # Acs5ProfilesValuesDP0403
 
+YEAR STRUCTURE BUILT
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mdb_group_name** | **str** |  | 
-**mdb_group_code** | **str** |  | 
+**mdb_group_name** | **str** | YEAR STRUCTURE BUILT | 
+**mdb_group_code** | **str** | DP0403 | 
 **dp040016_e** | [**Acs5ProfilesValuesDP0403DP040016E**](Acs5ProfilesValuesDP0403DP040016E.md) |  | 
 **dp040017_e** | [**Acs5ProfilesValuesDP0403DP040017E**](Acs5ProfilesValuesDP0403DP040017E.md) |  | 
 **dp040017_pe** | [**Acs5ProfilesValuesDP0403DP040017PE**](Acs5ProfilesValuesDP0403DP040017PE.md) |  | 

@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP03_0048E | 
+**mDBName** | **String** | Government workers | 
+**mDBValue** | **String** | Field value | 
 
 

@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP05_0018E | 
+**mDBName** | **String** | Median age (years) | 
+**mDBValue** | **String** | Field value | 
 
 

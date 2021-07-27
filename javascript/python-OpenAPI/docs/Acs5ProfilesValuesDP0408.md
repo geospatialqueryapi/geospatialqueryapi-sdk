@@ -1,11 +1,12 @@
 # Acs5ProfilesValuesDP0408
 
+VEHICLES AVAILABLE
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mdb_group_name** | **str** |  | 
-**mdb_group_code** | **str** |  | 
+**mdb_group_name** | **str** | VEHICLES AVAILABLE | 
+**mdb_group_code** | **str** | DP0408 | 
 **dp040057_e** | [**Acs5ProfilesValuesDP0408DP040057E**](Acs5ProfilesValuesDP0408DP040057E.md) |  | 
 **dp040057_pe** | [**Acs5ProfilesValuesDP0408DP040057PE**](Acs5ProfilesValuesDP0408DP040057PE.md) |  | 
 **dp040058_e** | [**Acs5ProfilesValuesDP0408DP040058E**](Acs5ProfilesValuesDP0408DP040058E.md) |  | 

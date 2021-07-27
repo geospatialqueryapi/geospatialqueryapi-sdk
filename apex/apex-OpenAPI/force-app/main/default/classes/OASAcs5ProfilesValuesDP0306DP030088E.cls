@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0306DP030088E
+ * Per capita income (dollars)
  */
 public class OASAcs5ProfilesValuesDP0306DP030088E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP03_0088E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Per capita income (dollars)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

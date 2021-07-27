@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0410DP040092P
+ * Housing units without a mortgage (percent)
  */
 public class OASAcs5ProfilesValuesDP0410DP040092P implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP04_0092PE
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Housing units without a mortgage (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

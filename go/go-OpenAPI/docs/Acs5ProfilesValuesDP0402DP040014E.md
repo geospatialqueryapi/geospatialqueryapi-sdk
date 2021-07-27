@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0014E | 
+**MDBName** | **string** | Mobile home | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

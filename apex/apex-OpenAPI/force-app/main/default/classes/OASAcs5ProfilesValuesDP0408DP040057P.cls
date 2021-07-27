@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0408DP040057P
+ * Occupied housing units (percent)
  */
 public class OASAcs5ProfilesValuesDP0408DP040057P implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP04_0057PE
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Occupied housing units (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

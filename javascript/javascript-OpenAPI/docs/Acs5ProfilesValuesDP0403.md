@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBGroupName** | **String** |  | 
-**mDBGroupCode** | **String** |  | 
+**mDBGroupName** | **String** | YEAR STRUCTURE BUILT | 
+**mDBGroupCode** | **String** | DP0403 | 
 **dP040016E** | [**Acs5ProfilesValuesDP0403DP040016E**](Acs5ProfilesValuesDP0403DP040016E.md) |  | 
 **dP040017E** | [**Acs5ProfilesValuesDP0403DP040017E**](Acs5ProfilesValuesDP0403DP040017E.md) |  | 
 **dP040017PE** | [**Acs5ProfilesValuesDP0403DP040017PE**](Acs5ProfilesValuesDP0403DP040017PE.md) |  | 

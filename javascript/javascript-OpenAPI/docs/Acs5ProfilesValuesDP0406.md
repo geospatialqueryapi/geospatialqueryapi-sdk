@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBGroupName** | **String** |  | 
-**mDBGroupCode** | **String** |  | 
+**mDBGroupName** | **String** | HOUSING TENURE | 
+**mDBGroupCode** | **String** | DP0406 | 
 **dP040045E** | [**Acs5ProfilesValuesDP0406DP040045E**](Acs5ProfilesValuesDP0406DP040045E.md) |  | 
 **dP040045PE** | [**Acs5ProfilesValuesDP0406DP040045PE**](Acs5ProfilesValuesDP0406DP040045PE.md) |  | 
 **dP040046E** | [**Acs5ProfilesValuesDP0406DP040046E**](Acs5ProfilesValuesDP0406DP040046E.md) |  | 

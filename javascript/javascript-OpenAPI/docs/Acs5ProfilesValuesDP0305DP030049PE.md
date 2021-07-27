@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP03_0049PE | 
+**mDBName** | **String** | Self-employed in own not incorporated business workers (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

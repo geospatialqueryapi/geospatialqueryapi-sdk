@@ -11,17 +11,17 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0305
+ * CLASS OF WORKER
  */
 public class OASAcs5ProfilesValuesDP0305 implements OAS.MappedProperties {
     /**
-     * Get mdBGroupName
+     * CLASS OF WORKER
      * @return mdBGroupName
      */
     public String mdBGroupName { get; set; }
 
     /**
-     * Get mdBGroupCode
+     * DP0305
      * @return mdBGroupCode
      */
     public String mdBGroupCode { get; set; }

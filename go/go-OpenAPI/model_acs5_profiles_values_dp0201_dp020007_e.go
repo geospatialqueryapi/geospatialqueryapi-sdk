@@ -15,11 +15,11 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0201DP020007E Male householder, no spouse/partner present: With own children of the householder under 18 years
+// Acs5ProfilesValuesDP0201DP020007E Male householder, no spouse/partner present- With own children of the householder under 18 years
 type Acs5ProfilesValuesDP0201DP020007E struct {
 	// DP02_0007E
 	MDBCode string `json:"MDBCode"`
-	// Male householder, no spouse/partner present: With own children of the householder under 18 years
+	// Male householder, no spouse/partner present- With own children of the householder under 18 years
 	MDBName string `json:"MDBName"`
 	// Field value
 	MDBValue string `json:"MDBValue"`

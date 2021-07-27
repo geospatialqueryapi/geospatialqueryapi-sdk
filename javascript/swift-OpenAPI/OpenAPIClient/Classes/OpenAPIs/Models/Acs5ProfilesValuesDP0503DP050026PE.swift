@@ -10,10 +10,14 @@ import Foundation
 import AnyCodable
 #endif
 
+/** 18 years and over- Male (percent) */
 public struct Acs5ProfilesValuesDP0503DP050026PE: Codable, Hashable {
 
+    /** DP05_0026PE */
     public var mDBCode: String
+    /** 18 years and over- Male (percent) */
     public var mDBName: String
+    /** Field value */
     public var mDBValue: String
 
     public init(mDBCode: String, mDBName: String, mDBValue: String) {

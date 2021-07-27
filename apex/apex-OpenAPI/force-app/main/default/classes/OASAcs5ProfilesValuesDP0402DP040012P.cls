@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0402DP040012P
+ * 10 to 19 units (percent)
  */
 public class OASAcs5ProfilesValuesDP0402DP040012P implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP04_0012PE
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * 10 to 19 units (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

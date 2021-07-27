@@ -110,7 +110,7 @@ class Acs5ProfilesValuesDP0201DP020008PE(ModelNormal):
 
         Args:
             mdb_code (str): DP02_0008PE
-            mdb_name (str): Male householder, no spouse/partner present: Householder living alone (percent)
+            mdb_name (str): Male householder, no spouse/partner present- Householder living alone (percent)
             mdb_value (str): Field value
 
         Keyword Args:
@@ -199,7 +199,7 @@ class Acs5ProfilesValuesDP0201DP020008PE(ModelNormal):
 
         Args:
             mdb_code (str): DP02_0008PE
-            mdb_name (str): Male householder, no spouse/partner present: Householder living alone (percent)
+            mdb_name (str): Male householder, no spouse/partner present- Householder living alone (percent)
             mdb_value (str): Field value
 
         Keyword Args:

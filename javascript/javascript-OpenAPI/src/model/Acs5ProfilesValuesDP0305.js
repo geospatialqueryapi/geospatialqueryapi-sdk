@@ -31,9 +31,10 @@ import Acs5ProfilesValuesDP0305DP030050PE from './Acs5ProfilesValuesDP0305DP0300
 class Acs5ProfilesValuesDP0305 {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0305</code>.
+     * CLASS OF WORKER
      * @alias module:model/Acs5ProfilesValuesDP0305
-     * @param mDBGroupName {String} 
-     * @param mDBGroupCode {String} 
+     * @param mDBGroupName {String} CLASS OF WORKER
+     * @param mDBGroupCode {String} DP0305
      * @param dP030046E {module:model/Acs5ProfilesValuesDP0305DP030046E} 
      * @param dP030046PE {module:model/Acs5ProfilesValuesDP0305DP030046PE} 
      * @param dP030047E {module:model/Acs5ProfilesValuesDP0305DP030047E} 
@@ -125,11 +126,13 @@ class Acs5ProfilesValuesDP0305 {
 }
 
 /**
+ * CLASS OF WORKER
  * @member {String} MDBGroupName
  */
 Acs5ProfilesValuesDP0305.prototype['MDBGroupName'] = undefined;
 
 /**
+ * DP0305
  * @member {String} MDBGroupCode
  */
 Acs5ProfilesValuesDP0305.prototype['MDBGroupCode'] = undefined;

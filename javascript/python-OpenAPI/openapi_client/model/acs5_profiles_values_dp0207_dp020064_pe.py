@@ -110,7 +110,7 @@ class Acs5ProfilesValuesDP0207DP020064PE(ModelNormal):
 
         Args:
             mdb_code (str): DP02_0064PE
-            mdb_name (str): Population 25 years and over: Associate's degree (percent)
+            mdb_name (str): Population 25 years and over- Associate's degree (percent)
             mdb_value (str): Field value
 
         Keyword Args:
@@ -199,7 +199,7 @@ class Acs5ProfilesValuesDP0207DP020064PE(ModelNormal):
 
         Args:
             mdb_code (str): DP02_0064PE
-            mdb_name (str): Population 25 years and over: Associate's degree (percent)
+            mdb_name (str): Population 25 years and over- Associate's degree (percent)
             mdb_value (str): Field value
 
         Keyword Args:

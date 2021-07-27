@@ -15,10 +15,13 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0403DP040018PE struct for Acs5ProfilesValuesDP0403DP040018PE
+// Acs5ProfilesValuesDP0403DP040018PE Built 2010 to 2013 (percent)
 type Acs5ProfilesValuesDP0403DP040018PE struct {
+	// DP04_0018PE
 	MDBCode string `json:"MDBCode"`
+	// Built 2010 to 2013 (percent)
 	MDBName string `json:"MDBName"`
+	// Field value
 	MDBValue string `json:"MDBValue"`
 	AdditionalProperties map[string]interface{}
 }

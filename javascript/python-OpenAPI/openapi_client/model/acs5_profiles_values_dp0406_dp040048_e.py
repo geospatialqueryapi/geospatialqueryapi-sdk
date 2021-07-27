@@ -109,9 +109,9 @@ class Acs5ProfilesValuesDP0406DP040048E(ModelNormal):
         """Acs5ProfilesValuesDP0406DP040048E - a model defined in OpenAPI
 
         Args:
-            mdb_code (str):
-            mdb_name (str):
-            mdb_value (str):
+            mdb_code (str): DP04_0048E
+            mdb_name (str): Average household size of owner-occupied unit
+            mdb_value (str): Field value
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types
@@ -198,9 +198,9 @@ class Acs5ProfilesValuesDP0406DP040048E(ModelNormal):
         """Acs5ProfilesValuesDP0406DP040048E - a model defined in OpenAPI
 
         Args:
-            mdb_code (str):
-            mdb_name (str):
-            mdb_value (str):
+            mdb_code (str): DP04_0048E
+            mdb_name (str): Average household size of owner-occupied unit
+            mdb_value (str): Field value
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types

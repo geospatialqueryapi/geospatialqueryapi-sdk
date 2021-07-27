@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP05_0025PE | 
+**mDBName** | **String** | 18 years and over (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

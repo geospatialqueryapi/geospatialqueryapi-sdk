@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0201DP020003E implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0201DP020003E getExample() {
         OASAcs5ProfilesValuesDP0201DP020003E acs5ProfilesValuesDP0201DP020003E = new OASAcs5ProfilesValuesDP0201DP020003E();
           acs5ProfilesValuesDP0201DP020003E.mdBCode = 'DP02_0003E';
-          acs5ProfilesValuesDP0201DP020003E.mdBName = 'Married-couple family: With own children of the householder under 18 years';
+          acs5ProfilesValuesDP0201DP020003E.mdBName = 'Married-couple family: With own children';
           acs5ProfilesValuesDP0201DP020003E.mdBValue = '313139';
         return acs5ProfilesValuesDP0201DP020003E;
     }

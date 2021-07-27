@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP05_0076PE | 
+**MDBName** | **string** | Not Hispanic or Latino (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

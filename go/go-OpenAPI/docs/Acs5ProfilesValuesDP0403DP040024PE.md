@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0024PE | 
+**MDBName** | **string** | Built 1950 to 1959 (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

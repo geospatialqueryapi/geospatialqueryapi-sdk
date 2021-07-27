@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **MDBCode** | **string** | DP02_0066E | 
-**MDBName** | **string** | Population 25 years and over: Graduate or professional degree | 
+**MDBName** | **string** | Population 25 years and over- Graduate or professional degree | 
 **MDBValue** | **string** | Field value | 
 
 ## Methods

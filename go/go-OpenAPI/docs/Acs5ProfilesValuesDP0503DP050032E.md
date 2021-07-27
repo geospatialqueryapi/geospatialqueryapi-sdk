@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP05_0032E | 
+**MDBName** | **string** | 65 years and over- Sex ratio (males per 100 females) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

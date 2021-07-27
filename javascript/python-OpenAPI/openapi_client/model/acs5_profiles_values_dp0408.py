@@ -151,8 +151,8 @@ class Acs5ProfilesValuesDP0408(ModelNormal):
         """Acs5ProfilesValuesDP0408 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): VEHICLES AVAILABLE
+            mdb_group_code (str): DP0408
             dp040057_e (Acs5ProfilesValuesDP0408DP040057E):
             dp040057_pe (Acs5ProfilesValuesDP0408DP040057PE):
             dp040058_e (Acs5ProfilesValuesDP0408DP040058E):
@@ -258,8 +258,8 @@ class Acs5ProfilesValuesDP0408(ModelNormal):
         """Acs5ProfilesValuesDP0408 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): VEHICLES AVAILABLE
+            mdb_group_code (str): DP0408
             dp040057_e (Acs5ProfilesValuesDP0408DP040057E):
             dp040057_pe (Acs5ProfilesValuesDP0408DP040057PE):
             dp040058_e (Acs5ProfilesValuesDP0408DP040058E):

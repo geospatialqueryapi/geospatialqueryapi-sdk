@@ -187,8 +187,8 @@ class Acs5ProfilesValuesDP0402(ModelNormal):
         """Acs5ProfilesValuesDP0402 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): UNITS IN STRUCTURE
+            mdb_group_code (str): DP0402
             dp040006_e (Acs5ProfilesValuesDP0402DP040006E):
             dp040007_e (Acs5ProfilesValuesDP0402DP040007E):
             dp040007_pe (Acs5ProfilesValuesDP0402DP040007PE):
@@ -312,8 +312,8 @@ class Acs5ProfilesValuesDP0402(ModelNormal):
         """Acs5ProfilesValuesDP0402 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): UNITS IN STRUCTURE
+            mdb_group_code (str): DP0402
             dp040006_e (Acs5ProfilesValuesDP0402DP040006E):
             dp040007_e (Acs5ProfilesValuesDP0402DP040007E):
             dp040007_pe (Acs5ProfilesValuesDP0402DP040007PE):

@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0501DP050004E
+ * Sex ratio (males per 100 females)
  */
 public class OASAcs5ProfilesValuesDP0501DP050004E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP05_0004E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Sex ratio (males per 100 females)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

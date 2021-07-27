@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **MDBCode** | **string** | DP02_0008E | 
-**MDBName** | **string** | Male householder, no spouse/partner present: Householder living alone | 
+**MDBName** | **string** | Male householder, no spouse/partner present- Householder living alone | 
 **MDBValue** | **string** | Field value | 
 
 ## Methods

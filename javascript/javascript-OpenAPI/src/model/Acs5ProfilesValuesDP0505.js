@@ -30,9 +30,10 @@ import Acs5ProfilesValuesDP0505DP050083PE from './Acs5ProfilesValuesDP0505DP0500
 class Acs5ProfilesValuesDP0505 {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0505</code>.
+     * HISPANIC OR LATINO AND RACE
      * @alias module:model/Acs5ProfilesValuesDP0505
-     * @param mDBGroupName {String} 
-     * @param mDBGroupCode {String} 
+     * @param mDBGroupName {String} HISPANIC OR LATINO AND RACE
+     * @param mDBGroupCode {String} DP0505
      * @param dP050070E {module:model/Acs5ProfilesValuesDP0505DP050070E} 
      * @param dP050071E {module:model/Acs5ProfilesValuesDP0505DP050071E} 
      * @param dP050071PE {module:model/Acs5ProfilesValuesDP0505DP050071PE} 
@@ -119,11 +120,13 @@ class Acs5ProfilesValuesDP0505 {
 }
 
 /**
+ * HISPANIC OR LATINO AND RACE
  * @member {String} MDBGroupName
  */
 Acs5ProfilesValuesDP0505.prototype['MDBGroupName'] = undefined;
 
 /**
+ * DP0505
  * @member {String} MDBGroupCode
  */
 Acs5ProfilesValuesDP0505.prototype['MDBGroupCode'] = undefined;

@@ -29,9 +29,10 @@ import Acs5ProfilesValuesDP0406DP040049E from './Acs5ProfilesValuesDP0406DP04004
 class Acs5ProfilesValuesDP0406 {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0406</code>.
+     * HOUSING TENURE
      * @alias module:model/Acs5ProfilesValuesDP0406
-     * @param mDBGroupName {String} 
-     * @param mDBGroupCode {String} 
+     * @param mDBGroupName {String} HOUSING TENURE
+     * @param mDBGroupCode {String} DP0406
      * @param dP040045E {module:model/Acs5ProfilesValuesDP0406DP040045E} 
      * @param dP040045PE {module:model/Acs5ProfilesValuesDP0406DP040045PE} 
      * @param dP040046E {module:model/Acs5ProfilesValuesDP0406DP040046E} 
@@ -113,11 +114,13 @@ class Acs5ProfilesValuesDP0406 {
 }
 
 /**
+ * HOUSING TENURE
  * @member {String} MDBGroupName
  */
 Acs5ProfilesValuesDP0406.prototype['MDBGroupName'] = undefined;
 
 /**
+ * DP0406
  * @member {String} MDBGroupCode
  */
 Acs5ProfilesValuesDP0406.prototype['MDBGroupCode'] = undefined;

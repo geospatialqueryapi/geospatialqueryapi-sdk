@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP05_0038PE | 
+**mDBName** | **String** | One race: Black or African American (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

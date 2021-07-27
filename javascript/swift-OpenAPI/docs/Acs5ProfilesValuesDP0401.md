@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBGroupName** | **String** |  | 
-**mDBGroupCode** | **String** |  | 
+**mDBGroupName** | **String** | HOUSING OCCUPANCY | 
+**mDBGroupCode** | **String** | DP0401 | 
 **dP040001E** | [**Acs5ProfilesValuesDP0401DP040001E**](Acs5ProfilesValuesDP0401DP040001E.md) |  | 
 **dP040002E** | [**Acs5ProfilesValuesDP0401DP040002E**](Acs5ProfilesValuesDP0401DP040002E.md) |  | 
 **dP040002PE** | [**Acs5ProfilesValuesDP0401DP040002PE**](Acs5ProfilesValuesDP0401DP040002PE.md) |  | 

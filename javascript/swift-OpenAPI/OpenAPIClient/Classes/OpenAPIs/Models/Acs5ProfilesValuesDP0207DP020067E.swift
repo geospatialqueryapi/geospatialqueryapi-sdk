@@ -10,12 +10,12 @@ import Foundation
 import AnyCodable
 #endif
 
-/** Population 25 years and over: High school graduate or higher */
+/** Population 25 years and over- High school graduate or higher */
 public struct Acs5ProfilesValuesDP0207DP020067E: Codable, Hashable {
 
     /** DP02_0067E */
     public var mDBCode: String
-    /** Population 25 years and over: High school graduate or higher */
+    /** Population 25 years and over- High school graduate or higher */
     public var mDBName: String
     /** Field value */
     public var mDBValue: String

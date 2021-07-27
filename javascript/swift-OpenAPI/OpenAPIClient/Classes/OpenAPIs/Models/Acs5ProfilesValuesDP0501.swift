@@ -10,9 +10,12 @@ import Foundation
 import AnyCodable
 #endif
 
+/** SEX */
 public struct Acs5ProfilesValuesDP0501: Codable, Hashable {
 
+    /** SEX */
     public var mDBGroupName: String
+    /** DP0501 */
     public var mDBGroupCode: String
     public var dP050001E: Acs5ProfilesValuesDP0501DP050001E
     public var dP050002E: Acs5ProfilesValuesDP0501DP050002E

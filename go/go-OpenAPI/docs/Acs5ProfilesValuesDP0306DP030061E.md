@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0061E | 
+**MDBName** | **string** | $200,000 or more | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

@@ -10,10 +10,14 @@ import Foundation
 import AnyCodable
 #endif
 
+/** Self-employed in own not incorporated business workers */
 public struct Acs5ProfilesValuesDP0305DP030049E: Codable, Hashable {
 
+    /** DP03_0049E */
     public var mDBCode: String
+    /** Self-employed in own not incorporated business workers */
     public var mDBName: String
+    /** Field value */
     public var mDBValue: String
 
     public init(mDBCode: String, mDBName: String, mDBValue: String) {

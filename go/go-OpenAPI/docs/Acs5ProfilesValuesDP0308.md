@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL | 
+**MDBGroupCode** | **string** | DP0308 | 
 **DP030119PE** | [**Acs5ProfilesValuesDP0308DP030119PE**](Acs5ProfilesValuesDP0308DP030119PE.md) |  | 
 
 ## Methods

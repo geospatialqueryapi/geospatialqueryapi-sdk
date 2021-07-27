@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0056PE | 
+**mDBName** | **String** | Moved in 1989 and earlier (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

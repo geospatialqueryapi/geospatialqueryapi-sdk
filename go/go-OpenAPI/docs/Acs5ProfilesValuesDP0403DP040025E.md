@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0025E | 
+**MDBName** | **string** | Built 1940 to 1949 | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

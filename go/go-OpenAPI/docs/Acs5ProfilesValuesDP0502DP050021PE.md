@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP05_0021PE | 
+**MDBName** | **string** | 18 years and over (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

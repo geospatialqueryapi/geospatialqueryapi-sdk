@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP05_0035PE | 
+**mDBName** | **String** | Two or more races (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

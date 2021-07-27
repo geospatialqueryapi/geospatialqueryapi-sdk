@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0051E | 
+**MDBName** | **string** | Income and benefits (in 2019 inflation-adjusted dollars): Total households | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

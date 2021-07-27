@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP05_0030PE | 
+**MDBName** | **string** | 65 years and over- Male (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

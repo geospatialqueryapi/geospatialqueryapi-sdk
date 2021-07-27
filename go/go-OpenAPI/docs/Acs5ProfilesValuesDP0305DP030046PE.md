@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0046PE | 
+**MDBName** | **string** | Class of worker: Civilian employed population 16 years and over (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

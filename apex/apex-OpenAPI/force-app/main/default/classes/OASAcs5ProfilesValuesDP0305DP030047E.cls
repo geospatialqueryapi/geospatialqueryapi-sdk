@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0305DP030047E
+ * Private wage and salary workers
  */
 public class OASAcs5ProfilesValuesDP0305DP030047E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP03_0047E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Private wage and salary workers
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

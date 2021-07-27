@@ -1,11 +1,12 @@
 # Acs5ProfilesValuesDP0502
 
+AGE
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mdb_group_name** | **str** |  | 
-**mdb_group_code** | **str** |  | 
+**mdb_group_name** | **str** | AGE | 
+**mdb_group_code** | **str** | DP0502 | 
 **dp050005_e** | [**Acs5ProfilesValuesDP0502DP050005E**](Acs5ProfilesValuesDP0502DP050005E.md) |  | 
 **dp050005_pe** | [**Acs5ProfilesValuesDP0502DP050005PE**](Acs5ProfilesValuesDP0502DP050005PE.md) |  | 
 **dp050018_e** | [**Acs5ProfilesValuesDP0502DP050018E**](Acs5ProfilesValuesDP0502DP050018E.md) |  | 

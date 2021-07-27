@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0503DP050025P
+ * 18 years and over (percent)
  */
 public class OASAcs5ProfilesValuesDP0503DP050025P implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP05_0025PE
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * 18 years and over (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

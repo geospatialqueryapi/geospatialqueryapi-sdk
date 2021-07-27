@@ -1,11 +1,12 @@
 # Acs5ProfilesValuesDP0505
 
+HISPANIC OR LATINO AND RACE
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mdb_group_name** | **str** |  | 
-**mdb_group_code** | **str** |  | 
+**mdb_group_name** | **str** | HISPANIC OR LATINO AND RACE | 
+**mdb_group_code** | **str** | DP0505 | 
 **dp050070_e** | [**Acs5ProfilesValuesDP0505DP050070E**](Acs5ProfilesValuesDP0505DP050070E.md) |  | 
 **dp050071_e** | [**Acs5ProfilesValuesDP0505DP050071E**](Acs5ProfilesValuesDP0505DP050071E.md) |  | 
 **dp050071_pe** | [**Acs5ProfilesValuesDP0505DP050071PE**](Acs5ProfilesValuesDP0505DP050071PE.md) |  | 

@@ -21,10 +21,11 @@ import ApiClient from '../ApiClient';
 class Acs5ProfilesValuesDP0505DP050083PE {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0505DP050083PE</code>.
+     * Not Hispanic or Latino: Two or more races (percent)
      * @alias module:model/Acs5ProfilesValuesDP0505DP050083PE
-     * @param mDBCode {String} 
-     * @param mDBName {String} 
-     * @param mDBValue {String} 
+     * @param mDBCode {String} DP05_0083PE
+     * @param mDBName {String} Not Hispanic or Latino: Two or more races (percent)
+     * @param mDBValue {String} Field value
      */
     constructor(mDBCode, mDBName, mDBValue) { 
         
@@ -70,16 +71,19 @@ class Acs5ProfilesValuesDP0505DP050083PE {
 }
 
 /**
+ * DP05_0083PE
  * @member {String} MDBCode
  */
 Acs5ProfilesValuesDP0505DP050083PE.prototype['MDBCode'] = undefined;
 
 /**
+ * Not Hispanic or Latino: Two or more races (percent)
  * @member {String} MDBName
  */
 Acs5ProfilesValuesDP0505DP050083PE.prototype['MDBName'] = undefined;
 
 /**
+ * Field value
  * @member {String} MDBValue
  */
 Acs5ProfilesValuesDP0505DP050083PE.prototype['MDBValue'] = undefined;

@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP03_0029E | 
+**mDBName** | **String** | Sales and office occupations | 
+**mDBValue** | **String** | Field value | 
 
 

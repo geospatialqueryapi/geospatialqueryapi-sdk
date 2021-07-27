@@ -115,8 +115,8 @@ class Acs5ProfilesValuesDP0308(ModelNormal):
         """Acs5ProfilesValuesDP0308 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL
+            mdb_group_code (str): DP0308
             dp030119_pe (Acs5ProfilesValuesDP0308DP030119PE):
 
         Keyword Args:
@@ -204,8 +204,8 @@ class Acs5ProfilesValuesDP0308(ModelNormal):
         """Acs5ProfilesValuesDP0308 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL
+            mdb_group_code (str): DP0308
             dp030119_pe (Acs5ProfilesValuesDP0308DP030119PE):
 
         Keyword Args:

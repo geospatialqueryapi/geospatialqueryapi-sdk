@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0058E | 
+**MDBName** | **string** | No vehicles available | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

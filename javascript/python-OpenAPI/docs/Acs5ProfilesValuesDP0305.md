@@ -1,11 +1,12 @@
 # Acs5ProfilesValuesDP0305
 
+CLASS OF WORKER
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mdb_group_name** | **str** |  | 
-**mdb_group_code** | **str** |  | 
+**mdb_group_name** | **str** | CLASS OF WORKER | 
+**mdb_group_code** | **str** | DP0305 | 
 **dp030046_e** | [**Acs5ProfilesValuesDP0305DP030046E**](Acs5ProfilesValuesDP0305DP030046E.md) |  | 
 **dp030046_pe** | [**Acs5ProfilesValuesDP0305DP030046PE**](Acs5ProfilesValuesDP0305DP030046PE.md) |  | 
 **dp030047_e** | [**Acs5ProfilesValuesDP0305DP030047E**](Acs5ProfilesValuesDP0305DP030047E.md) |  | 

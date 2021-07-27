@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP05_0005PE | 
+**mDBName** | **String** | Under 5 years (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

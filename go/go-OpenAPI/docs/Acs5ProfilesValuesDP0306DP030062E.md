@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0062E | 
+**MDBName** | **string** | Median household income (dollars) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

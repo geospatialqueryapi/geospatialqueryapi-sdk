@@ -40,9 +40,10 @@ import Acs5ProfilesValuesDP0402DP040015PE from './Acs5ProfilesValuesDP0402DP0400
 class Acs5ProfilesValuesDP0402 {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0402</code>.
+     * UNITS IN STRUCTURE
      * @alias module:model/Acs5ProfilesValuesDP0402
-     * @param mDBGroupName {String} 
-     * @param mDBGroupCode {String} 
+     * @param mDBGroupName {String} UNITS IN STRUCTURE
+     * @param mDBGroupCode {String} DP0402
      * @param dP040006E {module:model/Acs5ProfilesValuesDP0402DP040006E} 
      * @param dP040007E {module:model/Acs5ProfilesValuesDP0402DP040007E} 
      * @param dP040007PE {module:model/Acs5ProfilesValuesDP0402DP040007PE} 
@@ -179,11 +180,13 @@ class Acs5ProfilesValuesDP0402 {
 }
 
 /**
+ * UNITS IN STRUCTURE
  * @member {String} MDBGroupName
  */
 Acs5ProfilesValuesDP0402.prototype['MDBGroupName'] = undefined;
 
 /**
+ * DP0402
  * @member {String} MDBGroupCode
  */
 Acs5ProfilesValuesDP0402.prototype['MDBGroupCode'] = undefined;

@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0504DP050038E
+ * One race: Black or African American
  */
 public class OASAcs5ProfilesValuesDP0504DP050038E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP05_0038E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * One race: Black or African American
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

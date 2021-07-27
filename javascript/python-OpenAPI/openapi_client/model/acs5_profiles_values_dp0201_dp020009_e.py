@@ -110,7 +110,7 @@ class Acs5ProfilesValuesDP0201DP020009E(ModelNormal):
 
         Args:
             mdb_code (str): DP02_0009E
-            mdb_name (str): Male householder, no spouse/partner present: Householder living alone: 65 years and over
+            mdb_name (str): Male householder, no spouse/partner present- Householder living alone: 65 years and over
             mdb_value (str): Field value
 
         Keyword Args:
@@ -199,7 +199,7 @@ class Acs5ProfilesValuesDP0201DP020009E(ModelNormal):
 
         Args:
             mdb_code (str): DP02_0009E
-            mdb_name (str): Male householder, no spouse/partner present: Householder living alone: 65 years and over
+            mdb_name (str): Male householder, no spouse/partner present- Householder living alone: 65 years and over
             mdb_value (str): Field value
 
         Keyword Args:

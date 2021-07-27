@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP05_0039E | 
+**MDBName** | **string** | One race: American Indian and Alaska Native | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

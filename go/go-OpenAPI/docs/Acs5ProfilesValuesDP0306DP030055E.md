@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0055E | 
+**MDBName** | **string** | $25,000 to $34,999 | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

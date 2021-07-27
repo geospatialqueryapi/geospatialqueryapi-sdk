@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0088E | 
+**MDBName** | **string** | Per capita income (dollars) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

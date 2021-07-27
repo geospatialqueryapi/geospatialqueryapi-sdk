@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP03_0119PE | 
+**mDBName** | **String** | Persons in poverty: All families (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

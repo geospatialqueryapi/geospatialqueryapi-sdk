@@ -10,9 +10,12 @@ import Foundation
 import AnyCodable
 #endif
 
+/** YEAR HOUSEHOLDER MOVED INTO UNIT */
 public struct Acs5ProfilesValuesDP0407: Codable, Hashable {
 
+    /** YEAR HOUSEHOLDER MOVED INTO UNIT */
     public var mDBGroupName: String
+    /** DP0407 */
     public var mDBGroupCode: String
     public var dP040050E: Acs5ProfilesValuesDP0407DP040050E
     public var dP040051E: Acs5ProfilesValuesDP0407DP040051E

@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0303DP030029P
+ * Sales and office occupations (percent)
  */
 public class OASAcs5ProfilesValuesDP0303DP030029P implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP03_0029PE
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Sales and office occupations (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

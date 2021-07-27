@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0308DP030119P
+ * Persons in poverty: All families (percent)
  */
 public class OASAcs5ProfilesValuesDP0308DP030119P implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP03_0119PE
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Persons in poverty: All families (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

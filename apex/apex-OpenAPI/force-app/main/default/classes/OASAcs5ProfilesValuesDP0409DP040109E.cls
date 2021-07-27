@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0409DP040109E
+ * Housing units without a mortgage: Median (dollars)
  */
 public class OASAcs5ProfilesValuesDP0409DP040109E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP04_0109E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Housing units without a mortgage: Median (dollars)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }
@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0409DP040109E implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0409DP040109E getExample() {
         OASAcs5ProfilesValuesDP0409DP040109E acs5ProfilesValuesDP0409DP040109E = new OASAcs5ProfilesValuesDP0409DP040109E();
           acs5ProfilesValuesDP0409DP040109E.mdBCode = 'DP04_0109E';
-          acs5ProfilesValuesDP0409DP040109E.mdBName = 'Housing units without a mortgage:Median (dollars)';
+          acs5ProfilesValuesDP0409DP040109E.mdBName = 'Housing units without a mortgage: Median (dollars)';
           acs5ProfilesValuesDP0409DP040109E.mdBValue = '363';
         return acs5ProfilesValuesDP0409DP040109E;
     }

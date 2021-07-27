@@ -1,11 +1,12 @@
 # Acs5ProfilesValuesDP0501
 
+SEX
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mdb_group_name** | **str** |  | 
-**mdb_group_code** | **str** |  | 
+**mdb_group_name** | **str** | SEX | 
+**mdb_group_code** | **str** | DP0501 | 
 **dp050001_e** | [**Acs5ProfilesValuesDP0501DP050001E**](Acs5ProfilesValuesDP0501DP050001E.md) |  | 
 **dp050002_e** | [**Acs5ProfilesValuesDP0501DP050002E**](Acs5ProfilesValuesDP0501DP050002E.md) |  | 
 **dp050002_pe** | [**Acs5ProfilesValuesDP0501DP050002PE**](Acs5ProfilesValuesDP0501DP050002PE.md) |  | 

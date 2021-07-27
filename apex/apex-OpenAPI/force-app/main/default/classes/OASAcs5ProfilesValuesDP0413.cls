@@ -11,17 +11,17 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0413
+ * GROSS RENT
  */
 public class OASAcs5ProfilesValuesDP0413 implements OAS.MappedProperties {
     /**
-     * Get mdBGroupName
+     * GROSS RENT
      * @return mdBGroupName
      */
     public String mdBGroupName { get; set; }
 
     /**
-     * Get mdBGroupCode
+     * DP0413
      * @return mdBGroupCode
      */
     public String mdBGroupCode { get; set; }

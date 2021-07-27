@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0058PE | 
+**mDBName** | **String** | No vehicles available (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

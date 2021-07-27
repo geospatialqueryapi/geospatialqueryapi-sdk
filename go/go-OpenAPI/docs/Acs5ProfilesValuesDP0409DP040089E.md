@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0089E | 
+**MDBName** | **string** | Median (dollars) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

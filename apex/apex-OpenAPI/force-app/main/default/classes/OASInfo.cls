@@ -15,139 +15,139 @@
  */
 public class OASInfo implements OAS.MappedProperties {
     /**
-     * Get usStateGEOID
+     * The US State GEOID
      * @return usStateGEOID
      */
     public String usStateGEOID { get; set; }
 
     /**
-     * Get usStateUSPS
+     * The US State abbreviation
      * @return usStateUSPS
      */
     public String usStateUSPS { get; set; }
 
     /**
-     * Get usStateNameFull
+     * The US State full name
      * @return usStateNameFull
      */
     public String usStateNameFull { get; set; }
 
     /**
-     * Get usCountyGEOID
+     * The US County GEOID
      * @return usCountyGEOID
      */
     public String usCountyGEOID { get; set; }
 
     /**
-     * Get usCountyName
+     * The US County name
      * @return usCountyName
      */
     public String usCountyName { get; set; }
 
     /**
-     * Get usCountyNameFull
+     * The US County full name
      * @return usCountyNameFull
      */
     public String usCountyNameFull { get; set; }
 
     /**
-     * Get USCOUSUBGEOID
+     * The US County subdivision
      * @return USCOUSUBGEOID
      */
     public String USCOUSUBGEOID { get; set; }
 
     /**
-     * Get usCOUSUBName
+     * The US County subdivision GEOID
      * @return usCOUSUBName
      */
     public String usCOUSUBName { get; set; }
 
     /**
-     * Get usCOUSUBNameFull
+     * The US County subdivision
      * @return usCOUSUBNameFull
      */
     public String usCOUSUBNameFull { get; set; }
 
     /**
-     * Get usPlaceGEOID
+     * The US Place GEOID
      * @return usPlaceGEOID
      */
     public String usPlaceGEOID { get; set; }
 
     /**
-     * Get usPlaceNAME
+     * The US Place name
      * @return usPlaceNAME
      */
     public String usPlaceNAME { get; set; }
 
     /**
-     * Get usPlaceNameFull
+     * The US Place full name
      * @return usPlaceNameFull
      */
     public String usPlaceNameFull { get; set; }
 
     /**
-     * Get USZCTA
+     * The US ZCTA full name
      * @return USZCTA
      */
     public String USZCTA { get; set; }
 
     /**
-     * Get usTractGEOID
+     * The US Census tract GEOID
      * @return usTractGEOID
      */
     public String usTractGEOID { get; set; }
 
     /**
-     * Get usTractName
+     * The US Census tract name
      * @return usTractName
      */
     public String usTractName { get; set; }
 
     /**
-     * Get usTractNameFull
+     * The US Census tract full name
      * @return usTractNameFull
      */
     public String usTractNameFull { get; set; }
 
     /**
-     * Get timeStamp
+     * TimeStamp
      * @return timeStamp
      */
     public String timeStamp { get; set; }
 
     /**
-     * Get timeToRun
+     * TimeToRun
      * @return timeToRun
      */
     public String timeToRun { get; set; }
 
     /**
-     * Get accountID
+     * AccountID
      * @return accountID
      */
     public String accountID { get; set; }
 
     /**
-     * Get accountName
+     * AccountName
      * @return accountName
      */
     public String accountName { get; set; }
 
     /**
-     * Get request
+     * Request
      * @return request
      */
     public String request { get; set; }
 
     /**
-     * Get result
+     * Result
      * @return result
      */
     public String result { get; set; }
 
     /**
-     * Get version
+     * Version
      * @return version
      */
     public String version { get; set; }
@@ -801,9 +801,9 @@ public class OASInfo implements OAS.MappedProperties {
           info.usStateGEOID = '01';
           info.usStateUSPS = 'AL';
           info.usStateNameFull = 'Alabama';
-          info.usCountyGEOID = '';
-          info.usCountyName = '';
-          info.usCountyNameFull = '';
+          info.usCountyGEOID = '06059';
+          info.usCountyName = 'Orange';
+          info.usCountyNameFull = 'Orange County';
           info.USCOUSUBGEOID = '';
           info.usCOUSUBName = '';
           info.usCOUSUBNameFull = '';
@@ -819,7 +819,7 @@ public class OASInfo implements OAS.MappedProperties {
           info.accountID = '';
           info.accountName = '';
           info.request = '/api/v1/boundaries/usstate/id/01';
-          info.result = '';
+          info.result = 'OK';
           info.version = 'Geospatial Query API: US Census Boundaries and Census Data v1.0. For help: /v1/help';
           info.copyright = '';
         return info;

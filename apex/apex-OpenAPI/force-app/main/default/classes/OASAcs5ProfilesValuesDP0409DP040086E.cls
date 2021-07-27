@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0409DP040086E
+ * $300,000 to $499,999
  */
 public class OASAcs5ProfilesValuesDP0409DP040086E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP04_0086E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * $300,000 to $499,999
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

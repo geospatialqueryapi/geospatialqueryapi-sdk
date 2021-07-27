@@ -15,9 +15,11 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0413 struct for Acs5ProfilesValuesDP0413
+// Acs5ProfilesValuesDP0413 GROSS RENT
 type Acs5ProfilesValuesDP0413 struct {
+	// GROSS RENT
 	MDBGroupName string `json:"MDBGroupName"`
+	// DP0413
 	MDBGroupCode string `json:"MDBGroupCode"`
 	DP040134E Acs5ProfilesValuesDP0413DP040134E `json:"DP040134E"`
 	AdditionalProperties map[string]interface{}

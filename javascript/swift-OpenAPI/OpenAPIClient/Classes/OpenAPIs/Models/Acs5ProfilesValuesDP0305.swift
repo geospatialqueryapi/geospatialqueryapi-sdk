@@ -10,9 +10,12 @@ import Foundation
 import AnyCodable
 #endif
 
+/** CLASS OF WORKER */
 public struct Acs5ProfilesValuesDP0305: Codable, Hashable {
 
+    /** CLASS OF WORKER */
     public var mDBGroupName: String
+    /** DP0305 */
     public var mDBGroupCode: String
     public var dP030046E: Acs5ProfilesValuesDP0305DP030046E
     public var dP030046PE: Acs5ProfilesValuesDP0305DP030046PE

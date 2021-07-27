@@ -34,9 +34,10 @@ import Acs5ProfilesValuesDP0407DP040056PE from './Acs5ProfilesValuesDP0407DP0400
 class Acs5ProfilesValuesDP0407 {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0407</code>.
+     * YEAR HOUSEHOLDER MOVED INTO UNIT
      * @alias module:model/Acs5ProfilesValuesDP0407
-     * @param mDBGroupName {String} 
-     * @param mDBGroupCode {String} 
+     * @param mDBGroupName {String} YEAR HOUSEHOLDER MOVED INTO UNIT
+     * @param mDBGroupCode {String} DP0407
      * @param dP040050E {module:model/Acs5ProfilesValuesDP0407DP040050E} 
      * @param dP040051E {module:model/Acs5ProfilesValuesDP0407DP040051E} 
      * @param dP040051PE {module:model/Acs5ProfilesValuesDP0407DP040051PE} 
@@ -143,11 +144,13 @@ class Acs5ProfilesValuesDP0407 {
 }
 
 /**
+ * YEAR HOUSEHOLDER MOVED INTO UNIT
  * @member {String} MDBGroupName
  */
 Acs5ProfilesValuesDP0407.prototype['MDBGroupName'] = undefined;
 
 /**
+ * DP0407
  * @member {String} MDBGroupCode
  */
 Acs5ProfilesValuesDP0407.prototype['MDBGroupCode'] = undefined;

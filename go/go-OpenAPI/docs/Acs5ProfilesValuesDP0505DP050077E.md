@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP05_0077E | 
+**MDBName** | **string** | Not Hispanic or Latino: White alone | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

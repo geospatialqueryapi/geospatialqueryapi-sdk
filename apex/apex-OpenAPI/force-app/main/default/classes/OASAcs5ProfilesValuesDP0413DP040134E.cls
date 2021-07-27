@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0413DP040134E
+ * Occupied units paying rent: Median (dollars)
  */
 public class OASAcs5ProfilesValuesDP0413DP040134E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP04_0134E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Occupied units paying rent: Median (dollars)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }
@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0413DP040134E implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0413DP040134E getExample() {
         OASAcs5ProfilesValuesDP0413DP040134E acs5ProfilesValuesDP0413DP040134E = new OASAcs5ProfilesValuesDP0413DP040134E();
           acs5ProfilesValuesDP0413DP040134E.mdBCode = 'DP04_0134E';
-          acs5ProfilesValuesDP0413DP040134E.mdBName = 'Occupied units paying rent:Median (dollars)';
+          acs5ProfilesValuesDP0413DP040134E.mdBName = 'Occupied units paying rent: Median (dollars)';
           acs5ProfilesValuesDP0413DP040134E.mdBValue = '792';
         return acs5ProfilesValuesDP0413DP040134E;
     }

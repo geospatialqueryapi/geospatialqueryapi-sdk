@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0504DP050039P
+ * One race: American Indian and Alaska Native (percent)
  */
 public class OASAcs5ProfilesValuesDP0504DP050039P implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP05_0039PE
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * One race: American Indian and Alaska Native (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

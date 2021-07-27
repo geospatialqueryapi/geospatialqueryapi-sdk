@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | CLASS OF WORKER | 
+**MDBGroupCode** | **string** | DP0305 | 
 **DP030046E** | [**Acs5ProfilesValuesDP0305DP030046E**](Acs5ProfilesValuesDP0305DP030046E.md) |  | 
 **DP030046PE** | [**Acs5ProfilesValuesDP0305DP030046PE**](Acs5ProfilesValuesDP0305DP030046PE.md) |  | 
 **DP030047E** | [**Acs5ProfilesValuesDP0305DP030047E**](Acs5ProfilesValuesDP0305DP030047E.md) |  | 

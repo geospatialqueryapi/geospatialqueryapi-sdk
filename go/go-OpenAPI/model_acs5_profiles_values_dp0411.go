@@ -15,9 +15,11 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0411 struct for Acs5ProfilesValuesDP0411
+// Acs5ProfilesValuesDP0411 SELECTED MONTHLY OWNER COSTS (SMOC)
 type Acs5ProfilesValuesDP0411 struct {
+	// SELECTED MONTHLY OWNER COSTS (SMOC)
 	MDBGroupName string `json:"MDBGroupName"`
+	// DP0411
 	MDBGroupCode string `json:"MDBGroupCode"`
 	DP040101E Acs5ProfilesValuesDP0411DP040101E `json:"DP040101E"`
 	DP040102E Acs5ProfilesValuesDP0411DP040102E `json:"DP040102E"`

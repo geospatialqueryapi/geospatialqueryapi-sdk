@@ -147,8 +147,8 @@ class Acs5ProfilesValuesDP0502(ModelNormal):
         """Acs5ProfilesValuesDP0502 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): AGE
+            mdb_group_code (str): DP0502
             dp050005_e (Acs5ProfilesValuesDP0502DP050005E):
             dp050005_pe (Acs5ProfilesValuesDP0502DP050005PE):
             dp050018_e (Acs5ProfilesValuesDP0502DP050018E):
@@ -252,8 +252,8 @@ class Acs5ProfilesValuesDP0502(ModelNormal):
         """Acs5ProfilesValuesDP0502 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): AGE
+            mdb_group_code (str): DP0502
             dp050005_e (Acs5ProfilesValuesDP0502DP050005E):
             dp050005_pe (Acs5ProfilesValuesDP0502DP050005PE):
             dp050018_e (Acs5ProfilesValuesDP0502DP050018E):

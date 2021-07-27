@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBGroupName** | **String** |  | 
-**mDBGroupCode** | **String** |  | 
+**mDBGroupName** | **String** | CLASS OF WORKER | 
+**mDBGroupCode** | **String** | DP0305 | 
 **dP030046E** | [**Acs5ProfilesValuesDP0305DP030046E**](Acs5ProfilesValuesDP0305DP030046E.md) |  | 
 **dP030046PE** | [**Acs5ProfilesValuesDP0305DP030046PE**](Acs5ProfilesValuesDP0305DP030046PE.md) |  | 
 **dP030047E** | [**Acs5ProfilesValuesDP0305DP030047E**](Acs5ProfilesValuesDP0305DP030047E.md) |  | 

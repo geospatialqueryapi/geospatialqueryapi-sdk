@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP03_0049E | 
+**mDBName** | **String** | Self-employed in own not incorporated business workers | 
+**mDBValue** | **String** | Field value | 
 
 

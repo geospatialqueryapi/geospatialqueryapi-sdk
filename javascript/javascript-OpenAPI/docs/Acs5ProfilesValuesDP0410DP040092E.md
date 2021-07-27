@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0092E | 
+**mDBName** | **String** | Housing units without a mortgage | 
+**mDBValue** | **String** | Field value | 
 
 

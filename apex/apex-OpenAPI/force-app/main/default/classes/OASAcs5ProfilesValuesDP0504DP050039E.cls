@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0504DP050039E
+ * One race: American Indian and Alaska Native
  */
 public class OASAcs5ProfilesValuesDP0504DP050039E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP05_0039E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * One race: American Indian and Alaska Native
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

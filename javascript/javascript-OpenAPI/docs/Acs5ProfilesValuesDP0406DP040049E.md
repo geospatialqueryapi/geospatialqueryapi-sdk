@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0049E | 
+**mDBName** | **String** | Average household size of renter-occupied unit | 
+**mDBValue** | **String** | Field value | 
 
 

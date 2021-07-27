@@ -10,10 +10,14 @@ import Foundation
 import AnyCodable
 #endif
 
+/** Female (percent) */
 public struct Acs5ProfilesValuesDP0501DP050003PE: Codable, Hashable {
 
+    /** DP05_0003PE */
     public var mDBCode: String
+    /** Female (percent) */
     public var mDBName: String
+    /** Field value */
     public var mDBValue: String
 
     public init(mDBCode: String, mDBName: String, mDBValue: String) {

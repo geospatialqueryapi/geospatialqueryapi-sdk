@@ -10,12 +10,12 @@ import Foundation
 import AnyCodable
 #endif
 
-/** Male householder, no spouse/partner present: Householder living alone */
+/** Male householder, no spouse/partner present- Householder living alone */
 public struct Acs5ProfilesValuesDP0201DP020008E: Codable, Hashable {
 
     /** DP02_0008E */
     public var mDBCode: String
-    /** Male householder, no spouse/partner present: Householder living alone */
+    /** Male householder, no spouse/partner present- Householder living alone */
     public var mDBName: String
     /** Field value */
     public var mDBValue: String

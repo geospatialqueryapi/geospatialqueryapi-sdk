@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0406DP040047E
+ * Renter-occupied
  */
 public class OASAcs5ProfilesValuesDP0406DP040047E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP04_0047E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Renter-occupied
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

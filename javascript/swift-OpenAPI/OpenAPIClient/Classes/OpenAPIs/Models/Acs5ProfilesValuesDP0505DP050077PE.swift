@@ -10,10 +10,14 @@ import Foundation
 import AnyCodable
 #endif
 
+/** Not Hispanic or Latino: White alone (percent) */
 public struct Acs5ProfilesValuesDP0505DP050077PE: Codable, Hashable {
 
+    /** DP05_0077PE */
     public var mDBCode: String
+    /** Not Hispanic or Latino: White alone (percent) */
     public var mDBName: String
+    /** Field value */
     public var mDBValue: String
 
     public init(mDBCode: String, mDBName: String, mDBValue: String) {

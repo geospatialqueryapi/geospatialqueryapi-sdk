@@ -10,9 +10,12 @@ import Foundation
 import AnyCodable
 #endif
 
+/** VEHICLES AVAILABLE */
 public struct Acs5ProfilesValuesDP0408: Codable, Hashable {
 
+    /** VEHICLES AVAILABLE */
     public var mDBGroupName: String
+    /** DP0408 */
     public var mDBGroupCode: String
     public var dP040057E: Acs5ProfilesValuesDP0408DP040057E
     public var dP040057PE: Acs5ProfilesValuesDP0408DP040057PE

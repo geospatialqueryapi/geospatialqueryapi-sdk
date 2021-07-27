@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP05_0071E | 
+**MDBName** | **string** | Hispanic or Latino (of any race) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **MDBCode** | **string** | DP02_0065PE | 
-**MDBName** | **string** | Population 25 years and over: Bachelor&#39;s degree (percent) | 
+**MDBName** | **string** | Population 25 years and over- Bachelor&#39;s degree (percent) | 
 **MDBValue** | **string** | Field value | 
 
 ## Methods

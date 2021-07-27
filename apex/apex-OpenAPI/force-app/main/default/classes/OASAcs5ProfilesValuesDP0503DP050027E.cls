@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0503DP050027E
+ * 18 years and over- Female
  */
 public class OASAcs5ProfilesValuesDP0503DP050027E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP05_0027E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * 18 years and over- Female
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }
@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0503DP050027E implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0503DP050027E getExample() {
         OASAcs5ProfilesValuesDP0503DP050027E acs5ProfilesValuesDP0503DP050027E = new OASAcs5ProfilesValuesDP0503DP050027E();
           acs5ProfilesValuesDP0503DP050027E.mdBCode = 'DP05_0027E';
-          acs5ProfilesValuesDP0503DP050027E.mdBName = '18 years and over: Female';
+          acs5ProfilesValuesDP0503DP050027E.mdBName = '18 years and over- Female';
           acs5ProfilesValuesDP0503DP050027E.mdBValue = '1979977';
         return acs5ProfilesValuesDP0503DP050027E;
     }

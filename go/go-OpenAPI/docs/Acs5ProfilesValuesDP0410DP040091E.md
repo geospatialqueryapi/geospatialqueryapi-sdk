@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0091E | 
+**MDBName** | **string** | Housing units with a mortgage | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

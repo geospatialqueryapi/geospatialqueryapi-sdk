@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0403DP040023E
+ * Built 1960 to 1969
  */
 public class OASAcs5ProfilesValuesDP0403DP040023E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP04_0023E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Built 1960 to 1969
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

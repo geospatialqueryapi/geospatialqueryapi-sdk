@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0009PE | 
+**MDBName** | **string** | 2 units (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

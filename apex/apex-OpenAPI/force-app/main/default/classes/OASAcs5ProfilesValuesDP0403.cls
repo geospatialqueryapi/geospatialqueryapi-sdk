@@ -11,17 +11,17 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0403
+ * YEAR STRUCTURE BUILT
  */
 public class OASAcs5ProfilesValuesDP0403 implements OAS.MappedProperties {
     /**
-     * Get mdBGroupName
+     * YEAR STRUCTURE BUILT
      * @return mdBGroupName
      */
     public String mdBGroupName { get; set; }
 
     /**
-     * Get mdBGroupCode
+     * DP0403
      * @return mdBGroupCode
      */
     public String mdBGroupCode { get; set; }

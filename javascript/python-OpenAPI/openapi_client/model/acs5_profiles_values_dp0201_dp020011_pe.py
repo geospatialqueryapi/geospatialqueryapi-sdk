@@ -110,7 +110,7 @@ class Acs5ProfilesValuesDP0201DP020011PE(ModelNormal):
 
         Args:
             mdb_code (str): DP02_0011PE
-            mdb_name (str): Female householder, no spouse/partner present: With own children of the householder under 18 years (percent)
+            mdb_name (str): Female householder, no spouse/partner present- With own children of the householder under 18 years (percent)
             mdb_value (str): Field value
 
         Keyword Args:
@@ -199,7 +199,7 @@ class Acs5ProfilesValuesDP0201DP020011PE(ModelNormal):
 
         Args:
             mdb_code (str): DP02_0011PE
-            mdb_name (str): Female householder, no spouse/partner present: With own children of the householder under 18 years (percent)
+            mdb_name (str): Female householder, no spouse/partner present- With own children of the householder under 18 years (percent)
             mdb_value (str): Field value
 
         Keyword Args:

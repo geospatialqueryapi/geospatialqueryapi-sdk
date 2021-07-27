@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBGroupName** | **String** |  | 
-**mDBGroupCode** | **String** |  | 
+**mDBGroupName** | **String** | INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS) | 
+**mDBGroupCode** | **String** | DP0306 | 
 **dP030051E** | [**Acs5ProfilesValuesDP0306DP030051E**](Acs5ProfilesValuesDP0306DP030051E.md) |  | 
 **dP030052E** | [**Acs5ProfilesValuesDP0306DP030052E**](Acs5ProfilesValuesDP0306DP030052E.md) |  | 
 **dP030052PE** | [**Acs5ProfilesValuesDP0306DP030052PE**](Acs5ProfilesValuesDP0306DP030052PE.md) |  | 

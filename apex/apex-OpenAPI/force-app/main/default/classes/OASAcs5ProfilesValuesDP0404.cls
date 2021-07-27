@@ -11,17 +11,17 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0404
+ * ROOMS
  */
 public class OASAcs5ProfilesValuesDP0404 implements OAS.MappedProperties {
     /**
-     * Get mdBGroupName
+     * ROOMS
      * @return mdBGroupName
      */
     public String mdBGroupName { get; set; }
 
     /**
-     * Get mdBGroupCode
+     * DP0404
      * @return mdBGroupCode
      */
     public String mdBGroupCode { get; set; }

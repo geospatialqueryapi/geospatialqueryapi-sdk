@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0025E | 
+**mDBName** | **String** | Built 1940 to 1949 | 
+**mDBValue** | **String** | Field value | 
 
 

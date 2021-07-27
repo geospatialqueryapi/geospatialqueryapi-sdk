@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0015PE | 
+**MDBName** | **string** | Boat, RV, van, etc. (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

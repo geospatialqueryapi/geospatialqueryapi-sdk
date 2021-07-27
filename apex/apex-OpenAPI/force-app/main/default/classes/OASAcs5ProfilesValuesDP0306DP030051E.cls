@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0306DP030051E
+ * Income and benefits (in 2019 inflation-adjusted dollars): Total households
  */
 public class OASAcs5ProfilesValuesDP0306DP030051E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP03_0051E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Income and benefits (in 2019 inflation-adjusted dollars): Total households
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }
@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0306DP030051E implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0306DP030051E getExample() {
         OASAcs5ProfilesValuesDP0306DP030051E acs5ProfilesValuesDP0306DP030051E = new OASAcs5ProfilesValuesDP0306DP030051E();
           acs5ProfilesValuesDP0306DP030051E.mdBCode = 'DP03_0051E';
-          acs5ProfilesValuesDP0306DP030051E.mdBName = 'income and benefits (in 2019 inflation-adjusted dollars): Total households ';
+          acs5ProfilesValuesDP0306DP030051E.mdBName = 'Income and benefits (in 2019 inflation-adjusted dollars): Total households';
           acs5ProfilesValuesDP0306DP030051E.mdBValue = '1867893';
         return acs5ProfilesValuesDP0306DP030051E;
     }

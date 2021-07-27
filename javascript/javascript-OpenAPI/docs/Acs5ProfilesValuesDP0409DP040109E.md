@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0109E | 
+**mDBName** | **String** | Housing units without a mortgage: Median (dollars) | 
+**mDBValue** | **String** | Field value | 
 
 

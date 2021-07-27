@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0015PE | 
+**mDBName** | **String** | Boat, RV, van, etc. (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

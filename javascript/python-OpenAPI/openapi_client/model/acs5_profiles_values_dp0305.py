@@ -151,8 +151,8 @@ class Acs5ProfilesValuesDP0305(ModelNormal):
         """Acs5ProfilesValuesDP0305 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): CLASS OF WORKER
+            mdb_group_code (str): DP0305
             dp030046_e (Acs5ProfilesValuesDP0305DP030046E):
             dp030046_pe (Acs5ProfilesValuesDP0305DP030046PE):
             dp030047_e (Acs5ProfilesValuesDP0305DP030047E):
@@ -258,8 +258,8 @@ class Acs5ProfilesValuesDP0305(ModelNormal):
         """Acs5ProfilesValuesDP0305 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): CLASS OF WORKER
+            mdb_group_code (str): DP0305
             dp030046_e (Acs5ProfilesValuesDP0305DP030046E):
             dp030046_pe (Acs5ProfilesValuesDP0305DP030046PE):
             dp030047_e (Acs5ProfilesValuesDP0305DP030047E):

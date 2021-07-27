@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP05_0036PE | 
+**MDBName** | **string** | One race (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

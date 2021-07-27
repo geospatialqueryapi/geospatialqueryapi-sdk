@@ -10,9 +10,12 @@ import Foundation
 import AnyCodable
 #endif
 
+/** PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL */
 public struct Acs5ProfilesValuesDP0308: Codable, Hashable {
 
+    /** PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL */
     public var mDBGroupName: String
+    /** DP0308 */
     public var mDBGroupCode: String
     public var dP030119PE: Acs5ProfilesValuesDP0308DP030119PE
 

@@ -15,9 +15,11 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0308 struct for Acs5ProfilesValuesDP0308
+// Acs5ProfilesValuesDP0308 PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL
 type Acs5ProfilesValuesDP0308 struct {
+	// PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL
 	MDBGroupName string `json:"MDBGroupName"`
+	// DP0308
 	MDBGroupCode string `json:"MDBGroupCode"`
 	DP030119PE Acs5ProfilesValuesDP0308DP030119PE `json:"DP030119PE"`
 	AdditionalProperties map[string]interface{}

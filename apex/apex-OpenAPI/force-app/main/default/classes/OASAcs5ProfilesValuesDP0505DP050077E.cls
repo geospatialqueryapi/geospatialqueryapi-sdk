@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0505DP050077E
+ * Not Hispanic or Latino: White alone
  */
 public class OASAcs5ProfilesValuesDP0505DP050077E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP05_0077E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Not Hispanic or Latino: White alone
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }
@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0505DP050077E implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0505DP050077E getExample() {
         OASAcs5ProfilesValuesDP0505DP050077E acs5ProfilesValuesDP0505DP050077E = new OASAcs5ProfilesValuesDP0505DP050077E();
           acs5ProfilesValuesDP0505DP050077E.mdBCode = 'DP05_0077E';
-          acs5ProfilesValuesDP0505DP050077E.mdBName = 'Not Hispanic or Latino:White alone';
+          acs5ProfilesValuesDP0505DP050077E.mdBName = 'Not Hispanic or Latino: White alone';
           acs5ProfilesValuesDP0505DP050077E.mdBValue = '3194929';
         return acs5ProfilesValuesDP0505DP050077E;
     }

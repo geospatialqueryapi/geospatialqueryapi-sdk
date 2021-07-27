@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0083PE | 
+**mDBName** | **String** | $100,000 to $149,999 (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

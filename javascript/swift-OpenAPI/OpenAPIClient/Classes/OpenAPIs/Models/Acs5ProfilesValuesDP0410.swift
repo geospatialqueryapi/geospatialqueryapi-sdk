@@ -10,9 +10,12 @@ import Foundation
 import AnyCodable
 #endif
 
+/** SELECTED MONTHLY OWNER COSTS (SMOC) */
 public struct Acs5ProfilesValuesDP0410: Codable, Hashable {
 
+    /** SELECTED MONTHLY OWNER COSTS (SMOC) */
     public var mDBGroupName: String
+    /** DP0410 */
     public var mDBGroupCode: String
     public var dP040090E: Acs5ProfilesValuesDP0410DP040090E
     public var dP040090PE: Acs5ProfilesValuesDP0410DP040090PE

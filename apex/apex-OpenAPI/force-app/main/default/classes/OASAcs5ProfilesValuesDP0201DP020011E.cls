@@ -11,7 +11,7 @@
  */
 
 /**
- * Female householder, no spouse/partner present: With own children of the householder under 18 years
+ * Female householder, no spouse/partner present- With own children of the householder under 18 years
  */
 public class OASAcs5ProfilesValuesDP0201DP020011E implements OAS.MappedProperties {
     /**
@@ -21,7 +21,7 @@ public class OASAcs5ProfilesValuesDP0201DP020011E implements OAS.MappedPropertie
     public String mdBCode { get; set; }
 
     /**
-     * Female householder, no spouse/partner present: With own children of the householder under 18 years
+     * Female householder, no spouse/partner present- With own children of the householder under 18 years
      * @return mdBName
      */
     public String mdBName { get; set; }
@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0201DP020011E implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0201DP020011E getExample() {
         OASAcs5ProfilesValuesDP0201DP020011E acs5ProfilesValuesDP0201DP020011E = new OASAcs5ProfilesValuesDP0201DP020011E();
           acs5ProfilesValuesDP0201DP020011E.mdBCode = 'DP02_0011E';
-          acs5ProfilesValuesDP0201DP020011E.mdBName = 'Female householder, no spouse/partner present: With own children of the householder under 18 years';
+          acs5ProfilesValuesDP0201DP020011E.mdBName = 'Female householder, no spouse/partner present- With own children of the householder under 18 years';
           acs5ProfilesValuesDP0201DP020011E.mdBValue = '119948';
         return acs5ProfilesValuesDP0201DP020011E;
     }

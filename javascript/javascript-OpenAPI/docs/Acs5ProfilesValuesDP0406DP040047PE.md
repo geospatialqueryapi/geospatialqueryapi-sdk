@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0047PE | 
+**mDBName** | **String** | Renter-occupied (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

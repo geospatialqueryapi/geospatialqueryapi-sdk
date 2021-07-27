@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0047E | 
+**MDBName** | **string** | Renter-occupied | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

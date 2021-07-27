@@ -10,9 +10,12 @@ import Foundation
 import AnyCodable
 #endif
 
+/** INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS) */
 public struct Acs5ProfilesValuesDP0306: Codable, Hashable {
 
+    /** INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS) */
     public var mDBGroupName: String
+    /** DP0306 */
     public var mDBGroupCode: String
     public var dP030051E: Acs5ProfilesValuesDP0306DP030051E
     public var dP030052E: Acs5ProfilesValuesDP0306DP030052E

@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP05_0031E | 
+**mDBName** | **String** | 65 years and over- Female | 
+**mDBValue** | **String** | Field value | 
 
 

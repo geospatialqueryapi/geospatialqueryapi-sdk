@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0087PE | 
+**MDBName** | **string** | $500,000 to $999,999 (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

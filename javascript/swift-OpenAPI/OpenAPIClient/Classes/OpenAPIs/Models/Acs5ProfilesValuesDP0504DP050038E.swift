@@ -10,10 +10,14 @@ import Foundation
 import AnyCodable
 #endif
 
+/** One race: Black or African American */
 public struct Acs5ProfilesValuesDP0504DP050038E: Codable, Hashable {
 
+    /** DP05_0038E */
     public var mDBCode: String
+    /** One race: Black or African American */
     public var mDBName: String
+    /** Field value */
     public var mDBValue: String
 
     public init(mDBCode: String, mDBName: String, mDBValue: String) {

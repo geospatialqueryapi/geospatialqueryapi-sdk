@@ -109,9 +109,9 @@ class Acs5ProfilesValuesDP0413DP040134E(ModelNormal):
         """Acs5ProfilesValuesDP0413DP040134E - a model defined in OpenAPI
 
         Args:
-            mdb_code (str):
-            mdb_name (str):
-            mdb_value (str):
+            mdb_code (str): DP04_0134E
+            mdb_name (str): Occupied units paying rent: Median (dollars)
+            mdb_value (str): Field value
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types
@@ -198,9 +198,9 @@ class Acs5ProfilesValuesDP0413DP040134E(ModelNormal):
         """Acs5ProfilesValuesDP0413DP040134E - a model defined in OpenAPI
 
         Args:
-            mdb_code (str):
-            mdb_name (str):
-            mdb_value (str):
+            mdb_code (str): DP04_0134E
+            mdb_name (str): Occupied units paying rent: Median (dollars)
+            mdb_value (str): Field value
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types

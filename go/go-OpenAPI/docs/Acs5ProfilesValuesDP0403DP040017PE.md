@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0017PE | 
+**MDBName** | **string** | Built 2014 or later (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

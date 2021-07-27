@@ -115,8 +115,8 @@ class Acs5ProfilesValuesDP0404(ModelNormal):
         """Acs5ProfilesValuesDP0404 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): ROOMS
+            mdb_group_code (str): DP0404
             dp040037_e (Acs5ProfilesValuesDP0404DP040037E):
 
         Keyword Args:
@@ -204,8 +204,8 @@ class Acs5ProfilesValuesDP0404(ModelNormal):
         """Acs5ProfilesValuesDP0404 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): ROOMS
+            mdb_group_code (str): DP0404
             dp040037_e (Acs5ProfilesValuesDP0404DP040037E):
 
         Keyword Args:

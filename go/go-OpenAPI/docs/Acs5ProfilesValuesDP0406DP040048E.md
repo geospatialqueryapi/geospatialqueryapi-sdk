@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0048E | 
+**MDBName** | **string** | Average household size of owner-occupied unit | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0051E | 
+**mDBName** | **String** | Moved in 2017 or later | 
+**mDBValue** | **String** | Field value | 
 
 

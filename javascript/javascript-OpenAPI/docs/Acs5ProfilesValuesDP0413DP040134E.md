@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0134E | 
+**mDBName** | **String** | Occupied units paying rent: Median (dollars) | 
+**mDBValue** | **String** | Field value | 
 
 

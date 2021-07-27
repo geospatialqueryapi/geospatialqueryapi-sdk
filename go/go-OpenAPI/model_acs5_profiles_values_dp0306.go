@@ -15,9 +15,11 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0306 struct for Acs5ProfilesValuesDP0306
+// Acs5ProfilesValuesDP0306 INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)
 type Acs5ProfilesValuesDP0306 struct {
+	// INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)
 	MDBGroupName string `json:"MDBGroupName"`
+	// DP0306
 	MDBGroupCode string `json:"MDBGroupCode"`
 	DP030051E Acs5ProfilesValuesDP0306DP030051E `json:"DP030051E"`
 	DP030052E Acs5ProfilesValuesDP0306DP030052E `json:"DP030052E"`

@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0134E | 
+**MDBName** | **string** | Occupied units paying rent: Median (dollars) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

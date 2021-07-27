@@ -15,9 +15,11 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0501 struct for Acs5ProfilesValuesDP0501
+// Acs5ProfilesValuesDP0501 SEX
 type Acs5ProfilesValuesDP0501 struct {
+	// SEX
 	MDBGroupName string `json:"MDBGroupName"`
+	// DP0501
 	MDBGroupCode string `json:"MDBGroupCode"`
 	DP050001E Acs5ProfilesValuesDP0501DP050001E `json:"DP050001E"`
 	DP050002E Acs5ProfilesValuesDP0501DP050002E `json:"DP050002E"`

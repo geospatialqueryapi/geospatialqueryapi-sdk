@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0404DP040037E
+ * Median rooms
  */
 public class OASAcs5ProfilesValuesDP0404DP040037E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP04_0037E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Median rooms
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

@@ -115,8 +115,8 @@ class Acs5ProfilesValuesDP0413(ModelNormal):
         """Acs5ProfilesValuesDP0413 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): GROSS RENT
+            mdb_group_code (str): DP0413
             dp040134_e (Acs5ProfilesValuesDP0413DP040134E):
 
         Keyword Args:
@@ -204,8 +204,8 @@ class Acs5ProfilesValuesDP0413(ModelNormal):
         """Acs5ProfilesValuesDP0413 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): GROSS RENT
+            mdb_group_code (str): DP0413
             dp040134_e (Acs5ProfilesValuesDP0413DP040134E):
 
         Keyword Args:

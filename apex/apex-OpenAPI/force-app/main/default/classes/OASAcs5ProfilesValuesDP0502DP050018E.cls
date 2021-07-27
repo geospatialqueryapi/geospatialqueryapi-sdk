@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0502DP050018E
+ * Median age (years)
  */
 public class OASAcs5ProfilesValuesDP0502DP050018E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP05_0018E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Median age (years)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

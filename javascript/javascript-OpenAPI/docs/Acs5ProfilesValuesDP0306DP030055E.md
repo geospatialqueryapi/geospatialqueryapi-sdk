@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP03_0055E | 
+**mDBName** | **String** | $25,000 to $34,999 | 
+**mDBValue** | **String** | Field value | 
 
 

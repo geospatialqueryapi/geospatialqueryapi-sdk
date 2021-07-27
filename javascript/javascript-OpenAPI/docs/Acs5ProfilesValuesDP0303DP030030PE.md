@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP03_0030PE | 
+**mDBName** | **String** | Natural resources, construction, and maintenance occupations (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0054E | 
+**MDBName** | **string** | Moved in 2000 to 2009 | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

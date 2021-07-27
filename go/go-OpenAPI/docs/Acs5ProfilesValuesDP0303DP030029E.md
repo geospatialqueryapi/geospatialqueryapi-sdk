@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0029E | 
+**MDBName** | **string** | Sales and office occupations | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

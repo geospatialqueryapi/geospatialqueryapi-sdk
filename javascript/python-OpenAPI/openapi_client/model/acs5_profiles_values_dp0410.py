@@ -139,8 +139,8 @@ class Acs5ProfilesValuesDP0410(ModelNormal):
         """Acs5ProfilesValuesDP0410 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): SELECTED MONTHLY OWNER COSTS (SMOC)
+            mdb_group_code (str): DP0410
             dp040090_e (Acs5ProfilesValuesDP0410DP040090E):
             dp040090_pe (Acs5ProfilesValuesDP0410DP040090PE):
             dp040091_e (Acs5ProfilesValuesDP0410DP040091E):
@@ -240,8 +240,8 @@ class Acs5ProfilesValuesDP0410(ModelNormal):
         """Acs5ProfilesValuesDP0410 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): SELECTED MONTHLY OWNER COSTS (SMOC)
+            mdb_group_code (str): DP0410
             dp040090_e (Acs5ProfilesValuesDP0410DP040090E):
             dp040090_pe (Acs5ProfilesValuesDP0410DP040090PE):
             dp040091_e (Acs5ProfilesValuesDP0410DP040091E):

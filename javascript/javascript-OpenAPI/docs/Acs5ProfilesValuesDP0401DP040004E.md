@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0004E | 
+**mDBName** | **String** | Homeowner vacancy rate | 
+**mDBValue** | **String** | Field value | 
 
 

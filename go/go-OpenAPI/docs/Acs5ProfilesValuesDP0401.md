@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | HOUSING OCCUPANCY | 
+**MDBGroupCode** | **string** | DP0401 | 
 **DP040001E** | [**Acs5ProfilesValuesDP0401DP040001E**](Acs5ProfilesValuesDP0401DP040001E.md) |  | 
 **DP040002E** | [**Acs5ProfilesValuesDP0401DP040002E**](Acs5ProfilesValuesDP0401DP040002E.md) |  | 
 **DP040002PE** | [**Acs5ProfilesValuesDP0401DP040002PE**](Acs5ProfilesValuesDP0401DP040002PE.md) |  | 

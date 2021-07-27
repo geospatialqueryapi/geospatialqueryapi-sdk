@@ -4,29 +4,29 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**USStateGEOID** | **string** |  | 
-**USStateUSPS** | **string** |  | 
-**USStateNameFull** | **string** |  | 
-**USCountyGEOID** | **string** |  | 
-**USCountyName** | **string** |  | 
-**USCountyNameFull** | **string** |  | 
-**USCOUSUBGEOID** | **string** |  | 
-**USCOUSUBName** | **string** |  | 
-**USCOUSUBNameFull** | **string** |  | 
-**USPlaceGEOID** | **string** |  | 
-**USPlaceNAME** | **string** |  | 
-**USPlaceNameFull** | **string** |  | 
-**USZCTA** | **string** |  | 
-**USTractGEOID** | **string** |  | 
-**USTractName** | **string** |  | 
-**USTractNameFull** | **string** |  | 
-**TimeStamp** | **string** |  | 
-**TimeToRun** | **string** |  | 
-**AccountID** | **string** |  | 
-**AccountName** | **string** |  | 
-**Request** | **string** |  | 
-**Result** | **string** |  | 
-**Version** | **string** |  | 
+**USStateGEOID** | **string** | The US State GEOID | 
+**USStateUSPS** | **string** | The US State abbreviation | 
+**USStateNameFull** | **string** | The US State full name | 
+**USCountyGEOID** | **string** | The US County GEOID | 
+**USCountyName** | **string** | The US County name | 
+**USCountyNameFull** | **string** | The US County full name | 
+**USCOUSUBGEOID** | **string** | The US County subdivision | 
+**USCOUSUBName** | **string** | The US County subdivision GEOID | 
+**USCOUSUBNameFull** | **string** | The US County subdivision | 
+**USPlaceGEOID** | **string** | The US Place GEOID | 
+**USPlaceNAME** | **string** | The US Place name | 
+**USPlaceNameFull** | **string** | The US Place full name | 
+**USZCTA** | **string** | The US ZCTA full name | 
+**USTractGEOID** | **string** | The US Census tract GEOID | 
+**USTractName** | **string** | The US Census tract name | 
+**USTractNameFull** | **string** | The US Census tract full name | 
+**TimeStamp** | **string** | TimeStamp | 
+**TimeToRun** | **string** | TimeToRun | 
+**AccountID** | **string** | AccountID | 
+**AccountName** | **string** | AccountName | 
+**Request** | **string** | Request | 
+**Result** | **string** | Result | 
+**Version** | **string** | Version | 
 **Copyright** | **string** |  | 
 
 ## Methods

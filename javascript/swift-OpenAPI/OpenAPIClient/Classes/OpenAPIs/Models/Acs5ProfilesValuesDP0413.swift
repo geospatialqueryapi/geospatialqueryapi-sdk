@@ -10,9 +10,12 @@ import Foundation
 import AnyCodable
 #endif
 
+/** GROSS RENT */
 public struct Acs5ProfilesValuesDP0413: Codable, Hashable {
 
+    /** GROSS RENT */
     public var mDBGroupName: String
+    /** DP0413 */
     public var mDBGroupCode: String
     public var dP040134E: Acs5ProfilesValuesDP0413DP040134E
 

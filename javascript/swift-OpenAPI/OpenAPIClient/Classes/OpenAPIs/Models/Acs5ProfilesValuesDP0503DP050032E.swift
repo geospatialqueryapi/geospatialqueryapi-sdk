@@ -10,10 +10,14 @@ import Foundation
 import AnyCodable
 #endif
 
+/** 65 years and over- Sex ratio (males per 100 females) */
 public struct Acs5ProfilesValuesDP0503DP050032E: Codable, Hashable {
 
+    /** DP05_0032E */
     public var mDBCode: String
+    /** 65 years and over- Sex ratio (males per 100 females) */
     public var mDBName: String
+    /** Field value */
     public var mDBValue: String
 
     public init(mDBCode: String, mDBName: String, mDBValue: String) {

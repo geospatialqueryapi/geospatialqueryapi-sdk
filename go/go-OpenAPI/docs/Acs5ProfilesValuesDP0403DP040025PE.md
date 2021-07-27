@@ -5,8 +5,8 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBName** | **string** | Built 1940 to 1949 (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

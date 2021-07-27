@@ -15,9 +15,11 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0407 struct for Acs5ProfilesValuesDP0407
+// Acs5ProfilesValuesDP0407 YEAR HOUSEHOLDER MOVED INTO UNIT
 type Acs5ProfilesValuesDP0407 struct {
+	// YEAR HOUSEHOLDER MOVED INTO UNIT
 	MDBGroupName string `json:"MDBGroupName"`
+	// DP0407
 	MDBGroupCode string `json:"MDBGroupCode"`
 	DP040050E Acs5ProfilesValuesDP0407DP040050E `json:"DP040050E"`
 	DP040051E Acs5ProfilesValuesDP0407DP040051E `json:"DP040051E"`

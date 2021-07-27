@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBGroupName** | **String** |  | 
-**mDBGroupCode** | **String** |  | 
+**mDBGroupName** | **String** | SEX | 
+**mDBGroupCode** | **String** | DP0501 | 
 **dP050001E** | [**Acs5ProfilesValuesDP0501DP050001E**](Acs5ProfilesValuesDP0501DP050001E.md) |  | 
 **dP050002E** | [**Acs5ProfilesValuesDP0501DP050002E**](Acs5ProfilesValuesDP0501DP050002E.md) |  | 
 **dP050002PE** | [**Acs5ProfilesValuesDP0501DP050002PE**](Acs5ProfilesValuesDP0501DP050002PE.md) |  | 

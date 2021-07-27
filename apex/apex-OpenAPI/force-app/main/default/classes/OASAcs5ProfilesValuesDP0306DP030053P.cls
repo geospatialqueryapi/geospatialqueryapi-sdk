@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0306DP030053P
+ * $10,000 to $14,999 (percent)
  */
 public class OASAcs5ProfilesValuesDP0306DP030053P implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP03_0053PE
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * $10,000 to $14,999 (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

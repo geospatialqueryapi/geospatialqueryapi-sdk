@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | UNITS IN STRUCTURE | 
+**MDBGroupCode** | **string** | DP0402 | 
 **DP040006E** | [**Acs5ProfilesValuesDP0402DP040006E**](Acs5ProfilesValuesDP0402DP040006E.md) |  | 
 **DP040007E** | [**Acs5ProfilesValuesDP0402DP040007E**](Acs5ProfilesValuesDP0402DP040007E.md) |  | 
 **DP040007PE** | [**Acs5ProfilesValuesDP0402DP040007PE**](Acs5ProfilesValuesDP0402DP040007PE.md) |  | 

@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0410DP040093E
+ * Housing units with a mortgage
  */
 public class OASAcs5ProfilesValuesDP0410DP040093E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP04_0093E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Housing units with a mortgage
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

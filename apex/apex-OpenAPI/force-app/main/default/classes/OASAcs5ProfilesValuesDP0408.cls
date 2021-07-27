@@ -11,17 +11,17 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0408
+ * VEHICLES AVAILABLE
  */
 public class OASAcs5ProfilesValuesDP0408 implements OAS.MappedProperties {
     /**
-     * Get mdBGroupName
+     * VEHICLES AVAILABLE
      * @return mdBGroupName
      */
     public String mdBGroupName { get; set; }
 
     /**
-     * Get mdBGroupCode
+     * DP0408
      * @return mdBGroupCode
      */
     public String mdBGroupCode { get; set; }

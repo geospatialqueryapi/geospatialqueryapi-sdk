@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | ROOMS | 
+**MDBGroupCode** | **string** | DP0404 | 
 **DP040037E** | [**Acs5ProfilesValuesDP0404DP040037E**](Acs5ProfilesValuesDP0404DP040037E.md) |  | 
 
 ## Methods

@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0012PE | 
+**mDBName** | **String** | 10 to 19 units (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

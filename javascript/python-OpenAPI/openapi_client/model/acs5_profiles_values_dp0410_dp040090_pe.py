@@ -109,9 +109,9 @@ class Acs5ProfilesValuesDP0410DP040090PE(ModelNormal):
         """Acs5ProfilesValuesDP0410DP040090PE - a model defined in OpenAPI
 
         Args:
-            mdb_code (str):
-            mdb_name (str):
-            mdb_value (str):
+            mdb_code (str): DP04_0090PE
+            mdb_name (str): Owner-occupied units (percent)
+            mdb_value (str): Field value
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types
@@ -198,9 +198,9 @@ class Acs5ProfilesValuesDP0410DP040090PE(ModelNormal):
         """Acs5ProfilesValuesDP0410DP040090PE - a model defined in OpenAPI
 
         Args:
-            mdb_code (str):
-            mdb_name (str):
-            mdb_value (str):
+            mdb_code (str): DP04_0090PE
+            mdb_name (str): Owner-occupied units (percent)
+            mdb_value (str): Field value
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types

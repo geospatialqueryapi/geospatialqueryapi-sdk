@@ -139,8 +139,8 @@ class Acs5ProfilesValuesDP0401(ModelNormal):
         """Acs5ProfilesValuesDP0401 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): HOUSING OCCUPANCY
+            mdb_group_code (str): DP0401
             dp040001_e (Acs5ProfilesValuesDP0401DP040001E):
             dp040002_e (Acs5ProfilesValuesDP0401DP040002E):
             dp040002_pe (Acs5ProfilesValuesDP0401DP040002PE):
@@ -240,8 +240,8 @@ class Acs5ProfilesValuesDP0401(ModelNormal):
         """Acs5ProfilesValuesDP0401 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): HOUSING OCCUPANCY
+            mdb_group_code (str): DP0401
             dp040001_e (Acs5ProfilesValuesDP0401DP040001E):
             dp040002_e (Acs5ProfilesValuesDP0401DP040002E):
             dp040002_pe (Acs5ProfilesValuesDP0401DP040002PE):

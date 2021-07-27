@@ -1,11 +1,12 @@
 # Acs5ProfilesValuesDP0407
 
+YEAR HOUSEHOLDER MOVED INTO UNIT
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mdb_group_name** | **str** |  | 
-**mdb_group_code** | **str** |  | 
+**mdb_group_name** | **str** | YEAR HOUSEHOLDER MOVED INTO UNIT | 
+**mdb_group_code** | **str** | DP0407 | 
 **dp040050_e** | [**Acs5ProfilesValuesDP0407DP040050E**](Acs5ProfilesValuesDP0407DP040050E.md) |  | 
 **dp040051_e** | [**Acs5ProfilesValuesDP0407DP040051E**](Acs5ProfilesValuesDP0407DP040051E.md) |  | 
 **dp040051_pe** | [**Acs5ProfilesValuesDP0407DP040051PE**](Acs5ProfilesValuesDP0407DP040051PE.md) |  | 

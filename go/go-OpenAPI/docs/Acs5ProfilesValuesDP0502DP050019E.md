@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP05_0019E | 
+**MDBName** | **string** | Under 18 years | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

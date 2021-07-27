@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0009E | 
+**MDBName** | **string** | 2 units | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

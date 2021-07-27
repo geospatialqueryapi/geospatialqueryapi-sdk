@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0057PE | 
+**MDBName** | **string** | Occupied housing units (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

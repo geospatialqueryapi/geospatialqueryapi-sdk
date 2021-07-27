@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP05_0026E | 
+**mDBName** | **String** | 18 years and over- Male | 
+**mDBValue** | **String** | Field value | 
 
 

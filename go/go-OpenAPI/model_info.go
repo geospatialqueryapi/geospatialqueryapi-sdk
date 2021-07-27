@@ -17,28 +17,51 @@ import (
 
 // Info struct for Info
 type Info struct {
+	// The US State GEOID
 	USStateGEOID string `json:"USStateGEOID"`
+	// The US State abbreviation
 	USStateUSPS string `json:"USStateUSPS"`
+	// The US State full name
 	USStateNameFull string `json:"USStateNameFull"`
+	// The US County GEOID
 	USCountyGEOID string `json:"USCountyGEOID"`
+	// The US County name
 	USCountyName string `json:"USCountyName"`
+	// The US County full name
 	USCountyNameFull string `json:"USCountyNameFull"`
+	// The US County subdivision
 	USCOUSUBGEOID string `json:"USCOUSUBGEOID"`
+	// The US County subdivision GEOID
 	USCOUSUBName string `json:"USCOUSUBName"`
+	// The US County subdivision
 	USCOUSUBNameFull string `json:"USCOUSUBNameFull"`
+	// The US Place GEOID
 	USPlaceGEOID string `json:"USPlaceGEOID"`
+	// The US Place name
 	USPlaceNAME string `json:"USPlaceNAME"`
+	// The US Place full name
 	USPlaceNameFull string `json:"USPlaceNameFull"`
+	// The US ZCTA full name
 	USZCTA string `json:"USZCTA"`
+	// The US Census tract GEOID
 	USTractGEOID string `json:"USTractGEOID"`
+	// The US Census tract name
 	USTractName string `json:"USTractName"`
+	// The US Census tract full name
 	USTractNameFull string `json:"USTractNameFull"`
+	// TimeStamp
 	TimeStamp string `json:"TimeStamp"`
+	// TimeToRun
 	TimeToRun string `json:"TimeToRun"`
+	// AccountID
 	AccountID string `json:"AccountID"`
+	// AccountName
 	AccountName string `json:"AccountName"`
+	// Request
 	Request string `json:"Request"`
+	// Result
 	Result string `json:"Result"`
+	// Version
 	Version string `json:"Version"`
 	Copyright string `json:"Copyright"`
 	AdditionalProperties map[string]interface{}

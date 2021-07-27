@@ -11,17 +11,17 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0407
+ * YEAR HOUSEHOLDER MOVED INTO UNIT
  */
 public class OASAcs5ProfilesValuesDP0407 implements OAS.MappedProperties {
     /**
-     * Get mdBGroupName
+     * YEAR HOUSEHOLDER MOVED INTO UNIT
      * @return mdBGroupName
      */
     public String mdBGroupName { get; set; }
 
     /**
-     * Get mdBGroupCode
+     * DP0407
      * @return mdBGroupCode
      */
     public String mdBGroupCode { get; set; }

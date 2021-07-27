@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0059PE | 
+**MDBName** | **string** | 1 vehicle available (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

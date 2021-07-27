@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0020E | 
+**mDBName** | **String** | Built 1990 to 1999 | 
+**mDBValue** | **String** | Field value | 
 
 

@@ -15,10 +15,13 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0409DP040085E struct for Acs5ProfilesValuesDP0409DP040085E
+// Acs5ProfilesValuesDP0409DP040085E $200,000 to $299,999
 type Acs5ProfilesValuesDP0409DP040085E struct {
+	// DP04_0085E
 	MDBCode string `json:"MDBCode"`
+	// $200,000 to $299,999
 	MDBName string `json:"MDBName"`
+	// Field value
 	MDBValue string `json:"MDBValue"`
 	AdditionalProperties map[string]interface{}
 }

@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | YEAR HOUSEHOLDER MOVED INTO UNIT | 
+**MDBGroupCode** | **string** | DP0407 | 
 **DP040050E** | [**Acs5ProfilesValuesDP0407DP040050E**](Acs5ProfilesValuesDP0407DP040050E.md) |  | 
 **DP040051E** | [**Acs5ProfilesValuesDP0407DP040051E**](Acs5ProfilesValuesDP0407DP040051E.md) |  | 
 **DP040051PE** | [**Acs5ProfilesValuesDP0407DP040051PE**](Acs5ProfilesValuesDP0407DP040051PE.md) |  | 

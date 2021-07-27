@@ -10,10 +10,14 @@ import Foundation
 import AnyCodable
 #endif
 
+/** Less than $50,000 */
 public struct Acs5ProfilesValuesDP0409DP040081E: Codable, Hashable {
 
+    /** DP04_0081E */
     public var mDBCode: String
+    /** Less than $50,000 */
     public var mDBName: String
+    /** Field value */
     public var mDBValue: String
 
     public init(mDBCode: String, mDBName: String, mDBValue: String) {

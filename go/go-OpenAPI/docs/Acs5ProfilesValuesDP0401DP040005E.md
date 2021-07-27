@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0005E | 
+**MDBName** | **string** | Rental vacancy rate | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

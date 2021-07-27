@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0505DP050076P
+ * Not Hispanic or Latino (percent)
  */
 public class OASAcs5ProfilesValuesDP0505DP050076P implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP05_0076PE
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Not Hispanic or Latino (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

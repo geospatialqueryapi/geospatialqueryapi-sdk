@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0403DP040024P
+ * Built 1950 to 1959 (percent)
  */
 public class OASAcs5ProfilesValuesDP0403DP040024P implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP04_0024PE
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Built 1950 to 1959 (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

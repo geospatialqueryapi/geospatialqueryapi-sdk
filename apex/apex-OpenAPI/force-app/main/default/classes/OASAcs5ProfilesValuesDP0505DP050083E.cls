@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0505DP050083E
+ * Not Hispanic or Latino: Two or more races
  */
 public class OASAcs5ProfilesValuesDP0505DP050083E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP05_0083E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Not Hispanic or Latino: Two or more races
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

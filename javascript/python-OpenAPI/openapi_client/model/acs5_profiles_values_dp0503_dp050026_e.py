@@ -109,9 +109,9 @@ class Acs5ProfilesValuesDP0503DP050026E(ModelNormal):
         """Acs5ProfilesValuesDP0503DP050026E - a model defined in OpenAPI
 
         Args:
-            mdb_code (str):
-            mdb_name (str):
-            mdb_value (str):
+            mdb_code (str): DP05_0026E
+            mdb_name (str): 18 years and over- Male
+            mdb_value (str): Field value
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types
@@ -198,9 +198,9 @@ class Acs5ProfilesValuesDP0503DP050026E(ModelNormal):
         """Acs5ProfilesValuesDP0503DP050026E - a model defined in OpenAPI
 
         Args:
-            mdb_code (str):
-            mdb_name (str):
-            mdb_value (str):
+            mdb_code (str): DP05_0026E
+            mdb_name (str): 18 years and over- Male
+            mdb_value (str): Field value
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types

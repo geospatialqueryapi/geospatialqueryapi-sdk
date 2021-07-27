@@ -10,10 +10,14 @@ import Foundation
 import AnyCodable
 #endif
 
+/** Private wage and salary workers (percent) */
 public struct Acs5ProfilesValuesDP0305DP030047PE: Codable, Hashable {
 
+    /** DP03_0047PE */
     public var mDBCode: String
+    /** Private wage and salary workers (percent) */
     public var mDBName: String
+    /** Field value */
     public var mDBValue: String
 
     public init(mDBCode: String, mDBName: String, mDBValue: String) {

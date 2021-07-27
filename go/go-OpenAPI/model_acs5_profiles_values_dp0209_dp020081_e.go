@@ -15,11 +15,11 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0209DP020081E Population 1 year and over: Different house in the U.S.
+// Acs5ProfilesValuesDP0209DP020081E Population 1 year and over- Different house in the U.S.
 type Acs5ProfilesValuesDP0209DP020081E struct {
 	// DP02_0081E
 	MDBCode string `json:"MDBCode"`
-	// Population 1 year and over: Different house in the U.S.
+	// Population 1 year and over- Different house in the U.S.
 	MDBName string `json:"MDBName"`
 	// Field value
 	MDBValue string `json:"MDBValue"`

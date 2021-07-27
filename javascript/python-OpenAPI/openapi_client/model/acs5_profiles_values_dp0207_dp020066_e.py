@@ -110,7 +110,7 @@ class Acs5ProfilesValuesDP0207DP020066E(ModelNormal):
 
         Args:
             mdb_code (str): DP02_0066E
-            mdb_name (str): Population 25 years and over: Graduate or professional degree
+            mdb_name (str): Population 25 years and over- Graduate or professional degree
             mdb_value (str): Field value
 
         Keyword Args:
@@ -199,7 +199,7 @@ class Acs5ProfilesValuesDP0207DP020066E(ModelNormal):
 
         Args:
             mdb_code (str): DP02_0066E
-            mdb_name (str): Population 25 years and over: Graduate or professional degree
+            mdb_name (str): Population 25 years and over- Graduate or professional degree
             mdb_value (str): Field value
 
         Keyword Args:

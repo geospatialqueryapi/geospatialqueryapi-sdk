@@ -11,7 +11,7 @@
  */
 
 /**
- * Male householder, no spouse/partner present: Householder living alone (percent)
+ * Male householder, no spouse/partner present- Householder living alone (percent)
  */
 public class OASAcs5ProfilesValuesDP0201DP020008P implements OAS.MappedProperties {
     /**
@@ -21,7 +21,7 @@ public class OASAcs5ProfilesValuesDP0201DP020008P implements OAS.MappedPropertie
     public String mdBCode { get; set; }
 
     /**
-     * Male householder, no spouse/partner present: Householder living alone (percent)
+     * Male householder, no spouse/partner present- Householder living alone (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0201DP020008P implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0201DP020008P getExample() {
         OASAcs5ProfilesValuesDP0201DP020008P acs5ProfilesValuesDP0201DP020008PE = new OASAcs5ProfilesValuesDP0201DP020008P();
           acs5ProfilesValuesDP0201DP020008PE.mdBCode = 'DP02_0008PE';
-          acs5ProfilesValuesDP0201DP020008PE.mdBName = 'Male householder, no spouse/partner present: Householder living alone (percent)';
+          acs5ProfilesValuesDP0201DP020008PE.mdBName = 'Male householder, no spouse/partner present- Householder living alone (percent)';
           acs5ProfilesValuesDP0201DP020008PE.mdBValue = '13.1';
         return acs5ProfilesValuesDP0201DP020008PE;
     }

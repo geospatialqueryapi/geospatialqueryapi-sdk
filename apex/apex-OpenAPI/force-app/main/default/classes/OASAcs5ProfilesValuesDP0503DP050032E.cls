@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0503DP050032E
+ * 65 years and over- Sex ratio (males per 100 females)
  */
 public class OASAcs5ProfilesValuesDP0503DP050032E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP05_0032E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * 65 years and over- Sex ratio (males per 100 females)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }
@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0503DP050032E implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0503DP050032E getExample() {
         OASAcs5ProfilesValuesDP0503DP050032E acs5ProfilesValuesDP0503DP050032E = new OASAcs5ProfilesValuesDP0503DP050032E();
           acs5ProfilesValuesDP0503DP050032E.mdBCode = 'DP05_0032E';
-          acs5ProfilesValuesDP0503DP050032E.mdBName = '65 years and over: Sex ratio (males per 100 females)';
+          acs5ProfilesValuesDP0503DP050032E.mdBName = '65 years and over- Sex ratio (males per 100 females)';
           acs5ProfilesValuesDP0503DP050032E.mdBValue = '77.0';
         return acs5ProfilesValuesDP0503DP050032E;
     }

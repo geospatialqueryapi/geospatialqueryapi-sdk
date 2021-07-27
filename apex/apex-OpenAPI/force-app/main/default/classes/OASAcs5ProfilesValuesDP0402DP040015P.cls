@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0402DP040015P
+ * Boat, RV, van, etc. (percent)
  */
 public class OASAcs5ProfilesValuesDP0402DP040015P implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP04_0015PE
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Boat, RV, van, etc. (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

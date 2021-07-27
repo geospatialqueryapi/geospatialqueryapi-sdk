@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | HISPANIC OR LATINO AND RACE | 
+**MDBGroupCode** | **string** | DP0505 | 
 **DP050070E** | [**Acs5ProfilesValuesDP0505DP050070E**](Acs5ProfilesValuesDP0505DP050070E.md) |  | 
 **DP050071E** | [**Acs5ProfilesValuesDP0505DP050071E**](Acs5ProfilesValuesDP0505DP050071E.md) |  | 
 **DP050071PE** | [**Acs5ProfilesValuesDP0505DP050071PE**](Acs5ProfilesValuesDP0505DP050071PE.md) |  | 

@@ -109,9 +109,9 @@ class Acs5ProfilesValuesDP0505DP050071E(ModelNormal):
         """Acs5ProfilesValuesDP0505DP050071E - a model defined in OpenAPI
 
         Args:
-            mdb_code (str):
-            mdb_name (str):
-            mdb_value (str):
+            mdb_code (str): DP05_0071E
+            mdb_name (str): Hispanic or Latino (of any race)
+            mdb_value (str): Field value
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types
@@ -198,9 +198,9 @@ class Acs5ProfilesValuesDP0505DP050071E(ModelNormal):
         """Acs5ProfilesValuesDP0505DP050071E - a model defined in OpenAPI
 
         Args:
-            mdb_code (str):
-            mdb_name (str):
-            mdb_value (str):
+            mdb_code (str): DP05_0071E
+            mdb_name (str): Hispanic or Latino (of any race)
+            mdb_value (str): Field value
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types

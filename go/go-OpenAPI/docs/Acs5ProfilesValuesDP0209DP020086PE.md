@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **MDBCode** | **string** | DP02_0086PE | 
-**MDBName** | **string** | Population 1 year and over: Abroad (percent)  | 
+**MDBName** | **string** | Population 1 year and over- Abroad (percent)  | 
 **MDBValue** | **string** | Field value | 
 
 ## Methods

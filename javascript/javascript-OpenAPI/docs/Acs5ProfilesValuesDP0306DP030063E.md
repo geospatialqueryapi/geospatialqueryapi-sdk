@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP03_0063E | 
+**mDBName** | **String** | Mean household income (dollars) | 
+**mDBValue** | **String** | Field value | 
 
 

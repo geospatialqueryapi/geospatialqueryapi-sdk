@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP05_0018E | 
+**MDBName** | **string** | Median age (years) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

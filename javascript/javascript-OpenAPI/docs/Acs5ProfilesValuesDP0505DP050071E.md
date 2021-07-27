@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP05_0071E | 
+**mDBName** | **String** | Hispanic or Latino (of any race) | 
+**mDBValue** | **String** | Field value | 
 
 

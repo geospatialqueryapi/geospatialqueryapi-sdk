@@ -11,17 +11,17 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0410
+ * SELECTED MONTHLY OWNER COSTS (SMOC)
  */
 public class OASAcs5ProfilesValuesDP0410 implements OAS.MappedProperties {
     /**
-     * Get mdBGroupName
+     * SELECTED MONTHLY OWNER COSTS (SMOC)
      * @return mdBGroupName
      */
     public String mdBGroupName { get; set; }
 
     /**
-     * Get mdBGroupCode
+     * DP0410
      * @return mdBGroupCode
      */
     public String mdBGroupCode { get; set; }

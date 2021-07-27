@@ -22,9 +22,10 @@ import Acs5ProfilesValuesDP0308DP030119PE from './Acs5ProfilesValuesDP0308DP0301
 class Acs5ProfilesValuesDP0308 {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0308</code>.
+     * PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL
      * @alias module:model/Acs5ProfilesValuesDP0308
-     * @param mDBGroupName {String} 
-     * @param mDBGroupCode {String} 
+     * @param mDBGroupName {String} PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL
+     * @param mDBGroupCode {String} DP0308
      * @param dP030119PE {module:model/Acs5ProfilesValuesDP0308DP030119PE} 
      */
     constructor(mDBGroupName, mDBGroupCode, dP030119PE) { 
@@ -71,11 +72,13 @@ class Acs5ProfilesValuesDP0308 {
 }
 
 /**
+ * PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL
  * @member {String} MDBGroupName
  */
 Acs5ProfilesValuesDP0308.prototype['MDBGroupName'] = undefined;
 
 /**
+ * DP0308
  * @member {String} MDBGroupCode
  */
 Acs5ProfilesValuesDP0308.prototype['MDBGroupCode'] = undefined;

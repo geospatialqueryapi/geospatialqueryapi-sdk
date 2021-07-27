@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0504DP050035P
+ * Two or more races (percent)
  */
 public class OASAcs5ProfilesValuesDP0504DP050035P implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP05_0035PE
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Two or more races (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

@@ -1,11 +1,12 @@
 # Acs5ProfilesValuesDP0401
 
+HOUSING OCCUPANCY
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mdb_group_name** | **str** |  | 
-**mdb_group_code** | **str** |  | 
+**mdb_group_name** | **str** | HOUSING OCCUPANCY | 
+**mdb_group_code** | **str** | DP0401 | 
 **dp040001_e** | [**Acs5ProfilesValuesDP0401DP040001E**](Acs5ProfilesValuesDP0401DP040001E.md) |  | 
 **dp040002_e** | [**Acs5ProfilesValuesDP0401DP040002E**](Acs5ProfilesValuesDP0401DP040002E.md) |  | 
 **dp040002_pe** | [**Acs5ProfilesValuesDP0401DP040002PE**](Acs5ProfilesValuesDP0401DP040002PE.md) |  | 

@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0031PE | 
+**MDBName** | **string** | Production, transportation, and material moving occupations (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

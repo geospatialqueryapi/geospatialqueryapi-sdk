@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBGroupName** | **String** |  | 
-**mDBGroupCode** | **String** |  | 
+**mDBGroupName** | **String** | UNITS IN STRUCTURE | 
+**mDBGroupCode** | **String** | DP0402 | 
 **dP040006E** | [**Acs5ProfilesValuesDP0402DP040006E**](Acs5ProfilesValuesDP0402DP040006E.md) |  | 
 **dP040007E** | [**Acs5ProfilesValuesDP0402DP040007E**](Acs5ProfilesValuesDP0402DP040007E.md) |  | 
 **dP040007PE** | [**Acs5ProfilesValuesDP0402DP040007PE**](Acs5ProfilesValuesDP0402DP040007PE.md) |  | 

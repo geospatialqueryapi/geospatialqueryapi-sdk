@@ -40,9 +40,10 @@ import Acs5ProfilesValuesDP0409DP040109E from './Acs5ProfilesValuesDP0409DP04010
 class Acs5ProfilesValuesDP0409 {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0409</code>.
+     * SELECTED MONTHLY OWNER COSTS (SMOC)
      * @alias module:model/Acs5ProfilesValuesDP0409
-     * @param mDBGroupName {String} 
-     * @param mDBGroupCode {String} 
+     * @param mDBGroupName {String} SELECTED MONTHLY OWNER COSTS (SMOC)
+     * @param mDBGroupCode {String} DP0409
      * @param dP040080E {module:model/Acs5ProfilesValuesDP0409DP040080E} 
      * @param dP040081E {module:model/Acs5ProfilesValuesDP0409DP040081E} 
      * @param dP040081PE {module:model/Acs5ProfilesValuesDP0409DP040081PE} 
@@ -179,11 +180,13 @@ class Acs5ProfilesValuesDP0409 {
 }
 
 /**
+ * SELECTED MONTHLY OWNER COSTS (SMOC)
  * @member {String} MDBGroupName
  */
 Acs5ProfilesValuesDP0409.prototype['MDBGroupName'] = undefined;
 
 /**
+ * DP0409
  * @member {String} MDBGroupCode
  */
 Acs5ProfilesValuesDP0409.prototype['MDBGroupCode'] = undefined;

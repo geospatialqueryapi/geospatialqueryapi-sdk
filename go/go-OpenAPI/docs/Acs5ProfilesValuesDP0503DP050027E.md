@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP05_0027E | 
+**MDBName** | **string** | 18 years and over- Female | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

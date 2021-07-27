@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0081PE | 
+**mDBName** | **String** | Less than $50,000 (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

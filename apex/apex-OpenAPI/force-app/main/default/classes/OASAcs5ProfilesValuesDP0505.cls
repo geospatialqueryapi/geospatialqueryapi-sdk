@@ -11,17 +11,17 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0505
+ * HISPANIC OR LATINO AND RACE
  */
 public class OASAcs5ProfilesValuesDP0505 implements OAS.MappedProperties {
     /**
-     * Get mdBGroupName
+     * HISPANIC OR LATINO AND RACE
      * @return mdBGroupName
      */
     public String mdBGroupName { get; set; }
 
     /**
-     * Get mdBGroupCode
+     * DP0505
      * @return mdBGroupCode
      */
     public String mdBGroupCode { get; set; }

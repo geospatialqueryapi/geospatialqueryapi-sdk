@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0049PE | 
+**MDBName** | **string** | Self-employed in own not incorporated business workers (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

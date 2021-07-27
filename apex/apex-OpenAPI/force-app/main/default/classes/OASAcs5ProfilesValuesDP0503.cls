@@ -11,17 +11,17 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0503
+ * SEX AND AGE
  */
 public class OASAcs5ProfilesValuesDP0503 implements OAS.MappedProperties {
     /**
-     * Get mdBGroupName
+     * SEX AND AGE
      * @return mdBGroupName
      */
     public String mdBGroupName { get; set; }
 
     /**
-     * Get mdBGroupCode
+     * DP0503
      * @return mdBGroupCode
      */
     public String mdBGroupCode { get; set; }

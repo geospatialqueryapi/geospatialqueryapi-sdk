@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS) | 
+**MDBGroupCode** | **string** | DP0306 | 
 **DP030051E** | [**Acs5ProfilesValuesDP0306DP030051E**](Acs5ProfilesValuesDP0306DP030051E.md) |  | 
 **DP030052E** | [**Acs5ProfilesValuesDP0306DP030052E**](Acs5ProfilesValuesDP0306DP030052E.md) |  | 
 **DP030052PE** | [**Acs5ProfilesValuesDP0306DP030052PE**](Acs5ProfilesValuesDP0306DP030052PE.md) |  | 

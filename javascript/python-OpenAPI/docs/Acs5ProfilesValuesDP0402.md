@@ -1,11 +1,12 @@
 # Acs5ProfilesValuesDP0402
 
+UNITS IN STRUCTURE
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mdb_group_name** | **str** |  | 
-**mdb_group_code** | **str** |  | 
+**mdb_group_name** | **str** | UNITS IN STRUCTURE | 
+**mdb_group_code** | **str** | DP0402 | 
 **dp040006_e** | [**Acs5ProfilesValuesDP0402DP040006E**](Acs5ProfilesValuesDP0402DP040006E.md) |  | 
 **dp040007_e** | [**Acs5ProfilesValuesDP0402DP040007E**](Acs5ProfilesValuesDP0402DP040007E.md) |  | 
 **dp040007_pe** | [**Acs5ProfilesValuesDP0402DP040007PE**](Acs5ProfilesValuesDP0402DP040007PE.md) |  | 

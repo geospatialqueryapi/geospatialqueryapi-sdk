@@ -22,9 +22,10 @@ import Acs5ProfilesValuesDP0413DP040134E from './Acs5ProfilesValuesDP0413DP04013
 class Acs5ProfilesValuesDP0413 {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0413</code>.
+     * GROSS RENT
      * @alias module:model/Acs5ProfilesValuesDP0413
-     * @param mDBGroupName {String} 
-     * @param mDBGroupCode {String} 
+     * @param mDBGroupName {String} GROSS RENT
+     * @param mDBGroupCode {String} DP0413
      * @param dP040134E {module:model/Acs5ProfilesValuesDP0413DP040134E} 
      */
     constructor(mDBGroupName, mDBGroupCode, dP040134E) { 
@@ -71,11 +72,13 @@ class Acs5ProfilesValuesDP0413 {
 }
 
 /**
+ * GROSS RENT
  * @member {String} MDBGroupName
  */
 Acs5ProfilesValuesDP0413.prototype['MDBGroupName'] = undefined;
 
 /**
+ * DP0413
  * @member {String} MDBGroupCode
  */
 Acs5ProfilesValuesDP0413.prototype['MDBGroupCode'] = undefined;

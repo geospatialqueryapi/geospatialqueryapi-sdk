@@ -10,12 +10,12 @@ import Foundation
 import AnyCodable
 #endif
 
-/** Population 1 year and over: Different house in the U.S.: Different county: Same state (percent) */
+/** Population 1 year and over- Different house in the U.S.: Different county: Same state (percent) */
 public struct Acs5ProfilesValuesDP0209DP020084PE: Codable, Hashable {
 
     /** DP02_0084PE */
     public var mDBCode: String
-    /** Population 1 year and over: Different house in the U.S.: Different county: Same state (percent) */
+    /** Population 1 year and over- Different house in the U.S.: Different county: Same state (percent) */
     public var mDBName: String
     /** Field value */
     public var mDBValue: String

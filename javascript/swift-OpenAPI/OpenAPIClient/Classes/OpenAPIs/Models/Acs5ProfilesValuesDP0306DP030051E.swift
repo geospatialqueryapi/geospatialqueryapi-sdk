@@ -10,10 +10,14 @@ import Foundation
 import AnyCodable
 #endif
 
+/** Income and benefits (in 2019 inflation-adjusted dollars): Total households */
 public struct Acs5ProfilesValuesDP0306DP030051E: Codable, Hashable {
 
+    /** DP03_0051E */
     public var mDBCode: String
+    /** Income and benefits (in 2019 inflation-adjusted dollars): Total households */
     public var mDBName: String
+    /** Field value */
     public var mDBValue: String
 
     public init(mDBCode: String, mDBName: String, mDBValue: String) {

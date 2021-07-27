@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP05_0038E | 
+**MDBName** | **string** | One race: Black or African American | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

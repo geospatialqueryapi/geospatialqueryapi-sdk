@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0027PE | 
+**MDBName** | **string** | Management, business, science, and arts occupations (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

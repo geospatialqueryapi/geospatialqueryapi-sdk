@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0305DP030049E
+ * Self-employed in own not incorporated business workers
  */
 public class OASAcs5ProfilesValuesDP0305DP030049E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP03_0049E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Self-employed in own not incorporated business workers
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

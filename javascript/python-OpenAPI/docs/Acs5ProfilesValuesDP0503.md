@@ -1,11 +1,12 @@
 # Acs5ProfilesValuesDP0503
 
+SEX AND AGE
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mdb_group_name** | **str** |  | 
-**mdb_group_code** | **str** |  | 
+**mdb_group_name** | **str** | SEX AND AGE | 
+**mdb_group_code** | **str** | DP0503 | 
 **dp050025_e** | [**Acs5ProfilesValuesDP0503DP050025E**](Acs5ProfilesValuesDP0503DP050025E.md) |  | 
 **dp050025_pe** | [**Acs5ProfilesValuesDP0503DP050025PE**](Acs5ProfilesValuesDP0503DP050025PE.md) |  | 
 **dp050026_e** | [**Acs5ProfilesValuesDP0503DP050026E**](Acs5ProfilesValuesDP0503DP050026E.md) |  | 

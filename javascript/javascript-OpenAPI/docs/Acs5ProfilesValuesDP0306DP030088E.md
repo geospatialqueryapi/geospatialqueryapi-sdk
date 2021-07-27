@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP03_0088E | 
+**mDBName** | **String** | Per capita income (dollars) | 
+**mDBValue** | **String** | Field value | 
 
 

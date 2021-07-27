@@ -1,11 +1,12 @@
 # Acs5ProfilesValuesDP0306
 
+INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mdb_group_name** | **str** |  | 
-**mdb_group_code** | **str** |  | 
+**mdb_group_name** | **str** | INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS) | 
+**mdb_group_code** | **str** | DP0306 | 
 **dp030051_e** | [**Acs5ProfilesValuesDP0306DP030051E**](Acs5ProfilesValuesDP0306DP030051E.md) |  | 
 **dp030052_e** | [**Acs5ProfilesValuesDP0306DP030052E**](Acs5ProfilesValuesDP0306DP030052E.md) |  | 
 **dp030052_pe** | [**Acs5ProfilesValuesDP0306DP030052PE**](Acs5ProfilesValuesDP0306DP030052PE.md) |  | 

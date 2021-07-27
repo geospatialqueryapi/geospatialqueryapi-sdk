@@ -27,9 +27,10 @@ import Acs5ProfilesValuesDP0501DP050004E from './Acs5ProfilesValuesDP0501DP05000
 class Acs5ProfilesValuesDP0501 {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0501</code>.
+     * SEX
      * @alias module:model/Acs5ProfilesValuesDP0501
-     * @param mDBGroupName {String} 
-     * @param mDBGroupCode {String} 
+     * @param mDBGroupName {String} SEX
+     * @param mDBGroupCode {String} DP0501
      * @param dP050001E {module:model/Acs5ProfilesValuesDP0501DP050001E} 
      * @param dP050002E {module:model/Acs5ProfilesValuesDP0501DP050002E} 
      * @param dP050002PE {module:model/Acs5ProfilesValuesDP0501DP050002PE} 
@@ -101,11 +102,13 @@ class Acs5ProfilesValuesDP0501 {
 }
 
 /**
+ * SEX
  * @member {String} MDBGroupName
  */
 Acs5ProfilesValuesDP0501.prototype['MDBGroupName'] = undefined;
 
 /**
+ * DP0501
  * @member {String} MDBGroupCode
  */
 Acs5ProfilesValuesDP0501.prototype['MDBGroupCode'] = undefined;

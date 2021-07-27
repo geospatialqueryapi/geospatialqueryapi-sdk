@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP03_0057PE | 
+**mDBName** | **String** | $50,000 to $74,999 (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

@@ -21,10 +21,11 @@ import ApiClient from '../ApiClient';
 class Acs5ProfilesValuesDP0401DP040001E {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0401DP040001E</code>.
+     * Total housing units
      * @alias module:model/Acs5ProfilesValuesDP0401DP040001E
-     * @param mDBCode {String} 
-     * @param mDBName {String} 
-     * @param mDBValue {String} 
+     * @param mDBCode {String} DP04_0001E
+     * @param mDBName {String} Total housing units
+     * @param mDBValue {String} Field value
      */
     constructor(mDBCode, mDBName, mDBValue) { 
         
@@ -70,16 +71,19 @@ class Acs5ProfilesValuesDP0401DP040001E {
 }
 
 /**
+ * DP04_0001E
  * @member {String} MDBCode
  */
 Acs5ProfilesValuesDP0401DP040001E.prototype['MDBCode'] = undefined;
 
 /**
+ * Total housing units
  * @member {String} MDBName
  */
 Acs5ProfilesValuesDP0401DP040001E.prototype['MDBName'] = undefined;
 
 /**
+ * Field value
  * @member {String} MDBValue
  */
 Acs5ProfilesValuesDP0401DP040001E.prototype['MDBValue'] = undefined;

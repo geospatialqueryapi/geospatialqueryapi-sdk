@@ -109,9 +109,9 @@ class Acs5ProfilesValuesDP0504DP050037PE(ModelNormal):
         """Acs5ProfilesValuesDP0504DP050037PE - a model defined in OpenAPI
 
         Args:
-            mdb_code (str):
-            mdb_name (str):
-            mdb_value (str):
+            mdb_code (str): DP05_0037PE
+            mdb_name (str): One race: White (percent)
+            mdb_value (str): Field value
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types
@@ -198,9 +198,9 @@ class Acs5ProfilesValuesDP0504DP050037PE(ModelNormal):
         """Acs5ProfilesValuesDP0504DP050037PE - a model defined in OpenAPI
 
         Args:
-            mdb_code (str):
-            mdb_name (str):
-            mdb_value (str):
+            mdb_code (str): DP05_0037PE
+            mdb_name (str): One race: White (percent)
+            mdb_value (str): Field value
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types

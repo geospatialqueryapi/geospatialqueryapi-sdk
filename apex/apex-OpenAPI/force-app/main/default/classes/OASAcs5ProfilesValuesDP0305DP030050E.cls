@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0305DP030050E
+ * Unpaid family workers
  */
 public class OASAcs5ProfilesValuesDP0305DP030050E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP03_0050E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Unpaid family workers
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

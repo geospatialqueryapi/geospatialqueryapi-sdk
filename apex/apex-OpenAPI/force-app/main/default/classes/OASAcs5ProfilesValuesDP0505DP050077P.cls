@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0505DP050077P
+ * Not Hispanic or Latino: White alone (percent)
  */
 public class OASAcs5ProfilesValuesDP0505DP050077P implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP05_0077PE
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Not Hispanic or Latino: White alone (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }
@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0505DP050077P implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0505DP050077P getExample() {
         OASAcs5ProfilesValuesDP0505DP050077P acs5ProfilesValuesDP0505DP050077PE = new OASAcs5ProfilesValuesDP0505DP050077P();
           acs5ProfilesValuesDP0505DP050077PE.mdBCode = 'DP05_0077PE';
-          acs5ProfilesValuesDP0505DP050077PE.mdBName = 'Not Hispanic or Latino:White alone (percent)';
+          acs5ProfilesValuesDP0505DP050077PE.mdBName = 'Not Hispanic or Latino: White alone (percent)';
           acs5ProfilesValuesDP0505DP050077PE.mdBValue = '65.5';
         return acs5ProfilesValuesDP0505DP050077PE;
     }

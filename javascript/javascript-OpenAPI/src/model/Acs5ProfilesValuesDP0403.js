@@ -42,9 +42,10 @@ import Acs5ProfilesValuesDP0403DP040026PE from './Acs5ProfilesValuesDP0403DP0400
 class Acs5ProfilesValuesDP0403 {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0403</code>.
+     * YEAR STRUCTURE BUILT
      * @alias module:model/Acs5ProfilesValuesDP0403
-     * @param mDBGroupName {String} 
-     * @param mDBGroupCode {String} 
+     * @param mDBGroupName {String} YEAR STRUCTURE BUILT
+     * @param mDBGroupCode {String} DP0403
      * @param dP040016E {module:model/Acs5ProfilesValuesDP0403DP040016E} 
      * @param dP040017E {module:model/Acs5ProfilesValuesDP0403DP040017E} 
      * @param dP040017PE {module:model/Acs5ProfilesValuesDP0403DP040017PE} 
@@ -191,11 +192,13 @@ class Acs5ProfilesValuesDP0403 {
 }
 
 /**
+ * YEAR STRUCTURE BUILT
  * @member {String} MDBGroupName
  */
 Acs5ProfilesValuesDP0403.prototype['MDBGroupName'] = undefined;
 
 /**
+ * DP0403
  * @member {String} MDBGroupCode
  */
 Acs5ProfilesValuesDP0403.prototype['MDBGroupCode'] = undefined;

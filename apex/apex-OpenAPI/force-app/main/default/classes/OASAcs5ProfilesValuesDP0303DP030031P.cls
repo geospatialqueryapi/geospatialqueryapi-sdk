@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0303DP030031P
+ * Production, transportation, and material moving occupations (percent)
  */
 public class OASAcs5ProfilesValuesDP0303DP030031P implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP03_0031PE
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Production, transportation, and material moving occupations (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

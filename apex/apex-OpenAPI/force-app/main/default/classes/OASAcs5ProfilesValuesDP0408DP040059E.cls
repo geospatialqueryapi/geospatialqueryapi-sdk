@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0408DP040059E
+ * 1 vehicle available
  */
 public class OASAcs5ProfilesValuesDP0408DP040059E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP04_0059E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * 1 vehicle available
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

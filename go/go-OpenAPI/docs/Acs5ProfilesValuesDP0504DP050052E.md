@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP05_0052E | 
+**MDBName** | **string** | One race: Native Hawaiian and Other Pacific Islander | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

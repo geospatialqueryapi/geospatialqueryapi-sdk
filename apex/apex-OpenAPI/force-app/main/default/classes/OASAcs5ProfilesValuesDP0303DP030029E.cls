@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0303DP030029E
+ * Sales and office occupations
  */
 public class OASAcs5ProfilesValuesDP0303DP030029E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP03_0029E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Sales and office occupations
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

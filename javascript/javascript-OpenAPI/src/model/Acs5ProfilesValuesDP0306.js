@@ -47,9 +47,10 @@ import Acs5ProfilesValuesDP0306DP030088E from './Acs5ProfilesValuesDP0306DP03008
 class Acs5ProfilesValuesDP0306 {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0306</code>.
+     * INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)
      * @alias module:model/Acs5ProfilesValuesDP0306
-     * @param mDBGroupName {String} 
-     * @param mDBGroupCode {String} 
+     * @param mDBGroupName {String} INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)
+     * @param mDBGroupCode {String} DP0306
      * @param dP030051E {module:model/Acs5ProfilesValuesDP0306DP030051E} 
      * @param dP030052E {module:model/Acs5ProfilesValuesDP0306DP030052E} 
      * @param dP030052PE {module:model/Acs5ProfilesValuesDP0306DP030052PE} 
@@ -221,11 +222,13 @@ class Acs5ProfilesValuesDP0306 {
 }
 
 /**
+ * INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)
  * @member {String} MDBGroupName
  */
 Acs5ProfilesValuesDP0306.prototype['MDBGroupName'] = undefined;
 
 /**
+ * DP0306
  * @member {String} MDBGroupCode
  */
 Acs5ProfilesValuesDP0306.prototype['MDBGroupCode'] = undefined;

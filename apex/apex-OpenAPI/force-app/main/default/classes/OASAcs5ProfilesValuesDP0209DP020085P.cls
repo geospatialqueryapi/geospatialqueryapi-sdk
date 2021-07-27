@@ -11,7 +11,7 @@
  */
 
 /**
- * (percent) Population 1 year and over: Different house in the U.S.: Different county: Different state
+ * (percent) Population 1 year and over- Different house in the U.S.: Different county: Different state
  */
 public class OASAcs5ProfilesValuesDP0209DP020085P implements OAS.MappedProperties {
     /**
@@ -21,7 +21,7 @@ public class OASAcs5ProfilesValuesDP0209DP020085P implements OAS.MappedPropertie
     public String mdBCode { get; set; }
 
     /**
-     * (percent) Population 1 year and over: Different house in the U.S.: Different county: Different state
+     * (percent) Population 1 year and over- Different house in the U.S.: Different county: Different state
      * @return mdBName
      */
     public String mdBName { get; set; }
@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0209DP020085P implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0209DP020085P getExample() {
         OASAcs5ProfilesValuesDP0209DP020085P acs5ProfilesValuesDP0209DP020085PE = new OASAcs5ProfilesValuesDP0209DP020085P();
           acs5ProfilesValuesDP0209DP020085PE.mdBCode = 'DP02_0085PE';
-          acs5ProfilesValuesDP0209DP020085PE.mdBName = '(percent) Population 1 year and over: Different house in the U.S.: Different county: Different state';
+          acs5ProfilesValuesDP0209DP020085PE.mdBName = '(percent) Population 1 year and over- Different house in the U.S.: Different county: Different state';
           acs5ProfilesValuesDP0209DP020085PE.mdBValue = '2.3';
         return acs5ProfilesValuesDP0209DP020085PE;
     }

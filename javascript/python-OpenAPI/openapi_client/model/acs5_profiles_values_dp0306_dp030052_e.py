@@ -109,9 +109,9 @@ class Acs5ProfilesValuesDP0306DP030052E(ModelNormal):
         """Acs5ProfilesValuesDP0306DP030052E - a model defined in OpenAPI
 
         Args:
-            mdb_code (str):
-            mdb_name (str):
-            mdb_value (str):
+            mdb_code (str): DP03_0052E
+            mdb_name (str): Less than $10,000
+            mdb_value (str): Field value
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types
@@ -198,9 +198,9 @@ class Acs5ProfilesValuesDP0306DP030052E(ModelNormal):
         """Acs5ProfilesValuesDP0306DP030052E - a model defined in OpenAPI
 
         Args:
-            mdb_code (str):
-            mdb_name (str):
-            mdb_value (str):
+            mdb_code (str): DP03_0052E
+            mdb_name (str): Less than $10,000
+            mdb_value (str): Field value
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types

@@ -31,9 +31,10 @@ import Acs5ProfilesValuesDP0408DP040061PE from './Acs5ProfilesValuesDP0408DP0400
 class Acs5ProfilesValuesDP0408 {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0408</code>.
+     * VEHICLES AVAILABLE
      * @alias module:model/Acs5ProfilesValuesDP0408
-     * @param mDBGroupName {String} 
-     * @param mDBGroupCode {String} 
+     * @param mDBGroupName {String} VEHICLES AVAILABLE
+     * @param mDBGroupCode {String} DP0408
      * @param dP040057E {module:model/Acs5ProfilesValuesDP0408DP040057E} 
      * @param dP040057PE {module:model/Acs5ProfilesValuesDP0408DP040057PE} 
      * @param dP040058E {module:model/Acs5ProfilesValuesDP0408DP040058E} 
@@ -125,11 +126,13 @@ class Acs5ProfilesValuesDP0408 {
 }
 
 /**
+ * VEHICLES AVAILABLE
  * @member {String} MDBGroupName
  */
 Acs5ProfilesValuesDP0408.prototype['MDBGroupName'] = undefined;
 
 /**
+ * DP0408
  * @member {String} MDBGroupCode
  */
 Acs5ProfilesValuesDP0408.prototype['MDBGroupCode'] = undefined;

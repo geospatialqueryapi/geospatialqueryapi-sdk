@@ -110,7 +110,7 @@ class Acs5ProfilesValuesDP0209DP020084PE(ModelNormal):
 
         Args:
             mdb_code (str): DP02_0084PE
-            mdb_name (str): Population 1 year and over: Different house in the U.S.: Different county: Same state (percent)
+            mdb_name (str): Population 1 year and over- Different house in the U.S.: Different county: Same state (percent)
             mdb_value (str): Field value
 
         Keyword Args:
@@ -199,7 +199,7 @@ class Acs5ProfilesValuesDP0209DP020084PE(ModelNormal):
 
         Args:
             mdb_code (str): DP02_0084PE
-            mdb_name (str): Population 1 year and over: Different house in the U.S.: Different county: Same state (percent)
+            mdb_name (str): Population 1 year and over- Different house in the U.S.: Different county: Same state (percent)
             mdb_value (str): Field value
 
         Keyword Args:

@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0306DP030086E
+ * Median family income (dollars)
  */
 public class OASAcs5ProfilesValuesDP0306DP030086E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP03_0086E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Median family income (dollars)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

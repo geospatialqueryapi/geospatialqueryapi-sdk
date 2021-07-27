@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0502DP050019E
+ * Under 18 years
  */
 public class OASAcs5ProfilesValuesDP0502DP050019E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP05_0019E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Under 18 years
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

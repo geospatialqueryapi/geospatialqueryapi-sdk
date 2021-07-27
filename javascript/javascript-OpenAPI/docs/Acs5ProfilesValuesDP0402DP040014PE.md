@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0014PE | 
+**mDBName** | **String** | Mobile home (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

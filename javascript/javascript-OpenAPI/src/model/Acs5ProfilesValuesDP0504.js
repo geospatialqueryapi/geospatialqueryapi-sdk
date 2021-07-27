@@ -37,9 +37,10 @@ import Acs5ProfilesValuesDP0504DP050052PE from './Acs5ProfilesValuesDP0504DP0500
 class Acs5ProfilesValuesDP0504 {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0504</code>.
+     * RACE
      * @alias module:model/Acs5ProfilesValuesDP0504
-     * @param mDBGroupName {String} 
-     * @param mDBGroupCode {String} 
+     * @param mDBGroupName {String} RACE
+     * @param mDBGroupCode {String} DP0504
      * @param dP050033E {module:model/Acs5ProfilesValuesDP0504DP050033E} 
      * @param dP050034E {module:model/Acs5ProfilesValuesDP0504DP050034E} 
      * @param dP050035E {module:model/Acs5ProfilesValuesDP0504DP050035E} 
@@ -161,11 +162,13 @@ class Acs5ProfilesValuesDP0504 {
 }
 
 /**
+ * RACE
  * @member {String} MDBGroupName
  */
 Acs5ProfilesValuesDP0504.prototype['MDBGroupName'] = undefined;
 
 /**
+ * DP0504
  * @member {String} MDBGroupCode
  */
 Acs5ProfilesValuesDP0504.prototype['MDBGroupCode'] = undefined;

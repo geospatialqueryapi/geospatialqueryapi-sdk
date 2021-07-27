@@ -15,10 +15,13 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0505DP050083PE struct for Acs5ProfilesValuesDP0505DP050083PE
+// Acs5ProfilesValuesDP0505DP050083PE Not Hispanic or Latino: Two or more races (percent)
 type Acs5ProfilesValuesDP0505DP050083PE struct {
+	// DP05_0083PE
 	MDBCode string `json:"MDBCode"`
+	// Not Hispanic or Latino: Two or more races (percent)
 	MDBName string `json:"MDBName"`
+	// Field value
 	MDBValue string `json:"MDBValue"`
 	AdditionalProperties map[string]interface{}
 }

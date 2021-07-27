@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | RACE | 
+**MDBGroupCode** | **string** | DP0504 | 
 **DP050033E** | [**Acs5ProfilesValuesDP0504DP050033E**](Acs5ProfilesValuesDP0504DP050033E.md) |  | 
 **DP050034E** | [**Acs5ProfilesValuesDP0504DP050034E**](Acs5ProfilesValuesDP0504DP050034E.md) |  | 
 **DP050035E** | [**Acs5ProfilesValuesDP0504DP050035E**](Acs5ProfilesValuesDP0504DP050035E.md) |  | 

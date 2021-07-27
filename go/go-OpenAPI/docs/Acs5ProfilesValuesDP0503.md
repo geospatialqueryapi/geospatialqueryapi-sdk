@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | SEX AND AGE | 
+**MDBGroupCode** | **string** | DP0503 | 
 **DP050025E** | [**Acs5ProfilesValuesDP0503DP050025E**](Acs5ProfilesValuesDP0503DP050025E.md) |  | 
 **DP050025PE** | [**Acs5ProfilesValuesDP0503DP050025PE**](Acs5ProfilesValuesDP0503DP050025PE.md) |  | 
 **DP050026E** | [**Acs5ProfilesValuesDP0503DP050026E**](Acs5ProfilesValuesDP0503DP050026E.md) |  | 

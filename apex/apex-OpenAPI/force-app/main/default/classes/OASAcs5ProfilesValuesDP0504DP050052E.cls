@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0504DP050052E
+ * One race: Native Hawaiian and Other Pacific Islander
  */
 public class OASAcs5ProfilesValuesDP0504DP050052E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP05_0052E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * One race: Native Hawaiian and Other Pacific Islander
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

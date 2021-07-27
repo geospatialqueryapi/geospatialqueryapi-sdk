@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | SELECTED MONTHLY OWNER COSTS (SMOC) | 
+**MDBGroupCode** | **string** | DP0409 | 
 **DP040080E** | [**Acs5ProfilesValuesDP0409DP040080E**](Acs5ProfilesValuesDP0409DP040080E.md) |  | 
 **DP040081E** | [**Acs5ProfilesValuesDP0409DP040081E**](Acs5ProfilesValuesDP0409DP040081E.md) |  | 
 **DP040081PE** | [**Acs5ProfilesValuesDP0409DP040081PE**](Acs5ProfilesValuesDP0409DP040081PE.md) |  | 

@@ -109,9 +109,9 @@ class Acs5ProfilesValuesDP0407DP040056PE(ModelNormal):
         """Acs5ProfilesValuesDP0407DP040056PE - a model defined in OpenAPI
 
         Args:
-            mdb_code (str):
-            mdb_name (str):
-            mdb_value (str):
+            mdb_code (str): DP04_0056PE
+            mdb_name (str): Moved in 1989 and earlier (percent)
+            mdb_value (str): Field value
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types
@@ -198,9 +198,9 @@ class Acs5ProfilesValuesDP0407DP040056PE(ModelNormal):
         """Acs5ProfilesValuesDP0407DP040056PE - a model defined in OpenAPI
 
         Args:
-            mdb_code (str):
-            mdb_name (str):
-            mdb_value (str):
+            mdb_code (str): DP04_0056PE
+            mdb_name (str): Moved in 1989 and earlier (percent)
+            mdb_value (str): Field value
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types

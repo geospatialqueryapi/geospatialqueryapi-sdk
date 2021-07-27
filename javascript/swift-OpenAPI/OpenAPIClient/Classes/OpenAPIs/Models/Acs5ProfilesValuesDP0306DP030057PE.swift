@@ -10,10 +10,14 @@ import Foundation
 import AnyCodable
 #endif
 
+/** $50,000 to $74,999 (percent) */
 public struct Acs5ProfilesValuesDP0306DP030057PE: Codable, Hashable {
 
+    /** DP03_0057PE */
     public var mDBCode: String
+    /** $50,000 to $74,999 (percent) */
     public var mDBName: String
+    /** Field value */
     public var mDBValue: String
 
     public init(mDBCode: String, mDBName: String, mDBValue: String) {

@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0022PE | 
+**mDBName** | **String** | Built 1970 to 1979 (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

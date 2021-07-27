@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0050E | 
+**MDBName** | **string** | Unpaid family workers | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

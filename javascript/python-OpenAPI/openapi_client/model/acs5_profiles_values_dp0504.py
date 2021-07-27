@@ -175,8 +175,8 @@ class Acs5ProfilesValuesDP0504(ModelNormal):
         """Acs5ProfilesValuesDP0504 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): RACE
+            mdb_group_code (str): DP0504
             dp050033_e (Acs5ProfilesValuesDP0504DP050033E):
             dp050034_e (Acs5ProfilesValuesDP0504DP050034E):
             dp050035_e (Acs5ProfilesValuesDP0504DP050035E):
@@ -294,8 +294,8 @@ class Acs5ProfilesValuesDP0504(ModelNormal):
         """Acs5ProfilesValuesDP0504 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): RACE
+            mdb_group_code (str): DP0504
             dp050033_e (Acs5ProfilesValuesDP0504DP050033E):
             dp050034_e (Acs5ProfilesValuesDP0504DP050034E):
             dp050035_e (Acs5ProfilesValuesDP0504DP050035E):

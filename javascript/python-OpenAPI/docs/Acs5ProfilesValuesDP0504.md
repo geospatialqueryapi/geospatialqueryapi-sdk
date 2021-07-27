@@ -1,11 +1,12 @@
 # Acs5ProfilesValuesDP0504
 
+RACE
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mdb_group_name** | **str** |  | 
-**mdb_group_code** | **str** |  | 
+**mdb_group_name** | **str** | RACE | 
+**mdb_group_code** | **str** | DP0504 | 
 **dp050033_e** | [**Acs5ProfilesValuesDP0504DP050033E**](Acs5ProfilesValuesDP0504DP050033E.md) |  | 
 **dp050034_e** | [**Acs5ProfilesValuesDP0504DP050034E**](Acs5ProfilesValuesDP0504DP050034E.md) |  | 
 **dp050035_e** | [**Acs5ProfilesValuesDP0504DP050035E**](Acs5ProfilesValuesDP0504DP050035E.md) |  | 

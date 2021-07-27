@@ -109,9 +109,9 @@ class Acs5ProfilesValuesDP0306DP030063E(ModelNormal):
         """Acs5ProfilesValuesDP0306DP030063E - a model defined in OpenAPI
 
         Args:
-            mdb_code (str):
-            mdb_name (str):
-            mdb_value (str):
+            mdb_code (str): DP03_0063E
+            mdb_name (str): Mean household income (dollars)
+            mdb_value (str): Field value
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types
@@ -198,9 +198,9 @@ class Acs5ProfilesValuesDP0306DP030063E(ModelNormal):
         """Acs5ProfilesValuesDP0306DP030063E - a model defined in OpenAPI
 
         Args:
-            mdb_code (str):
-            mdb_name (str):
-            mdb_value (str):
+            mdb_code (str): DP03_0063E
+            mdb_name (str): Mean household income (dollars)
+            mdb_value (str): Field value
 
         Keyword Args:
             _check_type (bool): if True, values for parameters in openapi_types

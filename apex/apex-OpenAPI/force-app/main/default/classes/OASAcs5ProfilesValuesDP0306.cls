@@ -11,17 +11,17 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0306
+ * INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)
  */
 public class OASAcs5ProfilesValuesDP0306 implements OAS.MappedProperties {
     /**
-     * Get mdBGroupName
+     * INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)
      * @return mdBGroupName
      */
     public String mdBGroupName { get; set; }
 
     /**
-     * Get mdBGroupCode
+     * DP0306
      * @return mdBGroupCode
      */
     public String mdBGroupCode { get; set; }

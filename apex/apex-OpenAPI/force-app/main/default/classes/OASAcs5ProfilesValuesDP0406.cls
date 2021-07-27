@@ -11,17 +11,17 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0406
+ * HOUSING TENURE
  */
 public class OASAcs5ProfilesValuesDP0406 implements OAS.MappedProperties {
     /**
-     * Get mdBGroupName
+     * HOUSING TENURE
      * @return mdBGroupName
      */
     public String mdBGroupName { get; set; }
 
     /**
-     * Get mdBGroupCode
+     * DP0406
      * @return mdBGroupCode
      */
     public String mdBGroupCode { get; set; }

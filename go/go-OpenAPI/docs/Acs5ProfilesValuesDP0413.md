@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBGroupName** | **string** |  | 
-**MDBGroupCode** | **string** |  | 
+**MDBGroupName** | **string** | GROSS RENT | 
+**MDBGroupCode** | **string** | DP0413 | 
 **DP040134E** | [**Acs5ProfilesValuesDP0413DP040134E**](Acs5ProfilesValuesDP0413DP040134E.md) |  | 
 
 ## Methods

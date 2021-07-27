@@ -10,12 +10,12 @@ import Foundation
 import AnyCodable
 #endif
 
-/** Male householder, no spouse/partner present: With own children of the householder under 18 years (percent) */
+/** Male householder, no spouse/partner present- With own children of the householder under 18 years (percent) */
 public struct Acs5ProfilesValuesDP0201DP020007PE: Codable, Hashable {
 
     /** DP02_0007PE */
     public var mDBCode: String
-    /** Male householder, no spouse/partner present: With own children of the householder under 18 years (percent) */
+    /** Male householder, no spouse/partner present- With own children of the householder under 18 years (percent) */
     public var mDBName: String
     /** Field value */
     public var mDBValue: String

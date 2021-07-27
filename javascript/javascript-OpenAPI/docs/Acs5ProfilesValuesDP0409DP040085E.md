@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP04_0085E | 
+**mDBName** | **String** | $200,000 to $299,999 | 
+**mDBValue** | **String** | Field value | 
 
 

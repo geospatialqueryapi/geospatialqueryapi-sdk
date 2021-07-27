@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **MDBCode** | **string** | DP02_0007PE | 
-**MDBName** | **string** | Male householder, no spouse/partner present: With own children of the householder under 18 years (percent) | 
+**MDBName** | **string** | Male householder, no spouse/partner present- With own children of the householder under 18 years (percent) | 
 **MDBValue** | **string** | Field value | 
 
 ## Methods

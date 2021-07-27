@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP03_0030E | 
+**MDBName** | **string** | Natural resources, construction, and maintenance occupations | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

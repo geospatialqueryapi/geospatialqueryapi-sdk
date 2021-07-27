@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP05_0037PE | 
+**MDBName** | **string** | One race: White (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

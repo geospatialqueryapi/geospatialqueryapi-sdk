@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP05_0044PE | 
+**mDBName** | **String** | One race: Asian (percent) | 
+**mDBValue** | **String** | Field value | 
 
 

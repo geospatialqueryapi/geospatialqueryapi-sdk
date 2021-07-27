@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBCode** | **String** |  | 
-**mDBName** | **String** |  | 
-**mDBValue** | **String** |  | 
+**mDBCode** | **String** | DP03_0027E | 
+**mDBName** | **String** | Management, business, science, and arts occupations | 
+**mDBValue** | **String** | Field value | 
 
 

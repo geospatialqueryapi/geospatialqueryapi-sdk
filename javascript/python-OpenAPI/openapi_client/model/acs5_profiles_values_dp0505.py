@@ -147,8 +147,8 @@ class Acs5ProfilesValuesDP0505(ModelNormal):
         """Acs5ProfilesValuesDP0505 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): HISPANIC OR LATINO AND RACE
+            mdb_group_code (str): DP0505
             dp050070_e (Acs5ProfilesValuesDP0505DP050070E):
             dp050071_e (Acs5ProfilesValuesDP0505DP050071E):
             dp050071_pe (Acs5ProfilesValuesDP0505DP050071PE):
@@ -252,8 +252,8 @@ class Acs5ProfilesValuesDP0505(ModelNormal):
         """Acs5ProfilesValuesDP0505 - a model defined in OpenAPI
 
         Args:
-            mdb_group_name (str):
-            mdb_group_code (str):
+            mdb_group_name (str): HISPANIC OR LATINO AND RACE
+            mdb_group_code (str): DP0505
             dp050070_e (Acs5ProfilesValuesDP0505DP050070E):
             dp050071_e (Acs5ProfilesValuesDP0505DP050071E):
             dp050071_pe (Acs5ProfilesValuesDP0505DP050071PE):

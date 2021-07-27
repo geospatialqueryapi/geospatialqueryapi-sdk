@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP04_0046PE | 
+**MDBName** | **string** | Owner-occupied (percent) | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

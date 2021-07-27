@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0406DP040049E
+ * Average household size of renter-occupied unit
  */
 public class OASAcs5ProfilesValuesDP0406DP040049E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP04_0049E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Average household size of renter-occupied unit
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

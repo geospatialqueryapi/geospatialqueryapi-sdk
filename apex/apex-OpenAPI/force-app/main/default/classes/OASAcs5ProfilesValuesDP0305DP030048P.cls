@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0305DP030048P
+ * Government workers (percent)
  */
 public class OASAcs5ProfilesValuesDP0305DP030048P implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP03_0048PE
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Government workers (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

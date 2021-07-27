@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0407DP040056E
+ * Moved in 1989 and earlier
  */
 public class OASAcs5ProfilesValuesDP0407DP040056E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP04_0056E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Moved in 1989 and earlier
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }

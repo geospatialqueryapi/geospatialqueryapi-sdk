@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MDBCode** | **string** |  | 
-**MDBName** | **string** |  | 
-**MDBValue** | **string** |  | 
+**MDBCode** | **string** | DP05_0002E | 
+**MDBName** | **string** | Male | 
+**MDBValue** | **string** | Field value | 
 
 ## Methods
 

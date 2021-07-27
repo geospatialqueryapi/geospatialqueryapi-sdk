@@ -4,8 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mDBGroupName** | **String** |  | 
-**mDBGroupCode** | **String** |  | 
+**mDBGroupName** | **String** | VEHICLES AVAILABLE | 
+**mDBGroupCode** | **String** | DP0408 | 
 **dP040057E** | [**Acs5ProfilesValuesDP0408DP040057E**](Acs5ProfilesValuesDP0408DP040057E.md) |  | 
 **dP040057PE** | [**Acs5ProfilesValuesDP0408DP040057PE**](Acs5ProfilesValuesDP0408DP040057PE.md) |  | 
 **dP040058E** | [**Acs5ProfilesValuesDP0408DP040058E**](Acs5ProfilesValuesDP0408DP040058E.md) |  | 

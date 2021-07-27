@@ -1,11 +1,12 @@
 # Acs5ProfilesValuesDP0409
 
+SELECTED MONTHLY OWNER COSTS (SMOC)
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mdb_group_name** | **str** |  | 
-**mdb_group_code** | **str** |  | 
+**mdb_group_name** | **str** | SELECTED MONTHLY OWNER COSTS (SMOC) | 
+**mdb_group_code** | **str** | DP0409 | 
 **dp040080_e** | [**Acs5ProfilesValuesDP0409DP040080E**](Acs5ProfilesValuesDP0409DP040080E.md) |  | 
 **dp040081_e** | [**Acs5ProfilesValuesDP0409DP040081E**](Acs5ProfilesValuesDP0409DP040081E.md) |  | 
 **dp040081_pe** | [**Acs5ProfilesValuesDP0409DP040081PE**](Acs5ProfilesValuesDP0409DP040081PE.md) |  | 

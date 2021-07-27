@@ -22,29 +22,29 @@ class Info {
     /**
      * Constructs a new <code>Info</code>.
      * @alias module:model/Info
-     * @param uSStateGEOID {String} 
-     * @param uSStateUSPS {String} 
-     * @param uSStateNameFull {String} 
-     * @param uSCountyGEOID {String} 
-     * @param uSCountyName {String} 
-     * @param uSCountyNameFull {String} 
-     * @param USCOUSUBGEOID {String} 
-     * @param uSCOUSUBName {String} 
-     * @param uSCOUSUBNameFull {String} 
-     * @param uSPlaceGEOID {String} 
-     * @param uSPlaceNAME {String} 
-     * @param uSPlaceNameFull {String} 
-     * @param USZCTA {String} 
-     * @param uSTractGEOID {String} 
-     * @param uSTractName {String} 
-     * @param uSTractNameFull {String} 
-     * @param timeStamp {String} 
-     * @param timeToRun {String} 
-     * @param accountID {String} 
-     * @param accountName {String} 
-     * @param request {String} 
-     * @param result {String} 
-     * @param version {String} 
+     * @param uSStateGEOID {String} The US State GEOID
+     * @param uSStateUSPS {String} The US State abbreviation
+     * @param uSStateNameFull {String} The US State full name
+     * @param uSCountyGEOID {String} The US County GEOID
+     * @param uSCountyName {String} The US County name
+     * @param uSCountyNameFull {String} The US County full name
+     * @param USCOUSUBGEOID {String} The US County subdivision
+     * @param uSCOUSUBName {String} The US County subdivision GEOID
+     * @param uSCOUSUBNameFull {String} The US County subdivision
+     * @param uSPlaceGEOID {String} The US Place GEOID
+     * @param uSPlaceNAME {String} The US Place name
+     * @param uSPlaceNameFull {String} The US Place full name
+     * @param USZCTA {String} The US ZCTA full name
+     * @param uSTractGEOID {String} The US Census tract GEOID
+     * @param uSTractName {String} The US Census tract name
+     * @param uSTractNameFull {String} The US Census tract full name
+     * @param timeStamp {String} TimeStamp
+     * @param timeToRun {String} TimeToRun
+     * @param accountID {String} AccountID
+     * @param accountName {String} AccountName
+     * @param request {String} Request
+     * @param result {String} Result
+     * @param version {String} Version
      * @param copyright {String} 
      */
     constructor(uSStateGEOID, uSStateUSPS, uSStateNameFull, uSCountyGEOID, uSCountyName, uSCountyNameFull, USCOUSUBGEOID, uSCOUSUBName, uSCOUSUBNameFull, uSPlaceGEOID, uSPlaceNAME, uSPlaceNameFull, USZCTA, uSTractGEOID, uSTractName, uSTractNameFull, timeStamp, timeToRun, accountID, accountName, request, result, version, copyright) { 
@@ -175,116 +175,139 @@ class Info {
 }
 
 /**
+ * The US State GEOID
  * @member {String} USStateGEOID
  */
 Info.prototype['USStateGEOID'] = undefined;
 
 /**
+ * The US State abbreviation
  * @member {String} USStateUSPS
  */
 Info.prototype['USStateUSPS'] = undefined;
 
 /**
+ * The US State full name
  * @member {String} USStateNameFull
  */
 Info.prototype['USStateNameFull'] = undefined;
 
 /**
+ * The US County GEOID
  * @member {String} USCountyGEOID
  */
 Info.prototype['USCountyGEOID'] = undefined;
 
 /**
+ * The US County name
  * @member {String} USCountyName
  */
 Info.prototype['USCountyName'] = undefined;
 
 /**
+ * The US County full name
  * @member {String} USCountyNameFull
  */
 Info.prototype['USCountyNameFull'] = undefined;
 
 /**
+ * The US County subdivision
  * @member {String} USCOUSUBGEOID
  */
 Info.prototype['USCOUSUBGEOID'] = undefined;
 
 /**
+ * The US County subdivision GEOID
  * @member {String} USCOUSUBName
  */
 Info.prototype['USCOUSUBName'] = undefined;
 
 /**
+ * The US County subdivision
  * @member {String} USCOUSUBNameFull
  */
 Info.prototype['USCOUSUBNameFull'] = undefined;
 
 /**
+ * The US Place GEOID
  * @member {String} USPlaceGEOID
  */
 Info.prototype['USPlaceGEOID'] = undefined;
 
 /**
+ * The US Place name
  * @member {String} USPlaceNAME
  */
 Info.prototype['USPlaceNAME'] = undefined;
 
 /**
+ * The US Place full name
  * @member {String} USPlaceNameFull
  */
 Info.prototype['USPlaceNameFull'] = undefined;
 
 /**
+ * The US ZCTA full name
  * @member {String} USZCTA
  */
 Info.prototype['USZCTA'] = undefined;
 
 /**
+ * The US Census tract GEOID
  * @member {String} USTractGEOID
  */
 Info.prototype['USTractGEOID'] = undefined;
 
 /**
+ * The US Census tract name
  * @member {String} USTractName
  */
 Info.prototype['USTractName'] = undefined;
 
 /**
+ * The US Census tract full name
  * @member {String} USTractNameFull
  */
 Info.prototype['USTractNameFull'] = undefined;
 
 /**
+ * TimeStamp
  * @member {String} TimeStamp
  */
 Info.prototype['TimeStamp'] = undefined;
 
 /**
+ * TimeToRun
  * @member {String} TimeToRun
  */
 Info.prototype['TimeToRun'] = undefined;
 
 /**
+ * AccountID
  * @member {String} AccountID
  */
 Info.prototype['AccountID'] = undefined;
 
 /**
+ * AccountName
  * @member {String} AccountName
  */
 Info.prototype['AccountName'] = undefined;
 
 /**
+ * Request
  * @member {String} Request
  */
 Info.prototype['Request'] = undefined;
 
 /**
+ * Result
  * @member {String} Result
  */
 Info.prototype['Result'] = undefined;
 
 /**
+ * Version
  * @member {String} Version
  */
 Info.prototype['Version'] = undefined;

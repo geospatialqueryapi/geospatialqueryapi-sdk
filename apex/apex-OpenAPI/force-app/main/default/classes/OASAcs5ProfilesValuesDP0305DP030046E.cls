@@ -11,23 +11,23 @@
  */
 
 /**
- * OASAcs5ProfilesValuesDP0305DP030046E
+ * Class of worker: Civilian employed population 16 years and over
  */
 public class OASAcs5ProfilesValuesDP0305DP030046E implements OAS.MappedProperties {
     /**
-     * Get mdBCode
+     * DP03_0046E
      * @return mdBCode
      */
     public String mdBCode { get; set; }
 
     /**
-     * Get mdBName
+     * Class of worker: Civilian employed population 16 years and over
      * @return mdBName
      */
     public String mdBName { get; set; }
 
     /**
-     * Get mdBValue
+     * Field value
      * @return mdBValue
      */
     public String mdBValue { get; set; }
