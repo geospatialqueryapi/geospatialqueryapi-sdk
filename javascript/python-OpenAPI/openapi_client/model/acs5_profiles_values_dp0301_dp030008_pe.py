@@ -110,7 +110,7 @@ class Acs5ProfilesValuesDP0301DP030008PE(ModelNormal):
 
         Args:
             mdb_code (str): DP03_0008PE
-            mdb_name (str): Civilian labor force (percent
+            mdb_name (str): Civilian labor force (percent)
             mdb_value (str): Field value
 
         Keyword Args:
@@ -199,7 +199,7 @@ class Acs5ProfilesValuesDP0301DP030008PE(ModelNormal):
 
         Args:
             mdb_code (str): DP03_0008PE
-            mdb_name (str): Civilian labor force (percent
+            mdb_name (str): Civilian labor force (percent)
             mdb_value (str): Field value
 
         Keyword Args:

@@ -171,7 +171,7 @@ func (r ApiGetV1BoundariesUscountyLatLonRequest) Execute() (FeatureGeoJSON, *_ne
 
 Example:
 LatLon=33.6756872|-117.7772068
-LatLon=33.6756872,-117.7772068
+ 
 
 Note: valid delimiters: | or ,
 
@@ -432,7 +432,7 @@ func (r ApiGetV1BoundariesUscousubLatLonRequest) Execute() (FeatureGeoJSON, *_ne
 
 Example:
 LatLon=33.5627268|-117.5922593
-LatLon=33.5627268,-117.5922593
+ 
 
 Note: valid delimiters: | or ,
 
@@ -688,8 +688,7 @@ func (r ApiGetV1BoundariesUsplaceLatLonRequest) Execute() (FeatureGeoJSON, *_net
 
 Example:
 LatLon=33.8890375|-117.7720695
-LatLon=33.8890375,-117.7720695
-
+ 
 Note: valid delimiters: | or ,
 
 CA, California, Orange County, Anaheim-Santa Ana-Garden Grove, Yorba Linda city
@@ -944,7 +943,6 @@ func (r ApiGetV1BoundariesUsstateLatLonRequest) Execute() (FeatureGeoJSON, *_net
 
 Example:
 LatLon=37.1551773|-119.5434183
-LatLon=37.1551773,-119.5434183
 
 Note: valid delimiters: | or ,
 
@@ -1073,8 +1071,8 @@ func (r ApiGetV1BoundariesUstractIdGEOIDRequest) Execute() (FeatureGeoJSON, *_ne
  * U.S. Census Tract by GEOID
 
 Example:
-GEOID=06059990100
-CA, California, Orange County, Census Tract 1105
+GEOID=06059062619
+CA, California, Orange County, Census Tract 626.19
 
 Please look at: 
 
@@ -1200,11 +1198,10 @@ func (r ApiGetV1BoundariesUstractLatLonRequest) Execute() (FeatureGeoJSON, *_net
 
 Example:
 LatLon=33.5354639|-117.7720695
-LatLon=33.5354639,-117.7720695
-
+ 
 Note: valid delimiters: | or ,
 
-CA, California, Orange County, Census Tract 9901
+CA, California, Orange County, Anaheim-Santa Ana-Garden Grove, Yorba Linda city
 
 Please look at: 
 
@@ -1456,7 +1453,6 @@ func (r ApiGetV1BoundariesUszctaLatLonRequest) Execute() (FeatureGeoJSON, *_neth
 
 Example:
 LatLon=33.6196715|-117.6120873
-LatLon=33.6196715,-117.6120873
 
 Note: valid delimiters: | or ,
 

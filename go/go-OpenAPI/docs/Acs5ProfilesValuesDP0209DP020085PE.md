@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **MDBCode** | **string** | DP02_0085PE | 
-**MDBName** | **string** | (percent) Population 1 year and over- Different house in the U.S.: Different county: Different state | 
+**MDBName** | **string** | (percent) Population 1 year and over: Different house in the U.S.: Different county: Different state | 
 **MDBValue** | **string** | Field value | 
 
 ## Methods

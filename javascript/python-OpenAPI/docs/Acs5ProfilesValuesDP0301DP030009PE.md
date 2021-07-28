@@ -1,6 +1,6 @@
 # Acs5ProfilesValuesDP0301DP030009PE
 
-Unemployment Rate (percent) 
+Unemployment Rate (percent)
 
 ## Properties
 Name | Type | Description | Notes

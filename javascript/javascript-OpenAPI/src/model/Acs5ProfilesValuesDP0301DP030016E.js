@@ -21,7 +21,7 @@ import ApiClient from '../ApiClient';
 class Acs5ProfilesValuesDP0301DP030016E {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0301DP030016E</code>.
-     * EMPLOYMENT STATUS: Own children of the householder 6 to     17 years
+     * EMPLOYMENT STATUS: Own children of the householder 6 to to 17 years
      * @alias module:model/Acs5ProfilesValuesDP0301DP030016E
      * @param mDBCode {String} DP03_0016E
      * @param mDBName {String} EMPLOYMENT STATUS: Own children of the householder 6 to 17 years

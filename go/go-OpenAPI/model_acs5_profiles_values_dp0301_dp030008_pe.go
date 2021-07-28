@@ -19,7 +19,7 @@ import (
 type Acs5ProfilesValuesDP0301DP030008PE struct {
 	// DP03_0008PE
 	MDBCode string `json:"MDBCode"`
-	// Civilian labor force (percent
+	// Civilian labor force (percent)
 	MDBName string `json:"MDBName"`
 	// Field value
 	MDBValue string `json:"MDBValue"`

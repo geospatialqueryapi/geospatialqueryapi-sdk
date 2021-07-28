@@ -21,7 +21,7 @@ public class OASAcs5ProfilesValuesDP0301DP030008P implements OAS.MappedPropertie
     public String mdBCode { get; set; }
 
     /**
-     * Civilian labor force (percent
+     * Civilian labor force (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }
@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0301DP030008P implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0301DP030008P getExample() {
         OASAcs5ProfilesValuesDP0301DP030008P acs5ProfilesValuesDP0301DP030008PE = new OASAcs5ProfilesValuesDP0301DP030008P();
           acs5ProfilesValuesDP0301DP030008PE.mdBCode = 'DP03_0008PE';
-          acs5ProfilesValuesDP0301DP030008PE.mdBName = 'Civilian labor force (percent';
+          acs5ProfilesValuesDP0301DP030008PE.mdBName = 'Civilian labor force (percent)';
           acs5ProfilesValuesDP0301DP030008PE.mdBValue = '2229479';
         return acs5ProfilesValuesDP0301DP030008PE;
     }

@@ -401,9 +401,8 @@ paths:
   /v1/boundaries/usstate/latlon/{LatLon}:
     get:
       description: "U.S. State by lat/lon.\n\nExample:\nLatLon=37.1551773|-119.5434183\n\
-        LatLon=37.1551773,-119.5434183\n\nNote: valid delimiters: | or ,\n\nCA, California.\n\
-        \nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time\
-        \ to run.\n"
+        \nNote: valid delimiters: | or ,\n\nCA, California.\n\nPlease look at: \n\n\
+        /properties/info/TimeToRun\n\nto get the actial time to run.\n"
       operationId: get-v1-boundaries-usstate-LatLon
       parameters:
       - description: local identifier of a feature
@@ -470,10 +469,9 @@ paths:
   /v1/boundaries/uscounty/latlon/{LatLon}:
     get:
       description: "U.S. County by lat/lon.\n\nExample:\nLatLon=33.6756872|-117.7772068\n\
-        LatLon=33.6756872,-117.7772068\n\nNote: valid delimiters: | or ,\n\nCounty\
-        \ by lat/lon: Alameda, Orange County, CA, California\n\n\n\n\nNote: valid\
-        \ delimiters: | or ,\n\nPlease look at: \n\n/properties/info/TimeToRun\n\n\
-        to get the actial time to run.\n"
+        \ \n\nNote: valid delimiters: | or ,\n\nCounty by lat/lon: Alameda, Orange\
+        \ County, CA, California\n\n\n\n\nNote: valid delimiters: | or ,\n\nPlease\
+        \ look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n"
       operationId: get-v1-boundaries-uscounty-LatLon
       parameters:
       - description: local identifier of a feature
@@ -540,9 +538,9 @@ paths:
   /v1/boundaries/uscousub/latlon/{LatLon}:
     get:
       description: "U.S. County Subdivision by lat/lon\n\nExample:\nLatLon=33.5627268|-117.5922593\n\
-        LatLon=33.5627268,-117.5922593\n\nNote: valid delimiters: | or ,\n\nCounty\
-        \ by lat/lon: Alameda, Orange County, CA, California\n\nPlease look at: \n\
-        \n/properties/info/TimeToRun\n\nto get the actial time to run.\n"
+        \ \n\nNote: valid delimiters: | or ,\n\nCounty by lat/lon: Alameda, Orange\
+        \ County, CA, California\n\nPlease look at: \n\n/properties/info/TimeToRun\n\
+        \nto get the actial time to run.\n"
       operationId: get-v1-boundaries-uscousub-LatLon
       parameters:
       - description: local identifier of a feature
@@ -609,9 +607,9 @@ paths:
   /v1/boundaries/usplace/latlon/{LatLon}:
     get:
       description: "U.S. Place by lat/lon\n\nExample:\nLatLon=33.8890375|-117.7720695\n\
-        LatLon=33.8890375,-117.7720695\n\nNote: valid delimiters: | or ,\n\nCA, California,\
-        \ Orange County, Anaheim-Santa Ana-Garden Grove, Yorba Linda city\n\nPlease\
-        \ look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n"
+        \ \nNote: valid delimiters: | or ,\n\nCA, California, Orange County, Anaheim-Santa\
+        \ Ana-Garden Grove, Yorba Linda city\n\nPlease look at: \n\n/properties/info/TimeToRun\n\
+        \nto get the actial time to run.\n"
       operationId: get-v1-boundaries-usplace-LatLon
       parameters:
       - description: local identifier of a feature
@@ -643,8 +641,8 @@ paths:
       - Data
   /v1/boundaries/ustract/id/{GEOID}:
     get:
-      description: "U.S. Census Tract by GEOID\n\nExample:\nGEOID=06059990100\nCA,\
-        \ California, Orange County, Census Tract 1105\n\nPlease look at: \n\n/properties/info/TimeToRun\n\
+      description: "U.S. Census Tract by GEOID\n\nExample:\nGEOID=06059062619\nCA,\
+        \ California, Orange County, Census Tract 626.19\n\nPlease look at: \n\n/properties/info/TimeToRun\n\
         \nto get the actial time to run.\n"
       operationId: get-v1-boundaries-ustract-id-GEOID
       parameters:
@@ -678,8 +676,8 @@ paths:
   /v1/boundaries/ustract/latlon/{LatLon}:
     get:
       description: "U.S. Census Tract by lat/lon\n\nExample:\nLatLon=33.5354639|-117.7720695\n\
-        LatLon=33.5354639,-117.7720695\n\nNote: valid delimiters: | or ,\n\nCA, California,\
-        \ Orange County, Census Tract 9901\n\nPlease look at: \n\n/properties/info/TimeToRun\n\
+        \ \nNote: valid delimiters: | or ,\n\nCA, California, Orange County, Anaheim-Santa\
+        \ Ana-Garden Grove, Yorba Linda city\n\nPlease look at: \n\n/properties/info/TimeToRun\n\
         \nto get the actial time to run.\n"
       operationId: get-v1-boundaries-ustract-LatLon
       parameters:
@@ -747,9 +745,9 @@ paths:
   /v1/boundaries/uszcta/latlon/{LatLon}:
     get:
       description: "U.S. ZCTA5 by lat/lon\n\nExample:\nLatLon=33.6196715|-117.6120873\n\
-        LatLon=33.6196715,-117.6120873\n\nNote: valid delimiters: | or ,\n\nCA, California,\
-        \ Orange County, 92688\n\nPlease look at: \n\n/properties/info/TimeToRun\n\
-        \nto get the actial time to run.\n"
+        \nNote: valid delimiters: | or ,\n\nCA, California, Orange County, 92688\n\
+        \nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time\
+        \ to run.\n"
       operationId: get-v1-boundaries-uszcta-LatLon
       parameters:
       - description: local identifier of a feature
@@ -888,7 +886,8 @@ components:
                   MDBValue: "1867893"
                 DP020003E:
                   MDBCode: DP02_0003E
-                  MDBName: 'Married-couple family: With own children'
+                  MDBName: 'Married-couple family: With own children of the householder
+                    under 18 years'
                   MDBValue: "313139"
                 DP020010PE:
                   MDBCode: DP02_0010PE
@@ -965,7 +964,7 @@ components:
               DP0209:
                 DP020080PE:
                   MDBCode: DP02_0080PE
-                  MDBName: Population 1 year and over- Same house (percent)
+                  MDBName: 'Population 1 year and over: Same house (percent)'
                   MDBValue: "86.3"
                 MDBGroupCode: DP0209
                 DP020084PE:
@@ -995,16 +994,16 @@ components:
                 MDBGroupName: RESIDENCE 1 YEAR AGO
                 DP020084E:
                   MDBCode: DP02_0084E
-                  MDBName: 'Population 1 year and over- Different house in the U.S.:
+                  MDBName: 'Population 1 year and over: Different house in the U.S.:
                     Different county: Same state'
                   MDBValue: "147807"
                 DP020080E:
                   MDBCode: DP02_0080E
-                  MDBName: Population 1 year and over- Same house
+                  MDBName: 'Population 1 year and over: Same house'
                   MDBValue: "4159479"
                 DP020085PE:
                   MDBCode: DP02_0085PE
-                  MDBName: '(percent) Population 1 year and over- Different house
+                  MDBName: '(percent) Population 1 year and over: Different house
                     in the U.S.: Different county: Different state'
                   MDBValue: "2.3"
                 DP020081E:
@@ -1017,7 +1016,7 @@ components:
                   MDBValue: "14512"
                 DP020086PE:
                   MDBCode: DP02_0086PE
-                  MDBName: Population 1 year and over- Abroad (percent)
+                  MDBName: 'Population 1 year and over: Abroad (percent)'
                   MDBValue: "0.3"
                 DP020082E:
                   MDBCode: DP02_0082E
@@ -1195,7 +1194,7 @@ components:
                 MDBGroupCode: DP0207
                 DP020062PE:
                   MDBCode: DP02_0062PE
-                  MDBName: Population 25 years and over- High school graduate (percent)
+                  MDBName: 'Population 25 years and over: High school graduate (percent)'
                   MDBValue: "30.8"
                 DP020059E:
                   MDBCode: DP02_0059E
@@ -1203,42 +1202,43 @@ components:
                   MDBValue: "3320877"
                 DP020066E:
                   MDBCode: DP02_0066E
-                  MDBName: Population 25 years and over- Graduate or professional
-                    degree
+                  MDBName: 'Population 25 years and over: Graduate or professional
+                    degree'
                   MDBValue: "316594"
                 DP020067E:
                   MDBCode: DP02_0067E
-                  MDBName: Population 25 years and over- High school graduate or higher
+                  MDBName: 'Population 25 years and over: High school graduate or
+                    higher'
                   MDBValue: "2861955"
                 DP020068E:
                   MDBCode: DP02_0068E
-                  MDBName: Population 25 years and over- Bachelor's degree or higher
+                  MDBName: 'Population 25 years and over: Bachelor''s degree or higher'
                   MDBValue: "845772"
                 MDBGroupName: EDUCATIONAL ATTAINMENT
                 DP020062E:
                   MDBCode: DP02_0062E
-                  MDBName: Population 25 years and over- High school graduate
+                  MDBName: 'Population 25 years and over: High school graduate'
                   MDBValue: "1022839"
                 DP020066PE:
                   MDBCode: DP02_0066PE
-                  MDBName: Population 25 years and over- Graduate or professional
-                    degree (percent)
+                  MDBName: 'Population 25 years and over: Graduate or professional
+                    degree (percent)'
                   MDBValue: "9.5"
                 DP020065PE:
                   MDBCode: DP02_0065PE
-                  MDBName: Population 25 years and over- Bachelor's degree (percent)
+                  MDBName: 'Population 25 years and over: Bachelor''s degree (percent)'
                   MDBValue: "15.9"
                 DP020064E:
                   MDBCode: DP02_0064E
-                  MDBName: Population 25 years and over- Associate's degree
+                  MDBName: 'Population 25 years and over: Associate''s degree'
                   MDBValue: "282316"
                 DP020064PE:
                   MDBCode: DP02_0064PE
-                  MDBName: Population 25 years and over- Associate's degree (percent)
+                  MDBName: 'Population 25 years and over: Associate''s degree (percent)'
                   MDBValue: "8.5"
                 DP020065E:
                   MDBCode: DP02_0065E
-                  MDBName: Population 25 years and over- Bachelor's degree
+                  MDBName: 'Population 25 years and over: Bachelor''s degree'
                   MDBValue: "529178"
                 DP020059PE:
                   MDBCode: DP02_0059PE
@@ -1246,13 +1246,13 @@ components:
                   MDBValue: "3320877"
                 DP020068PE:
                   MDBCode: DP02_0068PE
-                  MDBName: Population 25 years and over- Bachelor's degree or higher
-                    (percent)
+                  MDBName: 'Population 25 years and over: Bachelor''s degree or higher
+                    (percent)'
                   MDBValue: "25.5"
                 DP020067PE:
                   MDBCode: DP02_0067PE
-                  MDBName: Population 25 years and over- High school graduate or higher
-                    (percent)
+                  MDBName: 'Population 25 years and over: High school graduate or
+                    higher (percent)'
                   MDBValue: "86.2"
               DP0306:
                 DP030053E:
@@ -1973,7 +1973,7 @@ components:
                   MDBValue: "2041967"
                 DP030008PE:
                   MDBCode: DP03_0008PE
-                  MDBName: Civilian labor force (percent
+                  MDBName: Civilian labor force (percent)
                   MDBValue: "2229479"
                 DP030009PE:
                   MDBCode: DP03_0009PE
@@ -2273,7 +2273,8 @@ components:
               MDBValue: "1867893"
             DP020003E:
               MDBCode: DP02_0003E
-              MDBName: 'Married-couple family: With own children'
+              MDBName: 'Married-couple family: With own children of the householder
+                under 18 years'
               MDBValue: "313139"
             DP020010PE:
               MDBCode: DP02_0010PE
@@ -2350,7 +2351,7 @@ components:
           DP0209:
             DP020080PE:
               MDBCode: DP02_0080PE
-              MDBName: Population 1 year and over- Same house (percent)
+              MDBName: 'Population 1 year and over: Same house (percent)'
               MDBValue: "86.3"
             MDBGroupCode: DP0209
             DP020084PE:
@@ -2379,16 +2380,16 @@ components:
             MDBGroupName: RESIDENCE 1 YEAR AGO
             DP020084E:
               MDBCode: DP02_0084E
-              MDBName: 'Population 1 year and over- Different house in the U.S.: Different
+              MDBName: 'Population 1 year and over: Different house in the U.S.: Different
                 county: Same state'
               MDBValue: "147807"
             DP020080E:
               MDBCode: DP02_0080E
-              MDBName: Population 1 year and over- Same house
+              MDBName: 'Population 1 year and over: Same house'
               MDBValue: "4159479"
             DP020085PE:
               MDBCode: DP02_0085PE
-              MDBName: '(percent) Population 1 year and over- Different house in the
+              MDBName: '(percent) Population 1 year and over: Different house in the
                 U.S.: Different county: Different state'
               MDBValue: "2.3"
             DP020081E:
@@ -2401,7 +2402,7 @@ components:
               MDBValue: "14512"
             DP020086PE:
               MDBCode: DP02_0086PE
-              MDBName: Population 1 year and over- Abroad (percent)
+              MDBName: 'Population 1 year and over: Abroad (percent)'
               MDBValue: "0.3"
             DP020082E:
               MDBCode: DP02_0082E
@@ -2578,7 +2579,7 @@ components:
             MDBGroupCode: DP0207
             DP020062PE:
               MDBCode: DP02_0062PE
-              MDBName: Population 25 years and over- High school graduate (percent)
+              MDBName: 'Population 25 years and over: High school graduate (percent)'
               MDBValue: "30.8"
             DP020059E:
               MDBCode: DP02_0059E
@@ -2586,41 +2587,41 @@ components:
               MDBValue: "3320877"
             DP020066E:
               MDBCode: DP02_0066E
-              MDBName: Population 25 years and over- Graduate or professional degree
+              MDBName: 'Population 25 years and over: Graduate or professional degree'
               MDBValue: "316594"
             DP020067E:
               MDBCode: DP02_0067E
-              MDBName: Population 25 years and over- High school graduate or higher
+              MDBName: 'Population 25 years and over: High school graduate or higher'
               MDBValue: "2861955"
             DP020068E:
               MDBCode: DP02_0068E
-              MDBName: Population 25 years and over- Bachelor's degree or higher
+              MDBName: 'Population 25 years and over: Bachelor''s degree or higher'
               MDBValue: "845772"
             MDBGroupName: EDUCATIONAL ATTAINMENT
             DP020062E:
               MDBCode: DP02_0062E
-              MDBName: Population 25 years and over- High school graduate
+              MDBName: 'Population 25 years and over: High school graduate'
               MDBValue: "1022839"
             DP020066PE:
               MDBCode: DP02_0066PE
-              MDBName: Population 25 years and over- Graduate or professional degree
-                (percent)
+              MDBName: 'Population 25 years and over: Graduate or professional degree
+                (percent)'
               MDBValue: "9.5"
             DP020065PE:
               MDBCode: DP02_0065PE
-              MDBName: Population 25 years and over- Bachelor's degree (percent)
+              MDBName: 'Population 25 years and over: Bachelor''s degree (percent)'
               MDBValue: "15.9"
             DP020064E:
               MDBCode: DP02_0064E
-              MDBName: Population 25 years and over- Associate's degree
+              MDBName: 'Population 25 years and over: Associate''s degree'
               MDBValue: "282316"
             DP020064PE:
               MDBCode: DP02_0064PE
-              MDBName: Population 25 years and over- Associate's degree (percent)
+              MDBName: 'Population 25 years and over: Associate''s degree (percent)'
               MDBValue: "8.5"
             DP020065E:
               MDBCode: DP02_0065E
-              MDBName: Population 25 years and over- Bachelor's degree
+              MDBName: 'Population 25 years and over: Bachelor''s degree'
               MDBValue: "529178"
             DP020059PE:
               MDBCode: DP02_0059PE
@@ -2628,12 +2629,13 @@ components:
               MDBValue: "3320877"
             DP020068PE:
               MDBCode: DP02_0068PE
-              MDBName: Population 25 years and over- Bachelor's degree or higher (percent)
+              MDBName: 'Population 25 years and over: Bachelor''s degree or higher
+                (percent)'
               MDBValue: "25.5"
             DP020067PE:
               MDBCode: DP02_0067PE
-              MDBName: Population 25 years and over- High school graduate or higher
-                (percent)
+              MDBName: 'Population 25 years and over: High school graduate or higher
+                (percent)'
               MDBValue: "86.2"
           DP0306:
             DP030053E:
@@ -3352,7 +3354,7 @@ components:
               MDBValue: "2041967"
             DP030008PE:
               MDBCode: DP03_0008PE
-              MDBName: Civilian labor force (percent
+              MDBName: Civilian labor force (percent)
               MDBValue: "2229479"
             DP030009PE:
               MDBCode: DP03_0009PE
@@ -4147,7 +4149,8 @@ components:
                 MDBValue: "1867893"
               DP020003E:
                 MDBCode: DP02_0003E
-                MDBName: 'Married-couple family: With own children'
+                MDBName: 'Married-couple family: With own children of the householder
+                  under 18 years'
                 MDBValue: "313139"
               DP020010PE:
                 MDBCode: DP02_0010PE
@@ -4224,7 +4227,7 @@ components:
             DP0209:
               DP020080PE:
                 MDBCode: DP02_0080PE
-                MDBName: Population 1 year and over- Same house (percent)
+                MDBName: 'Population 1 year and over: Same house (percent)'
                 MDBValue: "86.3"
               MDBGroupCode: DP0209
               DP020084PE:
@@ -4253,16 +4256,16 @@ components:
               MDBGroupName: RESIDENCE 1 YEAR AGO
               DP020084E:
                 MDBCode: DP02_0084E
-                MDBName: 'Population 1 year and over- Different house in the U.S.:
+                MDBName: 'Population 1 year and over: Different house in the U.S.:
                   Different county: Same state'
                 MDBValue: "147807"
               DP020080E:
                 MDBCode: DP02_0080E
-                MDBName: Population 1 year and over- Same house
+                MDBName: 'Population 1 year and over: Same house'
                 MDBValue: "4159479"
               DP020085PE:
                 MDBCode: DP02_0085PE
-                MDBName: '(percent) Population 1 year and over- Different house in
+                MDBName: '(percent) Population 1 year and over: Different house in
                   the U.S.: Different county: Different state'
                 MDBValue: "2.3"
               DP020081E:
@@ -4275,7 +4278,7 @@ components:
                 MDBValue: "14512"
               DP020086PE:
                 MDBCode: DP02_0086PE
-                MDBName: Population 1 year and over- Abroad (percent)
+                MDBName: 'Population 1 year and over: Abroad (percent)'
                 MDBValue: "0.3"
               DP020082E:
                 MDBCode: DP02_0082E
@@ -4452,7 +4455,7 @@ components:
               MDBGroupCode: DP0207
               DP020062PE:
                 MDBCode: DP02_0062PE
-                MDBName: Population 25 years and over- High school graduate (percent)
+                MDBName: 'Population 25 years and over: High school graduate (percent)'
                 MDBValue: "30.8"
               DP020059E:
                 MDBCode: DP02_0059E
@@ -4460,41 +4463,41 @@ components:
                 MDBValue: "3320877"
               DP020066E:
                 MDBCode: DP02_0066E
-                MDBName: Population 25 years and over- Graduate or professional degree
+                MDBName: 'Population 25 years and over: Graduate or professional degree'
                 MDBValue: "316594"
               DP020067E:
                 MDBCode: DP02_0067E
-                MDBName: Population 25 years and over- High school graduate or higher
+                MDBName: 'Population 25 years and over: High school graduate or higher'
                 MDBValue: "2861955"
               DP020068E:
                 MDBCode: DP02_0068E
-                MDBName: Population 25 years and over- Bachelor's degree or higher
+                MDBName: 'Population 25 years and over: Bachelor''s degree or higher'
                 MDBValue: "845772"
               MDBGroupName: EDUCATIONAL ATTAINMENT
               DP020062E:
                 MDBCode: DP02_0062E
-                MDBName: Population 25 years and over- High school graduate
+                MDBName: 'Population 25 years and over: High school graduate'
                 MDBValue: "1022839"
               DP020066PE:
                 MDBCode: DP02_0066PE
-                MDBName: Population 25 years and over- Graduate or professional degree
-                  (percent)
+                MDBName: 'Population 25 years and over: Graduate or professional degree
+                  (percent)'
                 MDBValue: "9.5"
               DP020065PE:
                 MDBCode: DP02_0065PE
-                MDBName: Population 25 years and over- Bachelor's degree (percent)
+                MDBName: 'Population 25 years and over: Bachelor''s degree (percent)'
                 MDBValue: "15.9"
               DP020064E:
                 MDBCode: DP02_0064E
-                MDBName: Population 25 years and over- Associate's degree
+                MDBName: 'Population 25 years and over: Associate''s degree'
                 MDBValue: "282316"
               DP020064PE:
                 MDBCode: DP02_0064PE
-                MDBName: Population 25 years and over- Associate's degree (percent)
+                MDBName: 'Population 25 years and over: Associate''s degree (percent)'
                 MDBValue: "8.5"
               DP020065E:
                 MDBCode: DP02_0065E
-                MDBName: Population 25 years and over- Bachelor's degree
+                MDBName: 'Population 25 years and over: Bachelor''s degree'
                 MDBValue: "529178"
               DP020059PE:
                 MDBCode: DP02_0059PE
@@ -4502,13 +4505,13 @@ components:
                 MDBValue: "3320877"
               DP020068PE:
                 MDBCode: DP02_0068PE
-                MDBName: Population 25 years and over- Bachelor's degree or higher
-                  (percent)
+                MDBName: 'Population 25 years and over: Bachelor''s degree or higher
+                  (percent)'
                 MDBValue: "25.5"
               DP020067PE:
                 MDBCode: DP02_0067PE
-                MDBName: Population 25 years and over- High school graduate or higher
-                  (percent)
+                MDBName: 'Population 25 years and over: High school graduate or higher
+                  (percent)'
                 MDBValue: "86.2"
             DP0306:
               DP030053E:
@@ -5227,7 +5230,7 @@ components:
                 MDBValue: "2041967"
               DP030008PE:
                 MDBCode: DP03_0008PE
-                MDBName: Civilian labor force (percent
+                MDBName: Civilian labor force (percent)
                 MDBValue: "2229479"
               DP030009PE:
                 MDBCode: DP03_0009PE
@@ -5585,10 +5588,12 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0201_DP020003E:
-      description: 'Married-couple family: With own children'
+      description: 'Married-couple family: With own children of the householder under
+        18 years'
       example:
         MDBCode: DP02_0003E
-        MDBName: 'Married-couple family: With own children'
+        MDBName: 'Married-couple family: With own children of the householder under
+          18 years'
         MDBValue: "313139"
       nullable: false
       properties:
@@ -5597,8 +5602,10 @@ components:
           example: DP02_0003E
           type: string
         MDBName:
-          description: 'Married-couple family: With own children'
-          example: 'Married-couple family: With own children'
+          description: 'Married-couple family: With own children of the householder
+            under 18 years'
+          example: 'Married-couple family: With own children of the householder under
+            18 years'
           type: string
         MDBValue:
           description: Field value
@@ -6151,7 +6158,8 @@ components:
           MDBValue: "1867893"
         DP020003E:
           MDBCode: DP02_0003E
-          MDBName: 'Married-couple family: With own children'
+          MDBName: 'Married-couple family: With own children of the householder under
+            18 years'
           MDBValue: "313139"
         DP020010PE:
           MDBCode: DP02_0010PE
@@ -6789,10 +6797,10 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020062E:
-      description: Population 25 years and over- High school graduate
+      description: 'Population 25 years and over: High school graduate'
       example:
         MDBCode: DP02_0062E
-        MDBName: Population 25 years and over- High school graduate
+        MDBName: 'Population 25 years and over: High school graduate'
         MDBValue: "1022839"
       nullable: false
       properties:
@@ -6801,8 +6809,8 @@ components:
           example: DP02_0062E
           type: string
         MDBName:
-          description: Population 25 years and over- High school graduate
-          example: Population 25 years and over- High school graduate
+          description: 'Population 25 years and over: High school graduate'
+          example: 'Population 25 years and over: High school graduate'
           type: string
         MDBValue:
           description: Field value
@@ -6814,10 +6822,10 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020062PE:
-      description: Population 25 years and over- High school graduate (percent)
+      description: 'Population 25 years and over: High school graduate (percent)'
       example:
         MDBCode: DP02_0062PE
-        MDBName: Population 25 years and over- High school graduate (percent)
+        MDBName: 'Population 25 years and over: High school graduate (percent)'
         MDBValue: "30.8"
       nullable: false
       properties:
@@ -6826,8 +6834,8 @@ components:
           example: DP02_0062PE
           type: string
         MDBName:
-          description: Population 25 years and over- High school graduate (percent)
-          example: Population 25 years and over- High school graduate (percent)
+          description: 'Population 25 years and over: High school graduate (percent)'
+          example: 'Population 25 years and over: High school graduate (percent)'
           type: string
         MDBValue:
           description: Field value
@@ -6839,10 +6847,10 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020064E:
-      description: Population 25 years and over- Associate's degree
+      description: 'Population 25 years and over: Associate''s degree'
       example:
         MDBCode: DP02_0064E
-        MDBName: Population 25 years and over- Associate's degree
+        MDBName: 'Population 25 years and over: Associate''s degree'
         MDBValue: "282316"
       nullable: false
       properties:
@@ -6851,8 +6859,8 @@ components:
           example: DP02_0064E
           type: string
         MDBName:
-          description: Population 25 years and over- Associate's degree
-          example: Population 25 years and over- Associate's degree
+          description: 'Population 25 years and over: Associate''s degree'
+          example: 'Population 25 years and over: Associate''s degree'
           type: string
         MDBValue:
           description: Field value
@@ -6864,10 +6872,10 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020064PE:
-      description: Population 25 years and over- Associate's degree (percent)
+      description: 'Population 25 years and over: Associate''s degree (percent)'
       example:
         MDBCode: DP02_0064PE
-        MDBName: Population 25 years and over- Associate's degree (percent)
+        MDBName: 'Population 25 years and over: Associate''s degree (percent)'
         MDBValue: "8.5"
       nullable: false
       properties:
@@ -6876,8 +6884,8 @@ components:
           example: DP02_0064PE
           type: string
         MDBName:
-          description: Population 25 years and over- Associate's degree (percent)
-          example: Population 25 years and over- Associate's degree (percent)
+          description: 'Population 25 years and over: Associate''s degree (percent)'
+          example: 'Population 25 years and over: Associate''s degree (percent)'
           type: string
         MDBValue:
           description: Field value
@@ -6889,10 +6897,10 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020065E:
-      description: Population 25 years and over- Bachelor's degree
+      description: 'Population 25 years and over: Bachelor''s degree'
       example:
         MDBCode: DP02_0065E
-        MDBName: Population 25 years and over- Bachelor's degree
+        MDBName: 'Population 25 years and over: Bachelor''s degree'
         MDBValue: "529178"
       nullable: false
       properties:
@@ -6901,8 +6909,8 @@ components:
           example: DP02_0065E
           type: string
         MDBName:
-          description: Population 25 years and over- Bachelor's degree
-          example: Population 25 years and over- Bachelor's degree
+          description: 'Population 25 years and over: Bachelor''s degree'
+          example: 'Population 25 years and over: Bachelor''s degree'
           type: string
         MDBValue:
           description: Field value
@@ -6914,10 +6922,10 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020065PE:
-      description: Population 25 years and over- Bachelor's degree (percent)
+      description: 'Population 25 years and over: Bachelor''s degree (percent)'
       example:
         MDBCode: DP02_0065PE
-        MDBName: Population 25 years and over- Bachelor's degree (percent)
+        MDBName: 'Population 25 years and over: Bachelor''s degree (percent)'
         MDBValue: "15.9"
       nullable: false
       properties:
@@ -6926,8 +6934,8 @@ components:
           example: DP02_0065PE
           type: string
         MDBName:
-          description: Population 25 years and over- Bachelor's degree (percent)
-          example: Population 25 years and over- Bachelor's degree (percent)
+          description: 'Population 25 years and over: Bachelor''s degree (percent)'
+          example: 'Population 25 years and over: Bachelor''s degree (percent)'
           type: string
         MDBValue:
           description: Field value
@@ -6939,10 +6947,10 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020066E:
-      description: Population 25 years and over- Graduate or professional degree
+      description: 'Population 25 years and over: Graduate or professional degree'
       example:
         MDBCode: DP02_0066E
-        MDBName: Population 25 years and over- Graduate or professional degree
+        MDBName: 'Population 25 years and over: Graduate or professional degree'
         MDBValue: "316594"
       nullable: false
       properties:
@@ -6951,8 +6959,8 @@ components:
           example: DP02_0066E
           type: string
         MDBName:
-          description: Population 25 years and over- Graduate or professional degree
-          example: Population 25 years and over- Graduate or professional degree
+          description: 'Population 25 years and over: Graduate or professional degree'
+          example: 'Population 25 years and over: Graduate or professional degree'
           type: string
         MDBValue:
           description: Field value
@@ -6964,10 +6972,11 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020066PE:
-      description: Population 25 years and over- Graduate or professional degree (percent)
+      description: 'Population 25 years and over: Graduate or professional degree
+        (percent)'
       example:
         MDBCode: DP02_0066PE
-        MDBName: Population 25 years and over- Graduate or professional degree (percent)
+        MDBName: 'Population 25 years and over: Graduate or professional degree (percent)'
         MDBValue: "9.5"
       nullable: false
       properties:
@@ -6976,9 +6985,10 @@ components:
           example: DP02_0066PE
           type: string
         MDBName:
-          description: Population 25 years and over- Graduate or professional degree
-            (percent)
-          example: Population 25 years and over- Graduate or professional degree (percent)
+          description: 'Population 25 years and over: Graduate or professional degree
+            (percent)'
+          example: 'Population 25 years and over: Graduate or professional degree
+            (percent)'
           type: string
         MDBValue:
           description: Field value
@@ -6990,10 +7000,10 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020067E:
-      description: Population 25 years and over- High school graduate or higher
+      description: 'Population 25 years and over: High school graduate or higher'
       example:
         MDBCode: DP02_0067E
-        MDBName: Population 25 years and over- High school graduate or higher
+        MDBName: 'Population 25 years and over: High school graduate or higher'
         MDBValue: "2861955"
       nullable: false
       properties:
@@ -7002,8 +7012,8 @@ components:
           example: DP02_0067E
           type: string
         MDBName:
-          description: Population 25 years and over- High school graduate or higher
-          example: Population 25 years and over- High school graduate or higher
+          description: 'Population 25 years and over: High school graduate or higher'
+          example: 'Population 25 years and over: High school graduate or higher'
           type: string
         MDBValue:
           description: Field value
@@ -7015,10 +7025,10 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020067PE:
-      description: Population 25 years and over- High school graduate or higher (percent)
+      description: 'Population 25 years and over: High school graduate or higher (percent)'
       example:
         MDBCode: DP02_0067PE
-        MDBName: Population 25 years and over- High school graduate or higher (percent)
+        MDBName: 'Population 25 years and over: High school graduate or higher (percent)'
         MDBValue: "86.2"
       nullable: false
       properties:
@@ -7027,9 +7037,9 @@ components:
           example: DP02_0067PE
           type: string
         MDBName:
-          description: Population 25 years and over- High school graduate or higher
-            (percent)
-          example: Population 25 years and over- High school graduate or higher (percent)
+          description: 'Population 25 years and over: High school graduate or higher
+            (percent)'
+          example: 'Population 25 years and over: High school graduate or higher (percent)'
           type: string
         MDBValue:
           description: Field value
@@ -7041,10 +7051,10 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020068E:
-      description: Population 25 years and over- Bachelor's degree or higher
+      description: 'Population 25 years and over: Bachelor''s degree or higher'
       example:
         MDBCode: DP02_0068E
-        MDBName: Population 25 years and over- Bachelor's degree or higher
+        MDBName: 'Population 25 years and over: Bachelor''s degree or higher'
         MDBValue: "845772"
       nullable: false
       properties:
@@ -7053,8 +7063,8 @@ components:
           example: DP02_0068E
           type: string
         MDBName:
-          description: Population 25 years and over- Bachelor's degree or higher
-          example: Population 25 years and over- Bachelor's degree or higher
+          description: 'Population 25 years and over: Bachelor''s degree or higher'
+          example: 'Population 25 years and over: Bachelor''s degree or higher'
           type: string
         MDBValue:
           description: Field value
@@ -7066,10 +7076,10 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0207_DP020068PE:
-      description: Population 25 years and over- Bachelor's degree or higher (percent)
+      description: 'Population 25 years and over: Bachelor''s degree or higher (percent)'
       example:
         MDBCode: DP02_0068PE
-        MDBName: Population 25 years and over- Bachelor's degree or higher (percent)
+        MDBName: 'Population 25 years and over: Bachelor''s degree or higher (percent)'
         MDBValue: "25.5"
       nullable: false
       properties:
@@ -7078,8 +7088,9 @@ components:
           example: DP02_0068PE
           type: string
         MDBName:
-          description: Population 25 years and over- Bachelor's degree or higher (percent)
-          example: Population 25 years and over- Bachelor's degree or higher (percent)
+          description: 'Population 25 years and over: Bachelor''s degree or higher
+            (percent)'
+          example: 'Population 25 years and over: Bachelor''s degree or higher (percent)'
           type: string
         MDBValue:
           description: Field value
@@ -7096,7 +7107,7 @@ components:
         MDBGroupCode: DP0207
         DP020062PE:
           MDBCode: DP02_0062PE
-          MDBName: Population 25 years and over- High school graduate (percent)
+          MDBName: 'Population 25 years and over: High school graduate (percent)'
           MDBValue: "30.8"
         DP020059E:
           MDBCode: DP02_0059E
@@ -7104,40 +7115,41 @@ components:
           MDBValue: "3320877"
         DP020066E:
           MDBCode: DP02_0066E
-          MDBName: Population 25 years and over- Graduate or professional degree
+          MDBName: 'Population 25 years and over: Graduate or professional degree'
           MDBValue: "316594"
         DP020067E:
           MDBCode: DP02_0067E
-          MDBName: Population 25 years and over- High school graduate or higher
+          MDBName: 'Population 25 years and over: High school graduate or higher'
           MDBValue: "2861955"
         DP020068E:
           MDBCode: DP02_0068E
-          MDBName: Population 25 years and over- Bachelor's degree or higher
+          MDBName: 'Population 25 years and over: Bachelor''s degree or higher'
           MDBValue: "845772"
         MDBGroupName: EDUCATIONAL ATTAINMENT
         DP020062E:
           MDBCode: DP02_0062E
-          MDBName: Population 25 years and over- High school graduate
+          MDBName: 'Population 25 years and over: High school graduate'
           MDBValue: "1022839"
         DP020066PE:
           MDBCode: DP02_0066PE
-          MDBName: Population 25 years and over- Graduate or professional degree (percent)
+          MDBName: 'Population 25 years and over: Graduate or professional degree
+            (percent)'
           MDBValue: "9.5"
         DP020065PE:
           MDBCode: DP02_0065PE
-          MDBName: Population 25 years and over- Bachelor's degree (percent)
+          MDBName: 'Population 25 years and over: Bachelor''s degree (percent)'
           MDBValue: "15.9"
         DP020064E:
           MDBCode: DP02_0064E
-          MDBName: Population 25 years and over- Associate's degree
+          MDBName: 'Population 25 years and over: Associate''s degree'
           MDBValue: "282316"
         DP020064PE:
           MDBCode: DP02_0064PE
-          MDBName: Population 25 years and over- Associate's degree (percent)
+          MDBName: 'Population 25 years and over: Associate''s degree (percent)'
           MDBValue: "8.5"
         DP020065E:
           MDBCode: DP02_0065E
-          MDBName: Population 25 years and over- Bachelor's degree
+          MDBName: 'Population 25 years and over: Bachelor''s degree'
           MDBValue: "529178"
         DP020059PE:
           MDBCode: DP02_0059PE
@@ -7145,11 +7157,11 @@ components:
           MDBValue: "3320877"
         DP020068PE:
           MDBCode: DP02_0068PE
-          MDBName: Population 25 years and over- Bachelor's degree or higher (percent)
+          MDBName: 'Population 25 years and over: Bachelor''s degree or higher (percent)'
           MDBValue: "25.5"
         DP020067PE:
           MDBCode: DP02_0067PE
-          MDBName: Population 25 years and over- High school graduate or higher (percent)
+          MDBName: 'Population 25 years and over: High school graduate or higher (percent)'
           MDBValue: "86.2"
       nullable: false
       properties:
@@ -7380,10 +7392,10 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020080E:
-      description: Population 1 year and over- Same house
+      description: 'Population 1 year and over: Same house'
       example:
         MDBCode: DP02_0080E
-        MDBName: Population 1 year and over- Same house
+        MDBName: 'Population 1 year and over: Same house'
         MDBValue: "4159479"
       nullable: false
       properties:
@@ -7392,8 +7404,8 @@ components:
           example: DP02_0080E
           type: string
         MDBName:
-          description: Population 1 year and over- Same house
-          example: Population 1 year and over- Same house
+          description: 'Population 1 year and over: Same house'
+          example: 'Population 1 year and over: Same house'
           type: string
         MDBValue:
           description: Field value
@@ -7405,10 +7417,10 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020080PE:
-      description: Population 1 year and over- Same house (percent)
+      description: 'Population 1 year and over: Same house (percent)'
       example:
         MDBCode: DP02_0080PE
-        MDBName: Population 1 year and over- Same house (percent)
+        MDBName: 'Population 1 year and over: Same house (percent)'
         MDBValue: "86.3"
       nullable: false
       properties:
@@ -7417,8 +7429,8 @@ components:
           example: DP02_0080PE
           type: string
         MDBName:
-          description: Population 1 year and over- Same house (percent)
-          example: Population 1 year and over- Same house (percent)
+          description: 'Population 1 year and over: Same house (percent)'
+          example: 'Population 1 year and over: Same house (percent)'
           type: string
         MDBValue:
           description: Field value
@@ -7430,7 +7442,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020081E:
-      description: Population 1 year and over- Different house in the U.S.
+      description: 'Population 1 year and over: Different house in the U.S.'
       example:
         MDBCode: DP02_0081E
         MDBName: Population 1 year and over- Different house in the U.S.
@@ -7442,7 +7454,7 @@ components:
           example: DP02_0081E
           type: string
         MDBName:
-          description: Population 1 year and over- Different house in the U.S.
+          description: 'Population 1 year and over: Different house in the U.S.'
           example: Population 1 year and over- Different house in the U.S.
           type: string
         MDBValue:
@@ -7455,7 +7467,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020081PE:
-      description: Population 1 year and over- Different house in the U.S. (percent)
+      description: 'Population 1 year and over: Different house in the U.S. (percent)'
       example:
         MDBCode: DP02_0081PE
         MDBName: Population 1 year and over- Different house in the U.S. (percent)
@@ -7467,7 +7479,7 @@ components:
           example: DP02_0081PE
           type: string
         MDBName:
-          description: Population 1 year and over- Different house in the U.S. (percent)
+          description: 'Population 1 year and over: Different house in the U.S. (percent)'
           example: Population 1 year and over- Different house in the U.S. (percent)
           type: string
         MDBValue:
@@ -7480,7 +7492,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020082E:
-      description: 'Population 1 year and over- Different house in the U.S.: Same
+      description: 'Population 1 year and over: Different house in the U.S.: Same
         county'
       example:
         MDBCode: DP02_0082E
@@ -7493,7 +7505,7 @@ components:
           example: DP02_0082E
           type: string
         MDBName:
-          description: 'Population 1 year and over- Different house in the U.S.: Same
+          description: 'Population 1 year and over: Different house in the U.S.: Same
             county'
           example: 'Population 1 year and over- Different house in the U.S.: Same
             county'
@@ -7508,7 +7520,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020082PE:
-      description: 'Population 1 year and over- Different house in the U.S.: Same
+      description: 'Population 1 year and over: Different house in the U.S.: Same
         county (percent)'
       example:
         MDBCode: DP02_0082PE
@@ -7522,7 +7534,7 @@ components:
           example: DP02_0082PE
           type: string
         MDBName:
-          description: 'Population 1 year and over- Different house in the U.S.: Same
+          description: 'Population 1 year and over: Different house in the U.S.: Same
             county (percent)'
           example: 'Population 1 year and over- Different house in the U.S.: Same
             county (percent)'
@@ -7537,7 +7549,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020083E:
-      description: 'Population 1 year and over- Different house in the U.S.: Different
+      description: 'Population 1 year and over: Different house in the U.S.: Different
         county'
       example:
         MDBCode: DP02_0083E
@@ -7551,7 +7563,7 @@ components:
           example: DP02_0083E
           type: string
         MDBName:
-          description: 'Population 1 year and over- Different house in the U.S.: Different
+          description: 'Population 1 year and over: Different house in the U.S.: Different
             county'
           example: 'Population 1 year and over- Different house in the U.S.: Different
             county'
@@ -7566,7 +7578,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020083PE:
-      description: 'Population 1 year and over- Different house in the U.S.: Different
+      description: 'Population 1 year and over: Different house in the U.S.: Different
         county (percent)'
       example:
         MDBCode: DP02_0083PE
@@ -7580,7 +7592,7 @@ components:
           example: DP02_0083PE
           type: string
         MDBName:
-          description: 'Population 1 year and over- Different house in the U.S.: Different
+          description: 'Population 1 year and over: Different house in the U.S.: Different
             county (percent)'
           example: 'Population 1 year and over- Different house in the U.S.: Different
             county (percent)'
@@ -7595,11 +7607,11 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020084E:
-      description: 'Population 1 year and over- Different house in the U.S.: Different
+      description: 'Population 1 year and over: Different house in the U.S.: Different
         county: Same state'
       example:
         MDBCode: DP02_0084E
-        MDBName: 'Population 1 year and over- Different house in the U.S.: Different
+        MDBName: 'Population 1 year and over: Different house in the U.S.: Different
           county: Same state'
         MDBValue: "147807"
       nullable: false
@@ -7609,9 +7621,9 @@ components:
           example: DP02_0084E
           type: string
         MDBName:
-          description: 'Population 1 year and over- Different house in the U.S.: Different
+          description: 'Population 1 year and over: Different house in the U.S.: Different
             county: Same state'
-          example: 'Population 1 year and over- Different house in the U.S.: Different
+          example: 'Population 1 year and over: Different house in the U.S.: Different
             county: Same state'
           type: string
         MDBValue:
@@ -7624,7 +7636,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020084PE:
-      description: 'Population 1 year and over- Different house in the U.S.: Different
+      description: 'Population 1 year and over: Different house in the U.S.: Different
         county: Same state (percent)'
       example:
         MDBCode: DP02_0084PE
@@ -7638,7 +7650,7 @@ components:
           example: DP02_0084PE
           type: string
         MDBName:
-          description: 'Population 1 year and over- Different house in the U.S.: Different
+          description: 'Population 1 year and over: Different house in the U.S.: Different
             county: Same state (percent)'
           example: 'Population 1 year and over- Different house in the U.S.: Different
             county: Same state (percent)'
@@ -7653,7 +7665,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020085E:
-      description: 'Population 1 year and over- Different house in the U.S.: Different
+      description: 'Population 1 year and over: Different house in the U.S.: Different
         county: Different state'
       example:
         MDBCode: DP02_0085E
@@ -7667,7 +7679,7 @@ components:
           example: DP02_0085E
           type: string
         MDBName:
-          description: 'Population 1 year and over- Different house in the U.S.: Different
+          description: 'Population 1 year and over: Different house in the U.S.: Different
             county: Different state'
           example: 'Population 1 year and over- Different house in the U.S.: Different
             county: Different state'
@@ -7682,11 +7694,11 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020085PE:
-      description: '(percent) Population 1 year and over- Different house in the U.S.:
+      description: '(percent) Population 1 year and over: Different house in the U.S.:
         Different county: Different state'
       example:
         MDBCode: DP02_0085PE
-        MDBName: '(percent) Population 1 year and over- Different house in the U.S.:
+        MDBName: '(percent) Population 1 year and over: Different house in the U.S.:
           Different county: Different state'
         MDBValue: "2.3"
       nullable: false
@@ -7696,9 +7708,9 @@ components:
           example: DP02_0085PE
           type: string
         MDBName:
-          description: '(percent) Population 1 year and over- Different house in the
+          description: '(percent) Population 1 year and over: Different house in the
             U.S.: Different county: Different state'
-          example: '(percent) Population 1 year and over- Different house in the U.S.:
+          example: '(percent) Population 1 year and over: Different house in the U.S.:
             Different county: Different state'
           type: string
         MDBValue:
@@ -7711,7 +7723,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020086E:
-      description: Population 1 year and over- Abroad
+      description: 'Population 1 year and over: Abroad'
       example:
         MDBCode: DP02_0086E
         MDBName: Population 1 year and over- Abroad
@@ -7723,7 +7735,7 @@ components:
           example: DP02_0086E
           type: string
         MDBName:
-          description: Population 1 year and over- Abroad
+          description: 'Population 1 year and over: Abroad'
           example: Population 1 year and over- Abroad
           type: string
         MDBValue:
@@ -7736,10 +7748,10 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0209_DP020086PE:
-      description: Population 1 year and over- Abroad (percent)
+      description: 'Population 1 year and over: Abroad (percent)'
       example:
         MDBCode: DP02_0086PE
-        MDBName: Population 1 year and over- Abroad (percent)
+        MDBName: 'Population 1 year and over: Abroad (percent)'
         MDBValue: "0.3"
       nullable: false
       properties:
@@ -7748,8 +7760,8 @@ components:
           example: DP02_0086PE
           type: string
         MDBName:
-          description: 'Population 1 year and over- Abroad (percent) '
-          example: Population 1 year and over- Abroad (percent)
+          description: 'Population 1 year and over: Abroad (percent) '
+          example: 'Population 1 year and over: Abroad (percent)'
           type: string
         MDBValue:
           description: Field value
@@ -7765,7 +7777,7 @@ components:
       example:
         DP020080PE:
           MDBCode: DP02_0080PE
-          MDBName: Population 1 year and over- Same house (percent)
+          MDBName: 'Population 1 year and over: Same house (percent)'
           MDBValue: "86.3"
         MDBGroupCode: DP0209
         DP020084PE:
@@ -7794,16 +7806,16 @@ components:
         MDBGroupName: RESIDENCE 1 YEAR AGO
         DP020084E:
           MDBCode: DP02_0084E
-          MDBName: 'Population 1 year and over- Different house in the U.S.: Different
+          MDBName: 'Population 1 year and over: Different house in the U.S.: Different
             county: Same state'
           MDBValue: "147807"
         DP020080E:
           MDBCode: DP02_0080E
-          MDBName: Population 1 year and over- Same house
+          MDBName: 'Population 1 year and over: Same house'
           MDBValue: "4159479"
         DP020085PE:
           MDBCode: DP02_0085PE
-          MDBName: '(percent) Population 1 year and over- Different house in the U.S.:
+          MDBName: '(percent) Population 1 year and over: Different house in the U.S.:
             Different county: Different state'
           MDBValue: "2.3"
         DP020081E:
@@ -7816,7 +7828,7 @@ components:
           MDBValue: "14512"
         DP020086PE:
           MDBCode: DP02_0086PE
-          MDBName: Population 1 year and over- Abroad (percent)
+          MDBName: 'Population 1 year and over: Abroad (percent)'
           MDBValue: "0.3"
         DP020082E:
           MDBCode: DP02_0082E
@@ -8196,7 +8208,7 @@ components:
       description: Civilian labor force (percent)
       example:
         MDBCode: DP03_0008PE
-        MDBName: Civilian labor force (percent
+        MDBName: Civilian labor force (percent)
         MDBValue: "2229479"
       nullable: false
       properties:
@@ -8205,8 +8217,8 @@ components:
           example: DP03_0008PE
           type: string
         MDBName:
-          description: Civilian labor force (percent
-          example: Civilian labor force (percent
+          description: Civilian labor force (percent)
+          example: Civilian labor force (percent)
           type: string
         MDBValue:
           description: Field value
@@ -8218,7 +8230,7 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030009PE:
-      description: 'Unemployment Rate (percent) '
+      description: Unemployment Rate (percent)
       example:
         MDBCode: DP03_0009PE
         MDBName: Unemployment Rate (percent)
@@ -8348,9 +8360,8 @@ components:
       - MDBValue
       type: object
     acs5Profiles_Values_DP0301_DP030016E:
-      description: |-
-        EMPLOYMENT STATUS: Own children of the householder 6 to
-            17 years
+      description: 'EMPLOYMENT STATUS: Own children of the householder 6 to to 17
+        years'
       example:
         MDBCode: DP03_0016E
         MDBName: 'EMPLOYMENT STATUS: Own children of the householder 6 to 17 years'
@@ -8442,7 +8453,7 @@ components:
           MDBValue: "2041967"
         DP030008PE:
           MDBCode: DP03_0008PE
-          MDBName: Civilian labor force (percent
+          MDBName: Civilian labor force (percent)
           MDBValue: "2229479"
         DP030009PE:
           MDBCode: DP03_0009PE
@@ -15924,7 +15935,8 @@ components:
             MDBValue: "1867893"
           DP020003E:
             MDBCode: DP02_0003E
-            MDBName: 'Married-couple family: With own children'
+            MDBName: 'Married-couple family: With own children of the householder
+              under 18 years'
             MDBValue: "313139"
           DP020010PE:
             MDBCode: DP02_0010PE
@@ -16001,7 +16013,7 @@ components:
         DP0209:
           DP020080PE:
             MDBCode: DP02_0080PE
-            MDBName: Population 1 year and over- Same house (percent)
+            MDBName: 'Population 1 year and over: Same house (percent)'
             MDBValue: "86.3"
           MDBGroupCode: DP0209
           DP020084PE:
@@ -16030,16 +16042,16 @@ components:
           MDBGroupName: RESIDENCE 1 YEAR AGO
           DP020084E:
             MDBCode: DP02_0084E
-            MDBName: 'Population 1 year and over- Different house in the U.S.: Different
+            MDBName: 'Population 1 year and over: Different house in the U.S.: Different
               county: Same state'
             MDBValue: "147807"
           DP020080E:
             MDBCode: DP02_0080E
-            MDBName: Population 1 year and over- Same house
+            MDBName: 'Population 1 year and over: Same house'
             MDBValue: "4159479"
           DP020085PE:
             MDBCode: DP02_0085PE
-            MDBName: '(percent) Population 1 year and over- Different house in the
+            MDBName: '(percent) Population 1 year and over: Different house in the
               U.S.: Different county: Different state'
             MDBValue: "2.3"
           DP020081E:
@@ -16052,7 +16064,7 @@ components:
             MDBValue: "14512"
           DP020086PE:
             MDBCode: DP02_0086PE
-            MDBName: Population 1 year and over- Abroad (percent)
+            MDBName: 'Population 1 year and over: Abroad (percent)'
             MDBValue: "0.3"
           DP020082E:
             MDBCode: DP02_0082E
@@ -16229,7 +16241,7 @@ components:
           MDBGroupCode: DP0207
           DP020062PE:
             MDBCode: DP02_0062PE
-            MDBName: Population 25 years and over- High school graduate (percent)
+            MDBName: 'Population 25 years and over: High school graduate (percent)'
             MDBValue: "30.8"
           DP020059E:
             MDBCode: DP02_0059E
@@ -16237,41 +16249,41 @@ components:
             MDBValue: "3320877"
           DP020066E:
             MDBCode: DP02_0066E
-            MDBName: Population 25 years and over- Graduate or professional degree
+            MDBName: 'Population 25 years and over: Graduate or professional degree'
             MDBValue: "316594"
           DP020067E:
             MDBCode: DP02_0067E
-            MDBName: Population 25 years and over- High school graduate or higher
+            MDBName: 'Population 25 years and over: High school graduate or higher'
             MDBValue: "2861955"
           DP020068E:
             MDBCode: DP02_0068E
-            MDBName: Population 25 years and over- Bachelor's degree or higher
+            MDBName: 'Population 25 years and over: Bachelor''s degree or higher'
             MDBValue: "845772"
           MDBGroupName: EDUCATIONAL ATTAINMENT
           DP020062E:
             MDBCode: DP02_0062E
-            MDBName: Population 25 years and over- High school graduate
+            MDBName: 'Population 25 years and over: High school graduate'
             MDBValue: "1022839"
           DP020066PE:
             MDBCode: DP02_0066PE
-            MDBName: Population 25 years and over- Graduate or professional degree
-              (percent)
+            MDBName: 'Population 25 years and over: Graduate or professional degree
+              (percent)'
             MDBValue: "9.5"
           DP020065PE:
             MDBCode: DP02_0065PE
-            MDBName: Population 25 years and over- Bachelor's degree (percent)
+            MDBName: 'Population 25 years and over: Bachelor''s degree (percent)'
             MDBValue: "15.9"
           DP020064E:
             MDBCode: DP02_0064E
-            MDBName: Population 25 years and over- Associate's degree
+            MDBName: 'Population 25 years and over: Associate''s degree'
             MDBValue: "282316"
           DP020064PE:
             MDBCode: DP02_0064PE
-            MDBName: Population 25 years and over- Associate's degree (percent)
+            MDBName: 'Population 25 years and over: Associate''s degree (percent)'
             MDBValue: "8.5"
           DP020065E:
             MDBCode: DP02_0065E
-            MDBName: Population 25 years and over- Bachelor's degree
+            MDBName: 'Population 25 years and over: Bachelor''s degree'
             MDBValue: "529178"
           DP020059PE:
             MDBCode: DP02_0059PE
@@ -16279,12 +16291,12 @@ components:
             MDBValue: "3320877"
           DP020068PE:
             MDBCode: DP02_0068PE
-            MDBName: Population 25 years and over- Bachelor's degree or higher (percent)
+            MDBName: 'Population 25 years and over: Bachelor''s degree or higher (percent)'
             MDBValue: "25.5"
           DP020067PE:
             MDBCode: DP02_0067PE
-            MDBName: Population 25 years and over- High school graduate or higher
-              (percent)
+            MDBName: 'Population 25 years and over: High school graduate or higher
+              (percent)'
             MDBValue: "86.2"
         DP0306:
           DP030053E:
@@ -16998,7 +17010,7 @@ components:
             MDBValue: "2041967"
           DP030008PE:
             MDBCode: DP03_0008PE
-            MDBName: Civilian labor force (percent
+            MDBName: Civilian labor force (percent)
             MDBValue: "2229479"
           DP030009PE:
             MDBCode: DP03_0009PE

@@ -11,7 +11,7 @@
  */
 
 /**
- * Population 1 year and over- Different house in the U.S.: Different county: Same state (percent)
+ * Population 1 year and over: Different house in the U.S.: Different county: Same state (percent)
  */
 public class OASAcs5ProfilesValuesDP0209DP020084P implements OAS.MappedProperties {
     /**
@@ -21,7 +21,7 @@ public class OASAcs5ProfilesValuesDP0209DP020084P implements OAS.MappedPropertie
     public String mdBCode { get; set; }
 
     /**
-     * Population 1 year and over- Different house in the U.S.: Different county: Same state (percent)
+     * Population 1 year and over: Different house in the U.S.: Different county: Same state (percent)
      * @return mdBName
      */
     public String mdBName { get; set; }

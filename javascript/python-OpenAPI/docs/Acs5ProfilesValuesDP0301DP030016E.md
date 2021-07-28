@@ -1,6 +1,6 @@
 # Acs5ProfilesValuesDP0301DP030016E
 
-EMPLOYMENT STATUS: Own children of the householder 6 to     17 years
+EMPLOYMENT STATUS: Own children of the householder 6 to to 17 years
 
 ## Properties
 Name | Type | Description | Notes

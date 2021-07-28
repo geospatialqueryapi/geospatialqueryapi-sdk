@@ -11,7 +11,7 @@
  */
 
 /**
- * Unemployment Rate (percent) 
+ * Unemployment Rate (percent)
  */
 public class OASAcs5ProfilesValuesDP0301DP030009P implements OAS.MappedProperties {
     /**

@@ -110,7 +110,7 @@ class Acs5ProfilesValuesDP0201DP020003E(ModelNormal):
 
         Args:
             mdb_code (str): DP02_0003E
-            mdb_name (str): Married-couple family: With own children
+            mdb_name (str): Married-couple family: With own children of the householder under 18 years
             mdb_value (str): Field value
 
         Keyword Args:
@@ -199,7 +199,7 @@ class Acs5ProfilesValuesDP0201DP020003E(ModelNormal):
 
         Args:
             mdb_code (str): DP02_0003E
-            mdb_name (str): Married-couple family: With own children
+            mdb_name (str): Married-couple family: With own children of the householder under 18 years
             mdb_value (str): Field value
 
         Keyword Args:

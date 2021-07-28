@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **mDBCode** | **String** | DP02_0062PE | 
-**mDBName** | **String** | Population 25 years and over- High school graduate (percent) | 
+**mDBName** | **String** | Population 25 years and over: High school graduate (percent) | 
 **mDBValue** | **String** | Field value | 
 
 

@@ -1,12 +1,12 @@
 # Acs5ProfilesValuesDP0201DP020003E
 
-Married-couple family: With own children
+Married-couple family: With own children of the householder under 18 years
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **mdb_code** | **str** | DP02_0003E | 
-**mdb_name** | **str** | Married-couple family: With own children | 
+**mdb_name** | **str** | Married-couple family: With own children of the householder under 18 years | 
 **mdb_value** | **str** | Field value | 
 **any string name** | **bool, date, datetime, dict, float, int, list, str, none_type** | any string name can be used but the value must be the correct type | [optional]
 

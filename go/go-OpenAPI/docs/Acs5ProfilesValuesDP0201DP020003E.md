@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **MDBCode** | **string** | DP02_0003E | 
-**MDBName** | **string** | Married-couple family: With own children | 
+**MDBName** | **string** | Married-couple family: With own children of the householder under 18 years | 
 **MDBValue** | **string** | Field value | 
 
 ## Methods

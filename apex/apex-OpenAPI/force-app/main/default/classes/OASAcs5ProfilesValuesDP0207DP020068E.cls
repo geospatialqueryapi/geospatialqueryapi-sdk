@@ -11,7 +11,7 @@
  */
 
 /**
- * Population 25 years and over- Bachelor\&#39;s degree or higher
+ * Population 25 years and over: Bachelor\&#39;s degree or higher
  */
 public class OASAcs5ProfilesValuesDP0207DP020068E implements OAS.MappedProperties {
     /**
@@ -21,7 +21,7 @@ public class OASAcs5ProfilesValuesDP0207DP020068E implements OAS.MappedPropertie
     public String mdBCode { get; set; }
 
     /**
-     * Population 25 years and over- Bachelor\'s degree or higher
+     * Population 25 years and over: Bachelor\'s degree or higher
      * @return mdBName
      */
     public String mdBName { get; set; }
@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0207DP020068E implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0207DP020068E getExample() {
         OASAcs5ProfilesValuesDP0207DP020068E acs5ProfilesValuesDP0207DP020068E = new OASAcs5ProfilesValuesDP0207DP020068E();
           acs5ProfilesValuesDP0207DP020068E.mdBCode = 'DP02_0068E';
-          acs5ProfilesValuesDP0207DP020068E.mdBName = 'Population 25 years and over- Bachelor\'s degree or higher';
+          acs5ProfilesValuesDP0207DP020068E.mdBName = 'Population 25 years and over: Bachelor\'s degree or higher';
           acs5ProfilesValuesDP0207DP020068E.mdBValue = '845772';
         return acs5ProfilesValuesDP0207DP020068E;
     }

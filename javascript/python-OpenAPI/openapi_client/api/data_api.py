@@ -163,7 +163,7 @@ class DataApi(object):
         ):
             """v1-boundaries-uscounty-LatLon  # noqa: E501
 
-            U.S. County by lat/lon.  Example: LatLon=33.6756872|-117.7772068 LatLon=33.6756872,-117.7772068  Note: valid delimiters: | or ,  County by lat/lon: Alameda, Orange County, CA, California     Note: valid delimiters: | or ,  Please look at:   /properties/info/TimeToRun  to get the actial time to run.   # noqa: E501
+            U.S. County by lat/lon.  Example: LatLon=33.6756872|-117.7772068    Note: valid delimiters: | or ,  County by lat/lon: Alameda, Orange County, CA, California     Note: valid delimiters: | or ,  Please look at:   /properties/info/TimeToRun  to get the actial time to run.   # noqa: E501
             This method makes a synchronous HTTP request by default. To make an
             asynchronous HTTP request, please pass async_req=True
 
@@ -399,7 +399,7 @@ class DataApi(object):
         ):
             """v1-boundaries-uscousub-LatLon  # noqa: E501
 
-            U.S. County Subdivision by lat/lon  Example: LatLon=33.5627268|-117.5922593 LatLon=33.5627268,-117.5922593  Note: valid delimiters: | or ,  County by lat/lon: Alameda, Orange County, CA, California  Please look at:   /properties/info/TimeToRun  to get the actial time to run.   # noqa: E501
+            U.S. County Subdivision by lat/lon  Example: LatLon=33.5627268|-117.5922593    Note: valid delimiters: | or ,  County by lat/lon: Alameda, Orange County, CA, California  Please look at:   /properties/info/TimeToRun  to get the actial time to run.   # noqa: E501
             This method makes a synchronous HTTP request by default. To make an
             asynchronous HTTP request, please pass async_req=True
 
@@ -635,7 +635,7 @@ class DataApi(object):
         ):
             """v1-boundaries-usplace-LatLon  # noqa: E501
 
-            U.S. Place by lat/lon  Example: LatLon=33.8890375|-117.7720695 LatLon=33.8890375,-117.7720695  Note: valid delimiters: | or ,  CA, California, Orange County, Anaheim-Santa Ana-Garden Grove, Yorba Linda city  Please look at:   /properties/info/TimeToRun  to get the actial time to run.   # noqa: E501
+            U.S. Place by lat/lon  Example: LatLon=33.8890375|-117.7720695   Note: valid delimiters: | or ,  CA, California, Orange County, Anaheim-Santa Ana-Garden Grove, Yorba Linda city  Please look at:   /properties/info/TimeToRun  to get the actial time to run.   # noqa: E501
             This method makes a synchronous HTTP request by default. To make an
             asynchronous HTTP request, please pass async_req=True
 
@@ -871,7 +871,7 @@ class DataApi(object):
         ):
             """v1-boundaries-usstate-LatLon  # noqa: E501
 
-            U.S. State by lat/lon.  Example: LatLon=37.1551773|-119.5434183 LatLon=37.1551773,-119.5434183  Note: valid delimiters: | or ,  CA, California.  Please look at:   /properties/info/TimeToRun  to get the actial time to run.   # noqa: E501
+            U.S. State by lat/lon.  Example: LatLon=37.1551773|-119.5434183  Note: valid delimiters: | or ,  CA, California.  Please look at:   /properties/info/TimeToRun  to get the actial time to run.   # noqa: E501
             This method makes a synchronous HTTP request by default. To make an
             asynchronous HTTP request, please pass async_req=True
 
@@ -989,7 +989,7 @@ class DataApi(object):
         ):
             """v1-boundaries-ustract-id-GEOID  # noqa: E501
 
-            U.S. Census Tract by GEOID  Example: GEOID=06059990100 CA, California, Orange County, Census Tract 1105  Please look at:   /properties/info/TimeToRun  to get the actial time to run.   # noqa: E501
+            U.S. Census Tract by GEOID  Example: GEOID=06059062619 CA, California, Orange County, Census Tract 626.19  Please look at:   /properties/info/TimeToRun  to get the actial time to run.   # noqa: E501
             This method makes a synchronous HTTP request by default. To make an
             asynchronous HTTP request, please pass async_req=True
 
@@ -1107,7 +1107,7 @@ class DataApi(object):
         ):
             """v1-boundaries-ustract-LatLon  # noqa: E501
 
-            U.S. Census Tract by lat/lon  Example: LatLon=33.5354639|-117.7720695 LatLon=33.5354639,-117.7720695  Note: valid delimiters: | or ,  CA, California, Orange County, Census Tract 9901  Please look at:   /properties/info/TimeToRun  to get the actial time to run.   # noqa: E501
+            U.S. Census Tract by lat/lon  Example: LatLon=33.5354639|-117.7720695   Note: valid delimiters: | or ,  CA, California, Orange County, Anaheim-Santa Ana-Garden Grove, Yorba Linda city  Please look at:   /properties/info/TimeToRun  to get the actial time to run.   # noqa: E501
             This method makes a synchronous HTTP request by default. To make an
             asynchronous HTTP request, please pass async_req=True
 
@@ -1343,7 +1343,7 @@ class DataApi(object):
         ):
             """v1-boundaries-uszcta-LatLon  # noqa: E501
 
-            U.S. ZCTA5 by lat/lon  Example: LatLon=33.6196715|-117.6120873 LatLon=33.6196715,-117.6120873  Note: valid delimiters: | or ,  CA, California, Orange County, 92688  Please look at:   /properties/info/TimeToRun  to get the actial time to run.   # noqa: E501
+            U.S. ZCTA5 by lat/lon  Example: LatLon=33.6196715|-117.6120873  Note: valid delimiters: | or ,  CA, California, Orange County, 92688  Please look at:   /properties/info/TimeToRun  to get the actial time to run.   # noqa: E501
             This method makes a synchronous HTTP request by default. To make an
             asynchronous HTTP request, please pass async_req=True
 

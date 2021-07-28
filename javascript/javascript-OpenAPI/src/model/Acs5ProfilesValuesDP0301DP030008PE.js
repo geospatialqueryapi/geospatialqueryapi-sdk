@@ -24,7 +24,7 @@ class Acs5ProfilesValuesDP0301DP030008PE {
      * Civilian labor force (percent)
      * @alias module:model/Acs5ProfilesValuesDP0301DP030008PE
      * @param mDBCode {String} DP03_0008PE
-     * @param mDBName {String} Civilian labor force (percent
+     * @param mDBName {String} Civilian labor force (percent)
      * @param mDBValue {String} Field value
      */
     constructor(mDBCode, mDBName, mDBValue) { 
@@ -77,7 +77,7 @@ class Acs5ProfilesValuesDP0301DP030008PE {
 Acs5ProfilesValuesDP0301DP030008PE.prototype['MDBCode'] = undefined;
 
 /**
- * Civilian labor force (percent
+ * Civilian labor force (percent)
  * @member {String} MDBName
  */
 Acs5ProfilesValuesDP0301DP030008PE.prototype['MDBName'] = undefined;

@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **MDBCode** | **string** | DP02_0086E | 
-**MDBName** | **string** | Population 1 year and over- Abroad | 
+**MDBName** | **string** | Population 1 year and over: Abroad | 
 **MDBValue** | **string** | Field value | 
 
 ## Methods

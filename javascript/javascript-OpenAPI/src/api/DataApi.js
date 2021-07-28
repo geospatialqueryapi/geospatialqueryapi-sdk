@@ -88,7 +88,7 @@ export default class DataApi {
 
     /**
      * v1-boundaries-uscounty-LatLon
-     * U.S. County by lat/lon.  Example: LatLon=33.6756872|-117.7772068 LatLon=33.6756872,-117.7772068  Note: valid delimiters: | or ,  County by lat/lon: Alameda, Orange County, CA, California     Note: valid delimiters: | or ,  Please look at:   /properties/info/TimeToRun  to get the actial time to run. 
+     * U.S. County by lat/lon.  Example: LatLon=33.6756872|-117.7772068    Note: valid delimiters: | or ,  County by lat/lon: Alameda, Orange County, CA, California     Note: valid delimiters: | or ,  Please look at:   /properties/info/TimeToRun  to get the actial time to run. 
      * @param {String} latLon local identifier of a feature
      * @param {module:api/DataApi~getV1BoundariesUscountyLatLonCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/FeatureGeoJSON}
@@ -174,7 +174,7 @@ export default class DataApi {
 
     /**
      * v1-boundaries-uscousub-LatLon
-     * U.S. County Subdivision by lat/lon  Example: LatLon=33.5627268|-117.5922593 LatLon=33.5627268,-117.5922593  Note: valid delimiters: | or ,  County by lat/lon: Alameda, Orange County, CA, California  Please look at:   /properties/info/TimeToRun  to get the actial time to run. 
+     * U.S. County Subdivision by lat/lon  Example: LatLon=33.5627268|-117.5922593    Note: valid delimiters: | or ,  County by lat/lon: Alameda, Orange County, CA, California  Please look at:   /properties/info/TimeToRun  to get the actial time to run. 
      * @param {String} latLon local identifier of a feature
      * @param {module:api/DataApi~getV1BoundariesUscousubLatLonCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/FeatureGeoJSON}
@@ -260,7 +260,7 @@ export default class DataApi {
 
     /**
      * v1-boundaries-usplace-LatLon
-     * U.S. Place by lat/lon  Example: LatLon=33.8890375|-117.7720695 LatLon=33.8890375,-117.7720695  Note: valid delimiters: | or ,  CA, California, Orange County, Anaheim-Santa Ana-Garden Grove, Yorba Linda city  Please look at:   /properties/info/TimeToRun  to get the actial time to run. 
+     * U.S. Place by lat/lon  Example: LatLon=33.8890375|-117.7720695   Note: valid delimiters: | or ,  CA, California, Orange County, Anaheim-Santa Ana-Garden Grove, Yorba Linda city  Please look at:   /properties/info/TimeToRun  to get the actial time to run. 
      * @param {String} latLon local identifier of a feature
      * @param {module:api/DataApi~getV1BoundariesUsplaceLatLonCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/FeatureGeoJSON}
@@ -346,7 +346,7 @@ export default class DataApi {
 
     /**
      * v1-boundaries-usstate-LatLon
-     * U.S. State by lat/lon.  Example: LatLon=37.1551773|-119.5434183 LatLon=37.1551773,-119.5434183  Note: valid delimiters: | or ,  CA, California.  Please look at:   /properties/info/TimeToRun  to get the actial time to run. 
+     * U.S. State by lat/lon.  Example: LatLon=37.1551773|-119.5434183  Note: valid delimiters: | or ,  CA, California.  Please look at:   /properties/info/TimeToRun  to get the actial time to run. 
      * @param {String} latLon local identifier of a feature
      * @param {module:api/DataApi~getV1BoundariesUsstateLatLonCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/FeatureGeoJSON}
@@ -389,7 +389,7 @@ export default class DataApi {
 
     /**
      * v1-boundaries-ustract-id-GEOID
-     * U.S. Census Tract by GEOID  Example: GEOID=06059990100 CA, California, Orange County, Census Tract 1105  Please look at:   /properties/info/TimeToRun  to get the actial time to run. 
+     * U.S. Census Tract by GEOID  Example: GEOID=06059062619 CA, California, Orange County, Census Tract 626.19  Please look at:   /properties/info/TimeToRun  to get the actial time to run. 
      * @param {String} GEOID local identifier of a feature
      * @param {module:api/DataApi~getV1BoundariesUstractIdGEOIDCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/FeatureGeoJSON}
@@ -432,7 +432,7 @@ export default class DataApi {
 
     /**
      * v1-boundaries-ustract-LatLon
-     * U.S. Census Tract by lat/lon  Example: LatLon=33.5354639|-117.7720695 LatLon=33.5354639,-117.7720695  Note: valid delimiters: | or ,  CA, California, Orange County, Census Tract 9901  Please look at:   /properties/info/TimeToRun  to get the actial time to run. 
+     * U.S. Census Tract by lat/lon  Example: LatLon=33.5354639|-117.7720695   Note: valid delimiters: | or ,  CA, California, Orange County, Anaheim-Santa Ana-Garden Grove, Yorba Linda city  Please look at:   /properties/info/TimeToRun  to get the actial time to run. 
      * @param {String} latLon local identifier of a feature
      * @param {module:api/DataApi~getV1BoundariesUstractLatLonCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/FeatureGeoJSON}
@@ -518,7 +518,7 @@ export default class DataApi {
 
     /**
      * v1-boundaries-uszcta-LatLon
-     * U.S. ZCTA5 by lat/lon  Example: LatLon=33.6196715|-117.6120873 LatLon=33.6196715,-117.6120873  Note: valid delimiters: | or ,  CA, California, Orange County, 92688  Please look at:   /properties/info/TimeToRun  to get the actial time to run. 
+     * U.S. ZCTA5 by lat/lon  Example: LatLon=33.6196715|-117.6120873  Note: valid delimiters: | or ,  CA, California, Orange County, 92688  Please look at:   /properties/info/TimeToRun  to get the actial time to run. 
      * @param {String} latLon local identifier of a feature
      * @param {module:api/DataApi~getV1BoundariesUszctaLatLonCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/FeatureGeoJSON}

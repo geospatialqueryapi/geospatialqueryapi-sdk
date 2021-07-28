@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **MDBCode** | **string** | DP02_0062PE | 
-**MDBName** | **string** | Population 25 years and over- High school graduate (percent) | 
+**MDBName** | **string** | Population 25 years and over: High school graduate (percent) | 
 **MDBValue** | **string** | Field value | 
 
 ## Methods

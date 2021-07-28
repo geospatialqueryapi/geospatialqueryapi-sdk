@@ -21,10 +21,10 @@ import ApiClient from '../ApiClient';
 class Acs5ProfilesValuesDP0209DP020085PE {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0209DP020085PE</code>.
-     * (percent) Population 1 year and over- Different house in the U.S.: Different county: Different state
+     * (percent) Population 1 year and over: Different house in the U.S.: Different county: Different state
      * @alias module:model/Acs5ProfilesValuesDP0209DP020085PE
      * @param mDBCode {String} DP02_0085PE
-     * @param mDBName {String} (percent) Population 1 year and over- Different house in the U.S.: Different county: Different state
+     * @param mDBName {String} (percent) Population 1 year and over: Different house in the U.S.: Different county: Different state
      * @param mDBValue {String} Field value
      */
     constructor(mDBCode, mDBName, mDBValue) { 
@@ -77,7 +77,7 @@ class Acs5ProfilesValuesDP0209DP020085PE {
 Acs5ProfilesValuesDP0209DP020085PE.prototype['MDBCode'] = undefined;
 
 /**
- * (percent) Population 1 year and over- Different house in the U.S.: Different county: Different state
+ * (percent) Population 1 year and over: Different house in the U.S.: Different county: Different state
  * @member {String} MDBName
  */
 Acs5ProfilesValuesDP0209DP020085PE.prototype['MDBName'] = undefined;

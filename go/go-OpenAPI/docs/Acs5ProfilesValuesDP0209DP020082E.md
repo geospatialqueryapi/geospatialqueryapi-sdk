@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **MDBCode** | **string** | DP02_0082E | 
-**MDBName** | **string** | Population 1 year and over- Different house in the U.S.: Same county | 
+**MDBName** | **string** | Population 1 year and over: Different house in the U.S.: Same county | 
 **MDBValue** | **string** | Field value | 
 
 ## Methods

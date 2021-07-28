@@ -21,7 +21,7 @@ import ApiClient from '../ApiClient';
 class Acs5ProfilesValuesDP0301DP030009PE {
     /**
      * Constructs a new <code>Acs5ProfilesValuesDP0301DP030009PE</code>.
-     * Unemployment Rate (percent) 
+     * Unemployment Rate (percent)
      * @alias module:model/Acs5ProfilesValuesDP0301DP030009PE
      * @param mDBCode {String} DP03_0009PE
      * @param mDBName {String} Unemployment Rate (percent)

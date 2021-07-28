@@ -11,7 +11,7 @@
  */
 
 /**
- * Population 25 years and over- Associate\&#39;s degree
+ * Population 25 years and over: Associate\&#39;s degree
  */
 public class OASAcs5ProfilesValuesDP0207DP020064E implements OAS.MappedProperties {
     /**
@@ -21,7 +21,7 @@ public class OASAcs5ProfilesValuesDP0207DP020064E implements OAS.MappedPropertie
     public String mdBCode { get; set; }
 
     /**
-     * Population 25 years and over- Associate\'s degree
+     * Population 25 years and over: Associate\'s degree
      * @return mdBName
      */
     public String mdBName { get; set; }
@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0207DP020064E implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0207DP020064E getExample() {
         OASAcs5ProfilesValuesDP0207DP020064E acs5ProfilesValuesDP0207DP020064E = new OASAcs5ProfilesValuesDP0207DP020064E();
           acs5ProfilesValuesDP0207DP020064E.mdBCode = 'DP02_0064E';
-          acs5ProfilesValuesDP0207DP020064E.mdBName = 'Population 25 years and over- Associate\'s degree';
+          acs5ProfilesValuesDP0207DP020064E.mdBName = 'Population 25 years and over: Associate\'s degree';
           acs5ProfilesValuesDP0207DP020064E.mdBValue = '282316';
         return acs5ProfilesValuesDP0207DP020064E;
     }

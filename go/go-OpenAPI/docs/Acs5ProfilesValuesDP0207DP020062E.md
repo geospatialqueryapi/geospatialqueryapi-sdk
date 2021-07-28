@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **MDBCode** | **string** | DP02_0062E | 
-**MDBName** | **string** | Population 25 years and over- High school graduate | 
+**MDBName** | **string** | Population 25 years and over: High school graduate | 
 **MDBValue** | **string** | Field value | 
 
 ## Methods

@@ -15,11 +15,11 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0207DP020067E Population 25 years and over- High school graduate or higher
+// Acs5ProfilesValuesDP0207DP020067E Population 25 years and over: High school graduate or higher
 type Acs5ProfilesValuesDP0207DP020067E struct {
 	// DP02_0067E
 	MDBCode string `json:"MDBCode"`
-	// Population 25 years and over- High school graduate or higher
+	// Population 25 years and over: High school graduate or higher
 	MDBName string `json:"MDBName"`
 	// Field value
 	MDBValue string `json:"MDBValue"`

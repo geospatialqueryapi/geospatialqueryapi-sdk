@@ -11,7 +11,7 @@
  */
 
 /**
- * Population 1 year and over- Abroad
+ * Population 1 year and over: Abroad
  */
 public class OASAcs5ProfilesValuesDP0209DP020086E implements OAS.MappedProperties {
     /**
@@ -21,7 +21,7 @@ public class OASAcs5ProfilesValuesDP0209DP020086E implements OAS.MappedPropertie
     public String mdBCode { get; set; }
 
     /**
-     * Population 1 year and over- Abroad
+     * Population 1 year and over: Abroad
      * @return mdBName
      */
     public String mdBName { get; set; }

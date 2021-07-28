@@ -15,7 +15,7 @@ public struct Acs5ProfilesValuesDP0301DP030008PE: Codable, Hashable {
 
     /** DP03_0008PE */
     public var mDBCode: String
-    /** Civilian labor force (percent */
+    /** Civilian labor force (percent) */
     public var mDBName: String
     /** Field value */
     public var mDBValue: String

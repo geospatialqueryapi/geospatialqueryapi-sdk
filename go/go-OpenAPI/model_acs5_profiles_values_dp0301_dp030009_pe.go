@@ -15,7 +15,7 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0301DP030009PE Unemployment Rate (percent) 
+// Acs5ProfilesValuesDP0301DP030009PE Unemployment Rate (percent)
 type Acs5ProfilesValuesDP0301DP030009PE struct {
 	// DP03_0009PE
 	MDBCode string `json:"MDBCode"`

@@ -11,7 +11,7 @@
  */
 
 /**
- * Population 1 year and over- Different house in the U.S.: Different county: Same state
+ * Population 1 year and over: Different house in the U.S.: Different county: Same state
  */
 public class OASAcs5ProfilesValuesDP0209DP020084E implements OAS.MappedProperties {
     /**
@@ -21,7 +21,7 @@ public class OASAcs5ProfilesValuesDP0209DP020084E implements OAS.MappedPropertie
     public String mdBCode { get; set; }
 
     /**
-     * Population 1 year and over- Different house in the U.S.: Different county: Same state
+     * Population 1 year and over: Different house in the U.S.: Different county: Same state
      * @return mdBName
      */
     public String mdBName { get; set; }
@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0209DP020084E implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0209DP020084E getExample() {
         OASAcs5ProfilesValuesDP0209DP020084E acs5ProfilesValuesDP0209DP020084E = new OASAcs5ProfilesValuesDP0209DP020084E();
           acs5ProfilesValuesDP0209DP020084E.mdBCode = 'DP02_0084E';
-          acs5ProfilesValuesDP0209DP020084E.mdBName = 'Population 1 year and over- Different house in the U.S.: Different county: Same state';
+          acs5ProfilesValuesDP0209DP020084E.mdBName = 'Population 1 year and over: Different house in the U.S.: Different county: Same state';
           acs5ProfilesValuesDP0209DP020084E.mdBValue = '147807';
         return acs5ProfilesValuesDP0209DP020084E;
     }

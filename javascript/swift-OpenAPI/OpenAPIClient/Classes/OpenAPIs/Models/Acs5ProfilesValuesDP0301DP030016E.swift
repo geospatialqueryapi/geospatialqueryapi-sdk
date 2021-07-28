@@ -10,7 +10,7 @@ import Foundation
 import AnyCodable
 #endif
 
-/** EMPLOYMENT STATUS: Own children of the householder 6 to     17 years */
+/** EMPLOYMENT STATUS: Own children of the householder 6 to to 17 years */
 public struct Acs5ProfilesValuesDP0301DP030016E: Codable, Hashable {
 
     /** DP03_0016E */

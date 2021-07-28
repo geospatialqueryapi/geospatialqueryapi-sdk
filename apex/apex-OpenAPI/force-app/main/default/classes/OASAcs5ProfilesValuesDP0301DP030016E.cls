@@ -11,7 +11,7 @@
  */
 
 /**
- * EMPLOYMENT STATUS: Own children of the householder 6 to\n    17 years
+ * EMPLOYMENT STATUS: Own children of the householder 6 to to 17 years
  */
 public class OASAcs5ProfilesValuesDP0301DP030016E implements OAS.MappedProperties {
     /**

@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **mDBCode** | **String** | DP02_0086E | 
-**mDBName** | **String** | Population 1 year and over- Abroad | 
+**mDBName** | **String** | Population 1 year and over: Abroad | 
 **mDBValue** | **String** | Field value | 
 
 

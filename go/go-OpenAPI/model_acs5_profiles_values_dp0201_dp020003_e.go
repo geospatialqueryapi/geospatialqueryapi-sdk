@@ -15,11 +15,11 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0201DP020003E Married-couple family: With own children
+// Acs5ProfilesValuesDP0201DP020003E Married-couple family: With own children of the householder under 18 years
 type Acs5ProfilesValuesDP0201DP020003E struct {
 	// DP02_0003E
 	MDBCode string `json:"MDBCode"`
-	// Married-couple family: With own children
+	// Married-couple family: With own children of the householder under 18 years
 	MDBName string `json:"MDBName"`
 	// Field value
 	MDBValue string `json:"MDBValue"`

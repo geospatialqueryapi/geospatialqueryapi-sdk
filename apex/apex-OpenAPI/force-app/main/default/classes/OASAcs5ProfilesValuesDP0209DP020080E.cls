@@ -11,7 +11,7 @@
  */
 
 /**
- * Population 1 year and over- Same house
+ * Population 1 year and over: Same house
  */
 public class OASAcs5ProfilesValuesDP0209DP020080E implements OAS.MappedProperties {
     /**
@@ -21,7 +21,7 @@ public class OASAcs5ProfilesValuesDP0209DP020080E implements OAS.MappedPropertie
     public String mdBCode { get; set; }
 
     /**
-     * Population 1 year and over- Same house
+     * Population 1 year and over: Same house
      * @return mdBName
      */
     public String mdBName { get; set; }
@@ -65,7 +65,7 @@ public class OASAcs5ProfilesValuesDP0209DP020080E implements OAS.MappedPropertie
     public static OASAcs5ProfilesValuesDP0209DP020080E getExample() {
         OASAcs5ProfilesValuesDP0209DP020080E acs5ProfilesValuesDP0209DP020080E = new OASAcs5ProfilesValuesDP0209DP020080E();
           acs5ProfilesValuesDP0209DP020080E.mdBCode = 'DP02_0080E';
-          acs5ProfilesValuesDP0209DP020080E.mdBName = 'Population 1 year and over- Same house';
+          acs5ProfilesValuesDP0209DP020080E.mdBName = 'Population 1 year and over: Same house';
           acs5ProfilesValuesDP0209DP020080E.mdBValue = '4159479';
         return acs5ProfilesValuesDP0209DP020080E;
     }

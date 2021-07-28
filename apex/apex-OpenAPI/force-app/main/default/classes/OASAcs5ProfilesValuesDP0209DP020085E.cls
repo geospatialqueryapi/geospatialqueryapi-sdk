@@ -11,7 +11,7 @@
  */
 
 /**
- * Population 1 year and over- Different house in the U.S.: Different county: Different state
+ * Population 1 year and over: Different house in the U.S.: Different county: Different state
  */
 public class OASAcs5ProfilesValuesDP0209DP020085E implements OAS.MappedProperties {
     /**
@@ -21,7 +21,7 @@ public class OASAcs5ProfilesValuesDP0209DP020085E implements OAS.MappedPropertie
     public String mdBCode { get; set; }
 
     /**
-     * Population 1 year and over- Different house in the U.S.: Different county: Different state
+     * Population 1 year and over: Different house in the U.S.: Different county: Different state
      * @return mdBName
      */
     public String mdBName { get; set; }

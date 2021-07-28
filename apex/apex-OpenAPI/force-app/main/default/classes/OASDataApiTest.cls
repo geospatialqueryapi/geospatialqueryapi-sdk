@@ -35,7 +35,7 @@ private class OASDataApiTest {
     /**
      * v1-boundaries-uscounty-LatLon
      *
-     * U.S. County by lat/lon.\n\nExample:\nLatLon&#x3D;33.6756872|-117.7772068\nLatLon&#x3D;33.6756872,-117.7772068\n\nNote: valid delimiters: | or ,\n\nCounty by lat/lon: Alameda, Orange County, CA, California\n\n\n\n\nNote: valid delimiters: | or ,\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
+     * U.S. County by lat/lon.\n\nExample:\nLatLon&#x3D;33.6756872|-117.7772068\n \n\nNote: valid delimiters: | or ,\n\nCounty by lat/lon: Alameda, Orange County, CA, California\n\n\n\n\nNote: valid delimiters: | or ,\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      */
     @isTest
     private static void getV1BoundariesUscountyLatLonTest() {
@@ -99,7 +99,7 @@ private class OASDataApiTest {
     /**
      * v1-boundaries-uscousub-LatLon
      *
-     * U.S. County Subdivision by lat/lon\n\nExample:\nLatLon&#x3D;33.5627268|-117.5922593\nLatLon&#x3D;33.5627268,-117.5922593\n\nNote: valid delimiters: | or ,\n\nCounty by lat/lon: Alameda, Orange County, CA, California\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
+     * U.S. County Subdivision by lat/lon\n\nExample:\nLatLon&#x3D;33.5627268|-117.5922593\n \n\nNote: valid delimiters: | or ,\n\nCounty by lat/lon: Alameda, Orange County, CA, California\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      */
     @isTest
     private static void getV1BoundariesUscousubLatLonTest() {
@@ -163,7 +163,7 @@ private class OASDataApiTest {
     /**
      * v1-boundaries-usplace-LatLon
      *
-     * U.S. Place by lat/lon\n\nExample:\nLatLon&#x3D;33.8890375|-117.7720695\nLatLon&#x3D;33.8890375,-117.7720695\n\nNote: valid delimiters: | or ,\n\nCA, California, Orange County, Anaheim-Santa Ana-Garden Grove, Yorba Linda city\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
+     * U.S. Place by lat/lon\n\nExample:\nLatLon&#x3D;33.8890375|-117.7720695\n \nNote: valid delimiters: | or ,\n\nCA, California, Orange County, Anaheim-Santa Ana-Garden Grove, Yorba Linda city\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      */
     @isTest
     private static void getV1BoundariesUsplaceLatLonTest() {
@@ -227,7 +227,7 @@ private class OASDataApiTest {
     /**
      * v1-boundaries-usstate-LatLon
      *
-     * U.S. State by lat/lon.\n\nExample:\nLatLon&#x3D;37.1551773|-119.5434183\nLatLon&#x3D;37.1551773,-119.5434183\n\nNote: valid delimiters: | or ,\n\nCA, California.\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
+     * U.S. State by lat/lon.\n\nExample:\nLatLon&#x3D;37.1551773|-119.5434183\n\nNote: valid delimiters: | or ,\n\nCA, California.\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      */
     @isTest
     private static void getV1BoundariesUsstateLatLonTest() {
@@ -259,7 +259,7 @@ private class OASDataApiTest {
     /**
      * v1-boundaries-ustract-id-GEOID
      *
-     * U.S. Census Tract by GEOID\n\nExample:\nGEOID&#x3D;06059990100\nCA, California, Orange County, Census Tract 1105\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
+     * U.S. Census Tract by GEOID\n\nExample:\nGEOID&#x3D;06059062619\nCA, California, Orange County, Census Tract 626.19\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      */
     @isTest
     private static void getV1BoundariesUstractIdGEOIDTest() {
@@ -291,7 +291,7 @@ private class OASDataApiTest {
     /**
      * v1-boundaries-ustract-LatLon
      *
-     * U.S. Census Tract by lat/lon\n\nExample:\nLatLon&#x3D;33.5354639|-117.7720695\nLatLon&#x3D;33.5354639,-117.7720695\n\nNote: valid delimiters: | or ,\n\nCA, California, Orange County, Census Tract 9901\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
+     * U.S. Census Tract by lat/lon\n\nExample:\nLatLon&#x3D;33.5354639|-117.7720695\n \nNote: valid delimiters: | or ,\n\nCA, California, Orange County, Anaheim-Santa Ana-Garden Grove, Yorba Linda city\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      */
     @isTest
     private static void getV1BoundariesUstractLatLonTest() {
@@ -355,7 +355,7 @@ private class OASDataApiTest {
     /**
      * v1-boundaries-uszcta-LatLon
      *
-     * U.S. ZCTA5 by lat/lon\n\nExample:\nLatLon&#x3D;33.6196715|-117.6120873\nLatLon&#x3D;33.6196715,-117.6120873\n\nNote: valid delimiters: | or ,\n\nCA, California, Orange County, 92688\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
+     * U.S. ZCTA5 by lat/lon\n\nExample:\nLatLon&#x3D;33.6196715|-117.6120873\n\nNote: valid delimiters: | or ,\n\nCA, California, Orange County, 92688\n\nPlease look at: \n\n/properties/info/TimeToRun\n\nto get the actial time to run.\n
      */
     @isTest
     private static void getV1BoundariesUszctaLatLonTest() {

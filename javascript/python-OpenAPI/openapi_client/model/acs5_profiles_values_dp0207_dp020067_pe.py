@@ -110,7 +110,7 @@ class Acs5ProfilesValuesDP0207DP020067PE(ModelNormal):
 
         Args:
             mdb_code (str): DP02_0067PE
-            mdb_name (str): Population 25 years and over- High school graduate or higher (percent)
+            mdb_name (str): Population 25 years and over: High school graduate or higher (percent)
             mdb_value (str): Field value
 
         Keyword Args:
@@ -199,7 +199,7 @@ class Acs5ProfilesValuesDP0207DP020067PE(ModelNormal):
 
         Args:
             mdb_code (str): DP02_0067PE
-            mdb_name (str): Population 25 years and over- High school graduate or higher (percent)
+            mdb_name (str): Population 25 years and over: High school graduate or higher (percent)
             mdb_value (str): Field value
 
         Keyword Args:

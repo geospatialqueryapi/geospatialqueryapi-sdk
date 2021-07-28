@@ -10,7 +10,7 @@ import Foundation
 import AnyCodable
 #endif
 
-/** Unemployment Rate (percent)  */
+/** Unemployment Rate (percent) */
 public struct Acs5ProfilesValuesDP0301DP030009PE: Codable, Hashable {
 
     /** DP03_0009PE */

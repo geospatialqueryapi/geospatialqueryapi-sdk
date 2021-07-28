@@ -15,7 +15,7 @@ import (
 	"encoding/json"
 )
 
-// Acs5ProfilesValuesDP0301DP030016E EMPLOYMENT STATUS: Own children of the householder 6 to     17 years
+// Acs5ProfilesValuesDP0301DP030016E EMPLOYMENT STATUS: Own children of the householder 6 to to 17 years
 type Acs5ProfilesValuesDP0301DP030016E struct {
 	// DP03_0016E
 	MDBCode string `json:"MDBCode"`

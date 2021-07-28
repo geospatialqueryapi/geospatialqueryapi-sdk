@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **MDBCode** | **string** | DP03_0008PE | 
-**MDBName** | **string** | Civilian labor force (percent | 
+**MDBName** | **string** | Civilian labor force (percent) | 
 **MDBValue** | **string** | Field value | 
 
 ## Methods
